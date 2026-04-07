@@ -1,7 +1,7 @@
 code,id,name,short_name,strength,strength_overall_home,strength_overall_away,strength_attack_home,strength_attack_away,strength_defence_home,strength_defence_away,pulse_id,elo,fotmob_name
 3,1,Arsenal,ARS,5,1305,1365,1340,1390,1270,1340,1,2061,Arsenal
 7,2,Aston Villa,AVL,3,1140,1220,1100,1230,1180,1210,2,1885,Aston Villa
-90,3,Burnley,BUR,2,985,1080,930,1070,1040,1090,43,1677,Burnley
+90,3,Burnley,BUR,2,975,1080,930,1070,1040,1090,43,1677,Burnley
 91,4,Bournemouth,BOU,3,1140,1215,1060,1210,1220,1220,127,1822,AFC Bournemouth
 94,5,Brentford,BRE,3,1150,1215,1130,1150,1170,1280,130,1832,Brentford
 36,6,Brighton,BHA,3,1160,1230,1140,1200,1180,1260,131,1844,Brighton & Hove Albion
