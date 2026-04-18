@@ -553,8 +553,8 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 458249,466,Joshua,Zirkzee,Zirkzee,1,Forward
 596047,467,Chido,Obi,Obi,1,Forward
 575034,468,Ethan,Wheatley,Wheatley,1,Forward
+576634,827,Jim,Thwaites,Thwaites,1,Midfielder
 434399,541,Reinildo,Mandava,Reinildo,56,Defender
-224024,612,Lucas,Tolentino Coelho de Lima,L.Paquetá,21,Midfielder
 499309,252,Marc,Guiu Paz,Marc Guiu,8,Forward
 485711,681,Benjamin,Sesko,Šeško,1,Forward
 465247,733,Senne,Lammens,Lammens,1,Goalkeeper
@@ -755,6 +755,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 214590,610,Aaron,Wan-Bissaka,Wan-Bissaka,21,Defender
 518438,611,Kaelan,Casey,Casey,21,Defender
 247412,654,Jørgen,Strand Larsen,Strand Larsen,31,Forward
+224024,612,Lucas,Tolentino Coelho de Lima,L.Paquetá,21,Midfielder
 215439,613,Tomáš,Souček,Souček,21,Midfielder
 450070,615,Crysencio,Summerville,Summerville,21,Midfielder
 213999,616,Edson,Álvarez Velázquez,Álvarez,21,Midfielder
@@ -825,3 +826,4 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 685628,809,Jerome,Abbey,Abbey,39,Midfielder
 209041,816,Angel,Gomes,Angel,39,Midfielder
 155511,817,Adam,Armstrong,Armstrong,39,Forward
+491460,828,Alfie,Brooks,Brooks,39,Goalkeeper
