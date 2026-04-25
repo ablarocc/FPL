@@ -477,6 +477,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 647681,692,Giovanni,Leoni,Leoni,14,Defender
 596042,746,Kieran,Morrison,Morrison,14,Midfielder
 519440,760,Wellity,Lucky,Lucky,14,Defender
+677945,830,Will,Wright,Wright,14,Forward
 437730,82,Antoine,Semenyo,Semenyo,43,Midfielder
 432720,182,James,Trafford,Trafford,43,Goalkeeper
 209036,260,Marc,Guéhi,Guéhi,43,Defender
@@ -502,7 +503,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 430871,450,Matheus,Santos Carneiro da Cunha,Cunha,1,Midfielder
 467169,454,Antony,dos Santos,Antony,1,Midfielder
 61256,457,Carlos Henrique,Casimiro,Casemiro,1,Midfielder
-232112,459,Manuel,Ugarte Ribeiro,Ugarte,1,Midfielder
 477555,424,Oscar,Bobb,Bobb,54,Midfielder
 492777,375,Conor,Bradley,Bradley,14,Defender
 126184,405,Nathan,Aké,Aké,43,Defender
@@ -545,6 +545,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 493250,452,Amad,Diallo,Amad,1,Midfielder
 184341,455,Mason,Mount,Mount,1,Midfielder
 516895,458,Kobbie,Mainoo,Mainoo,1,Midfielder
+232112,459,Manuel,Ugarte Ribeiro,Ugarte,1,Midfielder
 490881,460,Toby,Collyer,Collyer,1,Midfielder
 556639,461,Jayce,Fitzgerald,Fitzgerald,1,Midfielder
 547037,462,Jack,Fletcher,J.Fletcher,1,Midfielder
@@ -554,7 +555,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 458249,466,Joshua,Zirkzee,Zirkzee,1,Forward
 596047,467,Chido,Obi,Obi,1,Forward
 167512,539,Luke,O'Nien,O'Nien,56,Defender
-214590,610,Aaron,Wan-Bissaka,Wan-Bissaka,21,Defender
 499309,252,Marc,Guiu Paz,Marc Guiu,8,Forward
 575034,468,Ethan,Wheatley,Wheatley,1,Forward
 485711,681,Benjamin,Sesko,Šeško,1,Forward
@@ -755,6 +755,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 536109,608,Ollie,Scarles,Scarles,21,Defender
 462116,609,Jean-Clair,Todibo,Todibo,21,Defender
 247412,654,Jørgen,Strand Larsen,Strand Larsen,31,Forward
+214590,610,Aaron,Wan-Bissaka,Wan-Bissaka,21,Defender
 518438,611,Kaelan,Casey,Casey,21,Defender
 224024,612,Lucas,Tolentino Coelho de Lima,L.Paquetá,21,Midfielder
 215439,613,Tomáš,Souček,Souček,21,Midfielder
