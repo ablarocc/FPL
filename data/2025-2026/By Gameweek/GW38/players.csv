@@ -23,6 +23,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 240514,142,Kjell,Scherpen,Scherpen,36,Goalkeeper
 204120,143,Olivier,Boscagli,Boscagli,36,Defender
 550090,144,Diego,Coppola,Coppola,36,Defender
+600882,741,Harry,Gray,Gray,2,Forward
 209243,456,Jadon,Sancho,Sancho,7,Midfielder
 481283,688,James,Wright,Wright,7,Goalkeeper
 564505,703,Sam,Proctor,Proctor,7,Goalkeeper
@@ -421,10 +422,10 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 470294,361,Darko,Gyabi,Gyabi,2,Midfielder
 177815,691,Dominic,Calvert-Lewin,Calvert-Lewin,2,Forward
 220627,706,James,Justin,Justin,2,Defender
-600882,741,Harry,Gray,Gray,2,Forward
 565863,787,Sam,Chambers,Chambers,2,Midfielder
 643970,837,Jayden,Lienou,Lienou,2,Defender
 577978,838,Rhys,Chadwick,Chadwick,2,Midfielder
+449027,367,Giorgi,Mamardashvili,Mamardashvili,14,Goalkeeper
 496208,391,Ben,Gannon-Doak,Gannon-Doak,91,Midfielder
 609873,305,Harrison,Armstrong,Armstrong,11,Midfielder
 428971,315,Steven,Benda,Benda,54,Goalkeeper
@@ -446,7 +447,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 201595,665,Lucas Estella,Perri,Perri,2,Goalkeeper
 435997,698,Noah,Okafor,Okafor,2,Midfielder
 116535,366,Alisson,Becker,A.Becker,14,Goalkeeper
-449027,367,Giorgi,Mamardashvili,Mamardashvili,14,Goalkeeper
 586268,368,Ármin,Pécsi,Pécsi,14,Goalkeeper
 155503,369,Freddie,Woodman,Woodman,14,Goalkeeper
 216094,370,Jeremie,Frimpong,Frimpong,14,Defender
@@ -505,6 +505,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 59859,420,İlkay,Gündoğan,Gündoğan,43,Midfielder
 623110,689,Seung-Soo,Park,Seung soo,4,Midfielder
 470313,714,Nick,Woltemade,Woltemade,4,Forward
+214572,566,Brandon,Austin,Austin,6,Goalkeeper
 477555,424,Oscar,Bobb,Bobb,54,Midfielder
 492777,375,Conor,Bradley,Bradley,14,Defender
 126184,405,Nathan,Aké,Aké,43,Defender
@@ -703,7 +704,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 536661,813,Nilson,Angulo,Angulo,56,Midfielder
 570929,821,Jack,Whittaker,Whittaker,56,Midfielder
 571087,822,Jaydon,Jones,Jones,56,Midfielder
-214572,566,Brandon,Austin,Austin,6,Goalkeeper
 231480,636,Santiago,Ignacio Bueno,S.Bueno,39,Defender
 101178,614,James,Ward-Prowse,Ward-Prowse,90,Midfielder
 223434,149,Igor Julio,dos Santos de Paulo,Igor,36,Defender
