@@ -228,7 +228,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 449027,367,Giorgi,Mamardashvili,Mamardashvili,14,Goalkeeper
 155503,369,Freddie,Woodman,Woodman,14,Goalkeeper
 544877,371,Milos,Kerkez,Kerkez,14,Defender
-122798,372,Andrew,Robertson,Robertson,14,Defender
 97032,373,Virgil,van Dijk,Virgil,14,Defender
 204716,374,Ibrahima,Konaté,Konaté,14,Defender
 171287,376,Joe,Gomez,Gomez,14,Defender
@@ -503,6 +502,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 116535,366,Alisson,Becker,A.Becker,14,Goalkeeper
 586268,368,Ármin,Pécsi,Pécsi,14,Goalkeeper
 216094,370,Jeremie,Frimpong,Frimpong,14,Defender
+122798,372,Andrew,Robertson,Robertson,14,Defender
 477555,424,Oscar,Bobb,Bobb,54,Midfielder
 492777,375,Conor,Bradley,Bradley,14,Defender
 126184,405,Nathan,Aké,Aké,43,Defender
