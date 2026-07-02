@@ -1,12 +1,8 @@
 name: Data Import from Supabase
 
 on:
-  schedule:
-
-    - cron: '15 08 * * *'  # Runs at 4 PM (16:00 in 24-hour format) UTC daily    
-    - cron: '0 17 * * *'  # Runs at 4 PM (16:00 in 24-hour format) UTC daily
-    - cron: '0 22 * * *'   # Runs daily at 17:00 UTC
-  workflow_dispatch:        # Allows manual trigger
+  # Get ready for 26/27 season
+  workflow_dispatch:
 
 jobs:
   export-data:
