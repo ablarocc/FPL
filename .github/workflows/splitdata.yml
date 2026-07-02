@@ -1,6 +1,6 @@
 name: Split CSV Files by Gameweek and Commit
 on:
-  # Trigger manually from GitHub UI
+  # Get ready for 26/27 season
   workflow_dispatch:
 
 jobs:
