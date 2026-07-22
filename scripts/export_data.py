@@ -291,6 +291,72 @@ def calculate_discrete_gameweek_stats():
             logger.info(f"  > Saved calculated stats for {tournament_name}/{gw_dir}.")
 
 
+def validate_gameweek_stats():
+    """
+    Independently re-derives every player_gameweek_stats.csv from the
+    playerstats.csv snapshots and reports any mismatch. Guards against the
+    negative-diff corruption (issues #48/#55) silently returning: the export
+    fails loudly instead of committing corrupt per-gameweek data.
+    Returns the number of violations found.
+    """
+    logger.info("\n--- 5. Validating Discrete Gameweek Player Stats ---")
+    by_gameweek_path = os.path.join(BASE_DATA_PATH, 'By Gameweek')
+    violations = 0
+    try:
+        gameweek_dirs = sorted([d for d in os.listdir(by_gameweek_path) if d.startswith('GW')], key=lambda x: int(x[2:]))
+    except (FileNotFoundError, ValueError, IndexError):
+        logger.error("  > Could not scan 'By Gameweek' directory for validation.")
+        return 1
+
+    for i, gw_dir in enumerate(gameweek_dirs):
+        out_path = os.path.join(by_gameweek_path, gw_dir, 'player_gameweek_stats.csv')
+        if not os.path.exists(out_path):
+            continue
+        out_df = pd.read_csv(out_path)
+
+        # Invariant 1: total_points must be the exact per-GW event_points value.
+        if 'total_points' in out_df.columns and 'event_points' in out_df.columns:
+            bad = out_df[out_df['total_points'].fillna(0) != out_df['event_points'].fillna(0)]
+            if not bad.empty:
+                violations += len(bad)
+                sample = bad.iloc[0]
+                logger.error(f"  > {gw_dir}: {len(bad)} rows where total_points != event_points "
+                             f"(e.g. {sample.get('web_name', sample.get('id'))}: "
+                             f"{sample['total_points']} vs {sample['event_points']})")
+
+        # Invariant 2: every cumulative column matches an independent
+        # recomputation from the raw snapshots (diff, floored at CORRECTION_FLOOR).
+        if i == 0:
+            continue
+        cur_path = os.path.join(by_gameweek_path, gw_dir, 'playerstats.csv')
+        prev_path = os.path.join(by_gameweek_path, gameweek_dirs[i - 1], 'playerstats.csv')
+        if not (os.path.exists(cur_path) and os.path.exists(prev_path)):
+            continue
+        cur_df = pd.read_csv(cur_path)
+        prev_df = pd.read_csv(prev_path)
+        cols = [c for c in CUMULATIVE_COLS if c != 'total_points'
+                and c in cur_df.columns and c in prev_df.columns and c in out_df.columns]
+        merged = pd.merge(cur_df[['id'] + cols], prev_df[['id'] + cols],
+                          on='id', how='left', suffixes=('', '_prev'))
+        merged = pd.merge(merged, out_df[['id'] + cols].rename(columns={c: f"{c}_out" for c in cols}),
+                          on='id', how='inner')
+        for col in cols:
+            diff = merged[col] - merged[f"{col}_prev"].fillna(0)
+            expected = diff.where(diff >= CORRECTION_FLOOR, 0)
+            bad = merged[(expected - merged[f"{col}_out"]).abs() > 1e-6]
+            if not bad.empty:
+                violations += len(bad)
+                logger.error(f"  > {gw_dir}: {len(bad)} rows where '{col}' does not match recomputation "
+                             f"(e.g. id={bad.iloc[0]['id']}: file has {bad.iloc[0][f'{col}_out']}, "
+                             f"expected {expected.loc[bad.index[0]]})")
+
+    if violations:
+        logger.error(f"❌ Validation failed with {violations} violation(s).")
+    else:
+        logger.info("  > All gameweek stat files passed validation.")
+    return violations
+
+
 def main():
     """
     Runs the full, corrected data export pipeline with nuanced historical locking
@@ -441,6 +507,11 @@ def main():
 
     # --- 4. Perform the discrete gameweek calculation ---
     calculate_discrete_gameweek_stats()
+
+    # --- 5. Validate the generated files; fail loudly on corruption ---
+    if validate_gameweek_stats():
+        logger.error("❌ Aborting: generated gameweek stats failed validation. Not safe to publish.")
+        sys.exit(1)
 
     logger.info("\n--- Comprehensive data update process completed successfully! ---")
 
