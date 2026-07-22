@@ -192,15 +192,25 @@ def calculate_discrete_gameweek_stats():
             prev_cols_to_merge = [col for col in ID_COLS + CUMULATIVE_COLS if col in prev_df.columns]
             merged_df = pd.merge(current_df, prev_df[prev_cols_to_merge], on='id', how='left', suffixes=('', '_prev'))
 
+            # total_points has an exact per-GW value in event_points already —
+            # use it directly instead of diffing the cumulative season total.
+            if 'total_points' in merged_df.columns and 'event_points' in merged_df.columns:
+                merged_df['total_points'] = merged_df['event_points']
+
             for col in CUMULATIVE_COLS:
+                if col == 'total_points':
+                    continue
                 if col in merged_df.columns and f"{col}_prev" in merged_df.columns:
                     merged_df[f"{col}_prev"] = merged_df[f"{col}_prev"].fillna(0)
                     # Calculate the difference
                     diff = merged_df[col] - merged_df[f"{col}_prev"]
-                    # If difference is negative, use current value as-is (data quality issue)
-                    # Otherwise use the calculated difference
-                    merged_df[col] = diff.where(diff >= 0, merged_df[col])
-            
+                    # If difference is negative, treat this GW as no change (0)
+                    # instead of substituting the raw cumulative value, which
+                    # could inject a whole season's total into a single GW row.
+                    # GAP: this also zeroes out real small negative corrections
+                    # instead of preserving them — needs a proper fix.
+                    merged_df[col] = diff.where(diff >= 0, 0)
+
             final_cols = ID_COLS + SNAPSHOT_COLS + CUMULATIVE_COLS
             existing_final_cols = [col for col in final_cols if col in merged_df.columns]
             output_df = merged_df[existing_final_cols]
@@ -250,14 +260,24 @@ def calculate_discrete_gameweek_stats():
                 prev_cols_to_merge = [col for col in ID_COLS + CUMULATIVE_COLS if col in prev_df.columns]
                 merged_df = pd.merge(current_df, prev_df[prev_cols_to_merge], on='id', how='left', suffixes=('', '_prev'))
 
+                # total_points has an exact per-GW value in event_points already —
+                # use it directly instead of diffing the cumulative season total.
+                if 'total_points' in merged_df.columns and 'event_points' in merged_df.columns:
+                    merged_df['total_points'] = merged_df['event_points']
+
                 for col in CUMULATIVE_COLS:
+                    if col == 'total_points':
+                        continue
                     if col in merged_df.columns and f"{col}_prev" in merged_df.columns:
                         merged_df[f"{col}_prev"] = merged_df[f"{col}_prev"].fillna(0)
                         # Calculate the difference
                         diff = merged_df[col] - merged_df[f"{col}_prev"]
-                        # If difference is negative, use current value as-is (data quality issue)
-                        # Otherwise use the calculated difference
-                        merged_df[col] = diff.where(diff >= 0, merged_df[col])
+                        # If difference is negative, treat this GW as no change (0)
+                        # instead of substituting the raw cumulative value, which
+                        # could inject a whole season's total into a single GW row.
+                        # GAP: this also zeroes out real small negative corrections
+                        # instead of preserving them — needs a proper fix.
+                        merged_df[col] = diff.where(diff >= 0, 0)
 
                 final_cols = ID_COLS + SNAPSHOT_COLS + CUMULATIVE_COLS
                 existing_final_cols = [col for col in final_cols if col in merged_df.columns]
