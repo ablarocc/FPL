@@ -39,6 +39,13 @@ CUMULATIVE_COLS = [
     'influence', 'creativity', 'threat', 'ict_index', 'tackles',
     'clearances_blocks_interceptions', 'recoveries', 'defensive_contribution'
 ]
+# Negative gameweek diffs at or above this floor are genuine FPL stat
+# corrections (rescinded bonus, post-match reviews, etc. — worst observed in
+# 2025-26 is bps -23) and are kept as-is. Anything below it is an upstream
+# counter reset (e.g. the GW2 transfers_in reset of ~-6.4M), not a real
+# per-GW change, and is treated as no change for that gameweek.
+CORRECTION_FLOOR = -50
+
 ID_COLS = ['id', 'first_name', 'second_name', 'web_name']
 SNAPSHOT_COLS = [
     'status', 'news', 'news_added', 'now_cost', 'now_cost_rank', 'now_cost_rank_type',
@@ -204,12 +211,10 @@ def calculate_discrete_gameweek_stats():
                     merged_df[f"{col}_prev"] = merged_df[f"{col}_prev"].fillna(0)
                     # Calculate the difference
                     diff = merged_df[col] - merged_df[f"{col}_prev"]
-                    # If difference is negative, treat this GW as no change (0)
-                    # instead of substituting the raw cumulative value, which
-                    # could inject a whole season's total into a single GW row.
-                    # GAP: this also zeroes out real small negative corrections
-                    # instead of preserving them — needs a proper fix.
-                    merged_df[col] = diff.where(diff >= 0, 0)
+                    # Keep negative diffs down to CORRECTION_FLOOR — they are
+                    # genuine FPL stat corrections. Below the floor is an
+                    # upstream counter reset, so treat it as no change (0).
+                    merged_df[col] = diff.where(diff >= CORRECTION_FLOOR, 0)
 
             final_cols = ID_COLS + SNAPSHOT_COLS + CUMULATIVE_COLS
             existing_final_cols = [col for col in final_cols if col in merged_df.columns]
@@ -272,12 +277,10 @@ def calculate_discrete_gameweek_stats():
                         merged_df[f"{col}_prev"] = merged_df[f"{col}_prev"].fillna(0)
                         # Calculate the difference
                         diff = merged_df[col] - merged_df[f"{col}_prev"]
-                        # If difference is negative, treat this GW as no change (0)
-                        # instead of substituting the raw cumulative value, which
-                        # could inject a whole season's total into a single GW row.
-                        # GAP: this also zeroes out real small negative corrections
-                        # instead of preserving them — needs a proper fix.
-                        merged_df[col] = diff.where(diff >= 0, 0)
+                        # Keep negative diffs down to CORRECTION_FLOOR — they are
+                        # genuine FPL stat corrections. Below the floor is an
+                        # upstream counter reset, so treat it as no change (0).
+                        merged_df[col] = diff.where(diff >= CORRECTION_FLOOR, 0)
 
                 final_cols = ID_COLS + SNAPSHOT_COLS + CUMULATIVE_COLS
                 existing_final_cols = [col for col in final_cols if col in merged_df.columns]
