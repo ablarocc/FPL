@@ -30,9 +30,8 @@ It’s a simple way to:
 
 ## Data Updates
 
-The dataset is automatically refreshed twice daily at:
-- **5:00 AM UTC**
-- **5:00 PM UTC**
+The dataset is refreshed automatically every day during the season
+(pre-season updates may be less frequent).
 
 All data is provided in **CSV format** for easy import into any data analysis tool.
 
@@ -40,6 +39,21 @@ All data is provided in **CSV format** for easy import into any data analysis to
 Feel free to use the data from this repository in whatever way works best for you—whether for your website, blog posts, or other projects. If possible, I’d greatly appreciate it if you could include a link back to this repository as the data source.
 
 Inspired by the amazing work of [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League), this project aims to continue the spirit of open data in the FPL community. If you build something cool, let me know – I'd be happy to feature a link to your project!
+
+## What's New for the 2026/27 Season?
+
+<details>
+<summary>Click Here to Expand</summary>
+
+### 📅 New Season, Same Structure
+The 2026/27 dataset lives in `data/2026-2027/` and follows the same layout as previous seasons, so tools built on last season's files should only need a path change. The promoted clubs — Coventry City, Hull City and Ipswich Town — are included from day one.
+
+### 🏃 Pre-Season Friendlies Under Gameweek 0
+Pre-season friendlies are collected under **Gameweek 0**, keeping them cleanly separated from the league campaign. That means you can analyse pre-season minutes and form for FPL-listed players before your first GW1 decisions. (Friendly coverage depends on what gets published for each fixture — smaller venues sometimes only have team-level data.)
+
+### 🔁 A More Reliable Pipeline
+The pipeline behind this repository was overhauled over the summer: cup and European fixtures are picked up automatically as soon as draws are made (no more manually tracked competitions), and daily health checks catch missing or stale data before it reaches the CSVs.
+
 </details>
 
 ## What's New for the 2025/26 Season?
@@ -80,11 +94,11 @@ The data is now organized into a more intuitive structure to make analysis easie
 <details>
 <summary>Click here to expand</summary>
 
-The data for each season is organized within a dedicated directory, such as `data/2025-2026/`. The structure is designed to provide both high-level summaries and granular, point-in-time snapshots.
+The data for each season is organized within a dedicated directory, such as `data/2026-2027/`. The structure is designed to provide both high-level summaries and granular, point-in-time snapshots.
 
 ### 1. Master Files (Season-Level Data)
 
-These files are located at the root of the season's directory (e.g., `data/2025-2026/`) and contain the most current, aggregated data for the entire season.
+These files are located at the root of the season's directory (e.g., `data/2026-2027/`) and contain the most current, aggregated data for the entire season.
 
 *   **Location**: `/data/{season}/`
 *   **Description**: The primary, always-up-to-date data files.
@@ -332,7 +346,7 @@ This table stores a wide range of FPL player statistics, updated per gameweek.
 
 ---
 
-### `gameweeks` (This wont show up untill GW 2)
+### `gameweeks` (This won't show up until GW2)
 
 This table stores a snapshot of data for every gameweek in the season, sourced from the FPL API.
 
