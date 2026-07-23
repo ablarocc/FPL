@@ -13,7 +13,7 @@ It combines three powerful data sources:
 
 ## 💬 Join the Community
 
-Join the official **[FPL Core Discord](https://discord.gg/PgHqhv4v)** — where data enthusiasts and football fans collide.
+Join the official **[FPL Core Discord](https://discord.gg/QXrzKvgGZm)** — where data enthusiasts and football fans collide.
 
 Whether you're using the [FPL Core platform](https://fplcore.com), building your own tools, or just talking football, you'll find a home here.
 
