@@ -1,8 +1,14 @@
 name: Data Import from Supabase
 
 on:
-  # Get ready for 26/27 season
-  workflow_dispatch:
+  schedule:
+    - cron: '30 7 * * *'   # 07:30 UTC - after the Supabase pipeline's overnight runs finish (~07:00)
+    - cron: '30 17 * * *'  # 17:30 UTC - evening refresh
+  workflow_dispatch:  # Manual run always available
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
 jobs:
   export-data:
