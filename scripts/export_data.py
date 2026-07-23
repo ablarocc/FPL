@@ -1,4 +1,5 @@
-# - Friendlies and GW0 matches are filtered out. FA Cup added to tournament map.
+# - Pre-season friendlies export under 'By Tournament/Friendlies/GW0' only;
+#   'By Gameweek' folders remain league gameweeks 1-38.
 # - Matches with missing gameweeks are inferred from kickoff_time vs GW deadlines.
 
 import os
@@ -260,6 +261,10 @@ def calculate_discrete_gameweek_stats():
 
         for gw_dir in tournament_gw_dirs:
             gw_num = int(gw_dir[2:])
+            if gw_num == 0:
+                # Pre-season: no FPL playerstats exist yet, so there is
+                # nothing to diff (playermatchstats.csv carries the data).
+                continue
             current_stats_path = os.path.join(tournament_dir, gw_dir, 'playerstats.csv')
             if not os.path.exists(current_stats_path):
                 logger.warning(f"  > {tournament_name}/{gw_dir}: playerstats.csv not found, skipping.")
@@ -440,12 +445,7 @@ def main():
         inferred = missing_gw_count - matches_df['gameweek'].isna().sum()
         logger.info(f"  > Inferred gameweek for {inferred} matches.")
 
-    # --- Filter out friendlies and GW0 ---
-    logger.info("\nFiltering out friendlies and pre-season (GW0) matches...")
-    initial_match_count = len(matches_df)
-    matches_df = matches_df[(matches_df['gameweek'] != 0) & (matches_df['tournament'] != 'friendly')]
-    final_match_count = len(matches_df)
-    logger.info(f"  > Removed {initial_match_count - final_match_count} matches. Processing {final_match_count} relevant matches.")
+    logger.info(f"  > Processing {len(matches_df)} matches (incl. pre-season GW0 friendlies).")
 
     # --- 1. Update Master Data Files (These are always the latest) ---
     logger.info("\n--- 1. Updating Master Data Files ---")
@@ -537,9 +537,14 @@ def main():
         gws_in_tournament = sorted(tournament_matches['gameweek'].dropna().unique().astype(int))
 
         for gw in gws_in_tournament:
-            if gw not in gameweeks_df['id'].values: continue
-            
-            is_finished = gameweeks_df.loc[gameweeks_df['id'] == gw, 'finished'].iloc[0]
+            if gw == 0:
+                # Pre-season (GW0) is not an FPL gameweek: treat it as never
+                # finished so friendly data keeps refreshing all summer.
+                is_finished = False
+            elif gw not in gameweeks_df['id'].values:
+                continue
+            else:
+                is_finished = gameweeks_df.loc[gameweeks_df['id'] == gw, 'finished'].iloc[0]
             tournament_gw_path = os.path.join(BASE_DATA_PATH, 'By Tournament', folder_name, f'GW{gw}')
             
             gw_tournament_matches = tournament_matches[tournament_matches['gameweek'] == gw]
