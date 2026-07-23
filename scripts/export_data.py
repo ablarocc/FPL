@@ -433,6 +433,32 @@ def main():
     teams_df.to_csv(os.path.join(BASE_DATA_PATH, 'teams.csv'), index=False)
     logger.info("  > Master files updated successfully.")
 
+    # --- Maintain per-gameweek team membership history (issue #54) ---
+    # The FPL API only exposes a player's *current* team, so mid-season
+    # transfers would otherwise get stamped onto every historical gameweek
+    # whenever folders are regenerated. Team membership is recorded per
+    # gameweek here instead: finished gameweeks keep their recorded team
+    # forever, while open and future gameweeks track the current roster.
+    team_history_path = os.path.join(BASE_DATA_PATH, 'team_history.csv')
+    if os.path.exists(team_history_path):
+        team_history_df = pd.read_csv(team_history_path)
+    else:
+        team_history_df = pd.DataFrame(columns=['player_id', 'gw', 'team_code'])
+    finished_gw_ids = set(gameweeks_df.loc[gameweeks_df['finished'] == True, 'id'].dropna().astype(int))
+    current_teams = players_df[['player_id', 'team_code']].dropna().astype(int)
+    history_frames = []
+    for hist_gw in sorted(gameweeks_df['id'].dropna().astype(int)):
+        recorded = team_history_df[team_history_df['gw'] == hist_gw]
+        if hist_gw in finished_gw_ids and not recorded.empty:
+            history_frames.append(recorded[['player_id', 'gw', 'team_code']])
+        else:
+            snapshot = current_teams.copy()
+            snapshot['gw'] = hist_gw
+            history_frames.append(snapshot[['player_id', 'gw', 'team_code']])
+    team_history_df = pd.concat(history_frames, ignore_index=True).sort_values(['gw', 'player_id'])
+    team_history_df.to_csv(team_history_path, index=False)
+    logger.info("  > Per-gameweek team membership history updated.")
+
 
     # Helper function to handle the nuanced file writing logic
     def write_gameweek_files(gw_path, gw, is_finished, gw_dfs):
@@ -460,7 +486,18 @@ def main():
                 logger.info(f"  > Updating all files for open GW{gw}...")
             else:
                  logger.info(f"  > Writing final historical snapshot for newly finished GW{gw}...")
-            players_df.to_csv(players_path, index=False)
+            # Write the roster with each player's team as of THIS gameweek,
+            # so regenerating a folder never stamps current teams onto
+            # historical gameweeks (issue #54).
+            gw_players_df = players_df
+            overrides = team_history_df.loc[team_history_df['gw'] == gw, ['player_id', 'team_code']]
+            if not overrides.empty:
+                gw_players_df = players_df.merge(
+                    overrides.rename(columns={'team_code': 'gw_team_code'}), on='player_id', how='left')
+                gw_players_df['team_code'] = (
+                    gw_players_df['gw_team_code'].fillna(gw_players_df['team_code']).astype('Int64'))
+                gw_players_df = gw_players_df.drop(columns=['gw_team_code'])
+            gw_players_df.to_csv(players_path, index=False)
             teams_df.to_csv(teams_path, index=False)
 
 
