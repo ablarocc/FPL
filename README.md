@@ -30,8 +30,9 @@ It’s a simple way to:
 
 ## Data Updates
 
-The dataset is refreshed automatically every day during the season
-(pre-season updates may be less frequent).
+The dataset is automatically refreshed twice daily at:
+- **7:30 AM UTC**
+- **5:30 PM UTC**
 
 All data is provided in **CSV format** for easy import into any data analysis tool.
 
