@@ -6,10 +6,27 @@ import sys
 import pandas as pd
 from supabase import create_client, Client
 import logging
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 # --- Configuration ---
-SEASON = "2025-2026"
+
+
+def derive_season(today: date | None = None) -> str:
+    """
+    Current season folder name, e.g. "2026-2027". The season flips on
+    1 July, matching the scraper repo's season derivation. Override with
+    the SEASON env var (e.g. SEASON=2025-2026) to backfill an old season.
+    """
+    override = os.environ.get("SEASON")
+    if override:
+        return override
+    if today is None:
+        today = date.today()
+    start = today.year if today.month >= 7 else today.year - 1
+    return f"{start}-{start + 1}"
+
+
+SEASON = derive_season()
 BASE_DATA_PATH = os.path.join('data', SEASON)
 TOURNAMENT_NAME_MAP = {
     'friendly': 'Friendlies',
@@ -379,6 +396,14 @@ def main():
     if any(df.empty for df in essential_dfs):
         logger.error("❌ Critical: One or more essential tables could not be fetched. Aborting.")
         sys.exit(1)
+
+    # playermatchstats is legitimately empty at the start of a season (no
+    # matches played yet). An empty Supabase result has no columns at all,
+    # which would crash every ['match_id'] lookup below - normalize it to
+    # the canonical column set so filters return empty frames instead.
+    if playermatchstats_df.empty:
+        logger.info("  > 'playermatchstats' is empty (season not started?) - continuing with empty stats.")
+        playermatchstats_df = ensure_playermatchstats_columns(pd.DataFrame())
 
     # --- Data Pre-processing ---
     def extract_tournament_slug(match_id):
