@@ -1,6 +1,20 @@
 [
   {
     "season": "2026-2027",
+    "provider_player_id": 211,
+    "provider_name": "Souza",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "511",
+    "fpl_name": "Souza",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 323,
     "provider_name": "Joe Gomez",
     "provider_team_id": 1,
@@ -28,6 +42,20 @@
     "fpl_team_code": "14",
     "match_method": "full_name",
     "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 326,
+    "provider_name": "Andy Robertson",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "502",
+    "fpl_name": "Robertson",
+    "fpl_team_code": "6",
+    "match_method": "unique_surname",
+    "confidence": "medium",
     "provider_event_ids": [],
     "canonical_match_ids": []
   },
@@ -1029,6 +1057,26 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 402,
+    "provider_name": "Martin Dúbravka",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "497",
+    "fpl_name": "Dubravka",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 407,
     "provider_name": "Loum Tchaouna",
     "provider_team_id": 203,
@@ -1792,6 +1840,20 @@
     "fpl_player_id": "130",
     "fpl_name": "Wieffer",
     "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 484,
+    "provider_name": "Jan Paul van Hecke",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "112",
+    "fpl_name": "Van Hecke",
+    "fpl_team_code": "6",
     "match_method": "full_name",
     "confidence": "high",
     "provider_event_ids": [],
@@ -2633,6 +2695,24 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 704,
+    "provider_name": "Sandro Tonali",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "455",
+    "fpl_name": "Tonali",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 705,
     "provider_name": "Joelinton",
     "provider_team_id": 4,
@@ -2801,6 +2881,132 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 718,
+    "provider_name": "Guglielmo Vicario",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "494",
+    "fpl_name": "Vicario",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 719,
+    "provider_name": "Pedro Porro",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "499",
+    "fpl_name": "Pedro Porro",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 720,
+    "provider_name": "Cristian Romero",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "500",
+    "fpl_name": "Romero",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 721,
+    "provider_name": "Kevin Danso",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "501",
+    "fpl_name": "Danso",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 722,
+    "provider_name": "Destiny Udogie",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "506",
+    "fpl_name": "Udogie",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 723,
+    "provider_name": "Rodrigo Bentancur",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "516",
+    "fpl_name": "Bentancur",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 724,
+    "provider_name": "Pape Matar Sarr",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "518",
+    "fpl_name": "P.M.Sarr",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 725,
+    "provider_name": "Mohammed Kudus",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "512",
+    "fpl_name": "Kudus",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 726,
+    "provider_name": "Lucas Bergvall",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "520",
+    "fpl_name": "Bergvall",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 727,
     "provider_name": "Brennan Johnson",
     "provider_team_id": 14,
@@ -2821,6 +3027,140 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 729,
+    "provider_name": "Xavi Simons",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "513",
+    "fpl_name": "Xavi",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 730,
+    "provider_name": "Richarlison",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "527",
+    "fpl_name": "Richarlison",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 731,
+    "provider_name": "Mathys Tel",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "514",
+    "fpl_name": "Tel",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 732,
+    "provider_name": "Archie Gray",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "522",
+    "fpl_name": "Gray",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 733,
+    "provider_name": "Wilson Odobert",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "517",
+    "fpl_name": "Odobert",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 734,
+    "provider_name": "Antonín Kinský",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "496",
+    "fpl_name": "Kinsky",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 735,
+    "provider_name": "Djed Spence",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "505",
+    "fpl_name": "Spence",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 736,
+    "provider_name": "Micky van de Ven",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "503",
+    "fpl_name": "Van de Ven",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 750,
     "provider_name": "Marcus Rashford",
     "provider_team_id": 17,
@@ -2832,6 +3172,26 @@
     "confidence": "high",
     "provider_event_ids": [],
     "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 772,
+    "provider_name": "Conor Gallagher",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "519",
+    "fpl_name": "Gallagher",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
   },
   {
     "season": "2026-2027",
@@ -4133,6 +4493,26 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 1643,
+    "provider_name": "Mateus Fernandes",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "525",
+    "fpl_name": "Fernandes",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 1644,
     "provider_name": "Callum Wilson",
     "provider_team_id": 16,
@@ -4459,6 +4839,40 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 1952,
+    "provider_name": "Emersonn",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "316",
+    "fpl_name": "Emersonn",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1962,
+    "provider_name": "Ben Davies",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "508",
+    "fpl_name": "Davies",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 2134,
     "provider_name": "Michael Keane",
     "provider_team_id": 20,
@@ -4698,8 +5112,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -4842,8 +5260,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -4908,6 +5330,44 @@
     "confidence": "high",
     "provider_event_ids": [],
     "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3472,
+    "provider_name": "Brandon Austin",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "495",
+    "fpl_name": "Austin",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3475,
+    "provider_name": "Dane Scarlett",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "528",
+    "fpl_name": "Scarlett",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
   },
   {
     "season": "2026-2027",
@@ -5331,6 +5791,26 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 4154,
+    "provider_name": "Mikey Moore",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "523",
+    "fpl_name": "Moore",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219277,
+      219417
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+      "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22"
+    ]
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 4237,
     "provider_name": "Roméo Lavia",
     "provider_team_id": 13,
@@ -5420,6 +5900,20 @@
     "fpl_player_id": "406",
     "fpl_name": "Kovačić",
     "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4377,
+    "provider_name": "Issa Diop",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "259",
+    "fpl_name": "Diop",
+    "fpl_team_code": "40",
     "match_method": "full_name",
     "confidence": "high",
     "provider_event_ids": [],
@@ -5759,6 +6253,20 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 5406,
+    "provider_name": "Kayne van Oevelen",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "554",
+    "fpl_name": "Van Oevelen",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 5644,
     "provider_name": "Leo Fuhr Hjelde",
     "provider_team_id": 7,
@@ -5808,8 +6316,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -5855,6 +6367,20 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6048,
+    "provider_name": "Ashley Phillips",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "507",
+    "fpl_name": "Phillips",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 6069,
     "provider_name": "Tyler Bindon",
     "provider_team_id": 15,
@@ -5889,6 +6415,230 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6143,
+    "provider_name": "Christian Walton",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "300",
+    "fpl_name": "Walton",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6144,
+    "provider_name": "Darnell Furlong",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "308",
+    "fpl_name": "Furlong",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6145,
+    "provider_name": "Dara O'Shea",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "304",
+    "fpl_name": "O'Shea",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6146,
+    "provider_name": "Cédric Kipré",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "303",
+    "fpl_name": "Kipré",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6147,
+    "provider_name": "Leif Davis",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "305",
+    "fpl_name": "Davis",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6148,
+    "provider_name": "Azor Matusiwa",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "310",
+    "fpl_name": "Matusiwa",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6150,
+    "provider_name": "Sindre Walle Egeli",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "321",
+    "fpl_name": "Walle Egeli",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6151,
+    "provider_name": "Marcelino Núñez",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "309",
+    "fpl_name": "Núñez",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6153,
+    "provider_name": "George Hirst",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "317",
+    "fpl_name": "Hirst",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6154,
+    "provider_name": "Kasey McAteer",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "323",
+    "fpl_name": "McAteer",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6155,
+    "provider_name": "Jack Clarke",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "313",
+    "fpl_name": "Clarke",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6156,
+    "provider_name": "Jack Taylor",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "312",
+    "fpl_name": "Taylor",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6158,
+    "provider_name": "Alex Palmer",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "301",
+    "fpl_name": "Palmer",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6159,
+    "provider_name": "Ben Johnson",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "307",
+    "fpl_name": "Johnson",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6160,
+    "provider_name": "Jacob Greaves",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "306",
+    "fpl_name": "Greaves",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6161,
+    "provider_name": "Chuba Akpom",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "320",
+    "fpl_name": "Akpom",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 6169,
     "provider_name": "Harry Amass",
     "provider_team_id": 17,
@@ -5916,8 +6666,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -5930,8 +6684,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -5958,8 +6716,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -5972,8 +6734,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -5986,8 +6752,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6000,8 +6770,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6014,8 +6788,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6028,8 +6806,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6042,8 +6824,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6056,8 +6842,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6070,8 +6860,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6084,8 +6878,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6096,6 +6894,42 @@
     "fpl_player_id": "281",
     "fpl_name": "Drameh",
     "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6200,
+    "provider_name": "Cathal McCarthy",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "284",
+    "fpl_name": "McCarthy",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6309,
+    "provider_name": "Anis Mehmeti",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "324",
+    "fpl_name": "Mehmeti",
+    "fpl_team_code": "40",
     "match_method": "full_name",
     "confidence": "high",
     "provider_event_ids": [],
@@ -6426,8 +7260,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6494,6 +7332,38 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6711,
+    "provider_name": "Sammie Szmodics",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "319",
+    "fpl_name": "Szmodics",
+    "fpl_team_code": "40",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6800,
+    "provider_name": "David Button",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "302",
+    "fpl_name": "Button",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
     "provider_event_ids": [],
     "canonical_match_ids": []
   },
@@ -6545,6 +7415,20 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6935,
+    "provider_name": "Chiedozie Ogbene",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "314",
+    "fpl_name": "Ogbene",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 7085,
     "provider_name": "Raphael Rodrigues",
     "provider_team_id": 203,
@@ -6560,6 +7444,20 @@
     "canonical_match_ids": [
       "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
     ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7175,
+    "provider_name": "Ali Al-Hamadi",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "322",
+    "fpl_name": "Al-Hamadi",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
   },
   {
     "season": "2026-2027",
@@ -6592,6 +7490,20 @@
     "canonical_match_ids": [
       "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
     ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8371,
+    "provider_name": "Wes Burns",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "311",
+    "fpl_name": "Burns",
+    "fpl_team_code": "40",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
   },
   {
     "season": "2026-2027",
@@ -6641,6 +7553,20 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 8578,
+    "provider_name": "Harry Clarke",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_player_id": "313",
+    "fpl_name": "Clarke",
+    "fpl_team_code": "40",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 8584,
     "provider_name": "Matty Jacob",
     "provider_team_id": 204,
@@ -6650,8 +7576,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6696,8 +7626,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6855,6 +7789,20 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 24019,
+    "provider_name": "Dejan Kulusevski",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "521",
+    "fpl_name": "Kulusevski",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 26296,
     "provider_name": "Kim Ji-Soo",
     "provider_team_id": 16,
@@ -6878,8 +7826,12 @@
     "fpl_team_code": "88",
     "match_method": "full_name",
     "confidence": "high",
-    "provider_event_ids": [],
-    "canonical_match_ids": []
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
   },
   {
     "season": "2026-2027",
@@ -6904,6 +7856,24 @@
     "fpl_player_id": "294",
     "fpl_name": "Zambrano",
     "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      221024
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-konyaspor-vs-hull-city-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30733,
+    "provider_name": "James Maddison",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_player_id": "515",
+    "fpl_name": "Maddison",
+    "fpl_team_code": "6",
     "match_method": "full_name",
     "confidence": "high",
     "provider_event_ids": [],

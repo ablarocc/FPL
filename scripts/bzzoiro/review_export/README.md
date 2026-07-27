@@ -38,7 +38,7 @@ the run; it is deliberately not materialised in this Git review export.
   being joined to an FPL Core fixture.
 
 The friendlies mirror contains all **91** canonical rows. Only
-**62** exact provider identities are eligible for
+**69** exact provider identities are eligible for
 enrichment. Loose candidates, API-only fixtures, unresolved players and
 unrelated betting events are counted in `audit/rejection_summary.csv`.
 Player identities must be high-confidence, one-to-one mappings. Lineup names

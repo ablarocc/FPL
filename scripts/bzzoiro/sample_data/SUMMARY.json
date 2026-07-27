@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T03:49:56.060519+00:00",
+  "generated_at": "2026-07-27T04:35:32.001555+00:00",
   "base_url": "https://sports.bzzoiro.com",
   "configuration": {
     "comparison_season": "2025-2026",
@@ -15,8 +15,8 @@
     {
       "check_id": "static.player_match_coverage",
       "section": "schema",
-      "status": "pass",
-      "summary": "35/62 non-identity stat columns are reachable",
+      "status": "warn",
+      "summary": "23/62 merge-safe; 35 schema-comparable candidates",
       "metrics": {
         "repo_columns": 64,
         "identity_columns": 2,
@@ -24,6 +24,8 @@
         "direct": 26,
         "derived": 9,
         "covered": 35,
+        "candidate_comparable": 35,
+        "merge_safe": 23,
         "unavailable": 27,
         "new_fields": 16
       }
@@ -320,27 +322,27 @@
       "check_id": "friendlies.fixture_coverage",
       "section": "friendlies",
       "status": "warn",
-      "summary": "62/91 repository friendlies matched by opponents and kickoff",
+      "summary": "69/91 repository friendlies matched by opponents and kickoff",
       "metrics": {
-        "api_events": 96,
+        "api_events": 104,
         "repo_events": 91,
-        "mapped_repo_events": 62,
-        "match_rate": 0.6813,
-        "partial_candidates": 17,
-        "api_only": 34,
-        "repo_only": 29
+        "mapped_repo_events": 69,
+        "match_rate": 0.7582,
+        "partial_candidates": 19,
+        "api_only": 35,
+        "repo_only": 22
       }
     },
     {
       "check_id": "friendlies.player_stats",
       "section": "friendlies",
       "status": "pass",
-      "summary": "15/17 exact-mapped completed friendlies have player stats",
+      "summary": "18/19 exact-mapped completed friendlies have player stats",
       "metrics": {
-        "covered": 15,
-        "sampled": 17,
-        "completed_events": 21,
-        "completed_exact_events": 17
+        "covered": 18,
+        "sampled": 19,
+        "completed_events": 22,
+        "completed_exact_events": 19
       }
     },
     {
@@ -405,6 +407,16 @@
       }
     },
     {
+      "check_id": "betting.mapped_prediction",
+      "section": "betting",
+      "status": "warn",
+      "summary": "Mapped fixture has no prediction; global rows are capability evidence only",
+      "metrics": {
+        "canonical_match_id": "26-27-friendly-aston-villa-vs-real-sociedad-2026-07-28",
+        "available": false
+      }
+    },
+    {
       "check_id": "betting.event_markets",
       "section": "betting",
       "status": "pass",
@@ -438,21 +450,21 @@
       "check_id": "reliability.requests",
       "section": "reliability",
       "status": "pass",
-      "summary": "219/221 requests succeeded",
+      "summary": "223/225 requests succeeded",
       "metrics": {
-        "logical_requests": 221,
-        "http_attempts": 221,
-        "successful_requests": 219,
-        "success_rate": 0.991,
-        "median_ms": 342.7,
-        "p95_ms": 570.2,
+        "logical_requests": 225,
+        "http_attempts": 225,
+        "successful_requests": 223,
+        "success_rate": 0.9911,
+        "median_ms": 340.5,
+        "p95_ms": 546.4,
         "errors": [
           {
             "path": "/api/v2/events/219445/prediction/",
             "params": {},
             "attempts": 1,
             "status": 404,
-            "elapsed_ms": 595.3,
+            "elapsed_ms": 223.8,
             "ok": false,
             "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
           },
@@ -461,7 +473,7 @@
             "params": {},
             "attempts": 1,
             "status": 404,
-            "elapsed_ms": 256.7,
+            "elapsed_ms": 222.6,
             "ok": false,
             "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
           }
@@ -470,19 +482,19 @@
     }
   ],
   "api": {
-    "logical_requests": 221,
-    "http_attempts": 221,
-    "successful_requests": 219,
-    "success_rate": 0.991,
-    "median_ms": 342.7,
-    "p95_ms": 570.2,
+    "logical_requests": 225,
+    "http_attempts": 225,
+    "successful_requests": 223,
+    "success_rate": 0.9911,
+    "median_ms": 340.5,
+    "p95_ms": 546.4,
     "errors": [
       {
         "path": "/api/v2/events/219445/prediction/",
         "params": {},
         "attempts": 1,
         "status": 404,
-        "elapsed_ms": 595.3,
+        "elapsed_ms": 223.8,
         "ok": false,
         "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
       },
@@ -491,7 +503,7 @@
         "params": {},
         "attempts": 1,
         "status": 404,
-        "elapsed_ms": 256.7,
+        "elapsed_ms": 222.6,
         "ok": false,
         "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
       }

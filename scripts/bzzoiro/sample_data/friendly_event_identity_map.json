@@ -66,6 +66,17 @@
     "kickoff_delta_minutes": 0.0
   },
   {
+    "event_id": "219650",
+    "repo_match_id": "26-27-friendly-bayern-münchen-vs-aston-villa-2026-08-07",
+    "home": "Aston Villa",
+    "away": "FC Bayern München",
+    "api_kickoff": "2026-08-07T12:00:00+00:00",
+    "repo_kickoff": "2026-08-07T12:00:00",
+    "orientation": "swapped",
+    "orientation_swapped": true,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
     "event_id": "219307",
     "repo_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
     "home": "Bournemouth",
@@ -286,6 +297,17 @@
     "kickoff_delta_minutes": 0.0
   },
   {
+    "event_id": "221033",
+    "repo_match_id": "26-27-friendly-kasımpaşa-vs-hull-city-2026-08-01",
+    "home": "Kasımpaşa",
+    "away": "Hull City",
+    "api_kickoff": "2026-08-01T16:00:00+00:00",
+    "repo_kickoff": "2026-08-01T16:00:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
     "event_id": "220438",
     "repo_match_id": "26-27-friendly-eintracht-frankfurt-vs-hull-city-2026-08-08",
     "home": "Eintracht Frankfurt",
@@ -308,14 +330,58 @@
     "kickoff_delta_minutes": 0.0
   },
   {
-    "event_id": "219525",
+    "event_id": "219484",
+    "repo_match_id": "26-27-friendly-ipswich-town-vs-osasuna-2026-07-29",
+    "home": "Ipswich Town",
+    "away": "Osasuna",
+    "api_kickoff": "2026-07-29T18:45:00+00:00",
+    "repo_kickoff": "2026-07-29T18:45:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219522",
     "repo_match_id": "26-27-friendly-oxford-united-vs-ipswich-town-2026-08-01",
-    "home": "Ipswich Town Xi",
-    "away": "Oxford United",
+    "home": "Oxford United",
+    "away": "Ipswich Town",
     "api_kickoff": "2026-08-01T11:00:00+00:00",
     "repo_kickoff": "2026-08-01T11:00:00",
-    "orientation": "swapped",
-    "orientation_swapped": true,
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219591",
+    "repo_match_id": "26-27-friendly-wycombe-wanderers-vs-ipswich-town-2026-08-01",
+    "home": "Wycombe Wanderers",
+    "away": "Ipswich Town",
+    "api_kickoff": "2026-08-01T15:00:00+00:00",
+    "repo_kickoff": "2026-08-01T15:00:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219633",
+    "repo_match_id": "26-27-friendly-ipswich-town-vs-le-havre-2026-08-04",
+    "home": "Ipswich Town",
+    "away": "Le Havre",
+    "api_kickoff": "2026-08-04T18:45:00+00:00",
+    "repo_kickoff": "2026-08-04T18:45:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219666",
+    "repo_match_id": "26-27-friendly-ipswich-town-vs-rayo-vallecano-2026-08-08",
+    "home": "Ipswich Town",
+    "away": "Rayo Vallecano",
+    "api_kickoff": "2026-08-08T14:00:00+00:00",
+    "repo_kickoff": "2026-08-08T14:00:00",
+    "orientation": "same",
+    "orientation_swapped": false,
     "kickoff_delta_minutes": 0.0
   },
   {
@@ -517,6 +583,50 @@
     "kickoff_delta_minutes": 0.0
   },
   {
+    "event_id": "219277",
+    "repo_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "home": "Tottenham Hotspur",
+    "away": "Milton Keynes Dons",
+    "api_kickoff": "2026-07-22T16:00:00+00:00",
+    "repo_kickoff": "2026-07-22T16:00:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219417",
+    "repo_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "home": "Auckland FC",
+    "away": "Tottenham Hotspur",
+    "api_kickoff": "2026-07-26T03:00:00+00:00",
+    "repo_kickoff": "2026-07-26T03:00:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219467",
+    "repo_match_id": "26-27-friendly-sydney-fc-vs-tottenham-hotspur-2026-07-29",
+    "home": "Tottenham Hotspur",
+    "away": "Sydney FC",
+    "api_kickoff": "2026-07-29T09:45:00+00:00",
+    "repo_kickoff": "2026-07-29T09:45:00",
+    "orientation": "swapped",
+    "orientation_swapped": true,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
+    "event_id": "219663",
+    "repo_match_id": "26-27-friendly-tottenham-hotspur-vs-getafe-2026-08-08",
+    "home": "Tottenham Hotspur",
+    "away": "Getafe",
+    "api_kickoff": "2026-08-08T14:00:00+00:00",
+    "repo_kickoff": "2026-08-08T14:00:00",
+    "orientation": "same",
+    "orientation_swapped": false,
+    "kickoff_delta_minutes": 0.0
+  },
+  {
     "event_id": "219106",
     "repo_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
     "home": "York City",
@@ -561,17 +671,6 @@
     "kickoff_delta_minutes": 60.0
   },
   {
-    "event_id": "219650",
-    "repo_match_id": "26-27-friendly-bayern-münchen-vs-aston-villa-2026-08-07",
-    "home": "Aston Villa",
-    "away": "FC Bayern München",
-    "api_kickoff": "2026-08-07T13:00:00+00:00",
-    "repo_kickoff": "2026-08-07T12:00:00",
-    "orientation": "swapped",
-    "orientation_swapped": true,
-    "kickoff_delta_minutes": 60.0
-  },
-  {
     "event_id": "219488",
     "repo_match_id": "26-27-friendly-augsburg-vs-afc-bournemouth-2026-07-30",
     "home": "Bournemouth",
@@ -605,17 +704,6 @@
     "kickoff_delta_minutes": 60.0
   },
   {
-    "event_id": "219569",
-    "repo_match_id": "26-27-friendly-wycombe-wanderers-vs-ipswich-town-2026-08-01",
-    "home": "Ipswich Town Xi",
-    "away": "Wycombe Wanderers",
-    "api_kickoff": "2026-08-01T14:00:00+00:00",
-    "repo_kickoff": "2026-08-01T15:00:00",
-    "orientation": "swapped",
-    "orientation_swapped": true,
-    "kickoff_delta_minutes": 60.0
-  },
-  {
     "event_id": "219622",
     "repo_match_id": "26-27-friendly-liverpool-vs-leeds-united-2026-08-02",
     "home": "Liverpool FC",
@@ -636,17 +724,6 @@
     "orientation": "same",
     "orientation_swapped": false,
     "kickoff_delta_minutes": 60.0
-  },
-  {
-    "event_id": "221033",
-    "repo_match_id": "26-27-friendly-kasımpaşa-vs-hull-city-2026-08-01",
-    "home": "Kasımpaşa",
-    "away": "Hull City",
-    "api_kickoff": "2026-08-01T14:30:00+00:00",
-    "repo_kickoff": "2026-08-01T16:00:00",
-    "orientation": "same",
-    "orientation_swapped": false,
-    "kickoff_delta_minutes": 90.0
   },
   {
     "event_id": "219709",

@@ -1,0 +1,1569 @@
+{
+  "event_id": 219277,
+  "stats": {
+    "home": {
+      "duels": 48,
+      "fouls": 10,
+      "passes": 735,
+      "crosses": {
+        "value": 1,
+        "total": 8,
+        "pct": 13
+      },
+      "punches": 0,
+      "tackles": 9,
+      "dribbles": {
+        "value": 5,
+        "total": 11,
+        "pct": 45
+      },
+      "offsides": 3,
+      "big_saves": 1,
+      "throw_ins": 18,
+      "clearances": 11,
+      "free_kicks": 9,
+      "goal_kicks": 4,
+      "long_balls": {
+        "value": 13,
+        "total": 28,
+        "pct": 46
+      },
+      "recoveries": 39,
+      "big_chances": 2,
+      "high_claims": 1,
+      "tackles_won": 100,
+      "total_saves": 3,
+      "total_shots": 9,
+      "aerial_duels": {
+        "value": 5,
+        "total": 7,
+        "pct": 71
+      },
+      "corner_kicks": 5,
+      "dispossessed": 8,
+      "ground_duels": {
+        "value": 23,
+        "total": 51,
+        "pct": 45
+      },
+      "hit_woodwork": 0,
+      "blocked_shots": 2,
+      "interceptions": 4,
+      "total_tackles": 9,
+      "accurate_passes": 691,
+      "ball_possession": 71,
+      "shots_on_target": 4,
+      "goalkeeper_saves": 3,
+      "shots_inside_box": 5,
+      "shots_off_target": 3,
+      "final_third_phase": {
+        "value": 119,
+        "total": 143,
+        "pct": 83
+      },
+      "shots_outside_box": 4,
+      "big_chances_missed": 2,
+      "final_third_entries": 40,
+      "fouled_in_final_third": 0,
+      "touches_in_penalty_area": 18,
+      "attack": 88,
+      "ball_safe": 80,
+      "dangerous_attack": 56,
+      "attack_pct": 21,
+      "ball_safe_pct": 55,
+      "dangerous_attack_pct": 24,
+      "pass_accuracy_pct": 94.0,
+      "xg": {
+        "actual": 1.32
+      }
+    },
+    "away": {
+      "duels": 52,
+      "fouls": 9,
+      "passes": 289,
+      "crosses": {
+        "value": 3,
+        "total": 14,
+        "pct": 21
+      },
+      "punches": 1,
+      "tackles": 14,
+      "dribbles": {
+        "value": 4,
+        "total": 9,
+        "pct": 44
+      },
+      "offsides": 3,
+      "big_saves": 1,
+      "throw_ins": 5,
+      "clearances": 14,
+      "free_kicks": 10,
+      "goal_kicks": 9,
+      "long_balls": {
+        "value": 19,
+        "total": 33,
+        "pct": 58
+      },
+      "recoveries": 34,
+      "big_chances": 0,
+      "high_claims": 1,
+      "tackles_won": 100,
+      "total_saves": 3,
+      "total_shots": 5,
+      "aerial_duels": {
+        "value": 2,
+        "total": 7,
+        "pct": 29
+      },
+      "corner_kicks": 4,
+      "dispossessed": 4,
+      "ground_duels": {
+        "value": 28,
+        "total": 51,
+        "pct": 55
+      },
+      "hit_woodwork": 0,
+      "blocked_shots": 1,
+      "interceptions": 8,
+      "total_tackles": 14,
+      "accurate_passes": 245,
+      "ball_possession": 29,
+      "shots_on_target": 3,
+      "goalkeeper_saves": 3,
+      "shots_inside_box": 4,
+      "shots_off_target": 1,
+      "final_third_phase": {
+        "value": 36,
+        "total": 54,
+        "pct": 67
+      },
+      "shots_outside_box": 1,
+      "big_chances_missed": 0,
+      "final_third_entries": 28,
+      "fouled_in_final_third": 3,
+      "touches_in_penalty_area": 10,
+      "attack": 61,
+      "ball_safe": 55,
+      "dangerous_attack": 46,
+      "attack_pct": 23,
+      "ball_safe_pct": 49,
+      "dangerous_attack_pct": 28,
+      "pass_accuracy_pct": 84.8,
+      "xg": {
+        "actual": 0.38
+      }
+    },
+    "first_half": {
+      "home": {
+        "duels": 46,
+        "fouls": 4,
+        "passes": 435,
+        "crosses": {
+          "value": 0,
+          "total": 5,
+          "pct": 0
+        },
+        "tackles": 5,
+        "dribbles": {
+          "value": 2,
+          "total": 3,
+          "pct": 67
+        },
+        "offsides": 1,
+        "throw_ins": 7,
+        "clearances": 1,
+        "free_kicks": 2,
+        "goal_kicks": 1,
+        "long_balls": {
+          "value": 6,
+          "total": 15,
+          "pct": 40
+        },
+        "recoveries": 21,
+        "big_chances": 1,
+        "tackles_won": 100,
+        "total_saves": 0,
+        "total_shots": 4,
+        "aerial_duels": {
+          "value": 3,
+          "total": 5,
+          "pct": 60
+        },
+        "corner_kicks": 4,
+        "dispossessed": 6,
+        "ground_duels": {
+          "value": 9,
+          "total": 21,
+          "pct": 43
+        },
+        "hit_woodwork": 0,
+        "blocked_shots": 0,
+        "interceptions": 4,
+        "total_tackles": 5,
+        "accurate_passes": 412,
+        "ball_possession": 70,
+        "shots_on_target": 3,
+        "goalkeeper_saves": 0,
+        "shots_inside_box": 2,
+        "shots_off_target": 1,
+        "shots_outside_box": 2,
+        "big_chances_missed": 1,
+        "final_third_entries": 26,
+        "fouled_in_final_third": 0,
+        "pass_accuracy_pct": 94.7,
+        "xg": {
+          "actual": 0.775
+        }
+      },
+      "away": {
+        "duels": 54,
+        "fouls": 2,
+        "passes": 184,
+        "crosses": {
+          "value": 2,
+          "total": 3,
+          "pct": 67
+        },
+        "tackles": 7,
+        "dribbles": {
+          "value": 1,
+          "total": 3,
+          "pct": 33
+        },
+        "offsides": 1,
+        "throw_ins": 5,
+        "clearances": 10,
+        "free_kicks": 4,
+        "goal_kicks": 6,
+        "long_balls": {
+          "value": 13,
+          "total": 22,
+          "pct": 59
+        },
+        "recoveries": 18,
+        "big_chances": 0,
+        "tackles_won": 100,
+        "total_saves": 2,
+        "total_shots": 1,
+        "aerial_duels": {
+          "value": 2,
+          "total": 5,
+          "pct": 40
+        },
+        "corner_kicks": 0,
+        "dispossessed": 3,
+        "ground_duels": {
+          "value": 12,
+          "total": 21,
+          "pct": 57
+        },
+        "hit_woodwork": 0,
+        "blocked_shots": 0,
+        "interceptions": 3,
+        "total_tackles": 7,
+        "accurate_passes": 155,
+        "ball_possession": 30,
+        "shots_on_target": 0,
+        "goalkeeper_saves": 2,
+        "shots_inside_box": 1,
+        "shots_off_target": 1,
+        "shots_outside_box": 0,
+        "big_chances_missed": 0,
+        "final_third_entries": 17,
+        "fouled_in_final_third": 1,
+        "pass_accuracy_pct": 84.2,
+        "xg": {
+          "actual": 0.15
+        }
+      }
+    },
+    "second_half": {
+      "home": {
+        "duels": 50,
+        "fouls": 6,
+        "passes": 300,
+        "crosses": {
+          "value": 1,
+          "total": 3,
+          "pct": 33
+        },
+        "tackles": 4,
+        "dribbles": {
+          "value": 3,
+          "total": 8,
+          "pct": 38
+        },
+        "offsides": 2,
+        "throw_ins": 11,
+        "clearances": 10,
+        "free_kicks": 7,
+        "goal_kicks": 3,
+        "long_balls": {
+          "value": 7,
+          "total": 13,
+          "pct": 54
+        },
+        "recoveries": 18,
+        "big_chances": 1,
+        "tackles_won": 100,
+        "total_saves": 3,
+        "total_shots": 5,
+        "aerial_duels": {
+          "value": 2,
+          "total": 2,
+          "pct": 100
+        },
+        "corner_kicks": 1,
+        "dispossessed": 2,
+        "ground_duels": {
+          "value": 14,
+          "total": 30,
+          "pct": 47
+        },
+        "hit_woodwork": 0,
+        "blocked_shots": 2,
+        "interceptions": 0,
+        "total_tackles": 4,
+        "accurate_passes": 279,
+        "ball_possession": 72,
+        "shots_on_target": 1,
+        "goalkeeper_saves": 3,
+        "shots_inside_box": 3,
+        "shots_off_target": 2,
+        "shots_outside_box": 2,
+        "big_chances_missed": 1,
+        "final_third_entries": 14,
+        "fouled_in_final_third": 0,
+        "pass_accuracy_pct": 93.0,
+        "xg": {
+          "actual": 0.543
+        }
+      },
+      "away": {
+        "duels": 50,
+        "fouls": 7,
+        "passes": 105,
+        "crosses": {
+          "value": 1,
+          "total": 11,
+          "pct": 9
+        },
+        "tackles": 7,
+        "dribbles": {
+          "value": 3,
+          "total": 6,
+          "pct": 50
+        },
+        "offsides": 2,
+        "throw_ins": 0,
+        "clearances": 4,
+        "free_kicks": 6,
+        "goal_kicks": 3,
+        "long_balls": {
+          "value": 6,
+          "total": 11,
+          "pct": 55
+        },
+        "recoveries": 16,
+        "big_chances": 0,
+        "tackles_won": 100,
+        "total_saves": 1,
+        "total_shots": 4,
+        "aerial_duels": {
+          "value": 0,
+          "total": 2,
+          "pct": 0
+        },
+        "corner_kicks": 4,
+        "dispossessed": 1,
+        "ground_duels": {
+          "value": 16,
+          "total": 30,
+          "pct": 53
+        },
+        "hit_woodwork": 0,
+        "blocked_shots": 1,
+        "interceptions": 5,
+        "total_tackles": 7,
+        "accurate_passes": 90,
+        "ball_possession": 28,
+        "shots_on_target": 3,
+        "goalkeeper_saves": 1,
+        "shots_inside_box": 3,
+        "shots_off_target": 0,
+        "shots_outside_box": 1,
+        "big_chances_missed": 0,
+        "final_third_entries": 11,
+        "fouled_in_final_third": 2,
+        "pass_accuracy_pct": 85.7,
+        "xg": {
+          "actual": 0.228
+        }
+      }
+    }
+  },
+  "shotmap": [
+    {
+      "gm": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19
+      },
+      "xg": 0.037,
+      "gml": "low-centre",
+      "min": 88,
+      "pos": {
+        "x": 23.2,
+        "y": 57.2,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "right-foot",
+      "home": true,
+      "type": "block",
+      "xgot": null,
+      "block": {
+        "x": 14.5,
+        "y": 54,
+        "z": 0
+      },
+      "player_id": 3474
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 47.4,
+        "z": 84.7
+      },
+      "xg": 0.213,
+      "gml": "high",
+      "min": 86,
+      "pos": {
+        "x": 9.1,
+        "y": 54.9,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "left-foot",
+      "home": true,
+      "type": "miss",
+      "xgot": null,
+      "player_id": 4154
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 49.2,
+        "z": 24.7
+      },
+      "xg": 0.087,
+      "gml": "high-centre",
+      "min": 79,
+      "pos": {
+        "x": 7.9,
+        "y": 58.1,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "head",
+      "home": false,
+      "type": "save",
+      "xgot": null,
+      "block": {
+        "x": 0.5,
+        "y": 51.4,
+        "z": 0
+      },
+      "player_id": 28480
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 63.9,
+        "z": 23.6
+      },
+      "xg": 0.154,
+      "gml": "left",
+      "min": 77,
+      "pos": {
+        "x": 11.1,
+        "y": 45.7,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "left-foot",
+      "home": true,
+      "type": "miss",
+      "xgot": null,
+      "player_id": 6258
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 52.2,
+        "z": 24
+      },
+      "xg": 0.101,
+      "gml": "high-left",
+      "min": 76,
+      "pos": {
+        "x": 12.2,
+        "y": 40.1,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "left-foot",
+      "home": true,
+      "type": "save",
+      "xgot": null,
+      "block": {
+        "x": 2.3,
+        "y": 49.1,
+        "z": 0
+      },
+      "player_id": 730
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 52.3,
+        "z": 23.4
+      },
+      "xg": 0.06,
+      "gml": "high-left",
+      "min": 63,
+      "pos": {
+        "x": 10,
+        "y": 29.4,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "left-foot",
+      "home": false,
+      "type": "save",
+      "xgot": null,
+      "block": {
+        "x": 0.59999999999999,
+        "y": 46,
+        "z": 0
+      },
+      "player_id": 28469
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 54.2,
+        "z": 14.6
+      },
+      "xg": 0.034,
+      "gml": "low-left",
+      "min": 58,
+      "pos": {
+        "x": 26.3,
+        "y": 19.9,
+        "z": 0
+      },
+      "sit": "free-kick",
+      "body": "right-foot",
+      "home": false,
+      "type": "save",
+      "xgot": null,
+      "block": {
+        "x": 1.1,
+        "y": 48.6,
+        "z": 0
+      },
+      "player_id": 28481
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "xg": 0.047,
+      "gml": "low-centre",
+      "min": 54,
+      "pos": {
+        "x": 15.8,
+        "y": 68.7,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "right-foot",
+      "home": false,
+      "type": "block",
+      "xgot": null,
+      "block": {
+        "x": 11.9,
+        "y": 64.3,
+        "z": 0
+      },
+      "player_id": 28473
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "xg": 0.038,
+      "gml": "low-centre",
+      "min": 52,
+      "pos": {
+        "x": 22.6,
+        "y": 41.8,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "right-foot",
+      "home": true,
+      "type": "block",
+      "xgot": null,
+      "block": {
+        "x": 15.1,
+        "y": 44.6,
+        "z": 0
+      },
+      "player_id": 4154
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 46.9,
+        "z": 94.4
+      },
+      "xg": 0.023,
+      "gml": "high",
+      "min": 36,
+      "pos": {
+        "x": 40,
+        "y": 29.9,
+        "z": 0
+      },
+      "sit": "free-kick",
+      "body": "right-foot",
+      "home": true,
+      "type": "miss",
+      "xgot": null,
+      "player_id": 772
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 61.8,
+        "z": 8.3
+      },
+      "xg": 0.15,
+      "gml": "left",
+      "min": 23,
+      "pos": {
+        "x": 11.6,
+        "y": 48,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "right-foot",
+      "home": false,
+      "type": "miss",
+      "xgot": null,
+      "block": {
+        "x": 1.6,
+        "y": 43.5,
+        "z": 0
+      },
+      "player_id": 28469
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 47.7,
+        "z": 7
+      },
+      "xg": 0.098,
+      "gml": "low-right",
+      "min": 8,
+      "pos": {
+        "x": 8,
+        "y": 65.5,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "left-foot",
+      "home": true,
+      "type": "save",
+      "xgot": null,
+      "block": {
+        "x": 1,
+        "y": 52.4,
+        "z": 0
+      },
+      "player_id": 1785
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 46.7,
+        "z": 25.3
+      },
+      "xg": 0.026,
+      "gml": "high-right",
+      "min": 3,
+      "pos": {
+        "x": 20.9,
+        "y": 39.9,
+        "z": 0
+      },
+      "sit": "corner",
+      "body": "right-foot",
+      "home": true,
+      "type": "goal",
+      "xgot": null,
+      "gtype": "regular",
+      "player_id": 1643
+    },
+    {
+      "gm": {
+        "x": 0,
+        "y": 51.6,
+        "z": 23.4
+      },
+      "xg": 0.628,
+      "gml": "high-centre",
+      "min": 3,
+      "pos": {
+        "x": 4.4,
+        "y": 46.6,
+        "z": 0
+      },
+      "sit": "assisted",
+      "body": "right-foot",
+      "home": true,
+      "type": "save",
+      "xgot": null,
+      "block": {
+        "x": 0.7,
+        "y": 48.4,
+        "z": 0
+      },
+      "player_id": 4923
+    }
+  ],
+  "momentum": [
+    {
+      "m": 1,
+      "v": 6
+    },
+    {
+      "m": 2,
+      "v": 12
+    },
+    {
+      "m": 3,
+      "v": 25
+    },
+    {
+      "m": 4,
+      "v": 55
+    },
+    {
+      "m": 5,
+      "v": 40
+    },
+    {
+      "m": 6,
+      "v": 28
+    },
+    {
+      "m": 7,
+      "v": 52
+    },
+    {
+      "m": 8,
+      "v": 58
+    },
+    {
+      "m": 9,
+      "v": 69
+    },
+    {
+      "m": 10,
+      "v": 45
+    },
+    {
+      "m": 11,
+      "v": 11
+    },
+    {
+      "m": 12,
+      "v": -4
+    },
+    {
+      "m": 13,
+      "v": 37
+    },
+    {
+      "m": 14,
+      "v": 17
+    },
+    {
+      "m": 15,
+      "v": 5
+    },
+    {
+      "m": 16,
+      "v": 9
+    },
+    {
+      "m": 17,
+      "v": 10
+    },
+    {
+      "m": 18,
+      "v": 8
+    },
+    {
+      "m": 19,
+      "v": 9
+    },
+    {
+      "m": 20,
+      "v": 14
+    },
+    {
+      "m": 21,
+      "v": 13
+    },
+    {
+      "m": 22,
+      "v": 22
+    },
+    {
+      "m": 23,
+      "v": 20
+    },
+    {
+      "m": 24,
+      "v": -28
+    },
+    {
+      "m": 25,
+      "v": -6
+    },
+    {
+      "m": 26,
+      "v": 8
+    },
+    {
+      "m": 27,
+      "v": 6
+    },
+    {
+      "m": 28,
+      "v": 8
+    },
+    {
+      "m": 29,
+      "v": 11
+    },
+    {
+      "m": 30,
+      "v": 11
+    },
+    {
+      "m": 31,
+      "v": 10
+    },
+    {
+      "m": 32,
+      "v": 10
+    },
+    {
+      "m": 33,
+      "v": 10
+    },
+    {
+      "m": 34,
+      "v": 47
+    },
+    {
+      "m": 35,
+      "v": 47
+    },
+    {
+      "m": 36,
+      "v": 40
+    },
+    {
+      "m": 37,
+      "v": 44
+    },
+    {
+      "m": 38,
+      "v": 30
+    },
+    {
+      "m": 39,
+      "v": 15
+    },
+    {
+      "m": 40,
+      "v": 8
+    },
+    {
+      "m": 41,
+      "v": 15
+    },
+    {
+      "m": 42,
+      "v": 3
+    },
+    {
+      "m": 43,
+      "v": 9
+    },
+    {
+      "m": 44,
+      "v": 15
+    },
+    {
+      "m": 45,
+      "v": 8
+    },
+    {
+      "m": 45.5,
+      "v": -4
+    },
+    {
+      "m": 46,
+      "v": 2
+    },
+    {
+      "m": 47,
+      "v": 4
+    },
+    {
+      "m": 48,
+      "v": 7
+    },
+    {
+      "m": 49,
+      "v": 6
+    },
+    {
+      "m": 50,
+      "v": 9
+    },
+    {
+      "m": 51,
+      "v": 4
+    },
+    {
+      "m": 52,
+      "v": 6
+    },
+    {
+      "m": 53,
+      "v": 19
+    },
+    {
+      "m": 54,
+      "v": 14
+    },
+    {
+      "m": 55,
+      "v": 17
+    },
+    {
+      "m": 56,
+      "v": 18
+    },
+    {
+      "m": 57,
+      "v": 31
+    },
+    {
+      "m": 58,
+      "v": 25
+    },
+    {
+      "m": 59,
+      "v": 18
+    },
+    {
+      "m": 60,
+      "v": 16
+    },
+    {
+      "m": 61,
+      "v": 9
+    },
+    {
+      "m": 62,
+      "v": -8
+    },
+    {
+      "m": 63,
+      "v": -44
+    },
+    {
+      "m": 64,
+      "v": -64
+    },
+    {
+      "m": 65,
+      "v": -55
+    },
+    {
+      "m": 66,
+      "v": -27
+    },
+    {
+      "m": 67,
+      "v": -13
+    },
+    {
+      "m": 68,
+      "v": 7
+    },
+    {
+      "m": 69,
+      "v": 17
+    },
+    {
+      "m": 70,
+      "v": 21
+    },
+    {
+      "m": 71,
+      "v": 18
+    },
+    {
+      "m": 72,
+      "v": 22
+    },
+    {
+      "m": 73,
+      "v": 19
+    },
+    {
+      "m": 74,
+      "v": 20
+    },
+    {
+      "m": 75,
+      "v": 17
+    },
+    {
+      "m": 76,
+      "v": 12
+    },
+    {
+      "m": 77,
+      "v": 44
+    },
+    {
+      "m": 78,
+      "v": 51
+    },
+    {
+      "m": 79,
+      "v": 9
+    },
+    {
+      "m": 80,
+      "v": 11
+    },
+    {
+      "m": 81,
+      "v": -88
+    },
+    {
+      "m": 82,
+      "v": -46
+    },
+    {
+      "m": 83,
+      "v": -28
+    },
+    {
+      "m": 84,
+      "v": -43
+    },
+    {
+      "m": 85,
+      "v": -33
+    },
+    {
+      "m": 86,
+      "v": 31
+    },
+    {
+      "m": 87,
+      "v": 20
+    },
+    {
+      "m": 88,
+      "v": 18
+    },
+    {
+      "m": 89,
+      "v": 28
+    },
+    {
+      "m": 90,
+      "v": 19
+    }
+  ],
+  "average_positions": {
+    "away": [
+      {
+        "n": 36,
+        "x": 28.9,
+        "y": 19.1,
+        "pos": "D",
+        "name": "J. Sanders",
+        "player_id": 28495
+      },
+      {
+        "n": 37,
+        "x": 43.3,
+        "y": 32.6,
+        "pos": "M",
+        "name": "D. Crowley",
+        "player_id": 28478
+      },
+      {
+        "n": 46,
+        "x": 10.9,
+        "y": 52.2,
+        "pos": "G",
+        "name": "C. McGillivray",
+        "player_id": 28502
+      },
+      {
+        "n": 13,
+        "x": 38.4,
+        "y": 45.6,
+        "pos": "M",
+        "name": "R. Wintle",
+        "player_id": 26941
+      },
+      {
+        "n": 17,
+        "x": 65.9,
+        "y": 55.9,
+        "pos": "F",
+        "name": "C. Paterson",
+        "player_id": 28469
+      },
+      {
+        "n": 37,
+        "x": 57.5,
+        "y": 85.7,
+        "pos": "D",
+        "name": "C. Bramall",
+        "player_id": 28348
+      },
+      {
+        "n": 30,
+        "x": 43.4,
+        "y": 43.5,
+        "pos": "M",
+        "name": "D. Barlaser",
+        "player_id": 5894
+      },
+      {
+        "n": 40,
+        "x": 31.5,
+        "y": 75.6,
+        "pos": "D",
+        "name": "C. Waller",
+        "player_id": 34078
+      },
+      {
+        "n": 3,
+        "x": 64.3,
+        "y": 34.9,
+        "pos": "M",
+        "name": "L. Keon",
+        "player_id": 28489
+      },
+      {
+        "n": 43,
+        "x": 28.9,
+        "y": 49.3,
+        "pos": "D",
+        "name": "C. Goode",
+        "player_id": 34032
+      },
+      {
+        "n": 24,
+        "x": 52.9,
+        "y": 69.3,
+        "pos": "F",
+        "name": "R. Hepburn-Murphy",
+        "player_id": 28473
+      },
+      {
+        "n": 24,
+        "x": 37.2,
+        "y": 56.2,
+        "pos": "D",
+        "name": "C. Nelson",
+        "player_id": 6237
+      },
+      {
+        "n": 15,
+        "x": 71.6,
+        "y": 51.9,
+        "pos": "",
+        "name": "B. Kazungu",
+        "player_id": 76068
+      },
+      {
+        "n": 11,
+        "x": 46.7,
+        "y": 40.7,
+        "pos": "M",
+        "name": "J. Matete",
+        "player_id": 28476
+      },
+      {
+        "n": 9,
+        "x": 47,
+        "y": 88.3,
+        "pos": "",
+        "name": "E. Boateng",
+        "player_id": 42697
+      },
+      {
+        "n": 8,
+        "x": 47.4,
+        "y": 79.1,
+        "pos": "M",
+        "name": "J. Burke",
+        "player_id": 28488
+      },
+      {
+        "n": 36,
+        "x": 61.1,
+        "y": 65.5,
+        "pos": "M",
+        "name": "L. Kelly",
+        "player_id": 28481
+      },
+      {
+        "n": 4,
+        "x": 62.5,
+        "y": 50.5,
+        "pos": "F",
+        "name": "J. P. Perniskie",
+        "player_id": 76067
+      },
+      {
+        "n": 15,
+        "x": 76.2,
+        "y": 42.0,
+        "pos": "M",
+        "name": "B. Wiles",
+        "player_id": 28480
+      },
+      {
+        "n": 10,
+        "x": 44.8,
+        "y": 38.3,
+        "pos": "D",
+        "name": "M. Ekpiteta",
+        "player_id": 7181
+      },
+      {
+        "n": 1,
+        "x": 94.7,
+        "y": 33.2,
+        "pos": "M",
+        "name": "R. Silver",
+        "player_id": 76069
+      },
+      {
+        "n": 14,
+        "x": 47.8,
+        "y": 6.4,
+        "pos": "D",
+        "name": "G. Jones",
+        "player_id": 28494
+      },
+      {
+        "n": 2,
+        "x": 5.5,
+        "y": 56.6,
+        "pos": "G",
+        "name": "S. Stacey",
+        "player_id": 58874
+      }
+    ],
+    "home": [
+      {
+        "n": 10,
+        "x": 69.0,
+        "y": 21.6,
+        "pos": "F",
+        "name": "D. Scarlett",
+        "player_id": 3475
+      },
+      {
+        "n": 52,
+        "x": 43.3,
+        "y": 41.3,
+        "pos": "M",
+        "name": "J. Donley",
+        "player_id": 6063
+      },
+      {
+        "n": 22,
+        "x": 61.7,
+        "y": 57.4,
+        "pos": "F",
+        "name": "D. Solanke",
+        "player_id": 4923
+      },
+      {
+        "n": 30,
+        "x": 67.2,
+        "y": 21.4,
+        "pos": "F",
+        "name": "M. Solomon",
+        "player_id": 1785
+      },
+      {
+        "n": 72,
+        "x": 50.6,
+        "y": 48.2,
+        "pos": "M",
+        "name": "S. Tonali",
+        "player_id": 704
+      },
+      {
+        "n": 53,
+        "x": 39.7,
+        "y": 31.1,
+        "pos": "D",
+        "name": "K. Takai",
+        "player_id": 8386
+      },
+      {
+        "n": 29,
+        "x": 77.7,
+        "y": 69.4,
+        "pos": "F",
+        "name": "M. Tel",
+        "player_id": 731
+      },
+      {
+        "n": 48,
+        "x": 9.4,
+        "y": 47.9,
+        "pos": "G",
+        "name": "M. Dúbravka",
+        "player_id": 402
+      },
+      {
+        "n": 24,
+        "x": 12.9,
+        "y": 45.2,
+        "pos": "G",
+        "name": "A. Kinský",
+        "player_id": 734
+      },
+      {
+        "n": 87,
+        "x": 51.2,
+        "y": 39.7,
+        "pos": "M",
+        "name": "M. Fernandes",
+        "player_id": 1643
+      },
+      {
+        "n": 23,
+        "x": 59.9,
+        "y": 59.2,
+        "pos": "F",
+        "name": "Richarlison",
+        "player_id": 730
+      },
+      {
+        "n": 45,
+        "x": 37.9,
+        "y": 14.5,
+        "pos": "M",
+        "name": "T. Hall",
+        "player_id": 8808
+      },
+      {
+        "n": 14,
+        "x": 64.9,
+        "y": 23.3,
+        "pos": "M",
+        "name": "Y. Min-hyeok",
+        "player_id": 6258
+      },
+      {
+        "n": 21,
+        "x": 55.6,
+        "y": 71.7,
+        "pos": "F",
+        "name": "M. Moore",
+        "player_id": 4154
+      },
+      {
+        "n": 63,
+        "x": 28.0,
+        "y": 67.8,
+        "pos": "M",
+        "name": "H. Byrne",
+        "player_id": 75993
+      },
+      {
+        "n": 34,
+        "x": 52.2,
+        "y": 57.2,
+        "pos": "F",
+        "name": "L. Williams-Barnett",
+        "player_id": 3474
+      },
+      {
+        "n": 67,
+        "x": 53.0,
+        "y": 14.9,
+        "pos": "M",
+        "name": "A. Gray",
+        "player_id": 732
+      },
+      {
+        "n": 74,
+        "x": 27.4,
+        "y": 32.8,
+        "pos": "D",
+        "name": "M. Hardy",
+        "player_id": 4602
+      },
+      {
+        "n": 53,
+        "x": 59.1,
+        "y": 35.1,
+        "pos": "M",
+        "name": "C. Gallagher",
+        "player_id": 772
+      },
+      {
+        "n": 54,
+        "x": 37.4,
+        "y": 65.5,
+        "pos": "D",
+        "name": "B. Davies",
+        "player_id": 1962
+      },
+      {
+        "n": 69,
+        "x": 46.8,
+        "y": 83.0,
+        "pos": "M",
+        "name": "R. Kyerematen",
+        "player_id": 4242
+      }
+    ]
+  },
+  "xg_per_minute": [
+    {
+      "m": 3,
+      "xg_home": 0.654,
+      "xg_away": 0.0,
+      "cum_home": 0.654,
+      "cum_away": 0.0
+    },
+    {
+      "m": 8,
+      "xg_home": 0.098,
+      "xg_away": 0.0,
+      "cum_home": 0.752,
+      "cum_away": 0.0
+    },
+    {
+      "m": 23,
+      "xg_home": 0.0,
+      "xg_away": 0.15,
+      "cum_home": 0.752,
+      "cum_away": 0.15
+    },
+    {
+      "m": 36,
+      "xg_home": 0.023,
+      "xg_away": 0.0,
+      "cum_home": 0.775,
+      "cum_away": 0.15
+    },
+    {
+      "m": 52,
+      "xg_home": 0.038,
+      "xg_away": 0.0,
+      "cum_home": 0.813,
+      "cum_away": 0.15
+    },
+    {
+      "m": 54,
+      "xg_home": 0.0,
+      "xg_away": 0.047,
+      "cum_home": 0.813,
+      "cum_away": 0.197
+    },
+    {
+      "m": 58,
+      "xg_home": 0.0,
+      "xg_away": 0.034,
+      "cum_home": 0.813,
+      "cum_away": 0.231
+    },
+    {
+      "m": 63,
+      "xg_home": 0.0,
+      "xg_away": 0.06,
+      "cum_home": 0.813,
+      "cum_away": 0.291
+    },
+    {
+      "m": 76,
+      "xg_home": 0.101,
+      "xg_away": 0.0,
+      "cum_home": 0.914,
+      "cum_away": 0.291
+    },
+    {
+      "m": 77,
+      "xg_home": 0.154,
+      "xg_away": 0.0,
+      "cum_home": 1.068,
+      "cum_away": 0.291
+    },
+    {
+      "m": 79,
+      "xg_home": 0.0,
+      "xg_away": 0.087,
+      "cum_home": 1.068,
+      "cum_away": 0.378
+    },
+    {
+      "m": 86,
+      "xg_home": 0.213,
+      "xg_away": 0.0,
+      "cum_home": 1.281,
+      "cum_away": 0.378
+    },
+    {
+      "m": 88,
+      "xg_home": 0.037,
+      "xg_away": 0.0,
+      "cum_home": 1.318,
+      "cum_away": 0.378
+    }
+  ]
+}

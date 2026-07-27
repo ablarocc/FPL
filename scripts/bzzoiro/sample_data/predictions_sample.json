@@ -220,7 +220,7 @@
       },
       "corners": {
         "prob_over_85": 64.8,
-        "prob_over_95": 53.6,
+        "prob_over_95": 53.9,
         "prob_over_105": 42.7
       }
     },
@@ -480,66 +480,6 @@
     }
   },
   {
-    "id": 33,
-    "created_at": "2026-07-23T16:01:09Z",
-    "event": {
-      "id": 10052,
-      "event_date": "2026-07-27T22:30:00Z",
-      "status": "notstarted",
-      "home_team_id": 159,
-      "home_team": "Sport Recife",
-      "away_team_id": 863,
-      "away_team": "Cuiabá",
-      "league_id": 34,
-      "league_name": "Brasileirão Serie B"
-    },
-    "markets": {
-      "match_result": {
-        "prob_home": 48.9,
-        "prob_draw": 29.4,
-        "prob_away": 21.7,
-        "predicted": "H"
-      },
-      "expected_goals": {
-        "home": 1.06,
-        "away": 1.06
-      },
-      "over_under": {
-        "prob_over_15": 63.4,
-        "prob_over_25": 38.2,
-        "prob_over_35": 19.6
-      },
-      "btts": {
-        "prob_yes": 43.0
-      },
-      "score": {
-        "most_likely": "1-1"
-      },
-      "draw_no_bet": {
-        "prob_home": 69.0
-      },
-      "corners": {
-        "prob_over_85": 62.4,
-        "prob_over_95": 50.7,
-        "prob_over_105": 39.8
-      }
-    },
-    "recommendations": {
-      "favorite": "H",
-      "favorite_prob": 48.9,
-      "bet_favorite": false,
-      "over_15": false,
-      "over_25": false,
-      "over_35": false,
-      "btts": false,
-      "winner": false
-    },
-    "model": {
-      "confidence": 0.4892,
-      "version": "dc-blend-v1"
-    }
-  },
-  {
     "id": 32,
     "created_at": "2026-07-23T16:01:09Z",
     "event": {
@@ -555,8 +495,8 @@
     },
     "markets": {
       "match_result": {
-        "prob_home": 51.9,
-        "prob_draw": 26.3,
+        "prob_home": 52.0,
+        "prob_draw": 26.2,
         "prob_away": 21.8,
         "predicted": "H"
       },
@@ -565,7 +505,7 @@
         "away": 1.04
       },
       "over_under": {
-        "prob_over_15": 73.9,
+        "prob_over_15": 74.0,
         "prob_over_25": 49.6,
         "prob_over_35": 26.8
       },
@@ -579,14 +519,14 @@
         "prob_home": 70.3
       },
       "corners": {
-        "prob_over_85": 63.5,
-        "prob_over_95": 51.8,
-        "prob_over_105": 40.6
+        "prob_over_85": 63.4,
+        "prob_over_95": 51.7,
+        "prob_over_105": 40.5
       }
     },
     "recommendations": {
       "favorite": "H",
-      "favorite_prob": 51.9,
+      "favorite_prob": 52.0,
       "bet_favorite": false,
       "over_15": false,
       "over_25": false,
@@ -595,7 +535,67 @@
       "winner": false
     },
     "model": {
-      "confidence": 0.5195,
+      "confidence": 0.5198,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 33,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 10052,
+      "event_date": "2026-07-27T22:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 159,
+      "home_team": "Sport Recife",
+      "away_team_id": 863,
+      "away_team": "Cuiabá",
+      "league_id": 34,
+      "league_name": "Brasileirão Serie B"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 49.1,
+        "prob_draw": 29.3,
+        "prob_away": 21.6,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.06,
+        "away": 1.06
+      },
+      "over_under": {
+        "prob_over_15": 63.4,
+        "prob_over_25": 38.2,
+        "prob_over_35": 19.6
+      },
+      "btts": {
+        "prob_yes": 42.9
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 69.0
+      },
+      "corners": {
+        "prob_over_85": 62.4,
+        "prob_over_95": 50.7,
+        "prob_over_105": 39.8
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 49.1,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.4908,
       "version": "dc-blend-v1"
     }
   },
@@ -616,7 +616,7 @@
     "markets": {
       "match_result": {
         "prob_home": 43.8,
-        "prob_draw": 29.4,
+        "prob_draw": 29.3,
         "prob_away": 26.9,
         "predicted": "H"
       },
@@ -630,7 +630,7 @@
         "prob_over_35": 23.6
       },
       "btts": {
-        "prob_yes": 49.2
+        "prob_yes": 49.3
       },
       "score": {
         "most_likely": "1-1"
@@ -655,7 +655,7 @@
       "winner": false
     },
     "model": {
-      "confidence": 0.4376,
+      "confidence": 0.438,
       "version": "dc-blend-v1"
     }
   },
@@ -675,9 +675,9 @@
     },
     "markets": {
       "match_result": {
-        "prob_home": 29.0,
+        "prob_home": 29.8,
         "prob_draw": 27.8,
-        "prob_away": 43.3,
+        "prob_away": 42.4,
         "predicted": "A"
       },
       "expected_goals": {
@@ -686,8 +686,8 @@
       },
       "over_under": {
         "prob_over_15": 73.7,
-        "prob_over_25": 50.7,
-        "prob_over_35": 29.6
+        "prob_over_25": 50.8,
+        "prob_over_35": 29.8
       },
       "btts": {
         "prob_yes": 53.9
@@ -696,7 +696,7 @@
         "most_likely": "1-1"
       },
       "draw_no_bet": {
-        "prob_home": 40.3
+        "prob_home": 41.2
       },
       "corners": {
         "prob_over_85": 56.0,
@@ -706,7 +706,7 @@
     },
     "recommendations": {
       "favorite": "A",
-      "favorite_prob": 43.3,
+      "favorite_prob": 42.4,
       "bet_favorite": false,
       "over_15": false,
       "over_25": false,
@@ -715,7 +715,7 @@
       "winner": false
     },
     "model": {
-      "confidence": 0.4326,
+      "confidence": 0.4245,
       "version": "dc-blend-v1"
     }
   },
@@ -982,7 +982,7 @@
       },
       "expected_goals": {
         "home": 1.8,
-        "away": 1.85
+        "away": 1.84
       },
       "over_under": {
         "prob_over_15": 79.7,
@@ -1167,7 +1167,7 @@
       "over_under": {
         "prob_over_15": 79.7,
         "prob_over_25": 59.2,
-        "prob_over_35": 38.3
+        "prob_over_35": 38.4
       },
       "btts": {
         "prob_yes": 59.7

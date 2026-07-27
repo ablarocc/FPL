@@ -1,10 +1,16 @@
 {
   "probe_version": "2.0",
-  "captured_at": "2026-07-27T03:49:55.810596+00:00",
+  "captured_at": "2026-07-27T04:35:31.753777+00:00",
   "repository": "FPL-Core-Insights",
-  "git_commit": "57929744758795172c277b9396363aaf8c657164",
+  "git_base_commit": "3e6459f6c0f3a73a3ba54701d4b164ba634f1cd8",
   "git_branch": "claude/football-data-integration-h3aa69",
-  "working_tree_dirty": true,
+  "working_tree_dirty_at_start": false,
+  "working_tree_dirty_after_capture": true,
+  "execution_file_sha256": {
+    "evaluator.py": "2a176d0a8e5ba9fa7c6c92cc88e4563913171ade08aa539d8ba60b4257b41825",
+    "mapping.py": "3ddf961b1dc218608a500c8191acb246deb3acc9235769bf2682877059f9bf97",
+    "probe.py": "80f9412b7089b35bba1644409d18629f7c56a8635e22b5fef70cfc426f576c90"
+  },
   "python": "3.12.13",
   "platform": "Windows-11-10.0.26200-SP0",
   "api_base_url": "https://sports.bzzoiro.com",
@@ -24,19 +30,19 @@
     "strict": true
   },
   "api_summary": {
-    "logical_requests": 221,
-    "http_attempts": 221,
-    "successful_requests": 219,
-    "success_rate": 0.991,
-    "median_ms": 342.7,
-    "p95_ms": 570.2,
+    "logical_requests": 225,
+    "http_attempts": 225,
+    "successful_requests": 223,
+    "success_rate": 0.9911,
+    "median_ms": 340.5,
+    "p95_ms": 546.4,
     "errors": [
       {
         "path": "/api/v2/events/219445/prediction/",
         "params": {},
         "attempts": 1,
         "status": 404,
-        "elapsed_ms": 595.3,
+        "elapsed_ms": 223.8,
         "ok": false,
         "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
       },
@@ -45,7 +51,7 @@
         "params": {},
         "attempts": 1,
         "status": 404,
-        "elapsed_ms": 256.7,
+        "elapsed_ms": 222.6,
         "ok": false,
         "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
       }

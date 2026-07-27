@@ -15,6 +15,7 @@ event,2026-2027,26-27-friendly-annecy-fc-vs-brighton-hove-albion-2026-07-25,26-2
 event,2026-2027,26-27-friendly-arsenal-vs-como-2026-08-12,26-27-friendly-arsenal-vs-como-2026-08-12,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-arsenal-vs-real-betis-2026-08-05,26-27-friendly-arsenal-vs-real-betis-2026-08-05,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-aston-villa-vs-real-sociedad-2026-07-28,26-27-friendly-aston-villa-vs-real-sociedad-2026-07-28,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26,26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-augsburg-vs-afc-bournemouth-2026-07-30,26-27-friendly-augsburg-vs-afc-bournemouth-2026-07-30,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-bayern-münchen-vs-aston-villa-2026-08-07,26-27-friendly-bayern-münchen-vs-aston-villa-2026-08-07,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-bg-pathum-united-vs-aston-villa-2026-08-04,26-27-friendly-bg-pathum-united-vs-aston-villa-2026-08-04,evaluator_exact_opponents_and_kickoff,high
@@ -39,6 +40,9 @@ event,2026-2027,26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25,26-27
 event,2026-2027,26-27-friendly-girona-vs-arsenal-2026-08-01,26-27-friendly-girona-vs-arsenal-2026-08-01,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-hamburger-sv-vs-everton-2026-08-01,26-27-friendly-hamburger-sv-vs-everton-2026-08-01,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-hull-city-vs-nice-2026-08-15,26-27-friendly-hull-city-vs-nice-2026-08-15,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-ipswich-town-vs-le-havre-2026-08-04,26-27-friendly-ipswich-town-vs-le-havre-2026-08-04,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-ipswich-town-vs-osasuna-2026-07-29,26-27-friendly-ipswich-town-vs-osasuna-2026-07-29,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-ipswich-town-vs-rayo-vallecano-2026-08-08,26-27-friendly-ipswich-town-vs-rayo-vallecano-2026-08-08,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-johor-darul-ta'zim-vs-chelsea-2026-08-09,26-27-friendly-johor-darul-ta'zim-vs-chelsea-2026-08-09,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-kasımpaşa-vs-hull-city-2026-08-01,26-27-friendly-kasımpaşa-vs-hull-city-2026-08-01,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-konyaspor-vs-hull-city-2026-07-25,26-27-friendly-konyaspor-vs-hull-city-2026-07-25,evaluator_exact_opponents_and_kickoff,high
@@ -65,6 +69,9 @@ event,2026-2027,26-27-friendly-oxford-united-vs-ipswich-town-2026-08-01,26-27-fr
 event,2026-2027,26-27-friendly-real-betis-vs-afc-bournemouth-2026-08-08,26-27-friendly-real-betis-vs-afc-bournemouth-2026-08-08,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-stoke-city-vs-everton-2026-07-28,26-27-friendly-stoke-city-vs-everton-2026-07-28,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-sunderland-vs-wrexham-2026-08-02,26-27-friendly-sunderland-vs-wrexham-2026-08-02,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-sydney-fc-vs-tottenham-hotspur-2026-07-29,26-27-friendly-sydney-fc-vs-tottenham-hotspur-2026-07-29,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-tottenham-hotspur-vs-getafe-2026-08-08,26-27-friendly-tottenham-hotspur-vs-getafe-2026-08-08,evaluator_exact_opponents_and_kickoff,high
+event,2026-2027,26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22,26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-valencia-vs-newcastle-united-2026-08-08,26-27-friendly-valencia-vs-newcastle-united-2026-08-08,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-vfb-stuttgart-vs-everton-2026-08-08,26-27-friendly-vfb-stuttgart-vs-everton-2026-08-08,evaluator_exact_opponents_and_kickoff,high
 event,2026-2027,26-27-friendly-walsall-vs-aston-villa-2026-07-21,26-27-friendly-walsall-vs-aston-villa-2026-07-21,evaluator_exact_opponents_and_kickoff,high
@@ -419,6 +426,7 @@ player,2026-2027,108,Wilson,full_name,high
 player,2026-2027,109,Verbruggen,full_name,high
 player,2026-2027,110,Rushworth,full_name,high
 player,2026-2027,111,Steele,full_name,high
+player,2026-2027,112,Van Hecke,full_name,high
 player,2026-2027,113,F.Kadıoğlu,full_name,high
 player,2026-2027,114,Boscagli,full_name,high
 player,2026-2027,115,De Cuyper,full_name,high
@@ -539,6 +547,7 @@ player,2026-2027,254,Robinson,full_name,high
 player,2026-2027,256,Tete,full_name,high
 player,2026-2027,257,Bassey,full_name,high
 player,2026-2027,258,Castagne,full_name,high
+player,2026-2027,259,Diop,full_name,high
 player,2026-2027,260,Wilson,full_name,high
 player,2026-2027,261,Iwobi,full_name,high
 player,2026-2027,262,Smith Rowe,full_name,high
@@ -561,6 +570,7 @@ player,2026-2027,280,Coyle,full_name,high
 player,2026-2027,281,Drameh,full_name,high
 player,2026-2027,282,Giles,full_name,high
 player,2026-2027,283,Jacob,full_name,high
+player,2026-2027,284,McCarthy,full_name,high
 player,2026-2027,285,McNair,full_name,high
 player,2026-2027,286,Belloumi,full_name,high
 player,2026-2027,287,Millar,full_name,high
@@ -576,6 +586,28 @@ player,2026-2027,296,Akintola,full_name,high
 player,2026-2027,297,Gyabi,full_name,high
 player,2026-2027,298,Destan,full_name,high
 player,2026-2027,299,Burstow,full_name,high
+player,2026-2027,300,Walton,full_name,high
+player,2026-2027,301,Palmer,full_name,high
+player,2026-2027,302,Button,full_name,high
+player,2026-2027,303,Kipré,full_name,high
+player,2026-2027,304,O'Shea,full_name,high
+player,2026-2027,305,Davis,full_name,high
+player,2026-2027,306,Greaves,full_name,high
+player,2026-2027,307,Johnson,full_name,high
+player,2026-2027,308,Furlong,full_name,high
+player,2026-2027,309,Núñez,full_name,high
+player,2026-2027,310,Matusiwa,full_name,high
+player,2026-2027,311,Burns,full_name,high
+player,2026-2027,312,Taylor,full_name,high
+player,2026-2027,313,Clarke,full_name,high
+player,2026-2027,314,Ogbene,full_name,high
+player,2026-2027,316,Emersonn,full_name,high
+player,2026-2027,317,Hirst,full_name,high
+player,2026-2027,320,Akpom,full_name,high
+player,2026-2027,321,Walle Egeli,full_name,high
+player,2026-2027,322,Al-Hamadi,full_name,high
+player,2026-2027,323,McAteer,full_name,high
+player,2026-2027,324,Mehmeti,full_name,high
 player,2026-2027,325,Darlow,full_name,high
 player,2026-2027,327,Bijol,full_name,high
 player,2026-2027,328,Struijk,full_name,high
@@ -684,6 +716,7 @@ player,2026-2027,450,Livramento,full_name,high
 player,2026-2027,451,A.Murphy,full_name,high
 player,2026-2027,453,Barnes,full_name,high
 player,2026-2027,454,Elanga,full_name,high
+player,2026-2027,455,Tonali,full_name,high
 player,2026-2027,456,J.Ramsey,full_name,high
 player,2026-2027,457,J.Murphy,full_name,high
 player,2026-2027,458,Joelinton,full_name,high
@@ -720,7 +753,35 @@ player,2026-2027,490,Wood,full_name,high
 player,2026-2027,491,Igor Jesus,full_name,high
 player,2026-2027,492,Awoniyi,full_name,high
 player,2026-2027,493,Kalimuendo,full_name,high
+player,2026-2027,494,Vicario,full_name,high
+player,2026-2027,495,Austin,full_name,high
+player,2026-2027,496,Kinsky,full_name,high
+player,2026-2027,497,Dubravka,full_name,high
+player,2026-2027,499,Pedro Porro,full_name,high
+player,2026-2027,500,Romero,full_name,high
+player,2026-2027,501,Danso,full_name,high
+player,2026-2027,503,Van de Ven,full_name,high
 player,2026-2027,504,Vuskovic,full_name,high
+player,2026-2027,505,Spence,full_name,high
+player,2026-2027,506,Udogie,full_name,high
+player,2026-2027,507,Phillips,full_name,high
+player,2026-2027,508,Davies,full_name,high
+player,2026-2027,511,Souza,full_name,high
+player,2026-2027,512,Kudus,full_name,high
+player,2026-2027,513,Xavi,full_name,high
+player,2026-2027,514,Tel,full_name,high
+player,2026-2027,515,Maddison,full_name,high
+player,2026-2027,516,Bentancur,full_name,high
+player,2026-2027,517,Odobert,full_name,high
+player,2026-2027,518,P.M.Sarr,full_name,high
+player,2026-2027,519,Gallagher,full_name,high
+player,2026-2027,520,Bergvall,full_name,high
+player,2026-2027,521,Kulusevski,full_name,high
+player,2026-2027,522,Gray,full_name,high
+player,2026-2027,523,Moore,full_name,high
+player,2026-2027,525,Fernandes,full_name,high
+player,2026-2027,527,Richarlison,full_name,high
+player,2026-2027,528,Scarlett,full_name,high
 player,2026-2027,529,Roefs,full_name,high
 player,2026-2027,530,Patterson,full_name,high
 player,2026-2027,531,Ellborg,full_name,high
@@ -745,6 +806,7 @@ player,2026-2027,549,Talbi,full_name,high
 player,2026-2027,551,Angulo,full_name,high
 player,2026-2027,552,Brobbey,full_name,high
 player,2026-2027,553,Isidor,full_name,high
+player,2026-2027,554,Van Oevelen,full_name,high
 player,2026-2027,555,Matthews,full_name,high
 player,2026-2027,557,Tzolis,full_name,high
 player,2026-2027,558,Schlager,full_name,high

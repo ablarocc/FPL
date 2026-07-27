@@ -1,18 +1,18 @@
 # Bzzoiro Sports Data — evaluation report
 
-Generated: `2026-07-27T03:49:56.029931+00:00`
+Generated: `2026-07-27T04:35:31.961121+00:00`
 Base: `https://sports.bzzoiro.com` · repository: `FPL-Core-Insights`
 
 ## Executive summary
 
-- **22 passed**, **6 warnings**, **0 failed**, **0 skipped**.
-- 219/221 logical API requests succeeded (221 HTTP attempts).
-- This run was read-only. It did not change `data/`, Supabase, or repository contents.
+- **21 passed**, **8 warnings**, **0 failed**, **0 skipped**.
+- 223/225 logical API requests succeeded (225 HTTP attempts).
+- API calls were read-only. The evaluator wrote only the selected artifact directory; canonical `data/` and Supabase were unchanged.
 - Betting and provider availability are evaluated separately from canonical football/FPL facts.
 
 | Check | Status | Result |
 |---|---|---|
-| `static.player_match_coverage` | **PASS** | 35/62 non-identity stat columns are reachable |
+| `static.player_match_coverage` | **WARN** | 23/62 merge-safe; 35 schema-comparable candidates |
 | `schema.openapi_inventory` | **PASS** | 64 paths and 159 schemas parsed |
 | `coverage.competitions` | **PASS** | All relevant competitions found |
 | `coverage.community_shield` | **WARN** | Community Shield not listed as a distinct competition |
@@ -30,21 +30,23 @@ Base: `https://sports.bzzoiro.com` · repository: `FPL-Core-Insights`
 | `overlap.stat.xa` | **PASS** | mean absolute difference 0.0028 (threshold 0.03) |
 | `enrichment.shotmap` | **PASS** | 19/19 shots carry a player ID |
 | `friendlies.team_mapping` | **PASS** | 20/20 current PL teams resolved |
-| `friendlies.fixture_coverage` | **WARN** | 62/91 repository friendlies matched by opponents and kickoff |
-| `friendlies.player_stats` | **PASS** | 15/17 exact-mapped completed friendlies have player stats |
+| `friendlies.fixture_coverage` | **WARN** | 69/91 repository friendlies matched by opponents and kickoff |
+| `friendlies.player_stats` | **PASS** | 18/19 exact-mapped completed friendlies have player stats |
 | `enrichment.lineups` | **PASS** | 40 player rows; status confirmed |
 | `enrichment.incidents` | **PASS** | 18 incidents returned |
 | `enrichment.player_profiles` | **PASS** | 17/25 profiles mapped; 25 with availability |
 | `betting.global_odds` | **PASS** | 47 best-odds rows; markets 1x2 |
 | `betting.predictions` | **PASS** | 20 prediction rows sampled |
+| `betting.mapped_prediction` | **WARN** | Mapped fixture has no prediction; global rows are capability evidence only |
 | `betting.event_markets` | **PASS** | 11 event odds fields; 4 bookmakers |
 | `adoption.licensing` | **WARN** | Manual redistribution/licensing review remains required |
-| `reliability.requests` | **PASS** | 219/221 requests succeeded |
+| `reliability.requests` | **PASS** | 223/225 requests succeeded |
 
 ## 1. OpenAPI and static column coverage
 
 - Existing `playermatchstats.csv`: **64** columns (**2 identity** + **62 statistics**).
-- Observed/mapped Bzzoiro statistics: **26 direct** + **9 derived** = **35**.
+- Schema-comparable candidates: **26 direct** + **9 derived** = **35**.
+- Current merge allowlist: **23 direct observed fields**; derived fields and unobserved `penalty_miss` remain evaluation-only.
 - Still unavailable: **27** existing statistics.
 - Additional player-match fields: **16**.
 
@@ -144,10 +146,10 @@ Repository: **91 friendlies**, **5 with player stats**, **3 with xG**.
 
 Team identity test: **20/20** resolved.
 
-API: **96 scheduled club friendlies** involving current PL teams; **21 completed** at capture time.
-Opponent-aware one-to-one repository overlap (kickoff delta <= 6h): **62/91 fixtures**; API-only: **34**; repository-only: **29**.
-Loose club/date candidates excluded from coverage: **17**.
-Exact-mapped completed-match player-stat coverage: **15/17** sampled.
+API: **104 scheduled club friendlies** involving current PL teams; **22 completed** at capture time.
+Opponent-aware one-to-one repository overlap (kickoff delta <= 6h): **69/91 fixtures**; API-only: **35**; repository-only: **22**.
+Loose club/date candidates excluded from coverage: **19**.
+Exact-mapped completed-match player-stat coverage: **18/19** sampled.
 
 | Event | Fixture | Date | Player rows |
 |---|---|---|---:|
@@ -160,14 +162,16 @@ Exact-mapped completed-match player-stat coverage: **15/17** sampled.
 | `219152` | Manchester United v Wrexham | 2026-07-18 | 52 |
 | `219241` | Walsall v Aston Villa | 2026-07-21 | 45 |
 | `219263` | Nottingham Forest v Blackburn Rovers | 2026-07-22 | 48 |
+| `219277` | Tottenham Hotspur v Milton Keynes Dons | 2026-07-22 | 44 |
 | `219307` | Bournemouth v FC St. Pauli | 2026-07-24 | 41 |
 | `219323` | Gateshead v Newcastle United | 2026-07-25 | 45 |
 | `219348` | Bromley v Crystal Palace | 2026-07-25 | 45 |
 | `219349` | Bolton Wanderers v Everton | 2026-07-25 | 46 |
-| `221024` | Konyaspor v Hull City | 2026-07-25 | 0 |
+| `221024` | Konyaspor v Hull City | 2026-07-25 | 45 |
 | `219408` | FC Porto v Aston Villa | 2026-07-25 | 41 |
 | `219415` | Liverpool FC v Sunderland | 2026-07-25 | 50 |
 | `219416` | Leeds United v Wrexham | 2026-07-25 | 47 |
+| `219417` | Auckland FC v Tottenham Hotspur | 2026-07-26 | 52 |
 
 ## 7. Lineups, availability and incidents
 
@@ -195,5 +199,5 @@ These are tested as time-sensitive model/market data. They are not treated as ma
 
 ## 11. API reliability for this run
 
-Logical requests: **221**; successful: **219**; HTTP attempts: **221**.
-Median latency: **342.7 ms**; p95: **570.2 ms**; errors: **2**.
+Logical requests: **225**; successful: **223**; HTTP attempts: **225**.
+Median latency: **340.5 ms**; p95: **546.4 ms**; errors: **2**.

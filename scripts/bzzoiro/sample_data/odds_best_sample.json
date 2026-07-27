@@ -432,10 +432,10 @@
         "outcome": "AWAY",
         "line": null,
         "outcome_name": "Cuiabá",
-        "decimal_odds": 4.52,
-        "bookmaker_slug": "pinnacle",
-        "bookmaker_name": "Pinnacle",
-        "updated_at": "2026-07-27T02:02:14Z"
+        "decimal_odds": 4.6,
+        "bookmaker_slug": "betano",
+        "bookmaker_name": "Betano",
+        "updated_at": "2026-07-27T04:30:59Z"
       }
     ]
   },

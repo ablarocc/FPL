@@ -105,7 +105,7 @@ the API key before returning success.
 ## Included branch snapshot
 
 `scripts/bzzoiro/sample_data/` is the checked full review capture. It contains
-complete bounded responses for all 10 comparison fixtures and all 17 exact
+complete bounded responses for all 10 comparison fixtures and all 19 exact
 completed friendlies available at capture time, plus identity maps, rejection
 evidence and a mapped-fixture odds sample. It lets reviewers inspect the same
 evidence without re-running the API.
@@ -139,9 +139,9 @@ The generated `review_export/git_export/` mirrors the normal public exporter
 schemas without modifying `data/`. Its current review result includes:
 
 - 10 Premier League GW10 matches and 303 player-match rows;
-- all 91 canonical friendlies and 236 player-match rows after 176 accepted rows
+- all 91 canonical friendlies and 270 player-match rows after 210 accepted rows
   are added;
-- 250 historical and 224 friendly player-match enrichment rows;
+- 250 historical and 268 friendly player-match enrichment rows;
 - separate shots, momentum, minute-xG, average-position, lineup and incident
   files;
 - 74 competitions, 16 provider-availability rows and three odds rows for the

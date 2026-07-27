@@ -568,6 +568,33 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 1785,
+    "provider_name": "Manor Solomon",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1785,
+    "provider_name": "Manor Solomon",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1785,
+    "provider_name": "Manor Solomon",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 1795,
     "provider_name": "Diogo Dalot",
     "provider_team_id": 17,
@@ -618,6 +645,15 @@
     "provider_team_id": 19,
     "provider_team_name": "Leeds United",
     "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2370,
+    "provider_name": "Marcos Senesi",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
     "reason": "no_canonical_player_name_match_within_team"
   },
   {
@@ -748,6 +784,15 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 3393,
+    "provider_name": "Daizen Maeda",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_team_code": "40",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 3448,
     "provider_name": null,
     "provider_team_id": 35,
@@ -789,6 +834,33 @@
     "provider_team_id": 17,
     "provider_team_name": "Manchester United",
     "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3474,
+    "provider_name": "Luca Williams-Barnett",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3474,
+    "provider_name": "Luca Williams-Barnett",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3474,
+    "provider_name": "Luca Williams-Barnett",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
     "reason": "no_canonical_player_name_match_within_team"
   },
   {
@@ -898,6 +970,42 @@
     "provider_event_id": 219408,
     "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
     "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4151,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4242,
+    "provider_name": "Rio Kyerematen",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4242,
+    "provider_name": "Rio Kyerematen",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4242,
+    "provider_name": "Rio Kyerematen",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
   },
   {
     "season": "2026-2027",
@@ -1081,6 +1189,33 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 4602,
+    "provider_name": "Malachi Hardy",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4602,
+    "provider_name": "Malachi Hardy",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4602,
+    "provider_name": "Malachi Hardy",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 4638,
     "provider_name": "Kaoru Mitoma",
     "provider_team_id": 5,
@@ -1159,6 +1294,24 @@
     "provider_event_id": 219349,
     "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
     "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4923,
+    "provider_name": "Dominic Solanke",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4923,
+    "provider_name": "Dominic Solanke",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
   },
   {
     "season": "2026-2027",
@@ -1293,6 +1446,15 @@
     "provider_team_id": 1247,
     "provider_event_id": 219349,
     "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5894,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -1432,6 +1594,24 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6063,
+    "provider_name": null,
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6063,
+    "provider_name": null,
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 6098,
     "provider_name": "Lewis Koumas",
     "provider_team_id": 1,
@@ -1455,6 +1635,33 @@
     "provider_team_id": 5,
     "provider_team_name": "Brighton & Hove Albion",
     "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6131,
+    "provider_name": "Abdul Fatawu Issahaku",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_team_code": "40",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6152,
+    "provider_name": "Jaden Philogene-Bidace",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_team_code": "40",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6157,
+    "provider_name": "Ashley Young",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_team_code": "40",
     "reason": "no_canonical_player_name_match_within_team"
   },
   {
@@ -1483,6 +1690,42 @@
     "provider_event_id": 219349,
     "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
     "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6237,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6258,
+    "provider_name": "Yang Min-hyeok",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6258,
+    "provider_name": "Yang Min-hyeok",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6258,
+    "provider_name": "Yang Min-hyeok",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
   },
   {
     "season": "2026-2027",
@@ -1671,6 +1914,60 @@
     "provider_team_id": 218,
     "provider_event_id": 219263,
     "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6480,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6481,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6482,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6486,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6491,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6500,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -1945,6 +2242,15 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6623,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 6690,
     "provider_name": "Radek Vitek",
     "provider_team_id": 17,
@@ -2044,6 +2350,24 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6840,
+    "provider_name": "Cameron Humphreys",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_team_code": "40",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6848,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 6868,
     "provider_name": null,
     "provider_team_id": 218,
@@ -2134,6 +2458,24 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 6958,
+    "provider_name": "Calvin Okike",
+    "provider_team_id": 204,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6958,
+    "provider_name": "Calvin Okike",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_team_code": "88",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 6966,
     "provider_name": null,
     "provider_team_id": 206,
@@ -2158,6 +2500,15 @@
     "provider_team_name": "Chelsea",
     "fpl_team_code": "8",
     "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7020,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
     "season": "2026-2027",
@@ -2215,6 +2566,24 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 7129,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7172,
+    "provider_name": "Nathan Tinsdale",
+    "provider_team_id": 204,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 7172,
     "provider_name": "Nathan Tinsdale",
     "provider_team_id": 204,
@@ -2224,12 +2593,30 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 7181,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 7765,
     "provider_name": "Benjamin Fredrick",
     "provider_team_id": 16,
     "provider_team_name": "Brentford",
     "fpl_team_code": "94",
     "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8290,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
     "season": "2026-2027",
@@ -2256,6 +2643,33 @@
     "provider_team_id": 14,
     "provider_team_name": "Crystal Palace",
     "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8386,
+    "provider_name": "Kota Takai",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8386,
+    "provider_name": "Kota Takai",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8386,
+    "provider_name": "Kota Takai",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
     "reason": "no_canonical_player_name_match_within_team"
   },
   {
@@ -2575,6 +2989,33 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 8808,
+    "provider_name": "Tye Hall",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8808,
+    "provider_name": "Tye Hall",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8808,
+    "provider_name": "Tye Hall",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 8818,
     "provider_name": "Brando Bailey-Joseph",
     "provider_team_id": 18,
@@ -2692,6 +3133,15 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 9867,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 12840,
     "provider_name": null,
     "provider_team_id": 1247,
@@ -2778,6 +3228,15 @@
     "provider_team_id": 7,
     "provider_team_name": "Sunderland",
     "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13720,
+    "provider_name": "Somto Boniface",
+    "provider_team_id": 200,
+    "provider_team_name": "Ipswich Town",
+    "fpl_team_code": "40",
     "reason": "no_canonical_player_name_match_within_team"
   },
   {
@@ -3142,6 +3601,15 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 26941,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 26946,
     "provider_name": null,
     "provider_team_id": 1,
@@ -3174,6 +3642,114 @@
     "provider_team_id": 1442,
     "provider_event_id": 219087,
     "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28348,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28469,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28473,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28476,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28478,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28480,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28481,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28488,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28489,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28494,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28495,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28502,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -3237,6 +3813,15 @@
     "provider_team_id": 1441,
     "provider_event_id": 219241,
     "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30731,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -3346,6 +3931,15 @@
     "provider_team_name": "Manchester City",
     "fpl_team_code": "43",
     "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33510,
+    "provider_name": null,
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
   },
   {
     "season": "2026-2027",
@@ -3498,6 +4092,15 @@
     "provider_team_id": 1441,
     "provider_event_id": 219241,
     "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33721,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -3844,11 +4447,29 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 34032,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 34063,
     "provider_name": null,
     "provider_team_id": 1424,
     "provider_event_id": 219348,
     "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34078,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -3859,6 +4480,15 @@
     "provider_event_id": 219103,
     "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
     "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34095,
+    "provider_name": null,
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
   },
   {
     "season": "2026-2027",
@@ -3984,6 +4614,24 @@
     "provider_team_id": 1424,
     "provider_event_id": 219348,
     "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36463,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36464,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -4209,6 +4857,15 @@
     "provider_team_id": 91,
     "provider_event_id": 219307,
     "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42697,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -4528,6 +5185,15 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 47976,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 48330,
     "provider_name": "Mor Talla Ndiaye",
     "provider_team_id": 1,
@@ -4717,12 +5383,57 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 53900,
+    "provider_name": null,
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 55976,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 55979,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 56365,
     "provider_name": "Diogo Jota",
     "provider_team_id": 1,
     "provider_team_name": "Liverpool FC",
     "fpl_team_code": "14",
     "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 56446,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 58874,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
     "season": "2026-2027",
@@ -4771,6 +5482,24 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 59659,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 59661,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 61330,
     "provider_name": null,
     "provider_team_id": 1892,
@@ -4803,6 +5532,15 @@
     "provider_team_id": 1892,
     "provider_event_id": 219106,
     "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 64128,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
     "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
@@ -4912,6 +5650,15 @@
     "provider_team_name": "Crystal Palace",
     "fpl_team_code": "31",
     "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 66693,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
     "season": "2026-2027",
@@ -5527,12 +6274,201 @@
   },
   {
     "season": "2026-2027",
+    "provider_player_id": 75992,
+    "provider_name": "Reiss-Alexander Russell-Denny",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75992,
+    "provider_name": "Reiss-Alexander Russell-Denny",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75993,
+    "provider_name": "Harry Byrne",
+    "provider_team_id": 9,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75993,
+    "provider_name": "Harry Byrne",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75993,
+    "provider_name": "Harry Byrne",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 76067,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 76068,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 76069,
+    "provider_name": null,
+    "provider_team_id": 1256,
+    "provider_event_id": 219277,
+    "canonical_match_id": "26-27-friendly-tottenham-hotspur-vs-milton-keynes-dons-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
     "provider_player_id": 78062,
     "provider_name": "JJ Gabriel",
     "provider_team_id": 17,
     "provider_team_name": "Manchester United",
     "fpl_team_code": "1",
     "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78564,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78565,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78569,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78570,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78572,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78573,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78574,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78575,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78576,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78577,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78578,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78582,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78583,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
   },
   {
     "season": "2026-2027",
@@ -5775,6 +6711,123 @@
     "provider_team_id": 19,
     "provider_team_name": "Leeds United",
     "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82845,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82849,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82851,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82852,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82853,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82854,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82855,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82856,
+    "provider_name": null,
+    "provider_team_id": 2388,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82857,
+    "provider_name": "Tyler Tingey",
+    "provider_team_id": 9,
+    "provider_event_id": 219417,
+    "canonical_match_id": "26-27-friendly-auckland-fc-vs-tottenham-hotspur-2026-07-26",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 82857,
+    "provider_name": "Tyler Tingey",
+    "provider_team_id": 9,
+    "provider_team_name": "Tottenham Hotspur",
+    "fpl_team_code": "6",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 87034,
+    "provider_name": null,
+    "provider_team_id": 192,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 87035,
+    "provider_name": "Reuben Silk",
+    "provider_team_id": 204,
+    "provider_event_id": 221024,
+    "canonical_match_id": "26-27-friendly-konyaspor-vs-hull-city-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 87035,
+    "provider_name": "Reuben Silk",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_team_code": "88",
     "reason": "no_canonical_player_name_match_within_team"
   }
 ]
