@@ -1,0 +1,102 @@
+{
+  "id": 91,
+  "league_id": 1,
+  "season_id": 337,
+  "home_team_id": 5,
+  "home_team": "Brighton & Hove Albion",
+  "away_team_id": 19,
+  "away_team": "Leeds United",
+  "home_coach_id": 549,
+  "away_coach_id": 561,
+  "referee_id": 1756,
+  "venue_id": 5,
+  "event_date": "2025-11-01T15:00:00+00:00",
+  "status": "finished",
+  "replaced_by": null,
+  "round_number": 10,
+  "round_name": "",
+  "group_name": null,
+  "period": "",
+  "current_minute": 94,
+  "home_score": 3,
+  "away_score": 0,
+  "home_score_ht": 1,
+  "away_score_ht": 0,
+  "penalty_shootout": null,
+  "extra_time_score": null,
+  "is_local_derby": false,
+  "is_neutral_ground": false,
+  "travel_distance_km": null,
+  "weather": {
+    "code": null,
+    "description": null,
+    "wind_speed": null,
+    "temperature_c": null
+  },
+  "pitch_condition": null,
+  "attendance": null,
+  "live_websocket": false,
+  "websocket_plus": false,
+  "highlights": [],
+  "head_to_head": {
+    "total_matches": 8,
+    "home_wins": 4,
+    "draws": 3,
+    "away_wins": 1,
+    "home_goals": 10,
+    "away_goals": 4,
+    "avg_total_goals": 1.75,
+    "home_win_rate": 0.5,
+    "away_win_rate": 0.125,
+    "recent_matches": [
+      {
+        "away": "Brighton & Hove Albion",
+        "date": "2026-05-17T14:00:00+00:00",
+        "home": "Leeds United",
+        "score": "1-0"
+      },
+      {
+        "away": "Leeds United",
+        "date": "2025-11-01T15:00:00+00:00",
+        "home": "Brighton & Hove Albion",
+        "score": "3-0"
+      },
+      {
+        "away": "Brighton & Hove Albion",
+        "date": "2023-03-11T11:00:00+00:00",
+        "home": "Leeds United",
+        "score": "2-2"
+      },
+      {
+        "away": "Leeds United",
+        "date": "2022-08-27T11:00:00+00:00",
+        "home": "Brighton & Hove Albion",
+        "score": "1-0"
+      },
+      {
+        "away": "Brighton & Hove Albion",
+        "date": "2022-05-15T10:00:00+00:00",
+        "home": "Leeds United",
+        "score": "1-1"
+      },
+      {
+        "away": "Leeds United",
+        "date": "2021-11-27T13:30:00+00:00",
+        "home": "Brighton & Hove Albion",
+        "score": "0-0"
+      },
+      {
+        "away": "Leeds United",
+        "date": "2021-05-01T11:00:00+00:00",
+        "home": "Brighton & Hove Albion",
+        "score": "2-0"
+      },
+      {
+        "away": "Brighton & Hove Albion",
+        "date": "2021-01-16T11:00:00+00:00",
+        "home": "Leeds United",
+        "score": "0-1"
+      }
+    ]
+  }
+}

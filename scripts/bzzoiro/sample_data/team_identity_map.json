@@ -1,0 +1,182 @@
+[
+  {
+    "provider_team_id": 1,
+    "provider_name": "Liverpool FC",
+    "fpl_team_id": "12",
+    "fpl_team_code": "14",
+    "fpl_name": "Liverpool",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 2,
+    "provider_name": "Bournemouth",
+    "fpl_team_id": "4",
+    "fpl_team_code": "91",
+    "fpl_name": "Bournemouth",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 3,
+    "provider_name": "Aston Villa",
+    "fpl_team_id": "2",
+    "fpl_team_code": "7",
+    "fpl_name": "Aston Villa",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 4,
+    "provider_name": "Newcastle United",
+    "fpl_team_id": "15",
+    "fpl_team_code": "4",
+    "fpl_name": "Newcastle",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 5,
+    "provider_name": "Brighton & Hove Albion",
+    "fpl_team_id": "6",
+    "fpl_team_code": "36",
+    "fpl_name": "Brighton",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 6,
+    "provider_name": "Fulham",
+    "fpl_team_id": "10",
+    "fpl_team_code": "54",
+    "fpl_name": "Fulham",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 7,
+    "provider_name": "Sunderland",
+    "fpl_team_id": "17",
+    "fpl_team_code": "56",
+    "fpl_name": "Sunderland",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 8,
+    "provider_name": "West Ham United",
+    "fpl_team_id": "19",
+    "fpl_team_code": "21",
+    "fpl_name": "West Ham",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 9,
+    "provider_name": "Tottenham Hotspur",
+    "fpl_team_id": "18",
+    "fpl_team_code": "6",
+    "fpl_name": "Spurs",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 10,
+    "provider_name": "Burnley",
+    "fpl_team_id": "3",
+    "fpl_team_code": "90",
+    "fpl_name": "Burnley",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 11,
+    "provider_name": "Wolverhampton",
+    "fpl_team_id": "20",
+    "fpl_team_code": "39",
+    "fpl_name": "Wolves",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 12,
+    "provider_name": "Manchester City",
+    "fpl_team_id": "13",
+    "fpl_team_code": "43",
+    "fpl_name": "Man City",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 13,
+    "provider_name": "Chelsea",
+    "fpl_team_id": "7",
+    "fpl_team_code": "8",
+    "fpl_name": "Chelsea",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 14,
+    "provider_name": "Crystal Palace",
+    "fpl_team_id": "8",
+    "fpl_team_code": "31",
+    "fpl_name": "Crystal Palace",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 15,
+    "provider_name": "Nottingham Forest",
+    "fpl_team_id": "16",
+    "fpl_team_code": "17",
+    "fpl_name": "Nott'm Forest",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 16,
+    "provider_name": "Brentford",
+    "fpl_team_id": "5",
+    "fpl_team_code": "94",
+    "fpl_name": "Brentford",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 17,
+    "provider_name": "Manchester United",
+    "fpl_team_id": "14",
+    "fpl_team_code": "1",
+    "fpl_name": "Man Utd",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 18,
+    "provider_name": "Arsenal",
+    "fpl_team_id": "1",
+    "fpl_team_code": "3",
+    "fpl_name": "Arsenal",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 19,
+    "provider_name": "Leeds United",
+    "fpl_team_id": "11",
+    "fpl_team_code": "2",
+    "fpl_name": "Leeds",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  },
+  {
+    "provider_team_id": 20,
+    "provider_name": "Everton",
+    "fpl_team_id": "9",
+    "fpl_team_code": "11",
+    "fpl_name": "Everton",
+    "match_method": "canonical_alias",
+    "confidence": "high"
+  }
+]

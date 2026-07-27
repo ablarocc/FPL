@@ -1,0 +1,802 @@
+[
+  {
+    "event_id": 214534,
+    "event_date": "2026-07-27T15:30:00Z",
+    "league_id": 23,
+    "league_name": "Superliga",
+    "home_team_id": 363,
+    "home_team": "CFR 1907 Cluj",
+    "away_team_id": 2217,
+    "away_team": "FC Voluntari",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "CFR 1907 Cluj",
+        "decimal_odds": 1.87,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:45:13Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.86,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:45:13Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "FC Voluntari",
+        "decimal_odds": 4.9,
+        "bookmaker_slug": "marathonbet",
+        "bookmaker_name": "marathonbet",
+        "updated_at": "2026-07-26T21:45:17Z"
+      }
+    ]
+  },
+  {
+    "event_id": 211662,
+    "event_date": "2026-07-27T16:00:00Z",
+    "league_id": 22,
+    "league_name": "Parva Liga",
+    "home_team_id": 3841,
+    "home_team": "FK Dunav Ruse",
+    "away_team_id": 136,
+    "away_team": "Ludogorets",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "FK Dunav Ruse",
+        "decimal_odds": 10.5,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:47:08Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 5.6,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:47:08Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Ludogorets",
+        "decimal_odds": 1.41,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:47:08Z"
+      }
+    ]
+  },
+  {
+    "event_id": 221479,
+    "event_date": "2026-07-27T17:00:00Z",
+    "league_id": 84,
+    "league_name": "Danish Superliga",
+    "home_team_id": 1373,
+    "home_team": "Randers FC",
+    "away_team_id": 1374,
+    "away_team": "Silkeborg IF",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Randers FC",
+        "decimal_odds": 1.83,
+        "bookmaker_slug": "mansion",
+        "bookmaker_name": "mansion",
+        "updated_at": "2026-07-26T21:45:13Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 4.25,
+        "bookmaker_slug": "merkurxtip",
+        "bookmaker_name": "merkurxtip",
+        "updated_at": "2026-07-26T21:45:17Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Silkeborg IF",
+        "decimal_odds": 4.7,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:45:14Z"
+      }
+    ]
+  },
+  {
+    "event_id": 211840,
+    "event_date": "2026-07-27T17:00:00Z",
+    "league_id": 25,
+    "league_name": "Ekstraklasa",
+    "home_team_id": 424,
+    "home_team": "Zagłębie Lubin",
+    "away_team_id": 435,
+    "away_team": "Piast Gliwice",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Zagłębie Lubin",
+        "decimal_odds": 3.01,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:51:28Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.34,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:51:28Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Piast Gliwice",
+        "decimal_odds": 2.74,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:51:28Z"
+      }
+    ]
+  },
+  {
+    "event_id": 207024,
+    "event_date": "2026-07-27T17:00:00Z",
+    "league_id": 54,
+    "league_name": "Eliteserien",
+    "home_team_id": 2078,
+    "home_team": "Rosenborg BK",
+    "away_team_id": 410,
+    "away_team": "Fredrikstad FK",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Rosenborg BK",
+        "decimal_odds": 1.76,
+        "bookmaker_slug": "betfox",
+        "bookmaker_name": "betfox",
+        "updated_at": "2026-07-26T21:46:47Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 4.2,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:46:47Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Fredrikstad FK",
+        "decimal_odds": 5.2,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:46:47Z"
+      }
+    ]
+  },
+  {
+    "event_id": 46408,
+    "event_date": "2026-07-27T17:00:00Z",
+    "league_id": 26,
+    "league_name": "Allsvenskan",
+    "home_team_id": 407,
+    "home_team": "BK Häcken",
+    "away_team_id": 449,
+    "away_team": "AIK",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "BK Häcken",
+        "decimal_odds": 1.94,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:47:24Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 4.4,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:47:24Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "AIK",
+        "decimal_odds": 4.0,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:47:24Z"
+      }
+    ]
+  },
+  {
+    "event_id": 219429,
+    "event_date": "2026-07-27T18:00:00Z",
+    "league_id": 79,
+    "league_name": "Club Friendlies",
+    "home_team_id": 125,
+    "home_team": "Galatasaray",
+    "away_team_id": 1285,
+    "away_team": "Venezia",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Galatasaray",
+        "decimal_odds": 1.59,
+        "bookmaker_slug": "betfox",
+        "bookmaker_name": "betfox",
+        "updated_at": "2026-07-26T21:48:55Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 5.1,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:48:55Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Venezia",
+        "decimal_odds": 5.29,
+        "bookmaker_slug": "tipsport",
+        "bookmaker_name": "tipsport",
+        "updated_at": "2026-07-26T21:48:56Z"
+      }
+    ]
+  },
+  {
+    "event_id": 212878,
+    "event_date": "2026-07-27T18:15:00Z",
+    "league_id": 22,
+    "league_name": "Parva Liga",
+    "home_team_id": 345,
+    "home_team": "CSKA Sofia",
+    "away_team_id": 344,
+    "away_team": "Botev Plovdiv",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "CSKA Sofia",
+        "decimal_odds": 1.72,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:47:15Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 4.1,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:47:15Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Botev Plovdiv",
+        "decimal_odds": 6.0,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:47:15Z"
+      }
+    ]
+  },
+  {
+    "event_id": 214536,
+    "event_date": "2026-07-27T18:30:00Z",
+    "league_id": 23,
+    "league_name": "Superliga",
+    "home_team_id": 365,
+    "home_team": "FC Botoșani",
+    "away_team_id": 357,
+    "away_team": "FC Rapid București",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "FC Botoșani",
+        "decimal_odds": 3.25,
+        "bookmaker_slug": "betfair",
+        "bookmaker_name": "betfair",
+        "updated_at": "2026-07-26T21:45:13Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.35,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:45:13Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "FC Rapid București",
+        "decimal_odds": 2.53,
+        "bookmaker_slug": "efbet-net",
+        "bookmaker_name": "efbet.net",
+        "updated_at": "2026-07-26T21:45:13Z"
+      }
+    ]
+  },
+  {
+    "event_id": 215949,
+    "event_date": "2026-07-27T22:30:00Z",
+    "league_id": 34,
+    "league_name": "Brasileirão Serie B",
+    "home_team_id": 819,
+    "home_team": "Atlético Goianiense",
+    "away_team_id": 828,
+    "away_team": "Operário-PR",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Atlético Goianiense",
+        "decimal_odds": 2.2,
+        "bookmaker_slug": "interwetten",
+        "bookmaker_name": "Interwetten",
+        "updated_at": "2026-07-27T02:02:33Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.32,
+        "bookmaker_slug": "pinnacle",
+        "bookmaker_name": "Pinnacle",
+        "updated_at": "2026-07-27T02:02:33Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Operário-PR",
+        "decimal_odds": 3.56,
+        "bookmaker_slug": "pinnacle",
+        "bookmaker_name": "Pinnacle",
+        "updated_at": "2026-07-27T02:02:33Z"
+      }
+    ]
+  },
+  {
+    "event_id": 10052,
+    "event_date": "2026-07-27T22:30:00Z",
+    "league_id": 34,
+    "league_name": "Brasileirão Serie B",
+    "home_team_id": 159,
+    "home_team": "Sport Recife",
+    "away_team_id": 863,
+    "away_team": "Cuiabá",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Sport Recife",
+        "decimal_odds": 1.95,
+        "bookmaker_slug": "interwetten",
+        "bookmaker_name": "Interwetten",
+        "updated_at": "2026-07-27T02:02:42Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.37,
+        "bookmaker_slug": "pinnacle",
+        "bookmaker_name": "Pinnacle",
+        "updated_at": "2026-07-27T01:31:10Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Cuiabá",
+        "decimal_odds": 4.52,
+        "bookmaker_slug": "pinnacle",
+        "bookmaker_name": "Pinnacle",
+        "updated_at": "2026-07-27T02:02:14Z"
+      }
+    ]
+  },
+  {
+    "event_id": 216520,
+    "event_date": "2026-07-28T15:00:00Z",
+    "league_id": 7,
+    "league_name": "Champions League",
+    "home_team_id": 377,
+    "home_team": "Kuopion Palloseura",
+    "away_team_id": 412,
+    "away_team": "Sabah FK",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Kuopion Palloseura",
+        "decimal_odds": 3.25,
+        "bookmaker_slug": "betano",
+        "bookmaker_name": "Betano",
+        "updated_at": "2026-07-27T02:18:12Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.5,
+        "bookmaker_slug": "bet365",
+        "bookmaker_name": "Bet365",
+        "updated_at": "2026-07-26T02:28:48Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Sabah FK",
+        "decimal_odds": 2.25,
+        "bookmaker_slug": "bwin",
+        "bookmaker_name": "Bwin",
+        "updated_at": "2026-07-26T14:26:38Z"
+      }
+    ]
+  },
+  {
+    "event_id": 216507,
+    "event_date": "2026-07-28T16:00:00Z",
+    "league_id": 7,
+    "league_name": "Champions League",
+    "home_team_id": 382,
+    "home_team": "Lincoln Red Imps",
+    "away_team_id": 441,
+    "away_team": "Mjällby AIF",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Lincoln Red Imps",
+        "decimal_odds": 6.5,
+        "bookmaker_slug": "bet365",
+        "bookmaker_name": "Bet365",
+        "updated_at": "2026-07-25T14:16:51Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 4.6,
+        "bookmaker_slug": "marathon",
+        "bookmaker_name": "Marathon",
+        "updated_at": "2026-07-27T02:03:00Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Mjällby AIF",
+        "decimal_odds": 1.55,
+        "bookmaker_slug": "betsson",
+        "bookmaker_name": "Betsson",
+        "updated_at": "2026-07-27T02:03:00Z"
+      }
+    ]
+  },
+  {
+    "event_id": 221148,
+    "event_date": "2026-07-28T17:00:00Z",
+    "league_id": 83,
+    "league_name": "Conference League",
+    "home_team_id": 2345,
+    "home_team": "Apollon Limassol",
+    "away_team_id": 2649,
+    "away_team": "FC Dila Gori",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Apollon Limassol",
+        "decimal_odds": 1.39,
+        "bookmaker_slug": "novibet",
+        "bookmaker_name": "Novibet",
+        "updated_at": "2026-07-27T02:03:09Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 5.0,
+        "bookmaker_slug": "unibet",
+        "bookmaker_name": "Unibet",
+        "updated_at": "2026-07-25T14:17:29Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "FC Dila Gori",
+        "decimal_odds": 8.4,
+        "bookmaker_slug": "marathon",
+        "bookmaker_name": "Marathon",
+        "updated_at": "2026-07-27T02:03:09Z"
+      }
+    ]
+  },
+  {
+    "event_id": 221147,
+    "event_date": "2026-07-28T17:00:00Z",
+    "league_id": 83,
+    "league_name": "Conference League",
+    "home_team_id": 2838,
+    "home_team": "Riga FC",
+    "away_team_id": 3681,
+    "away_team": "FK Vardar Skopje",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Riga FC",
+        "decimal_odds": 1.39,
+        "bookmaker_slug": "novibet",
+        "bookmaker_name": "Novibet",
+        "updated_at": "2026-07-27T02:03:10Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 5.25,
+        "bookmaker_slug": "betway",
+        "bookmaker_name": "Betway",
+        "updated_at": "2026-07-26T14:13:11Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "FK Vardar Skopje",
+        "decimal_odds": 9.4,
+        "bookmaker_slug": "10bet",
+        "bookmaker_name": "10bet",
+        "updated_at": "2026-07-26T14:13:11Z"
+      }
+    ]
+  },
+  {
+    "event_id": 221149,
+    "event_date": "2026-07-28T17:30:00Z",
+    "league_id": 83,
+    "league_name": "Conference League",
+    "home_team_id": 339,
+    "home_team": "FC CSKA 1948 Sofia",
+    "away_team_id": 418,
+    "away_team": "FC Spartak Trnava",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "FC CSKA 1948 Sofia",
+        "decimal_odds": 1.97,
+        "bookmaker_slug": "novibet",
+        "bookmaker_name": "Novibet",
+        "updated_at": "2026-07-27T02:03:17Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.45,
+        "bookmaker_slug": "betano",
+        "bookmaker_name": "Betano",
+        "updated_at": "2026-07-26T14:13:44Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "FC Spartak Trnava",
+        "decimal_odds": 3.85,
+        "bookmaker_slug": "10bet",
+        "bookmaker_name": "10bet",
+        "updated_at": "2026-07-26T14:13:44Z"
+      }
+    ]
+  },
+  {
+    "event_id": 210776,
+    "event_date": "2026-07-28T18:00:00Z",
+    "league_id": 7,
+    "league_name": "Champions League",
+    "home_team_id": 133,
+    "home_team": "GNK Dinamo Zagreb",
+    "away_team_id": 255,
+    "away_team": "FC Thun",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "GNK Dinamo Zagreb",
+        "decimal_odds": 1.4,
+        "bookmaker_slug": "interwetten",
+        "bookmaker_name": "Interwetten",
+        "updated_at": "2026-07-27T02:03:43Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 5.25,
+        "bookmaker_slug": "bwin",
+        "bookmaker_name": "Bwin",
+        "updated_at": "2026-07-25T14:17:58Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "FC Thun",
+        "decimal_odds": 8.5,
+        "bookmaker_slug": "10bet",
+        "bookmaker_name": "10bet",
+        "updated_at": "2026-07-27T02:03:43Z"
+      }
+    ]
+  },
+  {
+    "event_id": 221150,
+    "event_date": "2026-07-28T18:00:00Z",
+    "league_id": 83,
+    "league_name": "Conference League",
+    "home_team_id": 380,
+    "home_team": "FC Drita",
+    "away_team_id": 3603,
+    "away_team": "Floriana FC",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "FC Drita",
+        "decimal_odds": 1.6,
+        "bookmaker_slug": "betano",
+        "bookmaker_name": "Betano",
+        "updated_at": "2026-07-26T14:14:11Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.82,
+        "bookmaker_slug": "marathon",
+        "bookmaker_name": "Marathon",
+        "updated_at": "2026-07-27T02:03:48Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Floriana FC",
+        "decimal_odds": 6.1,
+        "bookmaker_slug": "marathon",
+        "bookmaker_name": "Marathon",
+        "updated_at": "2026-07-27T02:03:48Z"
+      }
+    ]
+  },
+  {
+    "event_id": 216518,
+    "event_date": "2026-07-28T18:15:00Z",
+    "league_id": 7,
+    "league_name": "Champions League",
+    "home_team_id": 406,
+    "home_team": "NK Celje",
+    "away_team_id": 401,
+    "away_team": "KF Egnatia",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "NK Celje",
+        "decimal_odds": 1.44,
+        "bookmaker_slug": "betano",
+        "bookmaker_name": "Betano",
+        "updated_at": "2026-07-25T14:18:09Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 5.0,
+        "bookmaker_slug": "betway",
+        "bookmaker_name": "Betway",
+        "updated_at": "2026-07-25T14:18:09Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "KF Egnatia",
+        "decimal_odds": 7.4,
+        "bookmaker_slug": "betsson",
+        "bookmaker_name": "Betsson",
+        "updated_at": "2026-07-25T14:18:09Z"
+      }
+    ]
+  },
+  {
+    "event_id": 219445,
+    "event_date": "2026-07-28T18:30:00Z",
+    "league_id": 79,
+    "league_name": "Club Friendlies",
+    "home_team_id": 3,
+    "home_team": "Aston Villa",
+    "away_team_id": 48,
+    "away_team": "Real Sociedad",
+    "market": "1x2",
+    "best_odds": [
+      {
+        "outcome": "HOME",
+        "line": null,
+        "outcome_name": "Aston Villa",
+        "decimal_odds": 2.09,
+        "bookmaker_slug": "novibet",
+        "bookmaker_name": "Novibet",
+        "updated_at": "2026-07-27T02:04:10Z"
+      },
+      {
+        "outcome": "DRAW",
+        "line": null,
+        "outcome_name": "Draw",
+        "decimal_odds": 3.55,
+        "bookmaker_slug": "novibet",
+        "bookmaker_name": "Novibet",
+        "updated_at": "2026-07-26T14:14:33Z"
+      },
+      {
+        "outcome": "AWAY",
+        "line": null,
+        "outcome_name": "Real Sociedad",
+        "decimal_odds": 3.2,
+        "bookmaker_slug": "novibet",
+        "bookmaker_name": "Novibet",
+        "updated_at": "2026-07-26T14:14:33Z"
+      }
+    ]
+  }
+]

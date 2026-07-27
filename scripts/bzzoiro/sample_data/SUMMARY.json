@@ -1,0 +1,500 @@
+{
+  "generated_at": "2026-07-27T03:49:56.060519+00:00",
+  "base_url": "https://sports.bzzoiro.com",
+  "configuration": {
+    "comparison_season": "2025-2026",
+    "friendlies_season": "2026-2027",
+    "gameweek": 10,
+    "sample_matches": 10,
+    "friendly_sample": 100,
+    "profile_sample": 25,
+    "identity_detail_limit": 200,
+    "betting_enabled": true
+  },
+  "checks": [
+    {
+      "check_id": "static.player_match_coverage",
+      "section": "schema",
+      "status": "pass",
+      "summary": "35/62 non-identity stat columns are reachable",
+      "metrics": {
+        "repo_columns": 64,
+        "identity_columns": 2,
+        "stat_columns": 62,
+        "direct": 26,
+        "derived": 9,
+        "covered": 35,
+        "unavailable": 27,
+        "new_fields": 16
+      }
+    },
+    {
+      "check_id": "schema.openapi_inventory",
+      "section": "schema",
+      "status": "pass",
+      "summary": "64 paths and 159 schemas parsed",
+      "metrics": {
+        "openapi": "3.0.3",
+        "title": "Bzzoiro Sports Data API",
+        "version": "1.0.0",
+        "paths": 64,
+        "operations": 64,
+        "schemas": 159,
+        "betting_operations": [
+          {
+            "method": "GET",
+            "path": "/api/v2/bookmakers/",
+            "tags": [
+              "v2 / Bookmakers"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/events/{id}/odds/",
+            "tags": [
+              "v2 / Events"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/events/{id}/odds/comparison/",
+            "tags": [
+              "v2 / Events"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/events/{id}/polymarket/",
+            "tags": [
+              "v2 / Events"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/events/{id}/prediction/",
+            "tags": [
+              "v2 / Events"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/odds/",
+            "tags": [
+              "v2 / Odds"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/odds/best/",
+            "tags": [
+              "v2 / Odds"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/odds/{id}/",
+            "tags": [
+              "v2 / Odds"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/predictions/",
+            "tags": [
+              "v2 / Predictions"
+            ]
+          },
+          {
+            "method": "GET",
+            "path": "/api/v2/predictions/{id}/",
+            "tags": [
+              "v2 / Predictions"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check_id": "coverage.competitions",
+      "section": "coverage",
+      "status": "pass",
+      "summary": "All relevant competitions found",
+      "metrics": {
+        "found": {
+          "Premier League": 1,
+          "FA Cup": 39,
+          "EFL Cup": 40,
+          "Champions League": 7,
+          "Europa League": 8,
+          "Conference League": 83,
+          "Club Friendlies": 79
+        },
+        "missing": []
+      }
+    },
+    {
+      "check_id": "coverage.community_shield",
+      "section": "coverage",
+      "status": "warn",
+      "summary": "Community Shield not listed as a distinct competition",
+      "metrics": {}
+    },
+    {
+      "check_id": "coverage.history",
+      "section": "coverage",
+      "status": "pass",
+      "summary": "35 Premier League seasons; oldest starts 1992",
+      "metrics": {
+        "count": 35,
+        "oldest_start_year": 1992
+      }
+    },
+    {
+      "check_id": "overlap.fixture_mapping",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "10/10 fixtures mapped",
+      "metrics": {
+        "mapped": 10,
+        "total": 10,
+        "rate": 1.0,
+        "unmatched": []
+      }
+    },
+    {
+      "check_id": "overlap.scores",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "10/10 mapped scores agree",
+      "metrics": {
+        "agreed": 10,
+        "total": 10,
+        "rate": 1.0
+      }
+    },
+    {
+      "check_id": "overlap.player_mapping",
+      "section": "overlap",
+      "status": "warn",
+      "summary": "276/400 sampled player rows mapped",
+      "metrics": {
+        "mapped": 276,
+        "total": 400,
+        "rate": 0.69
+      }
+    },
+    {
+      "check_id": "overlap.lineup_identifiers",
+      "section": "overlap",
+      "status": "warn",
+      "summary": "0/400 historical lineup rows carry player IDs",
+      "metrics": {
+        "rows": 400,
+        "populated_ids": 0,
+        "detail_fallback_calls": 45
+      }
+    },
+    {
+      "check_id": "overlap.response_drift",
+      "section": "overlap",
+      "status": "warn",
+      "summary": "1 mapped fields absent; 6 live fields unmapped",
+      "metrics": {
+        "missing_mapped_fields": [
+          "penalty_miss"
+        ],
+        "unmapped_observed_fields": [
+          "blocked_scoring_attempt",
+          "possession_lost",
+          "punches",
+          "rating",
+          "red_card",
+          "yellow_card"
+        ]
+      }
+    },
+    {
+      "check_id": "overlap.stat.goals",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "mean absolute difference 0.0000 (threshold 0.0)",
+      "metrics": {
+        "n": 276,
+        "mean_absolute_difference": 0.0,
+        "exact": 276,
+        "exact_rate": 1.0,
+        "threshold": 0.0
+      }
+    },
+    {
+      "check_id": "overlap.stat.total_shots",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "mean absolute difference 0.0000 (threshold 0.0)",
+      "metrics": {
+        "n": 276,
+        "mean_absolute_difference": 0.0,
+        "exact": 276,
+        "exact_rate": 1.0,
+        "threshold": 0.0
+      }
+    },
+    {
+      "check_id": "overlap.stat.minutes_played",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "mean absolute difference 0.4384 (threshold 1.5)",
+      "metrics": {
+        "n": 276,
+        "mean_absolute_difference": 0.4384057971014493,
+        "exact": 270,
+        "exact_rate": 0.9782608695652174,
+        "threshold": 1.5
+      }
+    },
+    {
+      "check_id": "overlap.stat.touches",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "mean absolute difference 0.1957 (threshold 1.5)",
+      "metrics": {
+        "n": 276,
+        "mean_absolute_difference": 0.1956521739130435,
+        "exact": 273,
+        "exact_rate": 0.9891304347826086,
+        "threshold": 1.5
+      }
+    },
+    {
+      "check_id": "overlap.stat.xg",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "mean absolute difference 0.0024 (threshold 0.03)",
+      "metrics": {
+        "n": 121,
+        "mean_absolute_difference": 0.0023876033057851228,
+        "exact": 3,
+        "exact_rate": 0.024793388429752067,
+        "threshold": 0.03
+      }
+    },
+    {
+      "check_id": "overlap.stat.xa",
+      "section": "overlap",
+      "status": "pass",
+      "summary": "mean absolute difference 0.0028 (threshold 0.03)",
+      "metrics": {
+        "n": 268,
+        "mean_absolute_difference": 0.002778842238805971,
+        "exact": 0,
+        "exact_rate": 0.0,
+        "threshold": 0.03
+      }
+    },
+    {
+      "check_id": "enrichment.shotmap",
+      "section": "enrichment",
+      "status": "pass",
+      "summary": "19/19 shots carry a player ID",
+      "metrics": {
+        "event_id": 91,
+        "shots": 19,
+        "with_player_id": 19,
+        "with_xg": 19,
+        "with_xgot": 9,
+        "with_coordinates": 19
+      }
+    },
+    {
+      "check_id": "friendlies.team_mapping",
+      "section": "friendlies",
+      "status": "pass",
+      "summary": "20/20 current PL teams resolved",
+      "metrics": {
+        "mapped": 20,
+        "total": 20,
+        "rate": 1.0
+      }
+    },
+    {
+      "check_id": "friendlies.fixture_coverage",
+      "section": "friendlies",
+      "status": "warn",
+      "summary": "62/91 repository friendlies matched by opponents and kickoff",
+      "metrics": {
+        "api_events": 96,
+        "repo_events": 91,
+        "mapped_repo_events": 62,
+        "match_rate": 0.6813,
+        "partial_candidates": 17,
+        "api_only": 34,
+        "repo_only": 29
+      }
+    },
+    {
+      "check_id": "friendlies.player_stats",
+      "section": "friendlies",
+      "status": "pass",
+      "summary": "15/17 exact-mapped completed friendlies have player stats",
+      "metrics": {
+        "covered": 15,
+        "sampled": 17,
+        "completed_events": 21,
+        "completed_exact_events": 17
+      }
+    },
+    {
+      "check_id": "enrichment.lineups",
+      "section": "enrichment",
+      "status": "pass",
+      "summary": "40 player rows; status confirmed",
+      "metrics": {
+        "event_id": 91,
+        "lineup_status": "confirmed",
+        "player_rows": 40,
+        "unavailable_rows": 0
+      }
+    },
+    {
+      "check_id": "enrichment.incidents",
+      "section": "enrichment",
+      "status": "pass",
+      "summary": "18 incidents returned",
+      "metrics": {
+        "event_id": 91,
+        "count": 18,
+        "types": [
+          "card",
+          "goal",
+          "injuryTime",
+          "period",
+          "substitution"
+        ]
+      }
+    },
+    {
+      "check_id": "enrichment.player_profiles",
+      "section": "enrichment",
+      "status": "pass",
+      "summary": "17/25 profiles mapped; 25 with availability",
+      "metrics": {
+        "sampled": 25,
+        "mapped": 17,
+        "availability_present": 25
+      }
+    },
+    {
+      "check_id": "betting.global_odds",
+      "section": "betting",
+      "status": "pass",
+      "summary": "47 best-odds rows; markets 1x2",
+      "metrics": {
+        "rows": 47,
+        "markets": [
+          "1x2"
+        ]
+      }
+    },
+    {
+      "check_id": "betting.predictions",
+      "section": "betting",
+      "status": "pass",
+      "summary": "20 prediction rows sampled",
+      "metrics": {
+        "rows": 20
+      }
+    },
+    {
+      "check_id": "betting.event_markets",
+      "section": "betting",
+      "status": "pass",
+      "summary": "11 event odds fields; 4 bookmakers",
+      "metrics": {
+        "odds_fields": [
+          "away_win",
+          "btts_no",
+          "btts_yes",
+          "draw",
+          "home_win",
+          "over_15_goals",
+          "over_25_goals",
+          "over_35_goals",
+          "under_15_goals",
+          "under_25_goals",
+          "under_35_goals"
+        ],
+        "bookmakers_count": 4,
+        "polymarket": false
+      }
+    },
+    {
+      "check_id": "adoption.licensing",
+      "section": "adoption",
+      "status": "warn",
+      "summary": "Manual redistribution/licensing review remains required",
+      "metrics": {}
+    },
+    {
+      "check_id": "reliability.requests",
+      "section": "reliability",
+      "status": "pass",
+      "summary": "219/221 requests succeeded",
+      "metrics": {
+        "logical_requests": 221,
+        "http_attempts": 221,
+        "successful_requests": 219,
+        "success_rate": 0.991,
+        "median_ms": 342.7,
+        "p95_ms": 570.2,
+        "errors": [
+          {
+            "path": "/api/v2/events/219445/prediction/",
+            "params": {},
+            "attempts": 1,
+            "status": 404,
+            "elapsed_ms": 595.3,
+            "ok": false,
+            "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
+          },
+          {
+            "path": "/api/v2/events/219445/polymarket/",
+            "params": {},
+            "attempts": 1,
+            "status": 404,
+            "elapsed_ms": 256.7,
+            "ok": false,
+            "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
+          }
+        ]
+      }
+    }
+  ],
+  "api": {
+    "logical_requests": 221,
+    "http_attempts": 221,
+    "successful_requests": 219,
+    "success_rate": 0.991,
+    "median_ms": 342.7,
+    "p95_ms": 570.2,
+    "errors": [
+      {
+        "path": "/api/v2/events/219445/prediction/",
+        "params": {},
+        "attempts": 1,
+        "status": 404,
+        "elapsed_ms": 595.3,
+        "ok": false,
+        "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
+      },
+      {
+        "path": "/api/v2/events/219445/polymarket/",
+        "params": {},
+        "attempts": 1,
+        "status": 404,
+        "elapsed_ms": 256.7,
+        "ok": false,
+        "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
+      }
+    ]
+  }
+}

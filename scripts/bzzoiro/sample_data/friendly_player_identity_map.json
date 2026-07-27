@@ -1,0 +1,7012 @@
+[
+  {
+    "season": "2026-2027",
+    "provider_player_id": 323,
+    "provider_name": "Joe Gomez",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "359",
+    "fpl_name": "Gomez",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 325,
+    "provider_name": "Virgil van Dijk",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "356",
+    "fpl_name": "Virgil",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 327,
+    "provider_name": "Ryan Gravenberch",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "371",
+    "fpl_name": "Gravenberch",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 328,
+    "provider_name": "Alexis Mac Allister",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "372",
+    "fpl_name": "Mac Allister",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 329,
+    "provider_name": "Dominik Szoboszlai",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "368",
+    "fpl_name": "Szoboszlai",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 330,
+    "provider_name": "Florian Wirtz",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "366",
+    "fpl_name": "Wirtz",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 331,
+    "provider_name": "Cody Gakpo",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "367",
+    "fpl_name": "Gakpo",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 332,
+    "provider_name": "Alexander Isak",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "379",
+    "fpl_name": "Isak",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 334,
+    "provider_name": "Curtis Jones",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "373",
+    "fpl_name": "C.Jones",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 335,
+    "provider_name": "Hugo Ekitiké",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "380",
+    "fpl_name": "Ekitiké",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 336,
+    "provider_name": "Miloš Kerkez",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "358",
+    "fpl_name": "Kerkez",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 337,
+    "provider_name": "Federico Chiesa",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "370",
+    "fpl_name": "Chiesa",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 338,
+    "provider_name": "Giorgi Mamardashvili",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "351",
+    "fpl_name": "Mamardashvili",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 340,
+    "provider_name": "Trey Nyoni",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "375",
+    "fpl_name": "Nyoni",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 341,
+    "provider_name": "Rio Ngumoha",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "369",
+    "fpl_name": "Ngumoha",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 342,
+    "provider_name": "Robin Roefs",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "529",
+    "fpl_name": "Roefs",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 343,
+    "provider_name": "Nordi Mukiele",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "533",
+    "fpl_name": "Mukiele",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 344,
+    "provider_name": "Daniel Ballard",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "532",
+    "fpl_name": "Ballard",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 345,
+    "provider_name": "Omar Alderete",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "535",
+    "fpl_name": "Alderete",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 346,
+    "provider_name": "Reinildo Mandava",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "536",
+    "fpl_name": "Reinildo",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 347,
+    "provider_name": "Trai Hume",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "534",
+    "fpl_name": "Hume",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 348,
+    "provider_name": "Granit Xhaka",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "544",
+    "fpl_name": "Xhaka",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 349,
+    "provider_name": "Noah Sadiki",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "545",
+    "fpl_name": "Sadiki",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 350,
+    "provider_name": "Chemsdine Talbi",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "549",
+    "fpl_name": "Talbi",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 351,
+    "provider_name": "Enzo Le Fée",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "542",
+    "fpl_name": "E.Le Fée",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 352,
+    "provider_name": "Brian Brobbey",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "552",
+    "fpl_name": "Brobbey",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 353,
+    "provider_name": "Wilson Isidor",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "553",
+    "fpl_name": "Isidor",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 355,
+    "provider_name": "Luke O'Nien",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "539",
+    "fpl_name": "O'Nien",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 356,
+    "provider_name": "Anthony Patterson",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "530",
+    "fpl_name": "Patterson",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 358,
+    "provider_name": "Simon Adingra",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "546",
+    "fpl_name": "Adingra",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 359,
+    "provider_name": "Romaine Mundle",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "547",
+    "fpl_name": "Mundle",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 362,
+    "provider_name": "Lucas Perri",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "326",
+    "fpl_name": "Perri",
+    "fpl_team_code": "2",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 363,
+    "provider_name": "Joe Rodon",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "329",
+    "fpl_name": "Rodon",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 364,
+    "provider_name": "Jaka Bijol",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "327",
+    "fpl_name": "Bijol",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 365,
+    "provider_name": "Pascal Struijk",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "328",
+    "fpl_name": "Struijk",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 366,
+    "provider_name": "Jayden Bogle",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "330",
+    "fpl_name": "Bogle",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 368,
+    "provider_name": "Ethan Ampadu",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "338",
+    "fpl_name": "Ampadu",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 369,
+    "provider_name": "Anton Stach",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "335",
+    "fpl_name": "Stach",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 370,
+    "provider_name": "Gabriel Gudmundsson",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "331",
+    "fpl_name": "Gudmundsson",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 371,
+    "provider_name": "Dominic Calvert-Lewin",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "346",
+    "fpl_name": "Calvert-Lewin",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 372,
+    "provider_name": "Lukas Nmecha",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "347",
+    "fpl_name": "Nmecha",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 373,
+    "provider_name": "Ilia Gruev",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "344",
+    "fpl_name": "Gruev",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 374,
+    "provider_name": "Noah Okafor",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "336",
+    "fpl_name": "Okafor",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 375,
+    "provider_name": "Joël Piroe",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "348",
+    "fpl_name": "Piroe",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 376,
+    "provider_name": "James Justin",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "332",
+    "fpl_name": "Justin",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 377,
+    "provider_name": "Sebastiaan Bornauw",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "333",
+    "fpl_name": "Bornauw",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 378,
+    "provider_name": "Karl Darlow",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "325",
+    "fpl_name": "Darlow",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 380,
+    "provider_name": "Brenden Aaronson",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "337",
+    "fpl_name": "Aaronson",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 381,
+    "provider_name": "Wilfried Gnonto",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "341",
+    "fpl_name": "Gnonto",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 382,
+    "provider_name": "Robert Sánchez",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "140",
+    "fpl_name": "Sánchez",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 383,
+    "provider_name": "Trevoh Chalobah",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "143",
+    "fpl_name": "Chalobah",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 384,
+    "provider_name": "Tosin Adarabioyo",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "147",
+    "fpl_name": "Tosin",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 387,
+    "provider_name": "Enzo Fernández",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "155",
+    "fpl_name": "Enzo",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 388,
+    "provider_name": "Andrey Santos",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "162",
+    "fpl_name": "Andrey Santos",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 389,
+    "provider_name": "Estêvão",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "157",
+    "fpl_name": "Estêvão",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 390,
+    "provider_name": "João Pedro",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "165",
+    "fpl_name": "João Pedro",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 391,
+    "provider_name": "Jamie Gittens",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "158",
+    "fpl_name": "Gittens",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 392,
+    "provider_name": "Liam Delap",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "167",
+    "fpl_name": "Delap",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 393,
+    "provider_name": "Malo Gusto",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "144",
+    "fpl_name": "Gusto",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 394,
+    "provider_name": "Pedro Neto",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "156",
+    "fpl_name": "Neto",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 395,
+    "provider_name": "Cole Palmer",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "154",
+    "fpl_name": "Palmer",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 397,
+    "provider_name": "Marc Guiu",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "168",
+    "fpl_name": "Marc Guiu",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 399,
+    "provider_name": "Josh Acheampong",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "151",
+    "fpl_name": "Acheampong",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 400,
+    "provider_name": "Reece James",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "142",
+    "fpl_name": "James",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 401,
+    "provider_name": "Jorrel Hato",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "148",
+    "fpl_name": "Hato",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 407,
+    "provider_name": "Loum Tchaouna",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "190",
+    "fpl_name": "Tchaouna",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 410,
+    "provider_name": "Jaidon Anthony",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "105",
+    "fpl_name": "Anthony",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 422,
+    "provider_name": "Dean Henderson",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "198",
+    "fpl_name": "Henderson",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 423,
+    "provider_name": "Chris Richards",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "202",
+    "fpl_name": "Richards",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 424,
+    "provider_name": "Maxence Lacroix",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "200",
+    "fpl_name": "Lacroix",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 425,
+    "provider_name": "Marc Guéhi",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "388",
+    "fpl_name": "Guéhi",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 427,
+    "provider_name": "Adam Wharton",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "210",
+    "fpl_name": "Wharton",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 429,
+    "provider_name": "Tyrick Mitchell",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "204",
+    "fpl_name": "Mitchell",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 430,
+    "provider_name": "Daichi Kamada",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "214",
+    "fpl_name": "Kamada",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 432,
+    "provider_name": "Jean-Philippe Mateta",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "223",
+    "fpl_name": "Mateta",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 433,
+    "provider_name": "Justin Devenny",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "215",
+    "fpl_name": "Devenny",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 434,
+    "provider_name": "Eddie Nketiah",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "224",
+    "fpl_name": "Nketiah",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 435,
+    "provider_name": "Will Hughes",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "212",
+    "fpl_name": "Hughes",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 436,
+    "provider_name": "Jaydee Canvot",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "203",
+    "fpl_name": "Canvot",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 437,
+    "provider_name": "Remi Matthews",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "555",
+    "fpl_name": "Matthews",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 438,
+    "provider_name": "Walter Benítez",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "199",
+    "fpl_name": "Benitez",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 440,
+    "provider_name": "Romain Esse",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "216",
+    "fpl_name": "Esse",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 443,
+    "provider_name": "Ben White",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "10",
+    "fpl_name": "White",
+    "fpl_team_code": "3",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 444,
+    "provider_name": "Cristhian Mosquera",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "11",
+    "fpl_name": "Mosquera",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 445,
+    "provider_name": "Piero Hincapié",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "9",
+    "fpl_name": "Hincapie",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 446,
+    "provider_name": "Riccardo Calafiori",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "8",
+    "fpl_name": "Calafiori",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 447,
+    "provider_name": "Martin Ødegaard",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "15",
+    "fpl_name": "Ødegaard",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 449,
+    "provider_name": "Declan Rice",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "13",
+    "fpl_name": "Rice",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 450,
+    "provider_name": "Noni Madueke",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "16",
+    "fpl_name": "Madueke",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 453,
+    "provider_name": "Jurriën Timber",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "5",
+    "fpl_name": "J.Timber",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 454,
+    "provider_name": "Eberechi Eze",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "14",
+    "fpl_name": "Eze",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 455,
+    "provider_name": "Bukayo Saka",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "12",
+    "fpl_name": "Saka",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 456,
+    "provider_name": "Viktor Gyökeres",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "25",
+    "fpl_name": "Gyökeres",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 458,
+    "provider_name": "Myles Lewis-Skelly",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "7",
+    "fpl_name": "Lewis-Skelly",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 459,
+    "provider_name": "Christian Nørgaard",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "21",
+    "fpl_name": "Nørgaard",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 460,
+    "provider_name": "Ethan Nwaneri",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "22",
+    "fpl_name": "Nwaneri",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 461,
+    "provider_name": "Gabriel Jesus",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "27",
+    "fpl_name": "G.Jesus",
+    "fpl_team_code": "3",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 462,
+    "provider_name": "Caoimhin Kelleher",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "82",
+    "fpl_name": "Kelleher",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 463,
+    "provider_name": "Michael Kayode",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "88",
+    "fpl_name": "Kayode",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 464,
+    "provider_name": "Kristoffer Ajer",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "87",
+    "fpl_name": "Ajer",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 465,
+    "provider_name": "Ethan Pinnock",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "91",
+    "fpl_name": "Pinnock",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 466,
+    "provider_name": "Sepp van den Berg",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "85",
+    "fpl_name": "Van den Berg",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 467,
+    "provider_name": "Rico Henry",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "89",
+    "fpl_name": "Henry",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 468,
+    "provider_name": "Yehor Yarmoliuk",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "102",
+    "fpl_name": "Yarmoliuk",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 469,
+    "provider_name": "Vitaly Janelt",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "98",
+    "fpl_name": "Janelt",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 470,
+    "provider_name": "Mathias Jensen",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "97",
+    "fpl_name": "Jensen",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 471,
+    "provider_name": "Dango Ouattara",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "95",
+    "fpl_name": "O.Dango",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 472,
+    "provider_name": "Kevin Schade",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "94",
+    "fpl_name": "Schade",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 474,
+    "provider_name": "Jordan Henderson",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "101",
+    "fpl_name": "Henderson",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 475,
+    "provider_name": "Mikkel Damsgaard",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "96",
+    "fpl_name": "Damsgaard",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 476,
+    "provider_name": "Nathan Collins",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "84",
+    "fpl_name": "Collins",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 477,
+    "provider_name": "Keane Lewis-Potter",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "86",
+    "fpl_name": "Lewis-Potter",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 478,
+    "provider_name": "Hákon Rafn Valdimarsson",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "83",
+    "fpl_name": "Valdimarsson",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 480,
+    "provider_name": "Frank Onyeka",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "104",
+    "fpl_name": "Onyeka",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 482,
+    "provider_name": "Bart Verbruggen",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "109",
+    "fpl_name": "Verbruggen",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 483,
+    "provider_name": "Mats Wieffer",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "130",
+    "fpl_name": "Wieffer",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 485,
+    "provider_name": "Lewis Dunk",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "116",
+    "fpl_name": "Dunk",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 486,
+    "provider_name": "Ferdi Kadıoğlu",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "113",
+    "fpl_name": "F.Kadıoğlu",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 487,
+    "provider_name": "Carlos Baleba",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "131",
+    "fpl_name": "Baleba",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 489,
+    "provider_name": "Yankuba Minteh",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "122",
+    "fpl_name": "Minteh",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 491,
+    "provider_name": "Maxim De Cuyper",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "115",
+    "fpl_name": "De Cuyper",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 492,
+    "provider_name": "Stefanos Tzimas",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "137",
+    "fpl_name": "Tzimas",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 493,
+    "provider_name": "Jack Hinshelwood",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "123",
+    "fpl_name": "Hinshelwood",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 494,
+    "provider_name": "Danny Welbeck",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "136",
+    "fpl_name": "Welbeck",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 495,
+    "provider_name": "Charalampos Kostoulas",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "138",
+    "fpl_name": "Kostoulas",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 497,
+    "provider_name": "Jason Steele",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "111",
+    "fpl_name": "Steele",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 498,
+    "provider_name": "Olivier Boscagli",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "114",
+    "fpl_name": "Boscagli",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 501,
+    "provider_name": "Nehemiah Oriola",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "134",
+    "fpl_name": "Oriola",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 502,
+    "provider_name": "Marco Bizot",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "29",
+    "fpl_name": "M.Bizot",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 503,
+    "provider_name": "Matty Cash",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "32",
+    "fpl_name": "Cash",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 505,
+    "provider_name": "Pau Torres",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "34",
+    "fpl_name": "Pau",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 506,
+    "provider_name": "Ian Maatsen",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "36",
+    "fpl_name": "Maatsen",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 507,
+    "provider_name": "Boubacar Kamara",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "47",
+    "fpl_name": "Kamara",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 508,
+    "provider_name": "Amadou Onana",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "48",
+    "fpl_name": "Onana",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 509,
+    "provider_name": "Evann Guessand",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "42",
+    "fpl_name": "Guessand",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 510,
+    "provider_name": "John McGinn",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "45",
+    "fpl_name": "McGinn",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 511,
+    "provider_name": "Morgan Rogers",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "40",
+    "fpl_name": "Rogers",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 512,
+    "provider_name": "Ollie Watkins",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "55",
+    "fpl_name": "Watkins",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 513,
+    "provider_name": "Lucas Digne",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "30",
+    "fpl_name": "Digne",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 514,
+    "provider_name": "Youri Tielemans",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "43",
+    "fpl_name": "Tielemans",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 516,
+    "provider_name": "Lamare Bogarde",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "35",
+    "fpl_name": "Bogarde",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 519,
+    "provider_name": "Victor Lindelöf",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "37",
+    "fpl_name": "Lindelöf",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 528,
+    "provider_name": "João Gomes",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "54",
+    "fpl_name": "Gomes",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 531,
+    "provider_name": "Jørgen Strand Larsen",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "222",
+    "fpl_name": "Strand Larsen",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 542,
+    "provider_name": "Matz Sels",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "467",
+    "fpl_name": "Sels",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 543,
+    "provider_name": "Nicolò Savona",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "475",
+    "fpl_name": "Savona",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 544,
+    "provider_name": "Nikola Milenković",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "471",
+    "fpl_name": "Milenković",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 545,
+    "provider_name": "Morato",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "470",
+    "fpl_name": "Morato",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 546,
+    "provider_name": "Neco Williams",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "469",
+    "fpl_name": "N.Williams",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 547,
+    "provider_name": "Ibrahim Sangaré",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "488",
+    "fpl_name": "Sangaré",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 548,
+    "provider_name": "Elliot Anderson",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "481",
+    "fpl_name": "Anderson",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 549,
+    "provider_name": "Omari Hutchinson",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "484",
+    "fpl_name": "Hutchinson",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 550,
+    "provider_name": "Morgan Gibbs-White",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "480",
+    "fpl_name": "Gibbs-White",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 551,
+    "provider_name": "Dan Ndoye",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "483",
+    "fpl_name": "Ndoye",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 552,
+    "provider_name": "Igor Jesus",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "491",
+    "fpl_name": "Igor Jesus",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 553,
+    "provider_name": "Callum Hudson Odoi",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "482",
+    "fpl_name": "Hudson-Odoi",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 554,
+    "provider_name": "Ryan Yates",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "489",
+    "fpl_name": "Yates",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 555,
+    "provider_name": "Nicolás Domínguez",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "487",
+    "fpl_name": "Dominguez",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 559,
+    "provider_name": "Zach Abbott",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "477",
+    "fpl_name": "Abbott",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 560,
+    "provider_name": "James McAtee",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "486",
+    "fpl_name": "McAtee",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 561,
+    "provider_name": "Arnaud Kalimuendo",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "493",
+    "fpl_name": "Kalimuendo",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 614,
+    "provider_name": "Alysson",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "52",
+    "fpl_name": "Alysson",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 663,
+    "provider_name": "Rayan",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "67",
+    "fpl_name": "Rayan",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 699,
+    "provider_name": "Tino Livramento",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "450",
+    "fpl_name": "Livramento",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 700,
+    "provider_name": "Malick Thiaw",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "445",
+    "fpl_name": "Thiaw",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 701,
+    "provider_name": "Dan Burn",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "448",
+    "fpl_name": "Burn",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 702,
+    "provider_name": "Lewis Hall",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "449",
+    "fpl_name": "Hall",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 703,
+    "provider_name": "Lewis Miley",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "459",
+    "fpl_name": "L.Miley",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 705,
+    "provider_name": "Joelinton",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "458",
+    "fpl_name": "Joelinton",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 706,
+    "provider_name": "Jacob Murphy",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "457",
+    "fpl_name": "J.Murphy",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 707,
+    "provider_name": "Nick Woltemade",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "463",
+    "fpl_name": "Woltemade",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 708,
+    "provider_name": "Harvey Barnes",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "453",
+    "fpl_name": "Barnes",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 710,
+    "provider_name": "Anthony Elanga",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "454",
+    "fpl_name": "Elanga",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 712,
+    "provider_name": "Fabian Schär",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "446",
+    "fpl_name": "Schär",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 714,
+    "provider_name": "Alex Murphy",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "451",
+    "fpl_name": "A.Murphy",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 715,
+    "provider_name": "Joe Willock",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "460",
+    "fpl_name": "Willock",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 716,
+    "provider_name": "Jacob Ramsey",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "456",
+    "fpl_name": "J.Ramsey",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 717,
+    "provider_name": "Sean Neave",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "466",
+    "fpl_name": "Neave",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 727,
+    "provider_name": "Brennan Johnson",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "209",
+    "fpl_name": "Johnson",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 750,
+    "provider_name": "Marcus Rashford",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "429",
+    "fpl_name": "Rashford",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 783,
+    "provider_name": "Đorđe Petrović",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "57",
+    "fpl_name": "Petrović",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 785,
+    "provider_name": "Veljko Milosavljević",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "63",
+    "fpl_name": "Milosavljević",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 786,
+    "provider_name": "Bafodé Diakité",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "62",
+    "fpl_name": "Diakité",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 787,
+    "provider_name": "Adrien Truffert",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "61",
+    "fpl_name": "Truffert",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 788,
+    "provider_name": "Tyler Adams",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "73",
+    "fpl_name": "Adams",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 789,
+    "provider_name": "Alex Scott",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "69",
+    "fpl_name": "Scott",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 790,
+    "provider_name": "Amine Adli",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "77",
+    "fpl_name": "Adli",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 791,
+    "provider_name": "Justin Kluivert",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "70",
+    "fpl_name": "Kluivert",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 792,
+    "provider_name": "Antoine Semenyo",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "397",
+    "fpl_name": "Semenyo",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 793,
+    "provider_name": "Eli Junior Kroupi",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "78",
+    "fpl_name": "Kroupi.Jr",
+    "fpl_team_code": "91",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 794,
+    "provider_name": "Marcus Tavernier",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "68",
+    "fpl_name": "Tavernier",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 795,
+    "provider_name": "Evanilson",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "79",
+    "fpl_name": "Evanilson",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 797,
+    "provider_name": "Enes Ünal",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "80",
+    "fpl_name": "Enes Ünal",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 798,
+    "provider_name": "Will Dennis",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "59",
+    "fpl_name": "Dennis",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 799,
+    "provider_name": "James Hill",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "60",
+    "fpl_name": "Hill",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 801,
+    "provider_name": "Adam Smith",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "64",
+    "fpl_name": "Smith",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 803,
+    "provider_name": "Jordan Pickford",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "226",
+    "fpl_name": "Pickford",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 804,
+    "provider_name": "James Garner",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "239",
+    "fpl_name": "Garner",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 805,
+    "provider_name": "James Tarkowski",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "229",
+    "fpl_name": "Tarkowski",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 806,
+    "provider_name": "Jake O'Brien",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "232",
+    "fpl_name": "O'Brien",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 807,
+    "provider_name": "Vitaliy Mykolenko",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "233",
+    "fpl_name": "Mykolenko",
+    "fpl_team_code": "11",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 808,
+    "provider_name": "Tim Iroegbunam",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "240",
+    "fpl_name": "Iroegbunam",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 809,
+    "provider_name": "Kiernan Dewsbury-Hall",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "236",
+    "fpl_name": "Dewsbury-Hall",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 810,
+    "provider_name": "Iliman Ndiaye",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "237",
+    "fpl_name": "Ndiaye",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 812,
+    "provider_name": "Jack Grealish",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "238",
+    "fpl_name": "Grealish",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 813,
+    "provider_name": "Thierno Barry",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "249",
+    "fpl_name": "Barry",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 814,
+    "provider_name": "Dwight McNeil",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "241",
+    "fpl_name": "McNeil",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 815,
+    "provider_name": "Beto",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "248",
+    "fpl_name": "Beto",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 816,
+    "provider_name": "Mark Travers",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "227",
+    "fpl_name": "Travers",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 817,
+    "provider_name": "Tom King",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "228",
+    "fpl_name": "King",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 818,
+    "provider_name": "Nathan Patterson",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "234",
+    "fpl_name": "Patterson",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 819,
+    "provider_name": "Adam Aznou",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "235",
+    "fpl_name": "Aznou",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 822,
+    "provider_name": "Tyler Dibling",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "245",
+    "fpl_name": "Dibling",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 823,
+    "provider_name": "Bernd Leno",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "250",
+    "fpl_name": "Leno",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 824,
+    "provider_name": "Kenny Tete",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "256",
+    "fpl_name": "Tete",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 825,
+    "provider_name": "Joachim Andersen",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "253",
+    "fpl_name": "Andersen",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 826,
+    "provider_name": "Calvin Bassey",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "257",
+    "fpl_name": "Bassey",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 827,
+    "provider_name": "Ryan Sessegnon",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "269",
+    "fpl_name": "Sessegnon",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 828,
+    "provider_name": "Saša Lukić",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "267",
+    "fpl_name": "Lukić",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 829,
+    "provider_name": "Sander Berge",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "265",
+    "fpl_name": "Berge",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 830,
+    "provider_name": "Harry Wilson",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "260",
+    "fpl_name": "Wilson",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 831,
+    "provider_name": "Emile Smith Rowe",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "262",
+    "fpl_name": "Smith Rowe",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 832,
+    "provider_name": "Alex Iwobi",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "261",
+    "fpl_name": "Iwobi",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 834,
+    "provider_name": "Timothy Castagne",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "258",
+    "fpl_name": "Castagne",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 836,
+    "provider_name": "Jonah Kusi-Asare",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "272",
+    "fpl_name": "Kusi-Asare",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 837,
+    "provider_name": "Joshua King",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "268",
+    "fpl_name": "King",
+    "fpl_team_code": "54",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 838,
+    "provider_name": "Kevin",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "263",
+    "fpl_name": "Kevin",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 839,
+    "provider_name": "Benjamin Lecomte",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "251",
+    "fpl_name": "Lecomte",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 841,
+    "provider_name": "Harrison Reed",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "270",
+    "fpl_name": "Reed",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 842,
+    "provider_name": "Tom Cairney",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "266",
+    "fpl_name": "Cairney",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 843,
+    "provider_name": "Gianluigi Donnarumma",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "384",
+    "fpl_name": "Donnarumma",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 844,
+    "provider_name": "Matheus Nunes",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "389",
+    "fpl_name": "Matheus N.",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 845,
+    "provider_name": "Rúben Dias",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "390",
+    "fpl_name": "Rúben",
+    "fpl_team_code": "43",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 846,
+    "provider_name": "Joško Gvardiol",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "391",
+    "fpl_name": "Gvardiol",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 847,
+    "provider_name": "Nico O'Reilly",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "387",
+    "fpl_name": "O'Reilly",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 850,
+    "provider_name": "Tijjani Reijnders",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "404",
+    "fpl_name": "Reijnders",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 851,
+    "provider_name": "Phil Foden",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "398",
+    "fpl_name": "Foden",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 852,
+    "provider_name": "Erling Haaland",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "411",
+    "fpl_name": "Haaland",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 853,
+    "provider_name": "Jérémy Doku",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "400",
+    "fpl_name": "Doku",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 855,
+    "provider_name": "Savinho",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "403",
+    "fpl_name": "Savinho",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 856,
+    "provider_name": "Rayan Cherki",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "399",
+    "fpl_name": "Cherki",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 858,
+    "provider_name": "James Trafford",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "385",
+    "fpl_name": "Trafford",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 859,
+    "provider_name": "Rico Lewis",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "395",
+    "fpl_name": "Lewis",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 860,
+    "provider_name": "Abdukodir Khusanov",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "393",
+    "fpl_name": "Khusanov",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 861,
+    "provider_name": "Rayan Aït-Nouri",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "392",
+    "fpl_name": "Aït-Nouri",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 862,
+    "provider_name": "Omar Marmoush",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "401",
+    "fpl_name": "Marmoush",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1039,
+    "provider_name": "Vitor Reis",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "396",
+    "fpl_name": "Vitor Reis",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1068,
+    "provider_name": "Evan Ferguson",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "139",
+    "fpl_name": "Ferguson",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1072,
+    "provider_name": "Leon Bailey",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "44",
+    "fpl_name": "Bailey",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1077,
+    "provider_name": "Kostas Tsimikas",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "364",
+    "fpl_name": "Tsimikas",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1178,
+    "provider_name": "Johan Manzambi",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "53",
+    "fpl_name": "Manzambi",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1220,
+    "provider_name": "Geovany Quenda",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "164",
+    "fpl_name": "Quenda",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1272,
+    "provider_name": "Óscar Mingueza",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "207",
+    "fpl_name": "Mingueza",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1344,
+    "provider_name": "Wesley Fofana",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "145",
+    "fpl_name": "Fofana",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1362,
+    "provider_name": "Aurèle Amenda",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "182",
+    "fpl_name": "Amenda",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1368,
+    "provider_name": "Jenson Seelt",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "537",
+    "fpl_name": "Seelt",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1446,
+    "provider_name": "Thomas Meunier",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "541",
+    "fpl_name": "Meunier",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1591,
+    "provider_name": "Luka Vušković",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "504",
+    "fpl_name": "Vuskovic",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1602,
+    "provider_name": "Fábio Vieira",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "23",
+    "fpl_name": "Fábio Vieira",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1630,
+    "provider_name": "Ross Barkley",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "46",
+    "fpl_name": "Barkley",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1632,
+    "provider_name": "Yasin Ayari",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "129",
+    "fpl_name": "Ayari",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1633,
+    "provider_name": "Georginio Rutter",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "125",
+    "fpl_name": "Georginio",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1644,
+    "provider_name": "Callum Wilson",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "108",
+    "fpl_name": "Wilson",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1704,
+    "provider_name": "Mamadou Sarr",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "150",
+    "fpl_name": "M.Sarr",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1714,
+    "provider_name": "Emmanuel Emegha",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "170",
+    "fpl_name": "Emegha",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1787,
+    "provider_name": "Ismaïla Sarr",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "208",
+    "fpl_name": "Sarr",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1788,
+    "provider_name": "Senne Lammens",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "412",
+    "fpl_name": "Lammens",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1789,
+    "provider_name": "Leny Yoro",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "420",
+    "fpl_name": "Yoro",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1790,
+    "provider_name": "Matthijs de Ligt",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "416",
+    "fpl_name": "De Ligt",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1791,
+    "provider_name": "Luke Shaw",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "423",
+    "fpl_name": "Shaw",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1792,
+    "provider_name": "Amad Diallo",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "431",
+    "fpl_name": "Amad",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1794,
+    "provider_name": "Bruno Fernandes",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "426",
+    "fpl_name": "B.Fernandes",
+    "fpl_team_code": "1",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1796,
+    "provider_name": "Bryan Mbeumo",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "427",
+    "fpl_name": "Mbeumo",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1797,
+    "provider_name": "Mason Mount",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "430",
+    "fpl_name": "Mount",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1798,
+    "provider_name": "Joshua Zirkzee",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "440",
+    "fpl_name": "Zirkzee",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1799,
+    "provider_name": "Noussair Mazraoui",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "422",
+    "fpl_name": "Mazraoui",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1800,
+    "provider_name": "Lisandro Martínez",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "419",
+    "fpl_name": "Martinez",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1801,
+    "provider_name": "Patrick Dorgu",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "415",
+    "fpl_name": "Dorgu",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1802,
+    "provider_name": "Kobbie Mainoo",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "432",
+    "fpl_name": "Mainoo",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1803,
+    "provider_name": "Altay Bayındır",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "413",
+    "fpl_name": "Bayindir",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1804,
+    "provider_name": "Ayden Heaven",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "421",
+    "fpl_name": "Heaven",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1807,
+    "provider_name": "Shea Lacey",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "435",
+    "fpl_name": "Lacey",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1937,
+    "provider_name": "Matt O'Riley",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "126",
+    "fpl_name": "O'Riley",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2134,
+    "provider_name": "Michael Keane",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "231",
+    "fpl_name": "Keane",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2147,
+    "provider_name": "Claudio Echeverri",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "407",
+    "fpl_name": "Echeverri",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2173,
+    "provider_name": "Pascal Groß",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "124",
+    "fpl_name": "Groß",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2202,
+    "provider_name": "Marco Palestra",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "152",
+    "fpl_name": "Palestra",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2366,
+    "provider_name": "Daniel James",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "343",
+    "fpl_name": "James",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2367,
+    "provider_name": "Illan Meslier",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "3",
+    "fpl_name": "Meslier",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2369,
+    "provider_name": "Chris Rigg",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "548",
+    "fpl_name": "Rigg",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2371,
+    "provider_name": "Lewis Cook",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "71",
+    "fpl_name": "Cook",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2372,
+    "provider_name": "David Brooks",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "74",
+    "fpl_name": "Brooks",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2373,
+    "provider_name": "Aaron Hickey",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "90",
+    "fpl_name": "Hickey",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2374,
+    "provider_name": "Reiss Nelson",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "24",
+    "fpl_name": "Nelson",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2385,
+    "provider_name": "Bazoumana Touré",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "461",
+    "fpl_name": "Touré",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2471,
+    "provider_name": "Nicolas Jackson",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "166",
+    "fpl_name": "N.Jackson",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2644,
+    "provider_name": "Mateo Joseph",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "349",
+    "fpl_name": "Mateo Joseph",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2668,
+    "provider_name": "Víctor Muñoz",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "377",
+    "fpl_name": "Munoz",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2748,
+    "provider_name": "Abu Kamara",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "293",
+    "fpl_name": "Kamara",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2767,
+    "provider_name": "Álvaro Rodriguez",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "81",
+    "fpl_name": "Rodríguez",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2803,
+    "provider_name": "Jérémy Jacquet",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "362",
+    "fpl_name": "Jacquet",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2846,
+    "provider_name": "Tarik Muharemović",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "334",
+    "fpl_name": "Muharemović",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2871,
+    "provider_name": "Luca Netz",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "478",
+    "fpl_name": "Netz",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2892,
+    "provider_name": "Xaver Schlager",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "558",
+    "fpl_name": "Schlager",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2904,
+    "provider_name": "Kosta Nedeljković",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "39",
+    "fpl_name": "Nedeljkovic",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2913,
+    "provider_name": "Murillo",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "472",
+    "fpl_name": "Murillo",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2918,
+    "provider_name": "Melker Ellborg",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "531",
+    "fpl_name": "Ellborg",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3010,
+    "provider_name": "Jack Butland",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "274",
+    "fpl_name": "Butland",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3051,
+    "provider_name": "Jannik Schuster",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "93",
+    "fpl_name": "Schuster",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3194,
+    "provider_name": "Harvey Elliott",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "383",
+    "fpl_name": "Elliott",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3438,
+    "provider_name": "Alex Tóth",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "76",
+    "fpl_name": "Tóth.A",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3460,
+    "provider_name": "William Saliba",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "6",
+    "fpl_name": "Saliba",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3490,
+    "provider_name": "Costinha",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "119",
+    "fpl_name": "Costinha",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3500,
+    "provider_name": "Freddie Woodman",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "352",
+    "fpl_name": "Woodman",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3543,
+    "provider_name": "Christos Tzolis",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "557",
+    "fpl_name": "Tzolis",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3651,
+    "provider_name": "Oscar Bobb",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "264",
+    "fpl_name": "Bobb",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3652,
+    "provider_name": "Marcus Bettinelli",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "386",
+    "fpl_name": "Bettinelli",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3659,
+    "provider_name": "Tyrique George",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "242",
+    "fpl_name": "George",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3660,
+    "provider_name": "Facundo Buonanotte",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "128",
+    "fpl_name": "Buonanotte",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3694,
+    "provider_name": "Nick Pope",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "442",
+    "fpl_name": "Pope",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3696,
+    "provider_name": "Sven Botman",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "447",
+    "fpl_name": "Botman",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3765,
+    "provider_name": "Vítězslav Jaroš",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "354",
+    "fpl_name": "Jaros",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3840,
+    "provider_name": "Max Dowman",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "20",
+    "fpl_name": "Dowman",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3859,
+    "provider_name": "Sean Longstaff",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "339",
+    "fpl_name": "Longstaff",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219416
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-leeds-united-vs-wrexham-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3899,
+    "provider_name": "Calvin Ramsay",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "365",
+    "fpl_name": "Ramsay",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3900,
+    "provider_name": "Ryan Christie",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "75",
+    "fpl_name": "Christie",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3903,
+    "provider_name": "Arthur Masuaku",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "540",
+    "fpl_name": "Masuaku",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3906,
+    "provider_name": "Borna Sosa",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "205",
+    "fpl_name": "Sosa",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4002,
+    "provider_name": "Conor Bradley",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "360",
+    "fpl_name": "Bradley",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4022,
+    "provider_name": "Fabio Carvalho",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "100",
+    "fpl_name": "Carvalho",
+    "fpl_team_code": "94",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4026,
+    "provider_name": "Taiwo Awoniyi",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "492",
+    "fpl_name": "Awoniyi",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4027,
+    "provider_name": "Ben Gannon-Doak",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "72",
+    "fpl_name": "Gannon-Doak",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219307
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4072,
+    "provider_name": "Gabriel Magalhães",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "4",
+    "fpl_name": "Gabriel",
+    "fpl_team_code": "3",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4094,
+    "provider_name": "Merlin Röhl",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "246",
+    "fpl_name": "Röhl",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4118,
+    "provider_name": "Harry Maguire",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "418",
+    "fpl_name": "Maguire",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4119,
+    "provider_name": "Matheus Cunha",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "428",
+    "fpl_name": "Cunha",
+    "fpl_team_code": "1",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4120,
+    "provider_name": "Benjamin Šeško",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "439",
+    "fpl_name": "Šeško",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4121,
+    "provider_name": "Jack Fletcher",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "434",
+    "fpl_name": "J.Fletcher",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4237,
+    "provider_name": "Roméo Lavia",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "161",
+    "fpl_name": "Lavia",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4279,
+    "provider_name": "William Osula",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "465",
+    "fpl_name": "Osula",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4289,
+    "provider_name": "Tyrone Mings",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "33",
+    "fpl_name": "Mings",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4303,
+    "provider_name": "Tom Watson",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "133",
+    "fpl_name": "Watson",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4306,
+    "provider_name": "Rio Cardines",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "220",
+    "fpl_name": "Cardines",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4350,
+    "provider_name": "Mateo Kovačić",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "406",
+    "fpl_name": "Kovačić",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4422,
+    "provider_name": "Bradley Burrowes",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "50",
+    "fpl_name": "Burrowes",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241,
+      219408
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4429,
+    "provider_name": "Jeremie Frimpong",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "357",
+    "fpl_name": "Frimpong",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4432,
+    "provider_name": "Kaye Furo",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "107",
+    "fpl_name": "Furo",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4472,
+    "provider_name": "Chris Wood",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "490",
+    "fpl_name": "Wood",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4522,
+    "provider_name": "Dilane Bakwa",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "485",
+    "fpl_name": "Bakwa",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4559,
+    "provider_name": "Antonee Robinson",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_player_id": "254",
+    "fpl_name": "Robinson",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4612,
+    "provider_name": "Omar Richards",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "476",
+    "fpl_name": "O.Richards",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4647,
+    "provider_name": "Antoni Milambo",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "99",
+    "fpl_name": "Milambo",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4648,
+    "provider_name": "Tom Heaton",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "414",
+    "fpl_name": "Heaton",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4649,
+    "provider_name": "Tyler Fredricson",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "425",
+    "fpl_name": "Fredricson",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4710,
+    "provider_name": "Giovanni Leoni",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "363",
+    "fpl_name": "Leoni",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4743,
+    "provider_name": "Habib Diarra",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "543",
+    "fpl_name": "Diarra",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4788,
+    "provider_name": "Ola Aina",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "473",
+    "fpl_name": "Aina",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4825,
+    "provider_name": "Harrison Armstrong",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "244",
+    "fpl_name": "Armstrong",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219085,
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+      "26-27-friendly-dundee-fc-vs-everton-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4835,
+    "provider_name": "Dário Essugo",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "163",
+    "fpl_name": "D.Essugo",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4941,
+    "provider_name": "Kai Havertz",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_player_id": "26",
+    "fpl_name": "Havertz",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4949,
+    "provider_name": "Jesurun Rak-Sakyi",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "219",
+    "fpl_name": "J.Rak-Sakyi",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4970,
+    "provider_name": "Samuel Iling Junior",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "49",
+    "fpl_name": "Iling Jr",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219241
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-walsall-vs-aston-villa-2026-07-21"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5140,
+    "provider_name": "Yoane Wissa",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "464",
+    "fpl_name": "Wissa",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5178,
+    "provider_name": "Sean Steur",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "462",
+    "fpl_name": "Steur",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5644,
+    "provider_name": "Leo Fuhr Hjelde",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "538",
+    "fpl_name": "Hjelde",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219106,
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5661,
+    "provider_name": "Joel Drakes-Thomas",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "221",
+    "fpl_name": "Drakes-Thomas",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5785,
+    "provider_name": "Kieran Dowell",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "288",
+    "fpl_name": "Dowell",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5817,
+    "provider_name": "David Datro Fofana",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "145",
+    "fpl_name": "Fofana",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5837,
+    "provider_name": "Tammy Abraham",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_player_id": "56",
+    "fpl_name": "Abraham",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6030,
+    "provider_name": "Max Alleyne",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "394",
+    "fpl_name": "Alleyne",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6069,
+    "provider_name": "Tyler Bindon",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_player_id": "479",
+    "fpl_name": "Bindon",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219103,
+      219263
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+      "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6137,
+    "provider_name": "Jeremy Monga",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "410",
+    "fpl_name": "Monga",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6169,
+    "provider_name": "Harry Amass",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "424",
+    "fpl_name": "Amass",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6183,
+    "provider_name": "Lewie Coyle",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "280",
+    "fpl_name": "Coyle",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6184,
+    "provider_name": "John Egan",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "277",
+    "fpl_name": "Egan",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6185,
+    "provider_name": "Charlie Hughes",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "278",
+    "fpl_name": "Hughes",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6186,
+    "provider_name": "Ryan Giles",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "282",
+    "fpl_name": "Giles",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6187,
+    "provider_name": "Mohamed Belloumi",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "286",
+    "fpl_name": "Belloumi",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6188,
+    "provider_name": "Regan Slater",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "290",
+    "fpl_name": "Slater",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6189,
+    "provider_name": "Matt Crooks",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "289",
+    "fpl_name": "Crooks",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6190,
+    "provider_name": "Liam Millar",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "287",
+    "fpl_name": "Millar",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6191,
+    "provider_name": "Oli McBurnie",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "295",
+    "fpl_name": "McBurnie",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6194,
+    "provider_name": "David Akintola",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "296",
+    "fpl_name": "Akintola",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6196,
+    "provider_name": "Enis Destan",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "298",
+    "fpl_name": "Destan",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6197,
+    "provider_name": "Darko Gyabi",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "297",
+    "fpl_name": "Gyabi",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6198,
+    "provider_name": "Dillon Phillips",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "273",
+    "fpl_name": "Phillips",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6199,
+    "provider_name": "Cody Drameh",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "281",
+    "fpl_name": "Drameh",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6327,
+    "provider_name": "Hayden Hackney",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "247",
+    "fpl_name": "Hackney",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6420,
+    "provider_name": "Carl Rushworth",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "110",
+    "fpl_name": "Rushworth",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6421,
+    "provider_name": "Milan van Ewijk",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "175",
+    "fpl_name": "van Ewijk",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6422,
+    "provider_name": "Luke Woolfenden",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "180",
+    "fpl_name": "Woolfenden",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6423,
+    "provider_name": "Joel Latibeaudiere",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "179",
+    "fpl_name": "Latibeaudiere",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6424,
+    "provider_name": "Jay DaSilva",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "176",
+    "fpl_name": "Dasilva",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6425,
+    "provider_name": "Victor Torp",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "188",
+    "fpl_name": "Torp",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6426,
+    "provider_name": "Matt Grimes",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "184",
+    "fpl_name": "Grimes",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6427,
+    "provider_name": "Jack Rudoni",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "183",
+    "fpl_name": "Rudoni",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6428,
+    "provider_name": "Josh Eccles",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "187",
+    "fpl_name": "Eccles",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6429,
+    "provider_name": "Ephron Mason-Clark",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "186",
+    "fpl_name": "Mason-Clark",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6430,
+    "provider_name": "Haji Wright",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "193",
+    "fpl_name": "Wright",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6431,
+    "provider_name": "Jake Bidwell",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "178",
+    "fpl_name": "Bidwell",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6432,
+    "provider_name": "Miguel Ángel Brau",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "181",
+    "fpl_name": "Brau",
+    "fpl_team_code": "9",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6433,
+    "provider_name": "Kaine Kesler-Hayden",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "177",
+    "fpl_name": "Kesler-Hayden",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6435,
+    "provider_name": "Ellis Simms",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "195",
+    "fpl_name": "Simms",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6436,
+    "provider_name": "Ben Wilson",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "172",
+    "fpl_name": "Wilson",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6438,
+    "provider_name": "Kai Andrews",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "192",
+    "fpl_name": "Andrews",
+    "fpl_team_code": "9",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6439,
+    "provider_name": "George Shepherd",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "189",
+    "fpl_name": "Shepherd",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6592,
+    "provider_name": "Abdülkadir Ömür",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "292",
+    "fpl_name": "Ömür",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6687,
+    "provider_name": "Bobby Thomas",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "173",
+    "fpl_name": "Thomas",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6688,
+    "provider_name": "Liam Kitching",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "174",
+    "fpl_name": "Kitching",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6689,
+    "provider_name": "Tatsuhiro Sakamoto",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "185",
+    "fpl_name": "Sakamoto",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6706,
+    "provider_name": "Semi Ajayi",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "279",
+    "fpl_name": "Ajayi",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6803,
+    "provider_name": "Joe Gelhardt",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_player_id": "340",
+    "fpl_name": "Gelhardt",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6843,
+    "provider_name": "Toby Collyer",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "436",
+    "fpl_name": "Collyer",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6887,
+    "provider_name": "Brandon Thomas-Asante",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "194",
+    "fpl_name": "Thomas-Asante",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7085,
+    "provider_name": "Raphael Rodrigues",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "191",
+    "fpl_name": "Borges Rodrigues",
+    "fpl_team_code": "9",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7347,
+    "provider_name": "Nilson Angulo",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "551",
+    "fpl_name": "Angulo",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7431,
+    "provider_name": "Jahnoah Markelo",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "196",
+    "fpl_name": "Markelo",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8374,
+    "provider_name": "Tyler Fletcher",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_player_id": "438",
+    "fpl_name": "Fletcher",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219152
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-manchester-united-vs-wrexham-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8431,
+    "provider_name": "Fraser Forster",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_player_id": "58",
+    "fpl_name": "Forster",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8492,
+    "provider_name": "Harry Howell",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "132",
+    "fpl_name": "Howell",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8584,
+    "provider_name": "Matty Jacob",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "283",
+    "fpl_name": "Jacob",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8593,
+    "provider_name": "Chadi Riad",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "206",
+    "fpl_name": "Chadi Riad",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8798,
+    "provider_name": "Jarrad Branthwaite",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_player_id": "230",
+    "fpl_name": "Branthwaite",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219349
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8874,
+    "provider_name": "Paddy McNair",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "285",
+    "fpl_name": "McNair",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8981,
+    "provider_name": "Axel Disasi",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "153",
+    "fpl_name": "Disasi",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 9035,
+    "provider_name": "Kalvin Phillips",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_player_id": "408",
+    "fpl_name": "Phillips",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 12176,
+    "provider_name": "Jocelin Ta Bi",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_player_id": "550",
+    "fpl_name": "Jocelin.T",
+    "fpl_team_code": "56",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      219106
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-york-city-vs-sunderland-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13594,
+    "provider_name": "Eliot Matazo",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "291",
+    "fpl_name": "Matazo",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13696,
+    "provider_name": "Shumaira Mheuka",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "169",
+    "fpl_name": "Mheuka",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 16017,
+    "provider_name": "Zadok Yohanna",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "135",
+    "fpl_name": "Yohanna",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 16694,
+    "provider_name": "Michael Svoboda",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_player_id": "120",
+    "fpl_name": "Svoboda",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22880,
+    "provider_name": "Levi Colwill",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_player_id": "149",
+    "fpl_name": "Colwill",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22883,
+    "provider_name": "Cheick Doucouré",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_player_id": "218",
+    "fpl_name": "Doucouré",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219025,
+      219348
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+      "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 24009,
+    "provider_name": "Oliver Dovin",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_player_id": "171",
+    "fpl_name": "Dovin",
+    "fpl_team_code": "9",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219087
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26296,
+    "provider_name": "Kim Ji-Soo",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "92",
+    "fpl_name": "Ji-soo",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26757,
+    "provider_name": "Mason Burstow",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "299",
+    "fpl_name": "Burstow",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 27356,
+    "provider_name": "Thimothee Lo-Tutala",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "276",
+    "fpl_name": "Lo-Tutala",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 28651,
+    "provider_name": "Óscar Zambrano",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "294",
+    "fpl_name": "Zambrano",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34238,
+    "provider_name": "Harvey Davies",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_player_id": "355",
+    "fpl_name": "Davies",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219415
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-liverpool-vs-sunderland-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35436,
+    "provider_name": "Josh Dasilva",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_player_id": "103",
+    "fpl_name": "Dasilva",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36727,
+    "provider_name": "Mark Gillespie",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "443",
+    "fpl_name": "Gillespie",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 37678,
+    "provider_name": "Ewen Jaouen",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "444",
+    "fpl_name": "Jaouen",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65413,
+    "provider_name": "Harvey Cartwright",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_player_id": "275",
+    "fpl_name": "Cartwright",
+    "fpl_team_code": "88",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [],
+    "canonical_match_ids": []
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79445,
+    "provider_name": "Mason Miley",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_player_id": "459",
+    "fpl_name": "L.Miley",
+    "fpl_team_code": "4",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      219323
+    ],
+    "canonical_match_ids": [
+      "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25"
+    ]
+  }
+]

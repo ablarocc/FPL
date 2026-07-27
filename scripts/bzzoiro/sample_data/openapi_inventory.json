@@ -1,0 +1,80 @@
+{
+  "openapi": "3.0.3",
+  "title": "Bzzoiro Sports Data API",
+  "version": "1.0.0",
+  "paths": 64,
+  "operations": 64,
+  "schemas": 159,
+  "betting_operations": [
+    {
+      "method": "GET",
+      "path": "/api/v2/bookmakers/",
+      "tags": [
+        "v2 / Bookmakers"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/events/{id}/odds/",
+      "tags": [
+        "v2 / Events"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/events/{id}/odds/comparison/",
+      "tags": [
+        "v2 / Events"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/events/{id}/polymarket/",
+      "tags": [
+        "v2 / Events"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/events/{id}/prediction/",
+      "tags": [
+        "v2 / Events"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/odds/",
+      "tags": [
+        "v2 / Odds"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/odds/best/",
+      "tags": [
+        "v2 / Odds"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/odds/{id}/",
+      "tags": [
+        "v2 / Odds"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/predictions/",
+      "tags": [
+        "v2 / Predictions"
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/api/v2/predictions/{id}/",
+      "tags": [
+        "v2 / Predictions"
+      ]
+    }
+  ]
+}

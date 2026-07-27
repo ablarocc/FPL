@@ -1,0 +1,122 @@
+[
+  {
+    "provider_event_id": 91,
+    "fpl_match_id": "25-26-prem-brighton-hove-albion-vs-leeds-united",
+    "provider_home_team_id": 5,
+    "provider_away_team_id": 19,
+    "fpl_home_team_code": "36",
+    "fpl_away_team_code": "2",
+    "provider_kickoff": "2025-11-01T15:00:00+00:00",
+    "fpl_kickoff": "2025-11-01T15:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 92,
+    "fpl_match_id": "25-26-prem-burnley-vs-arsenal",
+    "provider_home_team_id": 10,
+    "provider_away_team_id": 18,
+    "fpl_home_team_code": "90",
+    "fpl_away_team_code": "3",
+    "provider_kickoff": "2025-11-01T15:00:00+00:00",
+    "fpl_kickoff": "2025-11-01T15:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 93,
+    "fpl_match_id": "25-26-prem-crystal-palace-vs-brentford",
+    "provider_home_team_id": 14,
+    "provider_away_team_id": 16,
+    "fpl_home_team_code": "31",
+    "fpl_away_team_code": "94",
+    "provider_kickoff": "2025-11-01T15:00:00+00:00",
+    "fpl_kickoff": "2025-11-01T15:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 94,
+    "fpl_match_id": "25-26-prem-fulham-vs-wolverhampton-wanderers",
+    "provider_home_team_id": 6,
+    "provider_away_team_id": 11,
+    "fpl_home_team_code": "54",
+    "fpl_away_team_code": "39",
+    "provider_kickoff": "2025-11-01T15:00:00+00:00",
+    "fpl_kickoff": "2025-11-01T15:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 97,
+    "fpl_match_id": "25-26-prem-liverpool-vs-aston-villa",
+    "provider_home_team_id": 1,
+    "provider_away_team_id": 3,
+    "fpl_home_team_code": "14",
+    "fpl_away_team_code": "7",
+    "provider_kickoff": "2025-11-01T20:00:00+00:00",
+    "fpl_kickoff": "2025-11-01T20:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 99,
+    "fpl_match_id": "25-26-prem-manchester-city-vs-afc-bournemouth",
+    "provider_home_team_id": 12,
+    "provider_away_team_id": 2,
+    "fpl_home_team_code": "43",
+    "fpl_away_team_code": "91",
+    "provider_kickoff": "2025-11-02T16:30:00+00:00",
+    "fpl_kickoff": "2025-11-02T16:30:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 95,
+    "fpl_match_id": "25-26-prem-nottingham-forest-vs-manchester-united",
+    "provider_home_team_id": 15,
+    "provider_away_team_id": 17,
+    "fpl_home_team_code": "17",
+    "fpl_away_team_code": "1",
+    "provider_kickoff": "2025-11-01T15:00:00+00:00",
+    "fpl_kickoff": "2025-11-01T15:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 100,
+    "fpl_match_id": "25-26-prem-sunderland-vs-everton",
+    "provider_home_team_id": 7,
+    "provider_away_team_id": 20,
+    "fpl_home_team_code": "56",
+    "fpl_away_team_code": "11",
+    "provider_kickoff": "2025-11-03T20:00:00+00:00",
+    "fpl_kickoff": "2025-11-03T20:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 96,
+    "fpl_match_id": "25-26-prem-tottenham-hotspur-vs-chelsea",
+    "provider_home_team_id": 9,
+    "provider_away_team_id": 13,
+    "fpl_home_team_code": "6",
+    "fpl_away_team_code": "8",
+    "provider_kickoff": "2025-11-01T17:30:00+00:00",
+    "fpl_kickoff": "2025-11-01T17:30:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  },
+  {
+    "provider_event_id": 98,
+    "fpl_match_id": "25-26-prem-west-ham-united-vs-newcastle-united",
+    "provider_home_team_id": 8,
+    "provider_away_team_id": 4,
+    "fpl_home_team_code": "21",
+    "fpl_away_team_code": "4",
+    "provider_kickoff": "2025-11-02T14:00:00+00:00",
+    "fpl_kickoff": "2025-11-02T14:00:00",
+    "match_method": "canonical_home_away_pair",
+    "confidence": "high"
+  }
+]

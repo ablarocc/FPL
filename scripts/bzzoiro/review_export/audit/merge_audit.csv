@@ -1,0 +1,5 @@
+season,target,canonical_rows,accepted_provider_rows,rows_added,blank_cells_filled,supplemental_rows
+2025-2026,matches.csv,10,10,0,2,1
+2025-2026,playermatchstats.csv,303,250,0,0,250
+2026-2027,matches.csv,91,62,0,78,62
+2026-2027,playermatchstats.csv,60,224,176,4063,224

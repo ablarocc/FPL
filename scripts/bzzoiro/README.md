@@ -1,130 +1,205 @@
-# Bzzoiro Sports Data — evaluation
+# Bzzoiro Sports Data — read-only evaluation
 
-Exploratory only. Nothing here runs in the twice-daily pipeline and nothing
-writes to `data/`.
+This branch evaluates Bzzoiro and includes a **branch-only integration preview**
+of how accepted rows would move through private Supabase staging into the
+repository's normal public CSV shapes. It does not write to live Supabase or to
+the canonical `data/` tree.
 
-## Why
+A bounded live snapshot is included at `scripts/bzzoiro/sample_data/` so
+reviewers can inspect real API data without a key. The generated
+`scripts/bzzoiro/review_export/` then applies identity, constraint, merge and
+quarantine rules to that snapshot. Both directories are review evidence, not
+production FPL Core Insights data.
 
-We currently build `playermatchstats` from FotMob (see the `fotmob_name`
-column in `teams.csv`), FPL for player/price data, and ClubElo for team
-ratings. [Bzzoiro](https://sports.bzzoiro.com) is a free football API with an
-OpenAPI 3 spec, 64 endpoints, and coverage claimed back to 2004. This
-directory works out what — if anything — it is worth taking from it.
+## What is tested
 
-## Running the probe
+- Exact competition selection, including UEFA rather than CAF Champions League
+  and Club Friendlies rather than international friendlies.
+- Premier League season depth.
+- Fixture, kickoff and score agreement with a checked-in gameweek.
+- Historical player identity using current squad IDs plus bounded player-detail
+  fallbacks; lineup ID population is audited separately.
+- Every direct and derived `playermatchstats` mapping with field population and
+  response-drift reporting.
+- Shot maps, xG/xGOT, coordinates, momentum, xG by minute and average positions.
+- Confirmed/predicted lineups, unavailable players and incidents.
+- Current player profiles and Bzzoiro availability shown separately from FPL
+  `status`, `news` and chance-of-playing fields.
+- Club-friendly overlap uses both opponents plus kickoff time, with one-to-one
+  matching and recorded neutral-site home/away reversals; player-stat coverage
+  samples completed matches only.
+- Odds, bookmaker comparison, predictions and Polymarket as separate,
+  time-sensitive evaluation data—not match facts or recommendations.
+- Per-endpoint success, retries and latency.
+- API key leakage and attempts to write artifacts under `data/`.
 
-### From GitHub Actions (easiest)
+TV channels, social posts, generic standings and highlights are intentionally
+not evaluated because they are not useful to this project.
 
-One-time setup: add a repository secret named `BZZOIRO_API_KEY` under
-**Settings → Secrets and variables → Actions → New repository secret**.
+## Run locally
 
-Then **Actions → Bzzoiro API Probe → Run workflow**. The report is rendered
-straight into the job summary, and the report plus raw JSON samples are
-attached as a build artifact for 14 days.
+The evaluator is standard-library only; no packages need installing. The API
+key is accepted only through the `BZZOIRO_API_KEY` environment variable so it
+does not appear in shell history or process arguments.
 
-The key has to be a *secret*, not a workflow input — input values are shown
-in plaintext in the Actions UI and kept in the run metadata.
-
-The workflow is read-only (`permissions: contents: read`) and commits
-nothing. A run where no API call succeeds exits non-zero, so a bad key shows
-up as a red run rather than a green empty report.
-
-### Locally
+### Bash
 
 ```bash
-export BZZOIRO_API_KEY=<key>
-python3 scripts/bzzoiro/probe.py
+export BZZOIRO_API_KEY='<your key>'
+python3 -m unittest discover -s scripts/bzzoiro -p 'test_*.py' -v
+python3 scripts/bzzoiro/probe.py --out bzzoiro_probe_out
 ```
 
-Stdlib only, no `pip install`. Output goes to `bzzoiro_probe_out/`
-(gitignored): a `REPORT.md` plus raw JSON samples.
+### Windows PowerShell
 
+```powershell
+$env:BZZOIRO_API_KEY = '<your key>'
+python -m unittest discover -s scripts/bzzoiro -p 'test_*.py' -v
+python scripts/bzzoiro/probe.py --out bzzoiro_probe_out
+Remove-Item Env:BZZOIRO_API_KEY
 ```
---gameweek N        2025/26 gameweek to cross-check (default 10)
---skip-friendlies   skip the 2026/27 friendlies probe
---skip-last-season  skip the 2025/26 cross-check
---out DIR           output directory
+
+To inventory an OpenAPI file as part of the run:
+
+```bash
+python3 scripts/bzzoiro/probe.py --schema /path/to/football-schema.json
 ```
 
-The API key is read from the environment or `--key` and is never written to
-disk. Do not commit it.
+Useful controls:
 
-> The probe cannot run from a Claude Code web session — `sports.bzzoiro.com`
-> is denied by the sandbox egress policy (403 on CONNECT). Use the Action, run
-> it locally, or allowlist the host for the environment.
+```text
+--comparison-season SEASON   repository/API season to compare (default 2025-2026)
+--friendlies-season SEASON   pre-season snapshot to inspect (default 2026-2027)
+--gameweek N                 comparison gameweek, 1-38 (default 10)
+--sample-matches N           finished PL matches to compare (default 5)
+--friendly-sample N          completed friendlies to sample (default 12)
+--profile-sample N           current player profiles to sample (default 10)
+--identity-detail-limit N    historical player-detail fallbacks (default 50)
+--skip-last-season           skip the historical overlap comparison
+--skip-friendlies            skip the friendlies evaluation
+--skip-enrichment            skip shots, lineups, incidents and profiles
+--skip-betting               skip odds and prediction endpoints
+--strict                     return non-zero if an evaluation check fails
+--out DIR                    artifact directory; data/ and arbitrary repo paths are rejected
+```
 
-## What the probe answers
+A standard run currently makes roughly 120–160 logical API requests and takes
+about one minute. `full` runs use more calls as coverage grows.
 
-1. **Competition coverage** — is the Premier League there, and the FA Cup,
-   EFL Cup, the three European competitions, and club friendlies? We publish
-   all of them; the marketing only ever mentions leagues.
-2. **Historical depth** — how far back the PL seasons go, and the `season_id`
-   for 2025/26 and 2026/27.
-3. **Fixture and player mapping** — what fraction of a repo gameweek pairs up,
-   and whether scores agree (a cheap check that we paired the right games).
-4. **Stat agreement** — mean absolute difference on the columns both sources
-   carry. A wide gap on `xg`/`xa` means a different model upstream, so the two
-   are not interchangeable per-column.
-5. **Friendlies** — the gap worth closing. See below.
-6. **Column coverage** — computed offline from the spec, so it is reported
-   even with no network.
+## Outputs
 
-## What the spec already tells us
+The output directory contains:
 
-`PlayerStat` has 43 fields; our `playermatchstats.csv` has 64 columns. About
-35 are reachable (26 direct, 9 derived). **27 are not.**
+- `REPORT.md` — readable findings and a pass/warn/fail table.
+- `SUMMARY.json` — structured checks and metrics.
+- `RUN_MANIFEST.json` — base commit, start/end tree state, exact executing-file hashes, inputs, runtime and schema hash.
+- `ENDPOINT_TELEMETRY.json` — endpoint status and latency, never the key.
+- `openapi_inventory.json` — generated only when `--schema` is supplied.
+- `SECRET_SCAN_OK` — written only after every artifact passes the credential scan.
+- Bounded JSON evidence for competitions, seasons, compared events, player
+  stats, shots, lineups, incidents, player profiles, friendlies and betting.
 
-The expensive absence is **`blocks`**. FPL's defensive contribution threshold
-is CBIT for defenders and CBIRT for midfielders and forwards — blocks is a
-term in both — so DefCon cannot be rebuilt from this source. Also missing:
-7 of our 8 goalkeeping columns (`goals_prevented`, `xgot_faced`,
-`sweeper_actions`, `high_claim`, `saves_inside_box`, `gk_accurate_passes`,
-`gk_accurate_long_balls`), every physical metric (`distance_covered`,
-`top_speed`, sprint splits), and `xgot`, `big_chances_missed`,
-`touches_opposition_box`, `final_third_passes`, `offsides`, `corners`.
+Each JSON file is complete and parseable. The evaluator scans all artifacts for
+the API key before returning success.
 
-So it is **not a replacement** for the FotMob-derived match stats. The case
-for it rests on data we have no table for at all:
+## Included branch snapshot
 
-| Endpoint | Gives us |
-|---|---|
-| `/events/{id}/stats/` | `shotmap` — per-shot xG **and** xGOT, pitch coordinates, goalmouth placement, and a player id (`pid`) |
-| | `momentum`, `xg_per_minute`, `average_positions` |
-| `/events/{id}/lineups/` | confirmed XI ~1h pre-KO, or an AI-predicted XI with a confidence score |
-| `/events/{id}/` | `unavailable_players`, referee card rates, weather, travel distance |
-| `/players/{id}/` | DOB, height, market value, contract end, injury return date |
+`scripts/bzzoiro/sample_data/` is the checked full review capture. It contains
+complete bounded responses for all 10 comparison fixtures and all 17 exact
+completed friendlies available at capture time, plus identity maps, rejection
+evidence and a mapped-fixture odds sample. It lets reviewers inspect the same
+evidence without re-running the API.
 
-## The friendlies case
+To refresh it locally, run:
 
-This is the strongest argument for a second source anywhere in the repo.
-`data/2026-2027/By Tournament/Friendlies/GW0` currently holds **91 matches,
-of which 5 have any player stats and 3 have team xG** — 86 matches with
-nothing. The README already concedes friendly coverage "depends on what gets
-published for each fixture".
+```bash
+python3 scripts/bzzoiro/probe.py \
+  --schema /path/to/football-schema.json \
+  --out scripts/bzzoiro/sample_data \
+  --sample-matches 10 \
+  --friendly-sample 100 \
+  --profile-sample 25 \
+  --identity-detail-limit 200 \
+  --strict
+```
 
-If Bzzoiro covers pre-season friendlies for PL clubs, it fills a near-empty
-table rather than competing with a full one, and the `blocks`/GK/physical
-gaps cost nothing because we have no values there to lose. The probe measures
-exactly this.
+Review the diff carefully before sharing a refreshed snapshot. Never include
+the API key, and do not copy these files into `data/`.
 
-## Open questions before anything is wired in
+## Pipeline-style review export
 
-- **Licensing.** The spec documents `websocket_plus` as *"True when Opta POEM
-  pitch-level tracking is available"*, and `sr_stats` returns `ball_safe` /
-  `attack` / `dangerous_attack` — Sportradar's signature counters. A free,
-  unlimited API serving data derived from two commercial feeds raises a
-  redistribution question, and this repo republishes onward under an open-data
-  banner. Worth resolving before it reaches a CSV.
-- **Error semantics.** Every endpoint in the spec documents only a `200`. No
-  error schemas, no `429`, no documented rate limit or retry behaviour, and no
-  `updated_at`/ETag on most resources for change detection. `probe.py` treats
-  anything non-200 as retry-then-give-up.
-- **ID stability.** Player and team ids are the provider's own — no FPL, Opta
-  or Transfermarkt id is exposed — so mapping is name-based. `mapping.py`
-  carries a hand-checked club alias table because generic normalisation
-  collapses "Man City" and "Man Utd" onto the same token.
+Run the offline deterministic transformation after refreshing the snapshot:
+
+```powershell
+python scripts/bzzoiro/integration_preview.py
+python scripts/bzzoiro/integration_preview.py --check
+```
+
+The generated `review_export/git_export/` mirrors the normal public exporter
+schemas without modifying `data/`. Its current review result includes:
+
+- 10 Premier League GW10 matches and 303 player-match rows;
+- all 91 canonical friendlies and 236 player-match rows after 176 accepted rows
+  are added;
+- 250 historical and 224 friendly player-match enrichment rows;
+- separate shots, momentum, minute-xG, average-position, lineup and incident
+  files;
+- 74 competitions, 16 provider-availability rows and three odds rows for the
+  mapped Aston Villa v Real Sociedad friendly;
+- a header-only mapped-predictions file because that event returned no model
+  prediction; unrelated global predictions remain quarantined.
+
+The transformation uses transient SQLite tables to exercise the intended
+Supabase identity, uniqueness, foreign-key, upsert and quarantine behaviour.
+No public review file adds `data_source`, `source_event_id`, `source_player_id`
+or `retrieved_at`. Existing values win, FPL availability remains authoritative,
+attacking blocked shots never populate defender `blocks`, and sparse match-stat
+blocks with placeholder zeroes remain quarantined rather than filling canonical
+facts.
+
+`review_export/audit/` and `DIFF_SUMMARY.json` show accepted identities, merge
+counts and rejection totals. The real upstream Supabase ingestion project is
+not present here, so this branch demonstrates the contract and resulting export
+rather than claiming a production database deployment.
+
+## GitHub Actions
+
+The workflow runs offline tests first, accepts bounded `quick`, `standard` and
+`full` presets, validates inputs, publishes only after `SECRET_SCAN_OK`, uploads
+the sanitized report, summaries, telemetry, inventory and scan marker, and
+fails if any tracked file or unexpected untracked path changes. It is restricted
+to this reviewed feature branch; fork testers must use their own low-scope key.
+
+GitHub only exposes a manually dispatched workflow after that workflow exists
+on the repository's default branch. Until a trusted read-only dispatcher lands
+there, testers should run locally or from their own fork with their own
+`BZZOIRO_API_KEY` secret. Do not use `pull_request_target` with a shared key.
+
+A successful workflow means the evaluator completed and its required checks
+passed. It does **not** mean Bzzoiro has been approved for production use.
+
+## How to interpret the evidence
+
+The current comparison shows excellent agreement for fixtures, scores and core
+box-score fields, plus potentially valuable friendlies, shots and lineup data.
+It still does not justify integration by itself:
+
+- Provider player/team/event IDs need stability testing across repeated runs.
+- `blocked_scoring_attempt` describes an attacking shot blocked and is **not**
+  mapped to the defender `blocks` field without semantic validation.
+- Provider availability remains separate from FPL availability.
+- Betting and prediction data remains separate from observed football facts.
+- Redistribution/licensing needs explicit review before API-derived data enters
+  the public canonical dataset.
 
 ## Files
 
-- `probe.py` — the read-only probe described above.
-- `mapping.py` — field mapping, coverage constants, and the club alias table.
+- `probe.py` — stable command-line entry point.
+- `evaluator.py` — evaluation implementation.
+- `mapping.py` — candidate field mappings and guarded team aliases.
+- `test_evaluator.py` — offline evaluator and capture-contract tests.
+- `integration_preview.py` — deterministic Supabase-style staging and export simulation.
+- `test_integration_preview.py` — schema, safety, identity and reproducibility tests.
+- `API_CAPABILITIES.md` — API capability and possible future architecture map.
+- `sample_data/` — bounded live evidence for branch reviewers.
+- `review_export/` — generated canonical-shaped data, companions and audit results.

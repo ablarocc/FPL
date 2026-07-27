@@ -1,0 +1,2152 @@
+[
+  {
+    "path": "/api/v2/leagues/",
+    "params": {
+      "limit": 200,
+      "offset": 0
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 340.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/leagues/1/seasons/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 309.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/",
+    "params": {
+      "limit": 200,
+      "offset": 0,
+      "league_id": 1,
+      "season_id": 337
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 783.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/",
+    "params": {
+      "limit": 200,
+      "offset": 200,
+      "league_id": 1,
+      "season_id": 337
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 1006.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/12/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 451.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/2/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 359.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/5/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 356.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/6/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/18/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 346.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/3/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 342.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/15/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/10/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 342.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/9/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 383.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/13/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 442.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/20/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 346.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/11/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 329.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/16/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 337.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/19/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 356.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/14/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/8/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 350.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/1/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 356.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/7/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 357.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/17/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 326.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 662.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/91/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 354.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/100/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 350.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/94/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 430.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/98/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 358.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/92/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 388.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/95/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 389.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/97/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 363.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/96/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 346.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/93/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 342.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/99/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 355.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/91/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 369.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/500/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 655.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/499/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 311.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/379/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 312.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/100/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 363.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/354/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 644.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/360/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 343.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/357/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 319.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/361/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 307.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/3800/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 361.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/3799/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 361.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/94/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 422.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/835/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 365.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/1963/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 346.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/530/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 315.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/524/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 336.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/98/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 361.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4025/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/711/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 354.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/698/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 395.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/1642/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 335.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4092/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 317.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/1653/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/1645/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 312.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/1652/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 300.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/92/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 360.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/2375/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 310.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/405/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 315.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/406/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/416/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 338.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/407/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 345.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4305/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 330.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/3461/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 324.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/95/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 802.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4304/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/1793/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 324.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/97/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 347.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/324/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/333/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 309.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4288/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 310.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/515/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 304.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/521/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 308.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4139/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 315.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/96/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 351.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/737/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/728/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 303.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/386/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/93/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 365.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/441/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/480/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 310.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/99/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 373.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/784/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 326.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/848/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 320.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/854/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 312.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/857/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/91/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 329.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "arsenal",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 320.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "aston villa",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 337.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "afc bournemouth",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 320.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "bournemouth",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 344.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "brentford",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 321.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "brighton and hove albion",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 314.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "brighton & hove albion",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 333.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "chelsea",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "coventry city",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 326.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "crystal palace",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 357.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "everton",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "fulham",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 367.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "hull city",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 355.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "ipswich town",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 329.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "leeds united",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "liverpool",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 366.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "manchester city",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 349.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "manchester united",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 364.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "newcastle united",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 358.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "nottingham forest",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 336.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "tottenham hotspur",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 354.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/",
+    "params": {
+      "name": "sunderland",
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 356.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/18/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 359.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/3/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 485.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/2/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 479.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/16/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 346.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/5/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 356.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/13/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 354.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/203/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 367.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/14/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 368.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/20/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 348.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/6/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 424.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/204/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 537.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4755/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 344.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/19/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 570.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/1/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 479.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/12/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 376.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/17/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 395.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 474.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/15/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 403.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4707/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 368.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/7/fixtures/",
+    "params": {
+      "date_from": "2026-06-15T00:00:00Z",
+      "date_to": "2026-08-16T23:59:59Z",
+      "limit": 100
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 418.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/17/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 298.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/19/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 303.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/18/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 296.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 293.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4707/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 329.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/3/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 298.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/13/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 294.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/203/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 6484.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/20/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 314.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/1/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 303.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/15/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 292.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/14/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 303.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/5/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 297.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/4755/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 322.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/12/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 285.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/6/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 289.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/7/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 302.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/204/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 348.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/2/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 297.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/16/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 307.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219025/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 386.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219025/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 345.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219027/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 398.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219027/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 354.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219085/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 376.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219085/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219087/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 386.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219087/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 371.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219103/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 383.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219103/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 370.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219106/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 370.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219106/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 321.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219152/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 336.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219152/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 336.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219241/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 303.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219241/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 291.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219263/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 380.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219263/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 385.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219307/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 366.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219307/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 367.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219323/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 400.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219323/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 377.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219348/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 377.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219348/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 397.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219349/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 382.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219349/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 373.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/221024/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 1670.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/221024/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 538.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219408/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 304.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219408/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 300.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219415/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 438.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219415/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 345.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219416/player-stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 416.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219416/stats/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 2852.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/91/lineups/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 339.7,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/91/incidents/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 368.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/91/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 334.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/teams/18/squad/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 302.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/3460/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 319.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/444/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 318.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/443/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 312.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/445/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 369.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4072/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 326.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/453/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 322.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/17607/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 320.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/446/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 309.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/458/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 320.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/455/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 305.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/461/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/452/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 406.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/456/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 314.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/450/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 322.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/4941/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 336.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/8818/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.5,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/442/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/457/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 316.0,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/2367/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 352.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/3462/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/3543/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 340.9,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/447/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 337.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/454/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 432.1,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/460/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 348.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/players/2374/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 332.2,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/odds/best/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 876.6,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/predictions/",
+    "params": {
+      "limit": 20
+    },
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 340.4,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219445/odds/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 360.3,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219445/odds/comparison/",
+    "params": {},
+    "attempts": 1,
+    "status": 200,
+    "elapsed_ms": 328.8,
+    "ok": true,
+    "error": null
+  },
+  {
+    "path": "/api/v2/events/219445/prediction/",
+    "params": {},
+    "attempts": 1,
+    "status": 404,
+    "elapsed_ms": 595.3,
+    "ok": false,
+    "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
+  },
+  {
+    "path": "/api/v2/events/219445/polymarket/",
+    "params": {},
+    "attempts": 1,
+    "status": 404,
+    "elapsed_ms": 256.7,
+    "ok": false,
+    "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
+  }
+]

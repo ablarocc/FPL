@@ -1,8 +1,8 @@
 """Field mapping between the Bzzoiro Sports Data API and this repo's schema.
 
 Derived from the Bzzoiro OpenAPI 3 spec (v1.0.0, `PlayerStat` / `Event`
-schemas). Nothing here talks to the network; it is the static translation
-layer the probe uses to report coverage.
+schemas) plus observed live-v2 response fields. Nothing here talks to the
+network; it is a candidate translation layer used to report coverage.
 """
 
 # --- Repo schema (data/{season}/**/playermatchstats.csv) -------------------
@@ -38,7 +38,7 @@ PMS_DIRECT = {
     "shots_on_target": "shots_on_target",
     "expected_goals": "xg",
     "expected_assists": "xa",
-    "dribble_won": "successful_dribbles",
+    "won_contest": "successful_dribbles",  # live v2 name
     "touches": "touches",
     "accurate_pass": "accurate_passes",
     "key_pass": "chances_created",
@@ -59,9 +59,18 @@ PMS_DIRECT = {
     "dispossessed": "dispossessed",
 }
 
+# Direct fields allowed into the branch review merge. ``penalty_miss`` remains
+# a schema candidate but is excluded because it was absent from the live capture.
+# The provider's ``duel_won`` does not agree with canonical ground-duel semantics,
+# so it and ``aerial_won`` remain comparison-only with all derived duel metrics.
+PMS_MERGE_SAFE = {
+    source: target
+    for source, target in PMS_DIRECT.items()
+    if source not in {"penalty_miss", "duel_won", "aerial_won"}
+}
 # Repo columns computable from a pair of bzzoiro fields (numerator/denominator).
 PMS_DERIVED = {
-    "successful_dribbles_percent": ("dribble_won", "dribble_attempted"),
+    "successful_dribbles_percent": ("won_contest", "total_contest"),
     "tackles_won_percent": ("won_tackle", "total_tackle"),
     "accurate_passes_percent": ("accurate_pass", "total_pass"),
     "accurate_crosses_percent": ("accurate_cross", "total_cross"),
@@ -72,9 +81,9 @@ PMS_DERIVED = {
     "duels_lost": ("duel_lost", "aerial_lost"),              # sum, not ratio
 }
 
-# Repo columns with no bzzoiro equivalent. `blocks` is the costly one: FPL's
-# defensive contribution needs CBIT (def) / CBIRT (mid+fwd), and blocks is a
-# term in both, so DefCon cannot be reconstructed from this source alone.
+# Repo columns with no validated Bzzoiro equivalent. Live v2 exposes
+# blocked_scoring_attempt, but that is an attacking shot blocked and must not
+# be treated as a defender block without semantic validation.
 PMS_UNAVAILABLE = [
     "blocks", "headed_clearances", "dribbled_past", "defensive_contributions",
     "xgot", "xgot_faced", "goals_prevented", "sweeper_actions", "high_claim",
@@ -103,6 +112,7 @@ PMS_NEW_FROM_BZZOIRO = {
     "total_pass": "Total passes attempted",
     "total_cross": "Total crosses attempted",
     "total_long_balls": "Total long balls attempted",
+    "punches": "Goalkeeper punches (observed live; absent from OpenAPI v1.0.0)",
 }
 
 # --- Event-level data the repo has no table for at all --------------------
@@ -110,7 +120,7 @@ PMS_NEW_FROM_BZZOIRO = {
 EVENT_NEW_TABLES = {
     "shotmap": (
         "Per-shot {min, type, sit, body, home, xg, xgot, pos:{x,y}, "
-        "gm:{y,z}, gml, pid}. Requires ?full=true. No repo equivalent."
+        "gm:{y,z}, gml, player_id}. No repo equivalent."
     ),
     "xg_per_minute": "Per-minute xG buckets aggregated from the shotmap.",
     "momentum": "Minute-by-minute pressure index {m, v}.",
@@ -206,16 +216,20 @@ def resolve_team_name(provider_name: str) -> str | None:
     s = _norm_name(provider_name)
     if not s:
         return None
+    tokens = set(s.split())
+    if tokens & {"women", "w", "xi", "u18", "u19", "u21", "u23", "academy", "youth", "reserves"}:
+        return None
     if s in ALIAS_TO_FPL_NAME:
         return ALIAS_TO_FPL_NAME[s]
     s_tokens = len(s.split())
     for alias in _ALIASES_BY_LENGTH:
-        # A one-word alias ("hull", "brighton") may only match a one-word
-        # candidate. Without this, "Hull Kingston Rovers" resolves to Hull City.
+        # A one-word alias may only match a one-word candidate. This prevents
+        # unrelated, youth and reserve clubs sharing a city token from matching.
         if len(alias.split()) == 1 and s_tokens > 1:
             continue
-        # Word-boundary containment, so "leeds" cannot match inside a longer word.
-        if f" {alias} " in f" {s} " or f" {s} " in f" {alias} ":
+        # Only accept a known alias contained in a decorated provider name.
+        # Never accept a truncated provider value such as just "Manchester".
+        if f" {alias} " in f" {s} ":
             return ALIAS_TO_FPL_NAME[alias]
     return None
 
@@ -225,11 +239,16 @@ def coverage_summary():
     direct = set(PMS_DIRECT.values())
     derived = set(PMS_DERIVED)
     covered = direct | derived
+    identity_columns = {"player_id", "match_id"}
     return {
         "repo_columns": len(REPO_PMS_COLUMNS),
+        "identity_columns": len(identity_columns),
+        "stat_columns": len(REPO_PMS_COLUMNS) - len(identity_columns),
         "direct": len(direct),
         "derived": len(derived),
         "covered": len(covered),
+        "candidate_comparable": len(covered),
+        "merge_safe": len(set(PMS_MERGE_SAFE.values())),
         "unavailable": len(PMS_UNAVAILABLE),
         "new_fields": len(PMS_NEW_FROM_BZZOIRO),
     }

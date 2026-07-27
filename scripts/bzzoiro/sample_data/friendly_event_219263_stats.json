@@ -1,0 +1,47 @@
+{
+  "event_id": 219263,
+  "stats": {
+    "home": {
+      "offsides": 0,
+      "red_cards": 0,
+      "throw_ins": 0,
+      "free_kicks": 0,
+      "goal_kicks": 0,
+      "corner_kicks": 1,
+      "yellow_cards": 0,
+      "ball_possession": 53,
+      "attack": 76,
+      "ball_safe": 72,
+      "dangerous_attack": 28,
+      "attack_pct": 21,
+      "ball_safe_pct": 64,
+      "dangerous_attack_pct": 15,
+      "xg": {
+        "actual": null
+      }
+    },
+    "away": {
+      "offsides": 0,
+      "red_cards": 0,
+      "throw_ins": 0,
+      "free_kicks": 0,
+      "goal_kicks": 0,
+      "corner_kicks": 4,
+      "yellow_cards": 0,
+      "ball_possession": 47,
+      "attack": 75,
+      "ball_safe": 56,
+      "dangerous_attack": 35,
+      "attack_pct": 27,
+      "ball_safe_pct": 54,
+      "dangerous_attack_pct": 19,
+      "xg": {
+        "actual": null
+      }
+    }
+  },
+  "shotmap": [],
+  "momentum": [],
+  "average_positions": {},
+  "xg_per_minute": []
+}

@@ -1,0 +1,19 @@
+{
+  "event_id": 219027,
+  "stats": {
+    "home": {
+      "xg": {
+        "actual": null
+      }
+    },
+    "away": {
+      "xg": {
+        "actual": null
+      }
+    }
+  },
+  "shotmap": [],
+  "momentum": [],
+  "average_positions": {},
+  "xg_per_minute": []
+}

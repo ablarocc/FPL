@@ -1,0 +1,518 @@
+{
+  "odds": {
+    "event_id": 219445,
+    "odds": {
+      "home_win": 2.05,
+      "draw": 3.45,
+      "away_win": 3.15,
+      "over_15_goals": 1.22,
+      "over_25_goals": 1.73,
+      "over_35_goals": 2.72,
+      "under_15_goals": 3.8,
+      "under_25_goals": 2.01,
+      "under_35_goals": 1.39,
+      "btts_yes": 1.63,
+      "btts_no": 2.13
+    }
+  },
+  "odds_comparison": {
+    "event_id": 219445,
+    "event_date": "2026-07-28T18:30:00Z",
+    "league_id": 79,
+    "league_name": "Club Friendlies",
+    "home_team_id": 3,
+    "home_team": "Aston Villa",
+    "away_team_id": 48,
+    "away_team": "Real Sociedad",
+    "bookmakers_count": 4,
+    "total_odds": 62,
+    "markets": {
+      "1x2": {
+        "HOME": {
+          "outcome": "HOME",
+          "line": null,
+          "outcome_name": "Aston Villa",
+          "best_odds": 2.09,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 2.05,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:12Z"
+            },
+            "novibet": {
+              "decimal_odds": 2.09,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            },
+            "bet365": {
+              "decimal_odds": 2.0,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 2.05,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            }
+          }
+        },
+        "DRAW": {
+          "outcome": "DRAW",
+          "line": null,
+          "outcome_name": "Draw",
+          "best_odds": 3.55,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 3.4,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            },
+            "novibet": {
+              "decimal_odds": 3.55,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T14:14:33Z"
+            },
+            "bet365": {
+              "decimal_odds": 3.4,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 3.45,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            }
+          }
+        },
+        "AWAY": {
+          "outcome": "AWAY",
+          "line": null,
+          "outcome_name": "Real Sociedad",
+          "best_odds": 3.2,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 3.15,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            },
+            "novibet": {
+              "decimal_odds": 3.2,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:33Z"
+            },
+            "bet365": {
+              "decimal_odds": 3.1,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 3.15,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            }
+          }
+        }
+      },
+      "double_chance": {
+        "1X": {
+          "outcome": "1X",
+          "line": null,
+          "outcome_name": "Aston Villa or Draw",
+          "best_odds": 1.3,
+          "best_bookmaker_slug": "interwetten",
+          "best_bookmaker_name": "Interwetten",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.3,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:13Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.3,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T02:03:13Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.286,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.3,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T02:03:13Z"
+            }
+          }
+        },
+        "X2": {
+          "outcome": "X2",
+          "line": null,
+          "outcome_name": "Draw or Real Sociedad",
+          "best_odds": 1.7,
+          "best_bookmaker_slug": "interwetten",
+          "best_bookmaker_name": "Interwetten",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.7,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.68,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.667,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.68,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            }
+          }
+        },
+        "12": {
+          "outcome": "12",
+          "line": null,
+          "outcome_name": "Aston Villa or Real Sociedad",
+          "best_odds": 1.27,
+          "best_bookmaker_slug": "interwetten",
+          "best_bookmaker_name": "Interwetten",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.27,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:13Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.25,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T02:03:13Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.25,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.26,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T02:03:13Z"
+            }
+          }
+        }
+      },
+      "over_under_15": {
+        "over@1.5": {
+          "outcome": "over",
+          "line": 1.5,
+          "outcome_name": "Over 1.50",
+          "best_odds": 1.23,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.22,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.23,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:34Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.222,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:16Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.22,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:35Z"
+            }
+          }
+        },
+        "under@1.5": {
+          "outcome": "under",
+          "line": 1.5,
+          "outcome_name": "Under 1.50",
+          "best_odds": 4.0,
+          "best_bookmaker_slug": "bet365",
+          "best_bookmaker_name": "Bet365",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 3.6,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "novibet": {
+              "decimal_odds": 3.8,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "bet365": {
+              "decimal_odds": 4.0,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:16Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 3.8,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T02:03:15Z"
+            }
+          }
+        }
+      },
+      "over_under_25": {
+        "over@2.5": {
+          "outcome": "over",
+          "line": 2.5,
+          "outcome_name": "Over 2.50",
+          "best_odds": 1.75,
+          "best_bookmaker_slug": "bet365",
+          "best_bookmaker_name": "Bet365",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.7,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:14Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.73,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:33Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.75,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.73,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T02:03:14Z"
+            }
+          }
+        },
+        "under@2.5": {
+          "outcome": "under",
+          "line": 2.5,
+          "outcome_name": "Under 2.50",
+          "best_odds": 2.05,
+          "best_bookmaker_slug": "bet365",
+          "best_bookmaker_name": "Bet365",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.95,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:14Z"
+            },
+            "novibet": {
+              "decimal_odds": 2.02,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            },
+            "bet365": {
+              "decimal_odds": 2.05,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:15Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 2.01,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-27T02:04:10Z"
+            }
+          }
+        }
+      },
+      "over_under_35": {
+        "over@3.5": {
+          "outcome": "over",
+          "line": 3.5,
+          "outcome_name": "Over 3.50",
+          "best_odds": 2.8,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 2.6,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "novibet": {
+              "decimal_odds": 2.8,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "bet365": {
+              "decimal_odds": 2.75,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:16Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 2.72,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T02:03:16Z"
+            }
+          }
+        },
+        "under@3.5": {
+          "outcome": "under",
+          "line": 3.5,
+          "outcome_name": "Under 3.50",
+          "best_odds": 1.4,
+          "best_bookmaker_slug": "interwetten",
+          "best_bookmaker_name": "Interwetten",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.4,
+              "movement": "",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.38,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T02:03:15Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.4,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:16Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.39,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T02:03:16Z"
+            }
+          }
+        }
+      },
+      "btts": {
+        "yes": {
+          "outcome": "yes",
+          "line": null,
+          "outcome_name": "Yes",
+          "best_odds": 1.667,
+          "best_bookmaker_slug": "bet365",
+          "best_bookmaker_name": "Bet365",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 1.6,
+              "movement": "",
+              "updated_at": "2026-07-27T02:04:15Z"
+            },
+            "novibet": {
+              "decimal_odds": 1.63,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:41Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.667,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:22Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.63,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:15Z"
+            }
+          }
+        },
+        "no": {
+          "outcome": "no",
+          "line": null,
+          "outcome_name": "No",
+          "best_odds": 2.2,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "interwetten": {
+              "decimal_odds": 2.1,
+              "movement": "",
+              "updated_at": "2026-07-27T02:04:15Z"
+            },
+            "novibet": {
+              "decimal_odds": 2.2,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T14:14:41Z"
+            },
+            "bet365": {
+              "decimal_odds": 2.1,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:22Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 2.13,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-27T02:04:15Z"
+            }
+          }
+        }
+      },
+      "draw_no_bet": {
+        "HOME": {
+          "outcome": "HOME",
+          "line": null,
+          "outcome_name": "Aston Villa",
+          "best_odds": 1.55,
+          "best_bookmaker_slug": "novibet",
+          "best_bookmaker_name": "Novibet",
+          "bookmakers": {
+            "novibet": {
+              "decimal_odds": 1.55,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:41Z"
+            },
+            "bet365": {
+              "decimal_odds": 1.533,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:22Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 1.54,
+              "movement": "SHORTENING",
+              "updated_at": "2026-07-26T14:14:41Z"
+            }
+          }
+        },
+        "AWAY": {
+          "outcome": "AWAY",
+          "line": null,
+          "outcome_name": "Real Sociedad",
+          "best_odds": 2.375,
+          "best_bookmaker_slug": "bet365",
+          "best_bookmaker_name": "Bet365",
+          "bookmakers": {
+            "novibet": {
+              "decimal_odds": 2.35,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T14:14:41Z"
+            },
+            "bet365": {
+              "decimal_odds": 2.375,
+              "movement": "",
+              "updated_at": "2026-07-25T14:18:22Z"
+            },
+            "oddssafari-consensus": {
+              "decimal_odds": 2.36,
+              "movement": "DRIFTING",
+              "updated_at": "2026-07-26T14:14:41Z"
+            }
+          }
+        }
+      }
+    }
+  },
+  "prediction": null,
+  "polymarket": null
+}

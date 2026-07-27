@@ -1,0 +1,168 @@
+{
+  "captured_snapshot": "2026-07-27T03:49:56.060519+00:00",
+  "files": [
+    {
+      "path": "DIFF_SUMMARY.json",
+      "rows": null,
+      "sha256": "78302a5504b6622d8ca4f39e7a67347d3cb432f63ff0ac3d8df73482d7e944c6"
+    },
+    {
+      "path": "README.md",
+      "rows": null,
+      "sha256": "16366849bf4c68e153fe7427aa290cf09f68c6ca34546508cd0ec22466256567"
+    },
+    {
+      "path": "audit/accepted_identities.csv",
+      "rows": 749,
+      "sha256": "6dfbaa3fbeab16f035628cca397a225d3e61191fe01ebed1b19f7644688a92db"
+    },
+    {
+      "path": "audit/merge_audit.csv",
+      "rows": 4,
+      "sha256": "122fd1164c83b06502f12510a001c83f8e931409c6e9404dd082b7df945dc01a"
+    },
+    {
+      "path": "audit/rejection_summary.csv",
+      "rows": 12,
+      "sha256": "2cab6a0817a104fe381281e59308a21fe06bd8a5b6388b70db475425e0ebcc3e"
+    },
+    {
+      "path": "audit/schema_audit.csv",
+      "rows": 6,
+      "sha256": "c00cf65ce596f432d50b154612b4c5727acf560836e5c5ce285e5a21d4b56109"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_average_positions.csv",
+      "rows": 30,
+      "sha256": "9f6f39bd2c6debb5dc2b47031eb07e6bac7b78ba29790028858bee1288034856"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_incidents.csv",
+      "rows": 18,
+      "sha256": "79291459624350b451494c18c3aee5e5b738651462ce87ac91e98be12a96277a"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_lineups.csv",
+      "rows": 40,
+      "sha256": "2695fd487a6b0b4053306f102be07f33131d3f3f71fbb1b7d37a3dfcf528c882"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_match_enrichment.csv",
+      "rows": 1,
+      "sha256": "f4a78234fe4b9ca1a24df9ccbef9b86c6daaf013bb01d6098ec1422070e2b15b"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_momentum.csv",
+      "rows": 92,
+      "sha256": "3afdbed70270e632a7a0281ef6636841f5fddbc632932ce2b3298125151463e0"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_player_match_enrichment.csv",
+      "rows": 250,
+      "sha256": "5e99ccf1d983de166b67dc3a7d59822030c446c59ec516dc76985b8dd4c080f9"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_shots.csv",
+      "rows": 19,
+      "sha256": "130e04cdfbb04514b29e3a85fc5d7e92ed0e7a8a487049d1ed9b4af5a5b3ee8a"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/bzzoiro_xg_by_minute.csv",
+      "rows": 16,
+      "sha256": "ada7fea2a2e26813d3b78acd5329d719d4b9104d48198daae9423f1dafe6d033"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/fixtures.csv",
+      "rows": 10,
+      "sha256": "c5f2fe93a1dedc0563305c9905daa8ffe8d73c2d8710ab25be5f3616b2dc5c59"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/matches.csv",
+      "rows": 10,
+      "sha256": "c5f2fe93a1dedc0563305c9905daa8ffe8d73c2d8710ab25be5f3616b2dc5c59"
+    },
+    {
+      "path": "git_export/data/2025-2026/By Tournament/Premier League/GW10/playermatchstats.csv",
+      "rows": 303,
+      "sha256": "89844c040d3d9f6fbf69767dc8daa3e83d4514e8a07e7d14ad269023dc6a6b3d"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_average_positions.csv",
+      "rows": 214,
+      "sha256": "45c3437f48e9a75c0267922fa3b6f2d4967c2f8496a9335f054e2619eb74150e"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_incidents.csv",
+      "rows": 0,
+      "sha256": "277d80c3bd5ffca50d724414ea665009aa0106ee64bc71e1549c9bbb41176ba7"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_lineups.csv",
+      "rows": 0,
+      "sha256": "7c193886e67839ea0e8954c547dd18ec0710f3232c57e95f5b50ee0865bd1cf9"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_match_enrichment.csv",
+      "rows": 62,
+      "sha256": "4ddaa71f7946035ee180670cb92b7e44020db03d608f7400cb82ac3140d1bf6a"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_momentum.csv",
+      "rows": 452,
+      "sha256": "d1c3305a37d5e4db7be85fa98f8d81feca9700e778efcb245f6b3c7dd662b18d"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_player_match_enrichment.csv",
+      "rows": 224,
+      "sha256": "ba487df260ba1be99c06aeca9cdfbe85048682628fc586358f7af6fec1336115"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_shots.csv",
+      "rows": 106,
+      "sha256": "9535300ea31f4d6e29939e37372261cf972754f7aa6b6705cd606a2b15006d0e"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/bzzoiro_xg_by_minute.csv",
+      "rows": 89,
+      "sha256": "b20c0835aa52f3ccbc55a3688bcdc606cf38111ea78b7c82dcdab009506a5222"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/fixtures.csv",
+      "rows": 91,
+      "sha256": "f0688e3a61979d3b7e4c549b1e8ca930bbf070078ba4959b4ed687919436c694"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/matches.csv",
+      "rows": 91,
+      "sha256": "f0688e3a61979d3b7e4c549b1e8ca930bbf070078ba4959b4ed687919436c694"
+    },
+    {
+      "path": "git_export/data/2026-2027/By Tournament/Friendlies/GW0/playermatchstats.csv",
+      "rows": 236,
+      "sha256": "7fe60febabeb0a04961a3a42654b3ad1926b6516d624911b0083c9c86a2a3a10"
+    },
+    {
+      "path": "git_export/supplemental/bzzoiro_competitions.csv",
+      "rows": 74,
+      "sha256": "07136566dad4699c9bd404de5d05586b7b073173ea2d3af9b29ee2b462dc90ef"
+    },
+    {
+      "path": "git_export/supplemental/bzzoiro_odds.csv",
+      "rows": 3,
+      "sha256": "036175ae7c812f265e96c5adf427f661e857704dffddfd9ddca14fa89457c71f"
+    },
+    {
+      "path": "git_export/supplemental/bzzoiro_player_availability.csv",
+      "rows": 16,
+      "sha256": "1ed9352a7156f9e8744c4ac9b48f227ebddc4766409bf701ad5c80f4f4a5c3fb"
+    },
+    {
+      "path": "git_export/supplemental/bzzoiro_predictions.csv",
+      "rows": 0,
+      "sha256": "f9f6be632a941a7923ebee82b693f7970f31551046acbcc10dde047fdd53bbfc"
+    }
+  ],
+  "offline": true,
+  "schema_version": 1,
+  "simulation": true
+}

@@ -1,0 +1,54 @@
+{
+  "probe_version": "2.0",
+  "captured_at": "2026-07-27T03:49:55.810596+00:00",
+  "repository": "FPL-Core-Insights",
+  "git_commit": "57929744758795172c277b9396363aaf8c657164",
+  "git_branch": "claude/football-data-integration-h3aa69",
+  "working_tree_dirty": true,
+  "python": "3.12.13",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "api_base_url": "https://sports.bzzoiro.com",
+  "schema_sha256": "7e881ed6686f8c4db32ac65bbfee69f953d01240d7bd72cb69b480d62cac7a06",
+  "inputs": {
+    "comparison_season": "2025-2026",
+    "friendlies_season": "2026-2027",
+    "gameweek": 10,
+    "sample_matches": 10,
+    "friendly_sample": 100,
+    "profile_sample": 25,
+    "identity_detail_limit": 200,
+    "skip_last_season": false,
+    "skip_friendlies": false,
+    "skip_enrichment": false,
+    "skip_betting": false,
+    "strict": true
+  },
+  "api_summary": {
+    "logical_requests": 221,
+    "http_attempts": 221,
+    "successful_requests": 219,
+    "success_rate": 0.991,
+    "median_ms": 342.7,
+    "p95_ms": 570.2,
+    "errors": [
+      {
+        "path": "/api/v2/events/219445/prediction/",
+        "params": {},
+        "attempts": 1,
+        "status": 404,
+        "elapsed_ms": 595.3,
+        "ok": false,
+        "error": "HTTP 404: {\"detail\":\"No prediction available for this event.\"}"
+      },
+      {
+        "path": "/api/v2/events/219445/polymarket/",
+        "params": {},
+        "attempts": 1,
+        "status": 404,
+        "elapsed_ms": 256.7,
+        "ok": false,
+        "error": "HTTP 404: {\"detail\":\"No Polymarket markets available for this event.\"}"
+      }
+    ]
+  }
+}

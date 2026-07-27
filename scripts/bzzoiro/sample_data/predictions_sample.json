@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 231,
+    "created_at": "2026-07-24T16:05:10Z",
+    "event": {
+      "id": 214534,
+      "event_date": "2026-07-27T15:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 363,
+      "home_team": "CFR 1907 Cluj",
+      "away_team_id": 2217,
+      "away_team": "FC Voluntari",
+      "league_id": 23,
+      "league_name": "Superliga"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 52.4,
+        "prob_draw": 26.1,
+        "prob_away": 21.5,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": null,
+        "away": null
+      },
+      "over_under": {
+        "prob_over_15": 72.6,
+        "prob_over_25": 49.2,
+        "prob_over_35": 28.9
+      },
+      "btts": {
+        "prob_yes": 51.2
+      },
+      "score": {
+        "most_likely": null
+      },
+      "draw_no_bet": {
+        "prob_home": 70.6
+      },
+      "corners": {
+        "prob_over_85": 50.0,
+        "prob_over_95": 38.3,
+        "prob_over_105": 27.7
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 52.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5236,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 230,
+    "created_at": "2026-07-24T16:05:10Z",
+    "event": {
+      "id": 211662,
+      "event_date": "2026-07-27T16:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 3841,
+      "home_team": "FK Dunav Ruse",
+      "away_team_id": 136,
+      "away_team": "Ludogorets",
+      "league_id": 22,
+      "league_name": "Parva Liga"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 11.4,
+        "prob_draw": 19.3,
+        "prob_away": 69.3,
+        "predicted": "A"
+      },
+      "expected_goals": {
+        "home": null,
+        "away": null
+      },
+      "over_under": {
+        "prob_over_15": 77.2,
+        "prob_over_25": 56.0,
+        "prob_over_35": 35.1
+      },
+      "btts": {
+        "prob_yes": 46.5
+      },
+      "score": {
+        "most_likely": null
+      },
+      "draw_no_bet": {
+        "prob_home": 14.8
+      },
+      "corners": {
+        "prob_over_85": 54.9,
+        "prob_over_95": 44.6,
+        "prob_over_105": 32.6
+      }
+    },
+    "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 69.3,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.6929,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 38,
+    "created_at": "2026-07-23T16:01:10Z",
+    "event": {
+      "id": 207024,
+      "event_date": "2026-07-27T17:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 2078,
+      "home_team": "Rosenborg BK",
+      "away_team_id": 410,
+      "away_team": "Fredrikstad FK",
+      "league_id": 54,
+      "league_name": "Eliteserien"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 55.4,
+        "prob_draw": 24.3,
+        "prob_away": 20.3,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.8,
+        "away": 1.06
+      },
+      "over_under": {
+        "prob_over_15": 76.3,
+        "prob_over_25": 54.0,
+        "prob_over_35": 32.9
+      },
+      "btts": {
+        "prob_yes": 54.4
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 72.8
+      },
+      "corners": {
+        "prob_over_85": 70.6,
+        "prob_over_95": 59.6,
+        "prob_over_105": 49.0
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 55.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5538,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 232,
+    "created_at": "2026-07-24T18:05:09Z",
+    "event": {
+      "id": 221479,
+      "event_date": "2026-07-27T17:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 1373,
+      "home_team": "Randers FC",
+      "away_team_id": 1374,
+      "away_team": "Silkeborg IF",
+      "league_id": 84,
+      "league_name": "Danish Superliga"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 53.7,
+        "prob_draw": 24.2,
+        "prob_away": 22.1,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.76,
+        "away": 1.51
+      },
+      "over_under": {
+        "prob_over_15": 78.8,
+        "prob_over_25": 58.0,
+        "prob_over_35": 36.9
+      },
+      "btts": {
+        "prob_yes": 57.8
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 70.7
+      },
+      "corners": {
+        "prob_over_85": 64.8,
+        "prob_over_95": 53.6,
+        "prob_over_105": 42.7
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 53.7,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5372,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 37,
+    "created_at": "2026-07-23T16:01:10Z",
+    "event": {
+      "id": 46408,
+      "event_date": "2026-07-27T17:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 407,
+      "home_team": "BK Häcken",
+      "away_team_id": 449,
+      "away_team": "AIK",
+      "league_id": 26,
+      "league_name": "Allsvenskan"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 50.7,
+        "prob_draw": 23.4,
+        "prob_away": 25.9,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.72,
+        "away": 1.43
+      },
+      "over_under": {
+        "prob_over_15": 81.8,
+        "prob_over_25": 62.0,
+        "prob_over_35": 41.3
+      },
+      "btts": {
+        "prob_yes": 63.0
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 65.9
+      },
+      "corners": {
+        "prob_over_85": 72.0,
+        "prob_over_95": 61.8,
+        "prob_over_105": 50.9
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 50.7,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5074,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 39,
+    "created_at": "2026-07-23T16:01:10Z",
+    "event": {
+      "id": 211840,
+      "event_date": "2026-07-27T17:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 424,
+      "home_team": "Zagłębie Lubin",
+      "away_team_id": 435,
+      "away_team": "Piast Gliwice",
+      "league_id": 25,
+      "league_name": "Ekstraklasa"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 33.2,
+        "prob_draw": 29.8,
+        "prob_away": 37.0,
+        "predicted": "A"
+      },
+      "expected_goals": {
+        "home": 1.31,
+        "away": 1.15
+      },
+      "over_under": {
+        "prob_over_15": 67.9,
+        "prob_over_25": 43.3,
+        "prob_over_35": 23.5
+      },
+      "btts": {
+        "prob_yes": 49.6
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 47.2
+      },
+      "corners": {
+        "prob_over_85": 62.3,
+        "prob_over_95": 51.1,
+        "prob_over_105": 40.5
+      }
+    },
+    "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 37.0,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.37,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 36,
+    "created_at": "2026-07-23T16:01:10Z",
+    "event": {
+      "id": 212878,
+      "event_date": "2026-07-27T18:15:00Z",
+      "status": "notstarted",
+      "home_team_id": 345,
+      "home_team": "CSKA Sofia",
+      "away_team_id": 344,
+      "away_team": "Botev Plovdiv",
+      "league_id": 22,
+      "league_name": "Parva Liga"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 57.2,
+        "prob_draw": 24.5,
+        "prob_away": 18.4,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.57,
+        "away": 0.85
+      },
+      "over_under": {
+        "prob_over_15": 73.9,
+        "prob_over_25": 50.5,
+        "prob_over_35": 29.9
+      },
+      "btts": {
+        "prob_yes": 50.9
+      },
+      "score": {
+        "most_likely": "1-0"
+      },
+      "draw_no_bet": {
+        "prob_home": 75.6
+      },
+      "corners": {
+        "prob_over_85": 61.2,
+        "prob_over_95": 48.8,
+        "prob_over_105": 38.1
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 57.2,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5716,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 35,
+    "created_at": "2026-07-23T16:01:10Z",
+    "event": {
+      "id": 214536,
+      "event_date": "2026-07-27T18:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 365,
+      "home_team": "FC Botoșani",
+      "away_team_id": 357,
+      "away_team": "FC Rapid București",
+      "league_id": 23,
+      "league_name": "Superliga"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 30.8,
+        "prob_draw": 29.3,
+        "prob_away": 39.9,
+        "predicted": "A"
+      },
+      "expected_goals": {
+        "home": 1.31,
+        "away": 1.15
+      },
+      "over_under": {
+        "prob_over_15": 70.3,
+        "prob_over_25": 46.0,
+        "prob_over_35": 26.0
+      },
+      "btts": {
+        "prob_yes": 52.2
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 43.5
+      },
+      "corners": {
+        "prob_over_85": 60.7,
+        "prob_over_95": 49.6,
+        "prob_over_105": 39.5
+      }
+    },
+    "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 39.9,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.3991,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 33,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 10052,
+      "event_date": "2026-07-27T22:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 159,
+      "home_team": "Sport Recife",
+      "away_team_id": 863,
+      "away_team": "Cuiabá",
+      "league_id": 34,
+      "league_name": "Brasileirão Serie B"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 48.9,
+        "prob_draw": 29.4,
+        "prob_away": 21.7,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.06,
+        "away": 1.06
+      },
+      "over_under": {
+        "prob_over_15": 63.4,
+        "prob_over_25": 38.2,
+        "prob_over_35": 19.6
+      },
+      "btts": {
+        "prob_yes": 43.0
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 69.0
+      },
+      "corners": {
+        "prob_over_85": 62.4,
+        "prob_over_95": 50.7,
+        "prob_over_105": 39.8
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 48.9,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.4892,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 32,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 10046,
+      "event_date": "2026-07-27T22:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 831,
+      "home_team": "Clube De Regatas Brasil",
+      "away_team_id": 826,
+      "away_team": "Vila Nova FC",
+      "league_id": 34,
+      "league_name": "Brasileirão Serie B"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 51.9,
+        "prob_draw": 26.3,
+        "prob_away": 21.8,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.6,
+        "away": 1.04
+      },
+      "over_under": {
+        "prob_over_15": 73.9,
+        "prob_over_25": 49.6,
+        "prob_over_35": 26.8
+      },
+      "btts": {
+        "prob_yes": 51.7
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 70.3
+      },
+      "corners": {
+        "prob_over_85": 63.5,
+        "prob_over_95": 51.8,
+        "prob_over_105": 40.6
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 51.9,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5195,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 34,
+    "created_at": "2026-07-23T16:01:10Z",
+    "event": {
+      "id": 215949,
+      "event_date": "2026-07-27T22:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 819,
+      "home_team": "Atlético Goianiense",
+      "away_team_id": 828,
+      "away_team": "Operário-PR",
+      "league_id": 34,
+      "league_name": "Brasileirão Serie B"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 43.8,
+        "prob_draw": 29.4,
+        "prob_away": 26.9,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.2,
+        "away": 1.12
+      },
+      "over_under": {
+        "prob_over_15": 68.0,
+        "prob_over_25": 43.1,
+        "prob_over_35": 23.6
+      },
+      "btts": {
+        "prob_yes": 49.2
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 61.5
+      },
+      "corners": {
+        "prob_over_85": 67.2,
+        "prob_over_95": 55.4,
+        "prob_over_105": 44.9
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 43.8,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.4376,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 31,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 216520,
+      "event_date": "2026-07-28T15:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 377,
+      "home_team": "Kuopion Palloseura",
+      "away_team_id": 412,
+      "away_team": "Sabah FK",
+      "league_id": 7,
+      "league_name": "Champions League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 29.0,
+        "prob_draw": 27.8,
+        "prob_away": 43.3,
+        "predicted": "A"
+      },
+      "expected_goals": {
+        "home": 1.87,
+        "away": 1.24
+      },
+      "over_under": {
+        "prob_over_15": 73.7,
+        "prob_over_25": 50.7,
+        "prob_over_35": 29.6
+      },
+      "btts": {
+        "prob_yes": 53.9
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 40.3
+      },
+      "corners": {
+        "prob_over_85": 56.0,
+        "prob_over_95": 44.6,
+        "prob_over_105": 33.6
+      }
+    },
+    "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 43.3,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.4326,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 30,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 216507,
+      "event_date": "2026-07-28T16:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 382,
+      "home_team": "Lincoln Red Imps",
+      "away_team_id": 441,
+      "away_team": "Mjällby AIF",
+      "league_id": 7,
+      "league_name": "Champions League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 16.3,
+        "prob_draw": 21.2,
+        "prob_away": 62.4,
+        "predicted": "A"
+      },
+      "expected_goals": {
+        "home": 1.34,
+        "away": 1.73
+      },
+      "over_under": {
+        "prob_over_15": 76.6,
+        "prob_over_25": 54.6,
+        "prob_over_35": 33.1
+      },
+      "btts": {
+        "prob_yes": 49.2
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 21.5
+      },
+      "corners": {
+        "prob_over_85": 54.0,
+        "prob_over_95": 41.6,
+        "prob_over_105": 31.0
+      }
+    },
+    "recommendations": {
+      "favorite": "A",
+      "favorite_prob": 62.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.6244,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 256,
+    "created_at": "2026-07-25T18:05:10Z",
+    "event": {
+      "id": 221148,
+      "event_date": "2026-07-28T17:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 2345,
+      "home_team": "Apollon Limassol",
+      "away_team_id": 2649,
+      "away_team": "FC Dila Gori",
+      "league_id": 83,
+      "league_name": "Conference League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 68.3,
+        "prob_draw": 19.3,
+        "prob_away": 12.4,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": null,
+        "away": null
+      },
+      "over_under": {
+        "prob_over_15": 77.7,
+        "prob_over_25": 56.5,
+        "prob_over_35": 35.6
+      },
+      "btts": {
+        "prob_yes": 47.6
+      },
+      "score": {
+        "most_likely": null
+      },
+      "draw_no_bet": {
+        "prob_home": 83.5
+      },
+      "corners": {
+        "prob_over_85": 61.1,
+        "prob_over_95": 49.9,
+        "prob_over_105": 38.9
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 68.3,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.6831,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 255,
+    "created_at": "2026-07-25T18:05:10Z",
+    "event": {
+      "id": 221147,
+      "event_date": "2026-07-28T17:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 2838,
+      "home_team": "Riga FC",
+      "away_team_id": 3681,
+      "away_team": "FK Vardar Skopje",
+      "league_id": 83,
+      "league_name": "Conference League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 69.2,
+        "prob_draw": 19.0,
+        "prob_away": 11.9,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": null,
+        "away": null
+      },
+      "over_under": {
+        "prob_over_15": 79.3,
+        "prob_over_25": 59.3,
+        "prob_over_35": 38.4
+      },
+      "btts": {
+        "prob_yes": 49.7
+      },
+      "score": {
+        "most_likely": null
+      },
+      "draw_no_bet": {
+        "prob_home": 84.3
+      },
+      "corners": {
+        "prob_over_85": 60.2,
+        "prob_over_95": 49.0,
+        "prob_over_105": 37.8
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 69.2,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.6915,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 254,
+    "created_at": "2026-07-25T18:05:10Z",
+    "event": {
+      "id": 221149,
+      "event_date": "2026-07-28T17:30:00Z",
+      "status": "notstarted",
+      "home_team_id": 339,
+      "home_team": "FC CSKA 1948 Sofia",
+      "away_team_id": 418,
+      "away_team": "FC Spartak Trnava",
+      "league_id": 83,
+      "league_name": "Conference League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 47.8,
+        "prob_draw": 27.4,
+        "prob_away": 24.8,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": null,
+        "away": null
+      },
+      "over_under": {
+        "prob_over_15": 71.0,
+        "prob_over_25": 47.3,
+        "prob_over_35": 27.1
+      },
+      "btts": {
+        "prob_yes": 51.1
+      },
+      "score": {
+        "most_likely": null
+      },
+      "draw_no_bet": {
+        "prob_home": 65.6
+      },
+      "corners": {
+        "prob_over_85": 55.7,
+        "prob_over_95": 45.5,
+        "prob_over_105": 32.6
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 47.8,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.4783,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 29,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 210776,
+      "event_date": "2026-07-28T18:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 133,
+      "home_team": "GNK Dinamo Zagreb",
+      "away_team_id": 255,
+      "away_team": "FC Thun",
+      "league_id": 7,
+      "league_name": "Champions League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 68.0,
+        "prob_draw": 19.3,
+        "prob_away": 12.7,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 1.8,
+        "away": 1.85
+      },
+      "over_under": {
+        "prob_over_15": 79.7,
+        "prob_over_25": 60.1,
+        "prob_over_35": 38.6
+      },
+      "btts": {
+        "prob_yes": 50.0
+      },
+      "score": {
+        "most_likely": "1-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 83.2
+      },
+      "corners": {
+        "prob_over_85": 60.5,
+        "prob_over_95": 49.6,
+        "prob_over_105": 38.4
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 68.0,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.68,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 253,
+    "created_at": "2026-07-25T18:05:10Z",
+    "event": {
+      "id": 221150,
+      "event_date": "2026-07-28T18:00:00Z",
+      "status": "notstarted",
+      "home_team_id": 380,
+      "home_team": "FC Drita",
+      "away_team_id": 3603,
+      "away_team": "Floriana FC",
+      "league_id": 83,
+      "league_name": "Conference League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 58.4,
+        "prob_draw": 24.9,
+        "prob_away": 16.7,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": null,
+        "away": null
+      },
+      "over_under": {
+        "prob_over_15": 71.5,
+        "prob_over_25": 47.7,
+        "prob_over_35": 27.7
+      },
+      "btts": {
+        "prob_yes": 46.8
+      },
+      "score": {
+        "most_likely": null
+      },
+      "draw_no_bet": {
+        "prob_home": 77.1
+      },
+      "corners": {
+        "prob_over_85": 62.5,
+        "prob_over_95": 49.7,
+        "prob_over_105": 39.4
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 58.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5839,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 258,
+    "created_at": "2026-07-25T20:05:12Z",
+    "event": {
+      "id": 216518,
+      "event_date": "2026-07-28T18:15:00Z",
+      "status": "notstarted",
+      "home_team_id": 406,
+      "home_team": "NK Celje",
+      "away_team_id": 401,
+      "away_team": "KF Egnatia",
+      "league_id": 7,
+      "league_name": "Champions League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 66.4,
+        "prob_draw": 20.0,
+        "prob_away": 13.6,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 2.21,
+        "away": 1.71
+      },
+      "over_under": {
+        "prob_over_15": 79.7,
+        "prob_over_25": 60.0,
+        "prob_over_35": 38.5
+      },
+      "btts": {
+        "prob_yes": 50.5
+      },
+      "score": {
+        "most_likely": "2-1"
+      },
+      "draw_no_bet": {
+        "prob_home": 81.7
+      },
+      "corners": {
+        "prob_over_85": 58.4,
+        "prob_over_95": 46.3,
+        "prob_over_105": 34.6
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 66.4,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.6639,
+      "version": "dc-blend-v1"
+    }
+  },
+  {
+    "id": 28,
+    "created_at": "2026-07-23T16:01:09Z",
+    "event": {
+      "id": 210777,
+      "event_date": "2026-07-28T18:45:00Z",
+      "status": "notstarted",
+      "home_team_id": 231,
+      "home_team": "Heart of Midlothian",
+      "away_team_id": 128,
+      "away_team": "SK Sturm Graz",
+      "league_id": 7,
+      "league_name": "Champions League"
+    },
+    "markets": {
+      "match_result": {
+        "prob_home": 51.3,
+        "prob_draw": 24.1,
+        "prob_away": 24.7,
+        "predicted": "H"
+      },
+      "expected_goals": {
+        "home": 2.06,
+        "away": 0.95
+      },
+      "over_under": {
+        "prob_over_15": 79.7,
+        "prob_over_25": 59.2,
+        "prob_over_35": 38.3
+      },
+      "btts": {
+        "prob_yes": 59.7
+      },
+      "score": {
+        "most_likely": "2-0"
+      },
+      "draw_no_bet": {
+        "prob_home": 67.0
+      },
+      "corners": {
+        "prob_over_85": 69.7,
+        "prob_over_95": 58.8,
+        "prob_over_105": 48.4
+      }
+    },
+    "recommendations": {
+      "favorite": "H",
+      "favorite_prob": 51.3,
+      "bet_favorite": false,
+      "over_15": false,
+      "over_25": false,
+      "over_35": false,
+      "btts": false,
+      "winner": false
+    },
+    "model": {
+      "confidence": 0.5127,
+      "version": "dc-blend-v1"
+    }
+  }
+]

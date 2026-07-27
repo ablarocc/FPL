@@ -1,0 +1,4418 @@
+[
+  {
+    "provider_player_id": 324,
+    "provider_name": "Ibrahima Konaté",
+    "provider_team_id": 1,
+    "fpl_player_id": "374",
+    "fpl_name": "Konaté",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 325,
+    "provider_name": "Virgil van Dijk",
+    "provider_team_id": 1,
+    "fpl_player_id": "373",
+    "fpl_name": "Virgil",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 326,
+    "provider_name": "Andy Robertson",
+    "provider_team_id": 1,
+    "fpl_player_id": "372",
+    "fpl_name": "Robertson",
+    "fpl_team_code": "14",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 327,
+    "provider_name": "Ryan Gravenberch",
+    "provider_team_id": 1,
+    "fpl_player_id": "390",
+    "fpl_name": "Gravenberch",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 328,
+    "provider_name": "Alexis Mac Allister",
+    "provider_team_id": 1,
+    "fpl_player_id": "386",
+    "fpl_name": "Mac Allister",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 329,
+    "provider_name": "Dominik Szoboszlai",
+    "provider_team_id": 1,
+    "fpl_player_id": "387",
+    "fpl_name": "Szoboszlai",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 330,
+    "provider_name": "Florian Wirtz",
+    "provider_team_id": 1,
+    "fpl_player_id": "382",
+    "fpl_name": "Wirtz",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 331,
+    "provider_name": "Cody Gakpo",
+    "provider_team_id": 1,
+    "fpl_player_id": "384",
+    "fpl_name": "Gakpo",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 333,
+    "provider_name": "Mohamed Salah",
+    "provider_team_id": 1,
+    "fpl_player_id": "381",
+    "fpl_name": "M.Salah",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 335,
+    "provider_name": "Hugo Ekitiké",
+    "provider_team_id": 1,
+    "fpl_player_id": "661",
+    "fpl_name": "Ekitiké",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 338,
+    "provider_name": "Giorgi Mamardashvili",
+    "provider_team_id": 1,
+    "fpl_player_id": "367",
+    "fpl_name": "Mamardashvili",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 342,
+    "provider_name": "Robin Roefs",
+    "provider_team_id": 7,
+    "fpl_player_id": "670",
+    "fpl_name": "Roefs",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 343,
+    "provider_name": "Nordi Mukiele",
+    "provider_team_id": 7,
+    "fpl_player_id": "694",
+    "fpl_name": "Mukiele",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 344,
+    "provider_name": "Daniel Ballard",
+    "provider_team_id": 7,
+    "fpl_player_id": "531",
+    "fpl_name": "Ballard",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 346,
+    "provider_name": "Reinildo Mandava",
+    "provider_team_id": 7,
+    "fpl_player_id": "541",
+    "fpl_name": "Reinildo",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 347,
+    "provider_name": "Trai Hume",
+    "provider_team_id": 7,
+    "fpl_player_id": "532",
+    "fpl_name": "Hume",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 348,
+    "provider_name": "Granit Xhaka",
+    "provider_team_id": 7,
+    "fpl_player_id": "668",
+    "fpl_name": "Xhaka",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 349,
+    "provider_name": "Noah Sadiki",
+    "provider_team_id": 7,
+    "fpl_player_id": "552",
+    "fpl_name": "Sadiki",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 350,
+    "provider_name": "Chemsdine Talbi",
+    "provider_team_id": 7,
+    "fpl_player_id": "553",
+    "fpl_name": "Talbi",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 351,
+    "provider_name": "Enzo Le Fée",
+    "provider_team_id": 7,
+    "fpl_player_id": "547",
+    "fpl_name": "E.Le Fée",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 352,
+    "provider_name": "Brian Brobbey",
+    "provider_team_id": 7,
+    "fpl_player_id": "730",
+    "fpl_name": "Brobbey",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 353,
+    "provider_name": "Wilson Isidor",
+    "provider_team_id": 7,
+    "fpl_player_id": "560",
+    "fpl_name": "Isidor",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 354,
+    "provider_name": "Lutsharel Geertruida",
+    "provider_team_id": 7,
+    "fpl_player_id": "724",
+    "fpl_name": "Geertruida",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 360,
+    "provider_name": "Bertrand Traoré",
+    "provider_team_id": 7,
+    "fpl_player_id": "735",
+    "fpl_name": "Traoré",
+    "fpl_team_code": "56",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 362,
+    "provider_name": "Lucas Perri",
+    "provider_team_id": 19,
+    "fpl_player_id": "665",
+    "fpl_name": "Perri",
+    "fpl_team_code": "2",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 363,
+    "provider_name": "Joe Rodon",
+    "provider_team_id": 19,
+    "fpl_player_id": "348",
+    "fpl_name": "Rodon",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 364,
+    "provider_name": "Jaka Bijol",
+    "provider_team_id": 19,
+    "fpl_player_id": "344",
+    "fpl_name": "Bijol",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 366,
+    "provider_name": "Jayden Bogle",
+    "provider_team_id": 19,
+    "fpl_player_id": "342",
+    "fpl_name": "Bogle",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 368,
+    "provider_name": "Ethan Ampadu",
+    "provider_team_id": 19,
+    "fpl_player_id": "354",
+    "fpl_name": "Ampadu",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 369,
+    "provider_name": "Anton Stach",
+    "provider_team_id": 19,
+    "fpl_player_id": "660",
+    "fpl_name": "Stach",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 370,
+    "provider_name": "Gabriel Gudmundsson",
+    "provider_team_id": 19,
+    "fpl_player_id": "347",
+    "fpl_name": "Gudmundsson",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 371,
+    "provider_name": "Dominic Calvert-Lewin",
+    "provider_team_id": 19,
+    "fpl_player_id": "691",
+    "fpl_name": "Calvert-Lewin",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 372,
+    "provider_name": "Lukas Nmecha",
+    "provider_team_id": 19,
+    "fpl_player_id": "365",
+    "fpl_name": "Nmecha",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 374,
+    "provider_name": "Noah Okafor",
+    "provider_team_id": 19,
+    "fpl_player_id": "698",
+    "fpl_name": "Okafor",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 376,
+    "provider_name": "James Justin",
+    "provider_team_id": 19,
+    "fpl_player_id": "706",
+    "fpl_name": "Justin",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 379,
+    "provider_name": "Jack Harrison",
+    "provider_team_id": 19,
+    "fpl_player_id": "352",
+    "fpl_name": "Harrison",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 380,
+    "provider_name": "Brenden Aaronson",
+    "provider_team_id": 19,
+    "fpl_player_id": "350",
+    "fpl_name": "Aaronson",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 382,
+    "provider_name": "Robert Sánchez",
+    "provider_team_id": 13,
+    "fpl_player_id": "220",
+    "fpl_name": "Sánchez",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 383,
+    "provider_name": "Trevoh Chalobah",
+    "provider_team_id": 13,
+    "fpl_player_id": "226",
+    "fpl_name": "Chalobah",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 384,
+    "provider_name": "Tosin Adarabioyo",
+    "provider_team_id": 13,
+    "fpl_player_id": "232",
+    "fpl_name": "Tosin",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 387,
+    "provider_name": "Enzo Fernández",
+    "provider_team_id": 13,
+    "fpl_player_id": "237",
+    "fpl_name": "Enzo",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 389,
+    "provider_name": "Estêvão",
+    "provider_team_id": 13,
+    "fpl_player_id": "238",
+    "fpl_name": "Estêvão",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 390,
+    "provider_name": "João Pedro",
+    "provider_team_id": 13,
+    "fpl_player_id": "249",
+    "fpl_name": "João Pedro",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 391,
+    "provider_name": "Jamie Gittens",
+    "provider_team_id": 13,
+    "fpl_player_id": "239",
+    "fpl_name": "Gittens",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 393,
+    "provider_name": "Malo Gusto",
+    "provider_team_id": 13,
+    "fpl_player_id": "228",
+    "fpl_name": "Gusto",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 394,
+    "provider_name": "Pedro Neto",
+    "provider_team_id": 13,
+    "fpl_player_id": "236",
+    "fpl_name": "Neto",
+    "fpl_team_code": "8",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 400,
+    "provider_name": "Reece James",
+    "provider_team_id": 13,
+    "fpl_player_id": "225",
+    "fpl_name": "James",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 402,
+    "provider_name": "Martin Dúbravka",
+    "provider_team_id": 10,
+    "fpl_player_id": "470",
+    "fpl_name": "Dúbravka",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 403,
+    "provider_name": "Kyle Walker",
+    "provider_team_id": 10,
+    "fpl_player_id": "187",
+    "fpl_name": "Walker",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 405,
+    "provider_name": "Maxime Estève",
+    "provider_team_id": 10,
+    "fpl_player_id": "191",
+    "fpl_name": "Estève",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 406,
+    "provider_name": "Quilindschy Hartman",
+    "provider_team_id": 10,
+    "fpl_player_id": "192",
+    "fpl_name": "Hartman",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 407,
+    "provider_name": "Loum Tchaouna",
+    "provider_team_id": 10,
+    "fpl_player_id": "210",
+    "fpl_name": "Tchaouna",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 408,
+    "provider_name": "Josh Cullen",
+    "provider_team_id": 10,
+    "fpl_player_id": "205",
+    "fpl_name": "Cullen",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 409,
+    "provider_name": "Florentino Luís",
+    "provider_team_id": 10,
+    "fpl_player_id": "722",
+    "fpl_name": "Florentino",
+    "fpl_team_code": "90",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 410,
+    "provider_name": "Jaidon Anthony",
+    "provider_team_id": 10,
+    "fpl_player_id": "200",
+    "fpl_name": "Anthony",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 411,
+    "provider_name": "Zian Flemming",
+    "provider_team_id": 10,
+    "fpl_player_id": "215",
+    "fpl_name": "Flemming",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 413,
+    "provider_name": "Jacob Bruun Larsen",
+    "provider_team_id": 10,
+    "fpl_player_id": "202",
+    "fpl_name": "Bruun Larsen",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 414,
+    "provider_name": "Marcus Edwards",
+    "provider_team_id": 10,
+    "fpl_player_id": "206",
+    "fpl_name": "Edwards",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 415,
+    "provider_name": "Hannibal Mejbri",
+    "provider_team_id": 10,
+    "fpl_player_id": "207",
+    "fpl_name": "Hannibal",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 416,
+    "provider_name": "Lesley Ugochukwu",
+    "provider_team_id": 10,
+    "fpl_player_id": "676",
+    "fpl_name": "Ugochukwu",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 417,
+    "provider_name": "Armando Broja",
+    "provider_team_id": 10,
+    "fpl_player_id": "680",
+    "fpl_name": "Broja",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 421,
+    "provider_name": "Josh Laurent",
+    "provider_team_id": 10,
+    "fpl_player_id": "209",
+    "fpl_name": "Laurent",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 422,
+    "provider_name": "Dean Henderson",
+    "provider_team_id": 14,
+    "fpl_player_id": "253",
+    "fpl_name": "Henderson",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 423,
+    "provider_name": "Chris Richards",
+    "provider_team_id": 14,
+    "fpl_player_id": "261",
+    "fpl_name": "Richards",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 424,
+    "provider_name": "Maxence Lacroix",
+    "provider_team_id": 14,
+    "fpl_player_id": "257",
+    "fpl_name": "Lacroix",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 425,
+    "provider_name": "Marc Guéhi",
+    "provider_team_id": 14,
+    "fpl_player_id": "260",
+    "fpl_name": "Guéhi",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 429,
+    "provider_name": "Tyrick Mitchell",
+    "provider_team_id": 14,
+    "fpl_player_id": "258",
+    "fpl_name": "Mitchell",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 430,
+    "provider_name": "Daichi Kamada",
+    "provider_team_id": 14,
+    "fpl_player_id": "271",
+    "fpl_name": "Kamada",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 432,
+    "provider_name": "Jean-Philippe Mateta",
+    "provider_team_id": 14,
+    "fpl_player_id": "283",
+    "fpl_name": "Mateta",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 433,
+    "provider_name": "Justin Devenny",
+    "provider_team_id": 14,
+    "fpl_player_id": "276",
+    "fpl_name": "Devenny",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 435,
+    "provider_name": "Will Hughes",
+    "provider_team_id": 14,
+    "fpl_player_id": "270",
+    "fpl_name": "Hughes",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 436,
+    "provider_name": "Jaydee Canvot",
+    "provider_team_id": 14,
+    "fpl_player_id": "723",
+    "fpl_name": "Canvot",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 445,
+    "provider_name": "Piero Hincapié",
+    "provider_team_id": 18,
+    "fpl_player_id": "725",
+    "fpl_name": "Hincapie",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 446,
+    "provider_name": "Riccardo Calafiori",
+    "provider_team_id": 18,
+    "fpl_player_id": "7",
+    "fpl_name": "Calafiori",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 449,
+    "provider_name": "Declan Rice",
+    "provider_team_id": 18,
+    "fpl_player_id": "21",
+    "fpl_name": "Rice",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 453,
+    "provider_name": "Jurriën Timber",
+    "provider_team_id": 18,
+    "fpl_player_id": "8",
+    "fpl_name": "J.Timber",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 454,
+    "provider_name": "Eberechi Eze",
+    "provider_team_id": 18,
+    "fpl_player_id": "266",
+    "fpl_name": "Eze",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 455,
+    "provider_name": "Bukayo Saka",
+    "provider_team_id": 18,
+    "fpl_player_id": "16",
+    "fpl_name": "Saka",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 456,
+    "provider_name": "Viktor Gyökeres",
+    "provider_team_id": 18,
+    "fpl_player_id": "666",
+    "fpl_name": "Gyökeres",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 458,
+    "provider_name": "Myles Lewis-Skelly",
+    "provider_team_id": 18,
+    "fpl_player_id": "10",
+    "fpl_name": "Lewis-Skelly",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 459,
+    "provider_name": "Christian Nørgaard",
+    "provider_team_id": 18,
+    "fpl_player_id": "24",
+    "fpl_name": "Nørgaard",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 460,
+    "provider_name": "Ethan Nwaneri",
+    "provider_team_id": 18,
+    "fpl_player_id": "25",
+    "fpl_name": "Nwaneri",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 462,
+    "provider_name": "Caoimhin Kelleher",
+    "provider_team_id": 16,
+    "fpl_player_id": "101",
+    "fpl_name": "Kelleher",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 463,
+    "provider_name": "Michael Kayode",
+    "provider_team_id": 16,
+    "fpl_player_id": "110",
+    "fpl_name": "Kayode",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 464,
+    "provider_name": "Kristoffer Ajer",
+    "provider_team_id": 16,
+    "fpl_player_id": "108",
+    "fpl_name": "Ajer",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 466,
+    "provider_name": "Sepp van den Berg",
+    "provider_team_id": 16,
+    "fpl_player_id": "113",
+    "fpl_name": "Van den Berg",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 468,
+    "provider_name": "Yehor Yarmoliuk",
+    "provider_team_id": 16,
+    "fpl_player_id": "129",
+    "fpl_name": "Yarmoliuk",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 469,
+    "provider_name": "Vitaly Janelt",
+    "provider_team_id": 16,
+    "fpl_player_id": "125",
+    "fpl_name": "Janelt",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 470,
+    "provider_name": "Mathias Jensen",
+    "provider_team_id": 16,
+    "fpl_player_id": "126",
+    "fpl_name": "Jensen",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 471,
+    "provider_name": "Dango Ouattara",
+    "provider_team_id": 16,
+    "fpl_player_id": "83",
+    "fpl_name": "O.Dango",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 472,
+    "provider_name": "Kevin Schade",
+    "provider_team_id": 16,
+    "fpl_player_id": "120",
+    "fpl_name": "Schade",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 474,
+    "provider_name": "Jordan Henderson",
+    "provider_team_id": 16,
+    "fpl_player_id": "124",
+    "fpl_name": "Henderson",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 475,
+    "provider_name": "Mikkel Damsgaard",
+    "provider_team_id": 16,
+    "fpl_player_id": "121",
+    "fpl_name": "Damsgaard",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 476,
+    "provider_name": "Nathan Collins",
+    "provider_team_id": 16,
+    "fpl_player_id": "106",
+    "fpl_name": "Collins",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 477,
+    "provider_name": "Keane Lewis-Potter",
+    "provider_team_id": 16,
+    "fpl_player_id": "107",
+    "fpl_name": "Lewis-Potter",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 482,
+    "provider_name": "Bart Verbruggen",
+    "provider_team_id": 5,
+    "fpl_player_id": "139",
+    "fpl_name": "Verbruggen",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 483,
+    "provider_name": "Mats Wieffer",
+    "provider_team_id": 5,
+    "fpl_player_id": "173",
+    "fpl_name": "Wieffer",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 484,
+    "provider_name": "Jan Paul van Hecke",
+    "provider_team_id": 5,
+    "fpl_player_id": "151",
+    "fpl_name": "Van Hecke",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 485,
+    "provider_name": "Lewis Dunk",
+    "provider_team_id": 5,
+    "fpl_player_id": "146",
+    "fpl_name": "Dunk",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 486,
+    "provider_name": "Ferdi Kadıoğlu",
+    "provider_team_id": 5,
+    "fpl_player_id": "148",
+    "fpl_name": "F.Kadıoğlu",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 487,
+    "provider_name": "Carlos Baleba",
+    "provider_team_id": 5,
+    "fpl_player_id": "167",
+    "fpl_name": "Baleba",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 489,
+    "provider_name": "Yankuba Minteh",
+    "provider_team_id": 5,
+    "fpl_player_id": "160",
+    "fpl_name": "Minteh",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 492,
+    "provider_name": "Stefanos Tzimas",
+    "provider_team_id": 5,
+    "fpl_player_id": "180",
+    "fpl_name": "Tzimas",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 494,
+    "provider_name": "Danny Welbeck",
+    "provider_team_id": 5,
+    "fpl_player_id": "178",
+    "fpl_name": "Welbeck",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 495,
+    "provider_name": "Charalampos Kostoulas",
+    "provider_team_id": 5,
+    "fpl_player_id": "181",
+    "fpl_name": "Kostoulas",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 500,
+    "provider_name": "Joe Knight",
+    "provider_team_id": 5,
+    "fpl_player_id": "175",
+    "fpl_name": "Knight",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 501,
+    "provider_name": "Nehemiah Oriola",
+    "provider_team_id": 5,
+    "fpl_player_id": "744",
+    "fpl_name": "Oriola",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 503,
+    "provider_name": "Matty Cash",
+    "provider_team_id": 3,
+    "fpl_player_id": "36",
+    "fpl_name": "Cash",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 505,
+    "provider_name": "Pau Torres",
+    "provider_team_id": 3,
+    "fpl_player_id": "41",
+    "fpl_name": "Pau",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 506,
+    "provider_name": "Ian Maatsen",
+    "provider_team_id": 3,
+    "fpl_player_id": "39",
+    "fpl_name": "Maatsen",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 507,
+    "provider_name": "Boubacar Kamara",
+    "provider_team_id": 3,
+    "fpl_player_id": "58",
+    "fpl_name": "Kamara",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 508,
+    "provider_name": "Amadou Onana",
+    "provider_team_id": 3,
+    "fpl_player_id": "59",
+    "fpl_name": "Onana",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 509,
+    "provider_name": "Evann Guessand",
+    "provider_team_id": 3,
+    "fpl_player_id": "677",
+    "fpl_name": "Guessand",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 510,
+    "provider_name": "John McGinn",
+    "provider_team_id": 3,
+    "fpl_player_id": "54",
+    "fpl_name": "McGinn",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 511,
+    "provider_name": "Morgan Rogers",
+    "provider_team_id": 3,
+    "fpl_player_id": "47",
+    "fpl_name": "Rogers",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 512,
+    "provider_name": "Ollie Watkins",
+    "provider_team_id": 3,
+    "fpl_player_id": "64",
+    "fpl_name": "Watkins",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 513,
+    "provider_name": "Lucas Digne",
+    "provider_team_id": 3,
+    "fpl_player_id": "37",
+    "fpl_name": "Digne",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 515,
+    "provider_name": "Donyell Malen",
+    "provider_team_id": 3,
+    "fpl_player_id": "53",
+    "fpl_name": "Malen",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 521,
+    "provider_name": "Jadon Sancho",
+    "provider_team_id": 3,
+    "fpl_player_id": "456",
+    "fpl_name": "Sancho",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 522,
+    "provider_name": "Sam Johnstone",
+    "provider_team_id": 11,
+    "fpl_player_id": "627",
+    "fpl_name": "Johnstone",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 524,
+    "provider_name": "Emmanuel Agbadou",
+    "provider_team_id": 11,
+    "fpl_player_id": "631",
+    "fpl_name": "Agbadou",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 525,
+    "provider_name": "Toti Gomes",
+    "provider_team_id": 11,
+    "fpl_player_id": "637",
+    "fpl_name": "Toti",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 526,
+    "provider_name": "Jackson Tchatchoua",
+    "provider_team_id": 11,
+    "fpl_player_id": "695",
+    "fpl_name": "Tchatchoua",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 527,
+    "provider_name": "André",
+    "provider_team_id": 11,
+    "fpl_player_id": "643",
+    "fpl_name": "André",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 528,
+    "provider_name": "João Gomes",
+    "provider_team_id": 11,
+    "fpl_player_id": "637",
+    "fpl_name": "Toti",
+    "fpl_team_code": "39",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 530,
+    "provider_name": "Jhon Arias",
+    "provider_team_id": 11,
+    "fpl_player_id": "663",
+    "fpl_name": "J.Arias",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 531,
+    "provider_name": "Jørgen Strand Larsen",
+    "provider_team_id": 11,
+    "fpl_player_id": "654",
+    "fpl_name": "Strand Larsen",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 532,
+    "provider_name": "Jean-Ricner Bellegarde",
+    "provider_team_id": 11,
+    "fpl_player_id": "644",
+    "fpl_name": "Bellegarde",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 534,
+    "provider_name": "Ki-Jana Hoever",
+    "provider_team_id": 11,
+    "fpl_player_id": "638",
+    "fpl_name": "Hoever",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 535,
+    "provider_name": "Tolu Arokodare",
+    "provider_team_id": 11,
+    "fpl_player_id": "720",
+    "fpl_name": "Tolu",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 537,
+    "provider_name": "Marshall Munetsi",
+    "provider_team_id": 11,
+    "fpl_player_id": "648",
+    "fpl_name": "Munetsi",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 540,
+    "provider_name": "Santiago Bueno",
+    "provider_team_id": 11,
+    "fpl_player_id": "636",
+    "fpl_name": "S.Bueno",
+    "fpl_team_code": "39",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 542,
+    "provider_name": "Matz Sels",
+    "provider_team_id": 15,
+    "fpl_player_id": "502",
+    "fpl_name": "Sels",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 543,
+    "provider_name": "Nicolò Savona",
+    "provider_team_id": 15,
+    "fpl_player_id": "716",
+    "fpl_name": "Savona",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 544,
+    "provider_name": "Nikola Milenković",
+    "provider_team_id": 15,
+    "fpl_player_id": "505",
+    "fpl_name": "Milenković",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 546,
+    "provider_name": "Neco Williams",
+    "provider_team_id": 15,
+    "fpl_player_id": "508",
+    "fpl_name": "N.Williams",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 547,
+    "provider_name": "Ibrahim Sangaré",
+    "provider_team_id": 15,
+    "fpl_player_id": "521",
+    "fpl_name": "Sangaré",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 548,
+    "provider_name": "Elliot Anderson",
+    "provider_team_id": 15,
+    "fpl_player_id": "517",
+    "fpl_name": "Anderson",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 550,
+    "provider_name": "Morgan Gibbs-White",
+    "provider_team_id": 15,
+    "fpl_player_id": "515",
+    "fpl_name": "Gibbs-White",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 551,
+    "provider_name": "Dan Ndoye",
+    "provider_team_id": 15,
+    "fpl_player_id": "669",
+    "fpl_name": "Ndoye",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 552,
+    "provider_name": "Igor Jesus",
+    "provider_team_id": 15,
+    "fpl_player_id": "526",
+    "fpl_name": "Igor Jesus",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 553,
+    "provider_name": "Callum Hudson Odoi",
+    "provider_team_id": 15,
+    "fpl_player_id": "516",
+    "fpl_name": "Hudson-Odoi",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 554,
+    "provider_name": "Ryan Yates",
+    "provider_team_id": 15,
+    "fpl_player_id": "522",
+    "fpl_name": "Yates",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 700,
+    "provider_name": "Malick Thiaw",
+    "provider_team_id": 4,
+    "fpl_player_id": "684",
+    "fpl_name": "Thiaw",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 701,
+    "provider_name": "Dan Burn",
+    "provider_team_id": 4,
+    "fpl_player_id": "476",
+    "fpl_name": "Burn",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 704,
+    "provider_name": "Sandro Tonali",
+    "provider_team_id": 4,
+    "fpl_player_id": "491",
+    "fpl_name": "Tonali",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 705,
+    "provider_name": "Joelinton",
+    "provider_team_id": 4,
+    "fpl_player_id": "490",
+    "fpl_name": "Joelinton",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 706,
+    "provider_name": "Jacob Murphy",
+    "provider_team_id": 4,
+    "fpl_player_id": "489",
+    "fpl_name": "J.Murphy",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 707,
+    "provider_name": "Nick Woltemade",
+    "provider_team_id": 4,
+    "fpl_player_id": "714",
+    "fpl_name": "Woltemade",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 708,
+    "provider_name": "Harvey Barnes",
+    "provider_team_id": 4,
+    "fpl_player_id": "487",
+    "fpl_name": "Barnes",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 710,
+    "provider_name": "Anthony Elanga",
+    "provider_team_id": 4,
+    "fpl_player_id": "486",
+    "fpl_name": "Elanga",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 711,
+    "provider_name": "Anthony Gordon",
+    "provider_team_id": 4,
+    "fpl_player_id": "485",
+    "fpl_name": "Gordon",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 712,
+    "provider_name": "Fabian Schär",
+    "provider_team_id": 4,
+    "fpl_player_id": "474",
+    "fpl_name": "Schär",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 716,
+    "provider_name": "Jacob Ramsey",
+    "provider_team_id": 4,
+    "fpl_player_id": "52",
+    "fpl_name": "J.Ramsey",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 718,
+    "provider_name": "Guglielmo Vicario",
+    "provider_team_id": 9,
+    "fpl_player_id": "565",
+    "fpl_name": "Vicario",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 719,
+    "provider_name": "Pedro Porro",
+    "provider_team_id": 9,
+    "fpl_player_id": "568",
+    "fpl_name": "Pedro Porro",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 720,
+    "provider_name": "Cristian Romero",
+    "provider_team_id": 9,
+    "fpl_player_id": "569",
+    "fpl_name": "Romero",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 721,
+    "provider_name": "Kevin Danso",
+    "provider_team_id": 9,
+    "fpl_player_id": "570",
+    "fpl_name": "Danso",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 722,
+    "provider_name": "Destiny Udogie",
+    "provider_team_id": 9,
+    "fpl_player_id": "574",
+    "fpl_name": "Udogie",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 723,
+    "provider_name": "Rodrigo Bentancur",
+    "provider_team_id": 9,
+    "fpl_player_id": "585",
+    "fpl_name": "Bentancur",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 724,
+    "provider_name": "Pape Matar Sarr",
+    "provider_team_id": 9,
+    "fpl_player_id": "593",
+    "fpl_name": "P.M.Sarr",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 725,
+    "provider_name": "Mohammed Kudus",
+    "provider_team_id": 9,
+    "fpl_player_id": "582",
+    "fpl_name": "Kudus",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 726,
+    "provider_name": "Lucas Bergvall",
+    "provider_team_id": 9,
+    "fpl_player_id": "586",
+    "fpl_name": "Bergvall",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 727,
+    "provider_name": "Brennan Johnson",
+    "provider_team_id": 9,
+    "fpl_player_id": "580",
+    "fpl_name": "Johnson",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 728,
+    "provider_name": "Randal Kolo Muani",
+    "provider_team_id": 9,
+    "fpl_player_id": "726",
+    "fpl_name": "Kolo Muani",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 729,
+    "provider_name": "Xavi Simons",
+    "provider_team_id": 9,
+    "fpl_player_id": "717",
+    "fpl_name": "Xavi",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 730,
+    "provider_name": "Richarlison",
+    "provider_team_id": 9,
+    "fpl_player_id": "597",
+    "fpl_name": "Richarlison",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 733,
+    "provider_name": "Wilson Odobert",
+    "provider_team_id": 9,
+    "fpl_player_id": "588",
+    "fpl_name": "Odobert",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 735,
+    "provider_name": "Djed Spence",
+    "provider_team_id": 9,
+    "fpl_player_id": "573",
+    "fpl_name": "Spence",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 736,
+    "provider_name": "Micky van de Ven",
+    "provider_team_id": 9,
+    "fpl_player_id": "575",
+    "fpl_name": "Van de Ven",
+    "fpl_team_code": "6",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 783,
+    "provider_name": "Đorđe Petrović",
+    "provider_team_id": 2,
+    "fpl_player_id": "67",
+    "fpl_name": "Petrović",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 786,
+    "provider_name": "Bafodé Diakité",
+    "provider_team_id": 2,
+    "fpl_player_id": "685",
+    "fpl_name": "Diakité",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 787,
+    "provider_name": "Adrien Truffert",
+    "provider_team_id": 2,
+    "fpl_player_id": "74",
+    "fpl_name": "Truffert",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 788,
+    "provider_name": "Tyler Adams",
+    "provider_team_id": 2,
+    "fpl_player_id": "85",
+    "fpl_name": "Adams",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 789,
+    "provider_name": "Alex Scott",
+    "provider_team_id": 2,
+    "fpl_player_id": "90",
+    "fpl_name": "Scott",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 791,
+    "provider_name": "Justin Kluivert",
+    "provider_team_id": 2,
+    "fpl_player_id": "81",
+    "fpl_name": "Kluivert",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 792,
+    "provider_name": "Antoine Semenyo",
+    "provider_team_id": 2,
+    "fpl_player_id": "82",
+    "fpl_name": "Semenyo",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 793,
+    "provider_name": "Eli Junior Kroupi",
+    "provider_team_id": 2,
+    "fpl_player_id": "100",
+    "fpl_name": "Kroupi.Jr",
+    "fpl_team_code": "91",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 794,
+    "provider_name": "Marcus Tavernier",
+    "provider_team_id": 2,
+    "fpl_player_id": "84",
+    "fpl_name": "Tavernier",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 795,
+    "provider_name": "Evanilson",
+    "provider_team_id": 2,
+    "fpl_player_id": "97",
+    "fpl_name": "Evanilson",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 803,
+    "provider_name": "Jordan Pickford",
+    "provider_team_id": 20,
+    "fpl_player_id": "287",
+    "fpl_name": "Pickford",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 804,
+    "provider_name": "James Garner",
+    "provider_team_id": 20,
+    "fpl_player_id": "303",
+    "fpl_name": "Garner",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 805,
+    "provider_name": "James Tarkowski",
+    "provider_team_id": 20,
+    "fpl_player_id": "291",
+    "fpl_name": "Tarkowski",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 806,
+    "provider_name": "Jake O'Brien",
+    "provider_team_id": 20,
+    "fpl_player_id": "293",
+    "fpl_name": "O'Brien",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 807,
+    "provider_name": "Vitaliy Mykolenko",
+    "provider_team_id": 20,
+    "fpl_player_id": "292",
+    "fpl_name": "Mykolenko",
+    "fpl_team_code": "11",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 808,
+    "provider_name": "Tim Iroegbunam",
+    "provider_team_id": 20,
+    "fpl_player_id": "304",
+    "fpl_name": "Iroegbunam",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 809,
+    "provider_name": "Kiernan Dewsbury-Hall",
+    "provider_team_id": 20,
+    "fpl_player_id": "242",
+    "fpl_name": "Dewsbury-Hall",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 810,
+    "provider_name": "Iliman Ndiaye",
+    "provider_team_id": 20,
+    "fpl_player_id": "299",
+    "fpl_name": "Ndiaye",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 812,
+    "provider_name": "Jack Grealish",
+    "provider_team_id": 20,
+    "fpl_player_id": "419",
+    "fpl_name": "Grealish",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 813,
+    "provider_name": "Thierno Barry",
+    "provider_team_id": 20,
+    "fpl_player_id": "310",
+    "fpl_name": "Barry",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 814,
+    "provider_name": "Dwight McNeil",
+    "provider_team_id": 20,
+    "fpl_player_id": "300",
+    "fpl_name": "McNeil",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 815,
+    "provider_name": "Beto",
+    "provider_team_id": 20,
+    "fpl_player_id": "311",
+    "fpl_name": "Beto",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 823,
+    "provider_name": "Bernd Leno",
+    "provider_team_id": 6,
+    "fpl_player_id": "314",
+    "fpl_name": "Leno",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 824,
+    "provider_name": "Kenny Tete",
+    "provider_team_id": 6,
+    "fpl_player_id": "322",
+    "fpl_name": "Tete",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 825,
+    "provider_name": "Joachim Andersen",
+    "provider_team_id": 6,
+    "fpl_player_id": "317",
+    "fpl_name": "Andersen",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 826,
+    "provider_name": "Calvin Bassey",
+    "provider_team_id": 6,
+    "fpl_player_id": "318",
+    "fpl_name": "Bassey",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 827,
+    "provider_name": "Ryan Sessegnon",
+    "provider_team_id": 6,
+    "fpl_player_id": "328",
+    "fpl_name": "Sessegnon",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 829,
+    "provider_name": "Sander Berge",
+    "provider_team_id": 6,
+    "fpl_player_id": "330",
+    "fpl_name": "Berge",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 830,
+    "provider_name": "Harry Wilson",
+    "provider_team_id": 6,
+    "fpl_player_id": "329",
+    "fpl_name": "Wilson",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 831,
+    "provider_name": "Emile Smith Rowe",
+    "provider_team_id": 6,
+    "fpl_player_id": "325",
+    "fpl_name": "Smith Rowe",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 832,
+    "provider_name": "Alex Iwobi",
+    "provider_team_id": 6,
+    "fpl_player_id": "324",
+    "fpl_name": "Iwobi",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 835,
+    "provider_name": "Samuel Chukwueze",
+    "provider_team_id": 6,
+    "fpl_player_id": "727",
+    "fpl_name": "Chukwueze",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 837,
+    "provider_name": "Joshua King",
+    "provider_team_id": 6,
+    "fpl_player_id": "335",
+    "fpl_name": "King",
+    "fpl_team_code": "54",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 838,
+    "provider_name": "Kevin",
+    "provider_team_id": 6,
+    "fpl_player_id": "731",
+    "fpl_name": "Kevin",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 842,
+    "provider_name": "Tom Cairney",
+    "provider_team_id": 6,
+    "fpl_player_id": "331",
+    "fpl_name": "Cairney",
+    "fpl_team_code": "54",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 843,
+    "provider_name": "Gianluigi Donnarumma",
+    "provider_team_id": 12,
+    "fpl_player_id": "736",
+    "fpl_name": "Donnarumma",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 844,
+    "provider_name": "Matheus Nunes",
+    "provider_team_id": 12,
+    "fpl_player_id": "407",
+    "fpl_name": "Matheus N.",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 845,
+    "provider_name": "Rúben Dias",
+    "provider_team_id": 12,
+    "fpl_player_id": "408",
+    "fpl_name": "Rúben",
+    "fpl_team_code": "43",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 846,
+    "provider_name": "Joško Gvardiol",
+    "provider_team_id": 12,
+    "fpl_player_id": "403",
+    "fpl_name": "Gvardiol",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 847,
+    "provider_name": "Nico O'Reilly",
+    "provider_team_id": 12,
+    "fpl_player_id": "411",
+    "fpl_name": "O'Reilly",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 848,
+    "provider_name": "Bernardo Silva",
+    "provider_team_id": 12,
+    "fpl_player_id": "416",
+    "fpl_name": "Bernardo",
+    "fpl_team_code": "43",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 850,
+    "provider_name": "Tijjani Reijnders",
+    "provider_team_id": 12,
+    "fpl_player_id": "427",
+    "fpl_name": "Reijnders",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 851,
+    "provider_name": "Phil Foden",
+    "provider_team_id": 12,
+    "fpl_player_id": "414",
+    "fpl_name": "Foden",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 852,
+    "provider_name": "Erling Haaland",
+    "provider_team_id": 12,
+    "fpl_player_id": "430",
+    "fpl_name": "Haaland",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 853,
+    "provider_name": "Jérémy Doku",
+    "provider_team_id": 12,
+    "fpl_player_id": "418",
+    "fpl_name": "Doku",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 855,
+    "provider_name": "Savinho",
+    "provider_team_id": 12,
+    "fpl_player_id": "415",
+    "fpl_name": "Savinho",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 856,
+    "provider_name": "Rayan Cherki",
+    "provider_team_id": 12,
+    "fpl_player_id": "417",
+    "fpl_name": "Cherki",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 861,
+    "provider_name": "Rayan Aït-Nouri",
+    "provider_team_id": 12,
+    "fpl_player_id": "402",
+    "fpl_name": "Aït-Nouri",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 862,
+    "provider_name": "Omar Marmoush",
+    "provider_team_id": 12,
+    "fpl_player_id": "413",
+    "fpl_name": "Marmoush",
+    "fpl_team_code": "43",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 1344,
+    "provider_name": "Wesley Fofana",
+    "provider_team_id": 13,
+    "fpl_player_id": "230",
+    "fpl_name": "Fofana",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 1630,
+    "provider_name": "Ross Barkley",
+    "provider_team_id": 3,
+    "fpl_player_id": "55",
+    "fpl_name": "Barkley",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 1631,
+    "provider_name": "Hugo Bueno",
+    "provider_team_id": 11,
+    "fpl_player_id": "636",
+    "fpl_name": "S.Bueno",
+    "fpl_team_code": "39",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 1632,
+    "provider_name": "Yasin Ayari",
+    "provider_team_id": 5,
+    "fpl_player_id": "166",
+    "fpl_name": "Ayari",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 1633,
+    "provider_name": "Georginio Rutter",
+    "provider_team_id": 5,
+    "fpl_player_id": "158",
+    "fpl_name": "Georginio",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 1634,
+    "provider_name": "Alphonse Aréola",
+    "provider_team_id": 8,
+    "fpl_player_id": "600",
+    "fpl_name": "Areola",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1635,
+    "provider_name": "Aaron Wan-Bissaka",
+    "provider_team_id": 8,
+    "fpl_player_id": "610",
+    "fpl_name": "Wan-Bissaka",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1637,
+    "provider_name": "Jean-Clair Todibo",
+    "provider_team_id": 8,
+    "fpl_player_id": "609",
+    "fpl_name": "Todibo",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1638,
+    "provider_name": "El Hadji Malick Diouf",
+    "provider_team_id": 8,
+    "fpl_player_id": "603",
+    "fpl_name": "Diouf",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1640,
+    "provider_name": "Freddie Potts",
+    "provider_team_id": 8,
+    "fpl_player_id": "623",
+    "fpl_name": "Potts",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1641,
+    "provider_name": "Jarrod Bowen",
+    "provider_team_id": 8,
+    "fpl_player_id": "624",
+    "fpl_name": "Bowen",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1643,
+    "provider_name": "Mateus Fernandes",
+    "provider_team_id": 8,
+    "fpl_player_id": "708",
+    "fpl_name": "M.Fernandes",
+    "fpl_team_code": "21",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1644,
+    "provider_name": "Callum Wilson",
+    "provider_team_id": 8,
+    "fpl_player_id": "671",
+    "fpl_name": "Wilson",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1647,
+    "provider_name": "Tomáš Souček",
+    "provider_team_id": 8,
+    "fpl_player_id": "613",
+    "fpl_name": "Souček",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1649,
+    "provider_name": "Kyle Walker-Peters",
+    "provider_team_id": 8,
+    "fpl_player_id": "659",
+    "fpl_name": "Walker-Peters",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1650,
+    "provider_name": "Max Kilman",
+    "provider_team_id": 8,
+    "fpl_player_id": "605",
+    "fpl_name": "Kilman",
+    "fpl_team_code": "21",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 1787,
+    "provider_name": "Ismaïla Sarr",
+    "provider_team_id": 14,
+    "fpl_player_id": "267",
+    "fpl_name": "Sarr",
+    "fpl_team_code": "31",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 1788,
+    "provider_name": "Senne Lammens",
+    "provider_team_id": 17,
+    "fpl_player_id": "733",
+    "fpl_name": "Lammens",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1789,
+    "provider_name": "Leny Yoro",
+    "provider_team_id": 17,
+    "fpl_player_id": "444",
+    "fpl_name": "Yoro",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1790,
+    "provider_name": "Matthijs de Ligt",
+    "provider_team_id": 17,
+    "fpl_player_id": "436",
+    "fpl_name": "De Ligt",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1791,
+    "provider_name": "Luke Shaw",
+    "provider_team_id": 17,
+    "fpl_player_id": "443",
+    "fpl_name": "Shaw",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1792,
+    "provider_name": "Amad Diallo",
+    "provider_team_id": 17,
+    "fpl_player_id": "452",
+    "fpl_name": "Amad",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1793,
+    "provider_name": "Casemiro",
+    "provider_team_id": 17,
+    "fpl_player_id": "457",
+    "fpl_name": "Casemiro",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1794,
+    "provider_name": "Bruno Fernandes",
+    "provider_team_id": 17,
+    "fpl_player_id": "449",
+    "fpl_name": "B.Fernandes",
+    "fpl_team_code": "1",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1796,
+    "provider_name": "Bryan Mbeumo",
+    "provider_team_id": 17,
+    "fpl_player_id": "119",
+    "fpl_name": "Mbeumo",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1799,
+    "provider_name": "Noussair Mazraoui",
+    "provider_team_id": 17,
+    "fpl_player_id": "438",
+    "fpl_name": "Mazraoui",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 1801,
+    "provider_name": "Patrick Dorgu",
+    "provider_team_id": 17,
+    "fpl_player_id": "441",
+    "fpl_name": "Dorgu",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 2134,
+    "provider_name": "Michael Keane",
+    "provider_team_id": 20,
+    "fpl_player_id": "295",
+    "fpl_name": "Keane",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 2366,
+    "provider_name": "Daniel James",
+    "provider_team_id": 19,
+    "fpl_player_id": "353",
+    "fpl_name": "James",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 2371,
+    "provider_name": "Lewis Cook",
+    "provider_team_id": 2,
+    "fpl_player_id": "88",
+    "fpl_name": "Cook",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 2372,
+    "provider_name": "David Brooks",
+    "provider_team_id": 2,
+    "fpl_player_id": "86",
+    "fpl_name": "Brooks",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 2374,
+    "provider_name": "Reiss Nelson",
+    "provider_team_id": 16,
+    "fpl_player_id": "27",
+    "fpl_name": "Nelson",
+    "fpl_team_code": "94",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 2375,
+    "provider_name": "Axel Tuanzebe",
+    "provider_team_id": 10,
+    "fpl_player_id": "198",
+    "fpl_name": "Tuanzebe",
+    "fpl_team_code": "90",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 2913,
+    "provider_name": "Murillo",
+    "provider_team_id": 15,
+    "fpl_player_id": "506",
+    "fpl_name": "Murillo",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 3460,
+    "provider_name": "William Saliba",
+    "provider_team_id": 18,
+    "fpl_player_id": "6",
+    "fpl_name": "Saliba",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 3461,
+    "provider_name": "Leandro Trossard",
+    "provider_team_id": 18,
+    "fpl_player_id": "20",
+    "fpl_name": "Trossard",
+    "fpl_team_code": "3",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 3694,
+    "provider_name": "Nick Pope",
+    "provider_team_id": 4,
+    "fpl_player_id": "469",
+    "fpl_name": "Pope",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 3696,
+    "provider_name": "Sven Botman",
+    "provider_team_id": 4,
+    "fpl_player_id": "475",
+    "fpl_name": "Botman",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 3800,
+    "provider_name": "Idrissa Gana Gueye",
+    "provider_team_id": 20,
+    "fpl_player_id": "302",
+    "fpl_name": "Gana",
+    "fpl_team_code": "11",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      100
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-sunderland-vs-everton"
+    ]
+  },
+  {
+    "provider_player_id": 3859,
+    "provider_name": "Sean Longstaff",
+    "provider_team_id": 19,
+    "fpl_player_id": "493",
+    "fpl_name": "Longstaff",
+    "fpl_team_code": "2",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 3900,
+    "provider_name": "Ryan Christie",
+    "provider_team_id": 2,
+    "fpl_player_id": "87",
+    "fpl_name": "Christie",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 3904,
+    "provider_name": "Ladislav Krejčí",
+    "provider_team_id": 11,
+    "fpl_player_id": "709",
+    "fpl_name": "Krejčí",
+    "fpl_team_code": "39",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 3905,
+    "provider_name": "Fer López",
+    "provider_team_id": 11,
+    "fpl_player_id": "633",
+    "fpl_name": "H.Bueno",
+    "fpl_team_code": "39",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      94
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-fulham-vs-wolverhampton-wanderers"
+    ]
+  },
+  {
+    "provider_player_id": 4002,
+    "provider_name": "Conor Bradley",
+    "provider_team_id": 1,
+    "fpl_player_id": "375",
+    "fpl_name": "Bradley",
+    "fpl_team_code": "14",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 4022,
+    "provider_name": "Fabio Carvalho",
+    "provider_team_id": 16,
+    "fpl_player_id": "123",
+    "fpl_name": "Carvalho",
+    "fpl_team_code": "94",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      93
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-crystal-palace-vs-brentford"
+    ]
+  },
+  {
+    "provider_player_id": 4025,
+    "provider_name": "Emil Krafth",
+    "provider_team_id": 4,
+    "fpl_player_id": "479",
+    "fpl_name": "Krafth",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 4026,
+    "provider_name": "Taiwo Awoniyi",
+    "provider_team_id": 15,
+    "fpl_player_id": "527",
+    "fpl_name": "Awoniyi",
+    "fpl_team_code": "17",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 4027,
+    "provider_name": "Ben Gannon-Doak",
+    "provider_team_id": 2,
+    "fpl_player_id": "391",
+    "fpl_name": "Gannon-Doak",
+    "fpl_team_code": "91",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      99
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-manchester-city-vs-afc-bournemouth"
+    ]
+  },
+  {
+    "provider_player_id": 4072,
+    "provider_name": "Gabriel Magalhães",
+    "provider_team_id": 18,
+    "fpl_player_id": "5",
+    "fpl_name": "Gabriel",
+    "fpl_team_code": "3",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      92
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-burnley-vs-arsenal"
+    ]
+  },
+  {
+    "provider_player_id": 4092,
+    "provider_name": "Crysencio Summerville",
+    "provider_team_id": 8,
+    "fpl_player_id": "615",
+    "fpl_name": "Summerville",
+    "fpl_team_code": "21",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 4119,
+    "provider_name": "Matheus Cunha",
+    "provider_team_id": 17,
+    "fpl_player_id": "450",
+    "fpl_name": "Cunha",
+    "fpl_team_code": "1",
+    "match_method": "unique_surname",
+    "confidence": "medium",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 4120,
+    "provider_name": "Benjamin Šeško",
+    "provider_team_id": 17,
+    "fpl_player_id": "681",
+    "fpl_name": "Šeško",
+    "fpl_team_code": "1",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  },
+  {
+    "provider_player_id": 4237,
+    "provider_name": "Roméo Lavia",
+    "provider_team_id": 13,
+    "fpl_player_id": "244",
+    "fpl_name": "Lavia",
+    "fpl_team_code": "8",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      96
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-tottenham-hotspur-vs-chelsea"
+    ]
+  },
+  {
+    "provider_player_id": 4279,
+    "provider_name": "William Osula",
+    "provider_team_id": 4,
+    "fpl_player_id": "500",
+    "fpl_name": "Osula",
+    "fpl_team_code": "4",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      98
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-west-ham-united-vs-newcastle-united"
+    ]
+  },
+  {
+    "provider_player_id": 4289,
+    "provider_name": "Tyrone Mings",
+    "provider_team_id": 3,
+    "fpl_player_id": "40",
+    "fpl_name": "Mings",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      97
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-liverpool-vs-aston-villa"
+    ]
+  },
+  {
+    "provider_player_id": 4303,
+    "provider_name": "Tom Watson",
+    "provider_team_id": 5,
+    "fpl_player_id": "172",
+    "fpl_name": "Watson",
+    "fpl_team_code": "36",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      91
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-brighton-hove-albion-vs-leeds-united"
+    ]
+  },
+  {
+    "provider_player_id": 4304,
+    "provider_name": "Douglas Luiz",
+    "provider_team_id": 15,
+    "fpl_player_id": "699",
+    "fpl_name": "Douglas Luiz",
+    "fpl_team_code": "7",
+    "match_method": "full_name",
+    "confidence": "high",
+    "provider_event_ids": [
+      95
+    ],
+    "fpl_match_ids": [
+      "25-26-prem-nottingham-forest-vs-manchester-united"
+    ]
+  }
+]

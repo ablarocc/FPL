@@ -1,0 +1,458 @@
+{
+  "observed_player_stat_fields": [
+    "accurate_cross",
+    "accurate_long_balls",
+    "accurate_pass",
+    "aerial_lost",
+    "aerial_won",
+    "ball_recovery",
+    "blocked_scoring_attempt",
+    "dispossessed",
+    "duel_lost",
+    "duel_won",
+    "event_id",
+    "expected_assists",
+    "expected_goals",
+    "fouls",
+    "goal_assist",
+    "goals",
+    "goals_conceded",
+    "id",
+    "interception",
+    "key_pass",
+    "minutes_played",
+    "player_id",
+    "possession_lost",
+    "punches",
+    "rating",
+    "red_card",
+    "saves",
+    "shots_on_target",
+    "team_id",
+    "total_clearance",
+    "total_contest",
+    "total_cross",
+    "total_long_balls",
+    "total_pass",
+    "total_shots",
+    "total_tackle",
+    "touches",
+    "was_fouled",
+    "won_contest",
+    "won_tackle",
+    "yellow_card"
+  ],
+  "field_profile": {
+    "accurate_cross": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "accurate_long_balls": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "accurate_pass": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "aerial_lost": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "aerial_won": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "ball_recovery": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "blocked_scoring_attempt": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "dispossessed": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "duel_lost": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "duel_won": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "event_id": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "expected_assists": {
+      "rows": 400,
+      "populated": 294,
+      "population_rate": 0.735,
+      "types": [
+        "float"
+      ]
+    },
+    "expected_goals": {
+      "rows": 400,
+      "populated": 131,
+      "population_rate": 0.3275,
+      "types": [
+        "float"
+      ]
+    },
+    "fouls": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "goal_assist": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "goals": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "goals_conceded": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "id": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "interception": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "key_pass": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "minutes_played": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "player_id": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "possession_lost": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "punches": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "rating": {
+      "rows": 400,
+      "populated": 293,
+      "population_rate": 0.7325,
+      "types": [
+        "float"
+      ]
+    },
+    "red_card": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "saves": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "shots_on_target": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "team_id": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_clearance": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_contest": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_cross": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_long_balls": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_pass": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_shots": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "total_tackle": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "touches": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "was_fouled": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "won_contest": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "won_tackle": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    },
+    "yellow_card": {
+      "rows": 400,
+      "populated": 400,
+      "population_rate": 1.0,
+      "types": [
+        "int"
+      ]
+    }
+  },
+  "mapped_fields_missing_from_live_sample": [
+    "penalty_miss"
+  ],
+  "unmapped_live_fields": [
+    "blocked_scoring_attempt",
+    "possession_lost",
+    "punches",
+    "rating",
+    "red_card",
+    "yellow_card"
+  ],
+  "mapped_player_examples": [
+    {
+      "provider_player_id": 483,
+      "provider_name": "Mats Wieffer",
+      "fpl_player_id": "173",
+      "fpl_name": "Wieffer",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 485,
+      "provider_name": "Lewis Dunk",
+      "fpl_player_id": "146",
+      "fpl_name": "Dunk",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 486,
+      "provider_name": "Ferdi Kadıoğlu",
+      "fpl_player_id": "148",
+      "fpl_name": "F.Kadıoğlu",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 484,
+      "provider_name": "Jan Paul van Hecke",
+      "fpl_player_id": "151",
+      "fpl_name": "Van Hecke",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 482,
+      "provider_name": "Bart Verbruggen",
+      "fpl_player_id": "139",
+      "fpl_name": "Verbruggen",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 487,
+      "provider_name": "Carlos Baleba",
+      "fpl_player_id": "167",
+      "fpl_name": "Baleba",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 1632,
+      "provider_name": "Yasin Ayari",
+      "fpl_player_id": "166",
+      "fpl_name": "Ayari",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 1633,
+      "provider_name": "Georginio Rutter",
+      "fpl_player_id": "158",
+      "fpl_name": "Georginio",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 489,
+      "provider_name": "Yankuba Minteh",
+      "fpl_player_id": "160",
+      "fpl_name": "Minteh",
+      "match_method": "full_name"
+    },
+    {
+      "provider_player_id": 494,
+      "provider_name": "Danny Welbeck",
+      "fpl_player_id": "178",
+      "fpl_name": "Welbeck",
+      "match_method": "full_name"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+match_id,incident_index,incident_type,minute,added_time,team_side,player_id,player_name,secondary_player_id,secondary_player_name,assist_player_id,assist_player_name,card_type,goal_type,home_score,away_score,text
+25-26-prem-brighton-hove-albion-vs-leeds-united,1,period,90,,,,,,,,,,,3,0,FT
+25-26-prem-brighton-hove-albion-vs-leeds-united,2,substitution,90,4,home,158,G. Rutter,744,N. Oriola,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,3,substitution,90,4,home,166,Y. Ayari,175,J. Knight,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,4,injuryTime,90,,,,,,,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,5,substitution,88,,home,160,Y. Minteh,181,C. Kostoulas,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,6,substitution,81,,home,178,D. Welbeck,180,S. Tzimas,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,7,substitution,81,,home,,D. Gómez,172,T. Watson,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,8,substitution,77,,away,698,N. Okafor,352,J. Harrison,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,9,substitution,77,,away,342,J. Bogle,706,J. Justin,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,10,card,73,,away,354,E. Ampadu,,,,,yellow,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,11,goal,70,,home,,D. Gómez,,,,Y. Minteh,,regular,3,0,
+25-26-prem-brighton-hove-albion-vs-leeds-united,12,substitution,65,,away,691,D. Calvert-Lewin,365,L. Nmecha,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,13,goal,64,,home,,D. Gómez,,,,,,regular,2,0,
+25-26-prem-brighton-hove-albion-vs-leeds-united,14,substitution,61,,away,,A. Tanaka,353,D. James,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,15,substitution,60,,away,493,S. Longstaff,660,A. Stach,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,16,period,45,,,,,,,,,,,1,0,HT
+25-26-prem-brighton-hove-albion-vs-leeds-united,17,injuryTime,45,,,,,,,,,,,,,
+25-26-prem-brighton-hove-albion-vs-leeds-united,18,goal,11,,home,178,D. Welbeck,,,,M. Wieffer,,regular,1,0,

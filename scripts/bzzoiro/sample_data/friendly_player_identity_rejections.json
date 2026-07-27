@@ -1,0 +1,5780 @@
+[
+  {
+    "season": "2026-2027",
+    "provider_player_id": 322,
+    "provider_name": "Alisson",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 339,
+    "provider_name": "Wataru Endo",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 367,
+    "provider_name": "Ao Tanaka",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 367,
+    "provider_name": "Ao Tanaka",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 385,
+    "provider_name": "Benoît Badiashile",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 396,
+    "provider_name": "Alejandro Garnacho",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 398,
+    "provider_name": "Filip Jørgensen",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 426,
+    "provider_name": "Daniel Muñoz",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 428,
+    "provider_name": "Jefferson Lerma",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 431,
+    "provider_name": "Yéremy Pino",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 439,
+    "provider_name": "Nathaniel Clyne",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 442,
+    "provider_name": "David Raya",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 448,
+    "provider_name": "Martín Zubimendi",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 451,
+    "provider_name": "Mikel Merino",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 452,
+    "provider_name": "Gabriel Martinelli",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 457,
+    "provider_name": "Kepa Arrizabalaga",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 473,
+    "provider_name": "Igor Thiago",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 479,
+    "provider_name": "Benjamin Arthur",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 488,
+    "provider_name": "Diego Gómez",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 490,
+    "provider_name": "Brajan Gruda",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 504,
+    "provider_name": "Ezri Konsa",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 517,
+    "provider_name": "Emiliano Buendía",
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 517,
+    "provider_name": "Emiliano Buendía",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 556,
+    "provider_name": "John Victor",
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 556,
+    "provider_name": "John Victor",
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 556,
+    "provider_name": "John Victor",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_team_code": "17",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 557,
+    "provider_name": "Jair",
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 557,
+    "provider_name": "Jair",
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 557,
+    "provider_name": "Jair",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_team_code": "17",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 675,
+    "provider_name": "Matheus França",
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 675,
+    "provider_name": "Matheus França",
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 675,
+    "provider_name": "Matheus França",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 709,
+    "provider_name": "Bruno Guimarães",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 796,
+    "provider_name": "Julio Soler",
+    "provider_team_id": 2,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 796,
+    "provider_name": "Julio Soler",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 800,
+    "provider_name": "Julián Araujo",
+    "provider_team_id": 2,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 800,
+    "provider_name": "Julián Araujo",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 811,
+    "provider_name": "Carlos Alcaraz",
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 811,
+    "provider_name": "Carlos Alcaraz",
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 811,
+    "provider_name": "Carlos Alcaraz",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 821,
+    "provider_name": null,
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 821,
+    "provider_name": null,
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 840,
+    "provider_name": "Jorge Cuenca",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_team_code": "54",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 849,
+    "provider_name": "Nico González",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 998,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 999,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1000,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1001,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1002,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1003,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1004,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1006,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1007,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1009,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1011,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1012,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1015,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1217,
+    "provider_name": "Hidemasa Morita",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_team_code": "88",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1345,
+    "provider_name": "Moisés Caicedo",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1502,
+    "provider_name": "Abdulay Juma Bah",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1629,
+    "provider_name": "Emiliano Martínez",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1651,
+    "provider_name": "Igor Júlio",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1701,
+    "provider_name": "Mike Penders",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1795,
+    "provider_name": "Diogo Dalot",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 1806,
+    "provider_name": "Manuel Ugarte",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2102,
+    "provider_name": "Ibrahim Osman",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2156,
+    "provider_name": "Aarón Anselmino",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2315,
+    "provider_name": "Luís Semedo",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2368,
+    "provider_name": "Sam Byram",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2477,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2481,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2482,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2488,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2491,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2494,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2495,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2768,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2914,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2914,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 2915,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3014,
+    "provider_name": "Max Aarons",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3024,
+    "provider_name": "Jayden Meghoma",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3193,
+    "provider_name": "Rhys Oakley",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3448,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3449,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3450,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3462,
+    "provider_name": "Tommy Setford",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3473,
+    "provider_name": "Tynan Thompson",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3618,
+    "provider_name": "Aladji Bamba",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3680,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3697,
+    "provider_name": "Adedamola Samuel Alabi",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3761,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3786,
+    "provider_name": null,
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3838,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3860,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 3860,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4021,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4095,
+    "provider_name": "Rodrigo Muniz",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_team_code": "54",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4139,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4139,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4267,
+    "provider_name": "Rodri",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4294,
+    "provider_name": "Eric da Silva Moreira",
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4294,
+    "provider_name": "Eric da Silva Moreira",
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4294,
+    "provider_name": "Eric da Silva Moreira",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_team_code": "17",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4363,
+    "provider_name": "Kieran Morrison",
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4363,
+    "provider_name": "Kieran Morrison",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4369,
+    "provider_name": "James Milner",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4378,
+    "provider_name": "Samuel Amissah",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_team_code": "54",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4381,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4397,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4427,
+    "provider_name": "Reggie Walsh",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4428,
+    "provider_name": "Ryan Kavuma-McQueen",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4519,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4519,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4535,
+    "provider_name": "Gabriel Słonina",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4536,
+    "provider_name": "Landon Emenalo",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4539,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4539,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4550,
+    "provider_name": "Largie Ramazani",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4551,
+    "provider_name": "Diego León",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4638,
+    "provider_name": "Kaoru Mitoma",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4639,
+    "provider_name": "Ryan McAidoo",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4711,
+    "provider_name": "Jayden Danns",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4735,
+    "provider_name": null,
+    "provider_team_id": 35,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4758,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4771,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4771,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4907,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4918,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4935,
+    "provider_name": "Harry Tyrer",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4969,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4969,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4973,
+    "provider_name": "Ben Winterburn",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4974,
+    "provider_name": null,
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 4977,
+    "provider_name": null,
+    "provider_team_id": 2,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5642,
+    "provider_name": "Freddie Simmonds",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5649,
+    "provider_name": "Yunus Konak",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5650,
+    "provider_name": "Gustavo Nunes",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5651,
+    "provider_name": "Charlie Gray",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5660,
+    "provider_name": "Leo Shahar",
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5660,
+    "provider_name": "Leo Shahar",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5668,
+    "provider_name": "Leon Routh",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5776,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5873,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5907,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5974,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5975,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5977,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5979,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5980,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5981,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5982,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5985,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5986,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 5996,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6020,
+    "provider_name": null,
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6026,
+    "provider_name": null,
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6026,
+    "provider_name": null,
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6061,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6098,
+    "provider_name": "Lewis Koumas",
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6098,
+    "provider_name": "Lewis Koumas",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_team_code": "88",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6099,
+    "provider_name": "Eiran Cashin",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6172,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6172,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6195,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6284,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6300,
+    "provider_name": "Luke Harris",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_team_code": "54",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6304,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6304,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6335,
+    "provider_name": "Alan Browne",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6335,
+    "provider_name": "Alan Browne",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6335,
+    "provider_name": "Alan Browne",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6437,
+    "provider_name": null,
+    "provider_team_id": 203,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6440,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6442,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6443,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6444,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6445,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6447,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6448,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6450,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6451,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6452,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6454,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6457,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6458,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6535,
+    "provider_name": "Malick Yalcouyé",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6541,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6541,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6542,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6543,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6543,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6544,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6544,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6545,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6547,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6548,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6548,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6550,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6550,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6552,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6552,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6553,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6553,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6554,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6554,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6555,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6555,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6556,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6556,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6557,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6558,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6559,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6559,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6560,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6560,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6690,
+    "provider_name": "Radek Vitek",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6690,
+    "provider_name": "Radek Vitek",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6701,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6702,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6717,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6718,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6736,
+    "provider_name": "Daniel Jebbison",
+    "provider_team_id": 2,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6736,
+    "provider_name": "Daniel Jebbison",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6795,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6801,
+    "provider_name": "Oscar Varney",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_team_code": "9",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6810,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6868,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6917,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6917,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6933,
+    "provider_name": "Issa Kaboré",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6939,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6940,
+    "provider_name": "David Ozoh",
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6940,
+    "provider_name": "David Ozoh",
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6940,
+    "provider_name": "David Ozoh",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6946,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6950,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6966,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6966,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 6984,
+    "provider_name": "Caleb Wiley",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7034,
+    "provider_name": "Seth Ridgeon",
+    "provider_team_id": 6,
+    "provider_team_name": "Fulham",
+    "fpl_team_code": "54",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7080,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7080,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7108,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7112,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7120,
+    "provider_name": "Stanley Ashbee",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_team_code": "88",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7172,
+    "provider_name": "Nathan Tinsdale",
+    "provider_team_id": 204,
+    "provider_team_name": "Hull City",
+    "fpl_team_code": "88",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 7765,
+    "provider_name": "Benjamin Fredrick",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8385,
+    "provider_name": "Dean Benamar",
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8385,
+    "provider_name": "Dean Benamar",
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8385,
+    "provider_name": "Dean Benamar",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8388,
+    "provider_name": "Jenson Jones",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8388,
+    "provider_name": "Jenson Jones",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8388,
+    "provider_name": "Jenson Jones",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8389,
+    "provider_name": null,
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8389,
+    "provider_name": null,
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8402,
+    "provider_name": "Chido Obi-Martin",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8402,
+    "provider_name": "Chido Obi-Martin",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8410,
+    "provider_name": "Braiden Graham",
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8410,
+    "provider_name": "Braiden Graham",
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8410,
+    "provider_name": "Braiden Graham",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8416,
+    "provider_name": "Benjamin Casey",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8438,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8446,
+    "provider_name": "TJ Carroll",
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8446,
+    "provider_name": "TJ Carroll",
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8446,
+    "provider_name": "TJ Carroll",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8457,
+    "provider_name": null,
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8473,
+    "provider_name": "Sam Chambers",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8474,
+    "provider_name": "Godwill Kukonki",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8491,
+    "provider_name": "Charlie Tasker",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8493,
+    "provider_name": "George King",
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8493,
+    "provider_name": "George King",
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8493,
+    "provider_name": "George King",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8541,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8585,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8594,
+    "provider_name": null,
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8594,
+    "provider_name": null,
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8663,
+    "provider_name": "Charlie Stevens",
+    "provider_team_id": 2,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8663,
+    "provider_name": "Charlie Stevens",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8666,
+    "provider_name": "Kian Noble",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8667,
+    "provider_name": "Tyrone Samba",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8746,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8763,
+    "provider_name": null,
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8790,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8793,
+    "provider_name": "Teddy Sharman-Lowe",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8804,
+    "provider_name": null,
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8818,
+    "provider_name": "Brando Bailey-Joseph",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8866,
+    "provider_name": "Aji Alese",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8866,
+    "provider_name": "Aji Alese",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8908,
+    "provider_name": "Luka Bentt",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8927,
+    "provider_name": "Simon Moore",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8927,
+    "provider_name": "Simon Moore",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8927,
+    "provider_name": "Simon Moore",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8935,
+    "provider_name": null,
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8972,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8972,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8985,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8997,
+    "provider_name": null,
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 8997,
+    "provider_name": null,
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 12840,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13524,
+    "provider_name": "Ellery Balcombe",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13525,
+    "provider_name": "Ollie Shield",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13640,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13649,
+    "provider_name": "Jaydon Jones",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13649,
+    "provider_name": "Jaydon Jones",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13649,
+    "provider_name": "Jaydon Jones",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13650,
+    "provider_name": "Jack Whittaker",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13650,
+    "provider_name": "Jack Whittaker",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13650,
+    "provider_name": "Jack Whittaker",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 13943,
+    "provider_name": "Josh Wilson-Esbrand",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 15310,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 15310,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 16447,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17129,
+    "provider_name": "Finn Geragusyan",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17129,
+    "provider_name": "Finn Geragusyan",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17256,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17607,
+    "provider_name": "Ona Batlle",
+    "provider_team_id": 18,
+    "provider_team_name": "Arsenal",
+    "fpl_team_code": "3",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17650,
+    "provider_name": "Andrea Medina",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17693,
+    "provider_name": "Kamilla Melgård",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 17780,
+    "provider_name": "Inês Pereira",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22862,
+    "provider_name": "Matai Akinmboni",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22863,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22864,
+    "provider_name": "Harold William",
+    "provider_team_id": 2,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22864,
+    "provider_name": "Harold William",
+    "provider_team_id": 2,
+    "provider_team_name": "Bournemouth",
+    "fpl_team_code": "91",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22866,
+    "provider_name": "Tom McGill",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22875,
+    "provider_name": "Mykhailo Mudryk",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22878,
+    "provider_name": "Ollie Harrison",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22879,
+    "provider_name": "Charlie Holland",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22881,
+    "provider_name": "Genesis Antwi",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22884,
+    "provider_name": "Caleb Kporha",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22905,
+    "provider_name": "Malik Olayiwola",
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22905,
+    "provider_name": "Malik Olayiwola",
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 22905,
+    "provider_name": "Malik Olayiwola",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 23924,
+    "provider_name": "Riley Owen",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 24008,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26207,
+    "provider_name": "Stefan Bajčetić",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26281,
+    "provider_name": null,
+    "provider_team_id": 203,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26709,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26758,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26759,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26760,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26761,
+    "provider_name": "Amario Cozier-Duberry",
+    "provider_team_id": 5,
+    "provider_team_name": "Brighton & Hove Albion",
+    "fpl_team_code": "36",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26764,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26767,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26770,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26772,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26775,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26776,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26934,
+    "provider_name": "Omari Kellyman",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 26946,
+    "provider_name": null,
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 27336,
+    "provider_name": "Charlie Crew",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 27336,
+    "provider_name": "Charlie Crew",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 27351,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 29382,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 29403,
+    "provider_name": null,
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 29559,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 29916,
+    "provider_name": "Harrison Bettoni",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 29937,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 29966,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30035,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30777,
+    "provider_name": "Jim Thwaites",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30777,
+    "provider_name": "Jim Thwaites",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30810,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30944,
+    "provider_name": null,
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30985,
+    "provider_name": "Modou Kéba Cissé",
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30985,
+    "provider_name": "Modou Kéba Cissé",
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 30985,
+    "provider_name": "Modou Kéba Cissé",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33490,
+    "provider_name": "Joe Gauci",
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33490,
+    "provider_name": "Joe Gauci",
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33490,
+    "provider_name": "Joe Gauci",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33499,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33508,
+    "provider_name": "Kaden Braithwaite",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33530,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33593,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33597,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33597,
+    "provider_name": null,
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33639,
+    "provider_name": "Daniel Gore",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33639,
+    "provider_name": "Daniel Gore",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33647,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33650,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33654,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33656,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33657,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33659,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33665,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33686,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33687,
+    "provider_name": "Ahmed Abdullahi",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33704,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33716,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33763,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33763,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33814,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33826,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33828,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33836,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33847,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33855,
+    "provider_name": null,
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33855,
+    "provider_name": null,
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33871,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33890,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33900,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33905,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33907,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33908,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33913,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33916,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33917,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33959,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33960,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33961,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33963,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33966,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33967,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33968,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33969,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33971,
+    "provider_name": "Ethan Wheatley",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 33971,
+    "provider_name": "Ethan Wheatley",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34001,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34002,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34004,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34006,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34007,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34008,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34012,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34014,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34017,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34019,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34063,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34086,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34096,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34097,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34098,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34109,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34154,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34183,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 34235,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35424,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35437,
+    "provider_name": "Julian Eyestone",
+    "provider_team_id": 16,
+    "provider_team_name": "Brentford",
+    "fpl_team_code": "94",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35454,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35459,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35808,
+    "provider_name": "Oscar Varney",
+    "provider_team_id": 203,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 35808,
+    "provider_name": "Oscar Varney",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_team_code": "9",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36218,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36510,
+    "provider_name": "Rhys Chadwick-Chaplin",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36510,
+    "provider_name": "Rhys Chadwick-Chaplin",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36511,
+    "provider_name": "Alex Cairns",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36511,
+    "provider_name": "Alex Cairns",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36600,
+    "provider_name": "Dermot Mee",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36600,
+    "provider_name": "Dermot Mee",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36603,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36724,
+    "provider_name": "Anthony Munda",
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36724,
+    "provider_name": "Anthony Munda",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36725,
+    "provider_name": "Scott Bailey",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36726,
+    "provider_name": "Dylan Charlton",
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36726,
+    "provider_name": "Dylan Charlton",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36732,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36753,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36760,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36766,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36771,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36772,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36775,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 36984,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 37343,
+    "provider_name": "Abdoullah Ba",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 37354,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 37365,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 37571,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 41356,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42744,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42745,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42746,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42748,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42750,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42755,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42757,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42760,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42790,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 42806,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 43145,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 43558,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 45613,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46256,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46259,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46260,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46262,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46264,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46265,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46266,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46269,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46270,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46272,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46273,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46274,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46275,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46277,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46280,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46326,
+    "provider_name": "Floyd Samba",
+    "provider_team_id": 12,
+    "provider_team_name": "Manchester City",
+    "fpl_team_code": "43",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46491,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46498,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46533,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46550,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46785,
+    "provider_name": "Will Wright",
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 46785,
+    "provider_name": "Will Wright",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48330,
+    "provider_name": "Mor Talla Ndiaye",
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48330,
+    "provider_name": "Mor Talla Ndiaye",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48454,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48455,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48457,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48460,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48467,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48469,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 48843,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 49483,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 49485,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 50440,
+    "provider_name": "Mathis Eboue",
+    "provider_team_id": 13,
+    "provider_team_name": "Chelsea",
+    "fpl_team_code": "8",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 50466,
+    "provider_name": "Harri Laidler",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_team_code": "9",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 51986,
+    "provider_name": "Jayden Lienou",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 51986,
+    "provider_name": "Jayden Lienou",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 52007,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 52295,
+    "provider_name": "Rory Finneran",
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 52295,
+    "provider_name": "Rory Finneran",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 52337,
+    "provider_name": "Alfie Cresswell",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 52337,
+    "provider_name": "Alfie Cresswell",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 52748,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 56365,
+    "provider_name": "Diogo Jota",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 58884,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 58943,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 58943,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 59206,
+    "provider_name": "El Hadji Mor Talla Ndiaye",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 59329,
+    "provider_name": "Oliver Bainbridge",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 61330,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 63282,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 63283,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 63499,
+    "provider_name": null,
+    "provider_team_id": 1892,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 64217,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65365,
+    "provider_name": "Kenza Dali",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65469,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65470,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65633,
+    "provider_name": "Clarissa Larisey",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65719,
+    "provider_name": null,
+    "provider_team_id": 218,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65768,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65769,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65818,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65820,
+    "provider_name": null,
+    "provider_team_id": 91,
+    "provider_event_id": 219307,
+    "canonical_match_id": "26-27-friendly-afc-bournemouth-vs-st.-pauli-2026-07-24",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 65934,
+    "provider_name": null,
+    "provider_team_id": 1437,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 66340,
+    "provider_name": "Katie Stengel",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 66822,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 68723,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 68724,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 68726,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73615,
+    "provider_name": "Charlie Walker-Smith",
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73615,
+    "provider_name": "Charlie Walker-Smith",
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73615,
+    "provider_name": "Charlie Walker-Smith",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73616,
+    "provider_name": "Mofe Jemide",
+    "provider_team_id": 14,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73616,
+    "provider_name": "Mofe Jemide",
+    "provider_team_id": 14,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73616,
+    "provider_name": "Mofe Jemide",
+    "provider_team_id": 14,
+    "provider_team_name": "Crystal Palace",
+    "fpl_team_code": "31",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73617,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73618,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73619,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73620,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73621,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73622,
+    "provider_name": null,
+    "provider_team_id": 1440,
+    "provider_event_id": 219025,
+    "canonical_match_id": "26-27-friendly-crystal-palace-vs-swindon-town-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73656,
+    "provider_name": null,
+    "provider_team_id": 228,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73657,
+    "provider_name": null,
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73657,
+    "provider_name": null,
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73658,
+    "provider_name": "George Finney",
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73658,
+    "provider_name": "George Finney",
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73658,
+    "provider_name": "George Finney",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73659,
+    "provider_name": "Harvey Foster",
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73659,
+    "provider_name": "Harvey Foster",
+    "provider_team_id": 20,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73659,
+    "provider_name": "Harvey Foster",
+    "provider_team_id": 20,
+    "provider_team_name": "Everton",
+    "fpl_team_code": "11",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73660,
+    "provider_name": null,
+    "provider_team_id": 20,
+    "provider_event_id": 219085,
+    "canonical_match_id": "26-27-friendly-dundee-fc-vs-everton-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73696,
+    "provider_name": null,
+    "provider_team_id": 1442,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73697,
+    "provider_name": "Eliot Meredith",
+    "provider_team_id": 203,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73697,
+    "provider_name": "Eliot Meredith",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_team_code": "9",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73698,
+    "provider_name": "Tristen Batanwi",
+    "provider_team_id": 203,
+    "provider_event_id": 219087,
+    "canonical_match_id": "26-27-friendly-northampton-town-vs-coventry-city-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73698,
+    "provider_name": "Tristen Batanwi",
+    "provider_team_id": 203,
+    "provider_team_name": "Coventry City",
+    "fpl_team_code": "9",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73742,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73742,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73743,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73743,
+    "provider_name": null,
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73744,
+    "provider_name": "Kalum Thompson",
+    "provider_team_id": 15,
+    "provider_event_id": 219103,
+    "canonical_match_id": "26-27-friendly-notts-county-vs-nottingham-forest-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73744,
+    "provider_name": "Kalum Thompson",
+    "provider_team_id": 15,
+    "provider_event_id": 219263,
+    "canonical_match_id": "26-27-friendly-nottingham-forest-vs-blackburn-rovers-2026-07-22",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73744,
+    "provider_name": "Kalum Thompson",
+    "provider_team_id": 15,
+    "provider_team_name": "Nottingham Forest",
+    "fpl_team_code": "17",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73758,
+    "provider_name": "Tom Proctor",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73758,
+    "provider_name": "Tom Proctor",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73758,
+    "provider_name": "Tom Proctor",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73759,
+    "provider_name": "Charlie Dinsdale",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73759,
+    "provider_name": "Charlie Dinsdale",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73759,
+    "provider_name": "Charlie Dinsdale",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73760,
+    "provider_name": "Felix Scott",
+    "provider_team_id": 7,
+    "provider_event_id": 219106,
+    "canonical_match_id": "26-27-friendly-york-city-vs-sunderland-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73760,
+    "provider_name": "Felix Scott",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73760,
+    "provider_name": "Felix Scott",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73803,
+    "provider_name": "Jaydan Kamason",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73803,
+    "provider_name": "Jaydan Kamason",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73804,
+    "provider_name": "Daniel Armer",
+    "provider_team_id": 17,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73804,
+    "provider_name": "Daniel Armer",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73805,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73806,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73807,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73808,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73809,
+    "provider_name": null,
+    "provider_team_id": 206,
+    "provider_event_id": 219152,
+    "canonical_match_id": "26-27-friendly-manchester-united-vs-wrexham-2026-07-18",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 73880,
+    "provider_name": "Denise O'Sullivan",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75041,
+    "provider_name": "Josh Sonni-Lambie",
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75041,
+    "provider_name": "Josh Sonni-Lambie",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75778,
+    "provider_name": null,
+    "provider_team_id": 1247,
+    "provider_event_id": 219349,
+    "canonical_match_id": "26-27-friendly-bolton-wanderers-vs-everton-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75817,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75818,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75819,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75820,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75821,
+    "provider_name": null,
+    "provider_team_id": 1441,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75822,
+    "provider_name": "Luka Lynch",
+    "provider_team_id": 3,
+    "provider_event_id": 219241,
+    "canonical_match_id": "26-27-friendly-walsall-vs-aston-villa-2026-07-21",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75822,
+    "provider_name": "Luka Lynch",
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 75822,
+    "provider_name": "Luka Lynch",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 78062,
+    "provider_name": "JJ Gabriel",
+    "provider_team_id": 17,
+    "provider_team_name": "Manchester United",
+    "fpl_team_code": "1",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79440,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79441,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79442,
+    "provider_name": null,
+    "provider_team_id": 1881,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79443,
+    "provider_name": null,
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79444,
+    "provider_name": "Matheos Ferreira",
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79444,
+    "provider_name": "Matheos Ferreira",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79446,
+    "provider_name": null,
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79447,
+    "provider_name": "Luke Craggs",
+    "provider_team_id": 4,
+    "provider_event_id": 219323,
+    "canonical_match_id": "26-27-friendly-gateshead-fc-vs-newcastle-united-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79447,
+    "provider_name": "Luke Craggs",
+    "provider_team_id": 4,
+    "provider_team_name": "Newcastle United",
+    "fpl_team_code": "4",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79553,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79554,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79555,
+    "provider_name": null,
+    "provider_team_id": 1424,
+    "provider_event_id": 219348,
+    "canonical_match_id": "26-27-friendly-bromley-vs-crystal-palace-2026-07-25",
+    "reason": "non_pl_opponent_not_in_season_roster"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79603,
+    "provider_name": "Rodrigo Fortes",
+    "provider_team_id": 3,
+    "provider_event_id": 219408,
+    "canonical_match_id": "26-27-friendly-fc-porto-vs-aston-villa-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79603,
+    "provider_name": "Rodrigo Fortes",
+    "provider_team_id": 3,
+    "provider_team_name": "Aston Villa",
+    "fpl_team_code": "7",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79607,
+    "provider_name": "Joshua Abe",
+    "provider_team_id": 1,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79607,
+    "provider_name": "Joshua Abe",
+    "provider_team_id": 1,
+    "provider_team_name": "Liverpool FC",
+    "fpl_team_code": "14",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79608,
+    "provider_name": "Archie Lightfoot",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79608,
+    "provider_name": "Archie Lightfoot",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79609,
+    "provider_name": "Ben Kindon",
+    "provider_team_id": 7,
+    "provider_event_id": 219415,
+    "canonical_match_id": "26-27-friendly-liverpool-vs-sunderland-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79609,
+    "provider_name": "Ben Kindon",
+    "provider_team_id": 7,
+    "provider_team_name": "Sunderland",
+    "fpl_team_code": "56",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79817,
+    "provider_name": "Callum Mills",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79817,
+    "provider_name": "Callum Mills",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79822,
+    "provider_name": "Oliver Pickles",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79822,
+    "provider_name": "Oliver Pickles",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79824,
+    "provider_name": null,
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79826,
+    "provider_name": "Freddie Lane",
+    "provider_team_id": 19,
+    "provider_event_id": 219416,
+    "canonical_match_id": "26-27-friendly-leeds-united-vs-wrexham-2026-07-25",
+    "reason": "unresolved_current_pl_player"
+  },
+  {
+    "season": "2026-2027",
+    "provider_player_id": 79826,
+    "provider_name": "Freddie Lane",
+    "provider_team_id": 19,
+    "provider_team_name": "Leeds United",
+    "fpl_team_code": "2",
+    "reason": "no_canonical_player_name_match_within_team"
+  }
+]

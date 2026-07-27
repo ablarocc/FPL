@@ -1,0 +1,58 @@
+{
+  "canonical_data_tree_modified": false,
+  "captured_snapshot": "2026-07-27T03:49:56.060519+00:00",
+  "identity_resolution": {
+    "accepted_events": 72,
+    "accepted_player_match_rows": 474,
+    "accepted_players": 677,
+    "quarantined_rows": 779
+  },
+  "merges": [
+    {
+      "accepted_provider_rows": 10,
+      "blank_cells_filled": 2,
+      "canonical_rows": 10,
+      "rows_added": 0,
+      "season": "2025-2026",
+      "supplemental_rows": 1,
+      "target": "matches.csv"
+    },
+    {
+      "accepted_provider_rows": 250,
+      "blank_cells_filled": 0,
+      "canonical_rows": 303,
+      "rows_added": 0,
+      "season": "2025-2026",
+      "supplemental_rows": 250,
+      "target": "playermatchstats.csv"
+    },
+    {
+      "accepted_provider_rows": 62,
+      "blank_cells_filled": 78,
+      "canonical_rows": 91,
+      "rows_added": 0,
+      "season": "2026-2027",
+      "supplemental_rows": 62,
+      "target": "matches.csv"
+    },
+    {
+      "accepted_provider_rows": 224,
+      "blank_cells_filled": 4063,
+      "canonical_rows": 60,
+      "rows_added": 176,
+      "season": "2026-2027",
+      "supplemental_rows": 224,
+      "target": "playermatchstats.csv"
+    }
+  ],
+  "safety": {
+    "attacking_blocked_shots_are_not_defender_blocks": true,
+    "existing_non_blank_values_win": true,
+    "fixtures_equal_matches": true,
+    "fpl_availability_remains_authoritative": true,
+    "only_exact_event_identities_export": true,
+    "provider_availability_is_separate": true,
+    "public_provenance_columns_emitted": false
+  },
+  "simulation": true
+}

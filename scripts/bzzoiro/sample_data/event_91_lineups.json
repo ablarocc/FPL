@@ -1,0 +1,352 @@
+{
+  "event_id": 91,
+  "lineup_status": "confirmed",
+  "beta": false,
+  "lineups": {
+    "home": {
+      "team_id": 5,
+      "team_name": "Brighton & Hove Albion",
+      "formation": "4-2-3-1",
+      "confidence": null,
+      "players": [
+        {
+          "id": null,
+          "name": "B. Verbruggen",
+          "short_name": "B. Verbruggen",
+          "position": "G",
+          "jersey_number": 1,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "M. Wieffer",
+          "short_name": "M. Wieffer",
+          "position": "D",
+          "jersey_number": 27,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. P. van Hecke",
+          "short_name": "J. P. van Hecke",
+          "position": "D",
+          "jersey_number": 6,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "L. Dunk",
+          "short_name": "L. Dunk",
+          "position": "D",
+          "jersey_number": 5,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "F. Kadıoğlu",
+          "short_name": "F. Kadıoğlu",
+          "position": "D",
+          "jersey_number": 24,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "C. Baleba",
+          "short_name": "C. Baleba",
+          "position": "M",
+          "jersey_number": 17,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "Y. Ayari",
+          "short_name": "Y. Ayari",
+          "position": "M",
+          "jersey_number": 26,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "Y. Minteh",
+          "short_name": "Y. Minteh",
+          "position": "M",
+          "jersey_number": 11,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "G. Rutter",
+          "short_name": "G. Rutter",
+          "position": "M",
+          "jersey_number": 10,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "D. Gómez",
+          "short_name": "D. Gómez",
+          "position": "M",
+          "jersey_number": 25,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "D. Welbeck",
+          "short_name": "D. Welbeck",
+          "position": "F",
+          "jersey_number": 18,
+          "ai_score": null
+        }
+      ],
+      "substitutes": [
+        {
+          "id": null,
+          "name": "S. Tzimas",
+          "short_name": "S. Tzimas",
+          "position": "F",
+          "jersey_number": 9,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "T. Watson",
+          "short_name": "T. Watson",
+          "position": "F",
+          "jersey_number": 14,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "C. Kostoulas",
+          "short_name": "C. Kostoulas",
+          "position": "F",
+          "jersey_number": 19,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "N. Oriola",
+          "short_name": "N. Oriola",
+          "position": "F",
+          "jersey_number": 58,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Knight",
+          "short_name": "J. Knight",
+          "position": "M",
+          "jersey_number": 49,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Steele",
+          "short_name": "J. Steele",
+          "position": "G",
+          "jersey_number": 23,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "O. Boscagli",
+          "short_name": "O. Boscagli",
+          "position": "D",
+          "jersey_number": 21,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "D. Coppola",
+          "short_name": "D. Coppola",
+          "position": "D",
+          "jersey_number": 42,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "M. De Cuyper",
+          "short_name": "M. De Cuyper",
+          "position": "D",
+          "jersey_number": 29,
+          "ai_score": null
+        }
+      ]
+    },
+    "away": {
+      "team_id": 19,
+      "team_name": "Leeds United",
+      "formation": "4-1-4-1",
+      "confidence": null,
+      "players": [
+        {
+          "id": null,
+          "name": "L. Perri",
+          "short_name": "L. Perri",
+          "position": "G",
+          "jersey_number": 1,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Bogle",
+          "short_name": "J. Bogle",
+          "position": "D",
+          "jersey_number": 2,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Rodon",
+          "short_name": "J. Rodon",
+          "position": "D",
+          "jersey_number": 6,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Bijol",
+          "short_name": "J. Bijol",
+          "position": "D",
+          "jersey_number": 15,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "G. Gudmundsson",
+          "short_name": "G. Gudmundsson",
+          "position": "D",
+          "jersey_number": 3,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "E. Ampadu",
+          "short_name": "E. Ampadu",
+          "position": "M",
+          "jersey_number": 4,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "B. Aaronson",
+          "short_name": "B. Aaronson",
+          "position": "M",
+          "jersey_number": 11,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "S. Longstaff",
+          "short_name": "S. Longstaff",
+          "position": "M",
+          "jersey_number": 8,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "A. Tanaka",
+          "short_name": "A. Tanaka",
+          "position": "M",
+          "jersey_number": 22,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "N. Okafor",
+          "short_name": "N. Okafor",
+          "position": "M",
+          "jersey_number": 19,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "D. Calvert-Lewin",
+          "short_name": "D. Calvert-Lewin",
+          "position": "F",
+          "jersey_number": 9,
+          "ai_score": null
+        }
+      ],
+      "substitutes": [
+        {
+          "id": null,
+          "name": "A. Stach",
+          "short_name": "A. Stach",
+          "position": "M",
+          "jersey_number": 18,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "D. James",
+          "short_name": "D. James",
+          "position": "M",
+          "jersey_number": 7,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "L. Nmecha",
+          "short_name": "L. Nmecha",
+          "position": "F",
+          "jersey_number": 14,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Justin",
+          "short_name": "J. Justin",
+          "position": "D",
+          "jersey_number": 24,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Harrison",
+          "short_name": "J. Harrison",
+          "position": "F",
+          "jersey_number": 20,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "K. Darlow",
+          "short_name": "K. Darlow",
+          "position": "G",
+          "jersey_number": 26,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "P. Struijk",
+          "short_name": "P. Struijk",
+          "position": "D",
+          "jersey_number": 5,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "I. Gruev",
+          "short_name": "I. Gruev",
+          "position": "M",
+          "jersey_number": 44,
+          "ai_score": null
+        },
+        {
+          "id": null,
+          "name": "J. Piroe",
+          "short_name": "J. Piroe",
+          "position": "F",
+          "jersey_number": 10,
+          "ai_score": null
+        }
+      ]
+    }
+  },
+  "unavailable_players": {
+    "home": [],
+    "away": []
+  },
+  "updated_at": "2026-06-19T01:01:06Z"
+}

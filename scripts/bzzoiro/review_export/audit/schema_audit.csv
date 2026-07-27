@@ -1,0 +1,7 @@
+file,row_count,column_count,matches_canonical_header,fixtures_byte_identical
+git_export/data/2025-2026/By Tournament/Premier League/GW10/matches.csv,10,115,True,True
+git_export/data/2025-2026/By Tournament/Premier League/GW10/fixtures.csv,10,115,True,True
+git_export/data/2025-2026/By Tournament/Premier League/GW10/playermatchstats.csv,303,64,True,
+git_export/data/2026-2027/By Tournament/Friendlies/GW0/matches.csv,91,115,True,True
+git_export/data/2026-2027/By Tournament/Friendlies/GW0/fixtures.csv,91,115,True,True
+git_export/data/2026-2027/By Tournament/Friendlies/GW0/playermatchstats.csv,236,64,True,

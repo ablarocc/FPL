@@ -1,0 +1,13 @@
+entity,season,reason,row_count
+betting_odds,,unmapped_event,19
+betting_prediction,,unmapped_event,20
+canonical_match,2026-2027,canonical_match_without_provider_identity,29
+event_identity,2026-2027,api_event_without_exact_identity,17
+event_identity,2026-2027,loose_or_partial_event_identity,17
+match_stat,2026-2027,incomplete_team_stats,12
+player_availability,2026-2027,unmapped_player,9
+player_identity,2025-2026,low_confidence_identity,21
+player_identity,2026-2027,low_confidence_identity,22
+player_match_stat,2025-2026,player_not_on_canonical_fixture_team,5
+player_match_stat,2025-2026,unmapped_player,145
+player_match_stat,2026-2027,unmapped_player,463
