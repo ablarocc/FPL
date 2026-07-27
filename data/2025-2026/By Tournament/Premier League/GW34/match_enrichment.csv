@@ -1,8 +1,8 @@
-match_id,travel_distance_km,weather_description,temperature_c,wind_speed,pitch_condition,is_local_derby,is_neutral_ground,attendance,lineup_status,lineup_confidence
-25-26-prem-arsenal-vs-newcastle-united,394,unknown,21,4.8,1,False,False,,confirmed,
-25-26-prem-fulham-vs-aston-villa,162,cloudy,16,2.2,1,False,False,,confirmed,
-25-26-prem-liverpool-vs-crystal-palace,299,unknown,19,4.4,1,False,False,,confirmed,
-25-26-prem-manchester-united-vs-brentford,258,unknown,14,7.9,1,False,False,,confirmed,
-25-26-prem-sunderland-vs-nottingham-forest,221,unknown,12,5.3,1,False,False,,confirmed,
-25-26-prem-west-ham-united-vs-everton,291,unknown,21,2.6,1,False,False,,confirmed,
-25-26-prem-wolverhampton-wanderers-vs-tottenham-hotspur,179,unknown,20,4.9,1,False,False,,confirmed,
+match_id,travel_distance_km,weather_description,temperature_c,wind_speed,pitch_condition,is_local_derby,is_neutral_ground,lineup_status
+25-26-prem-arsenal-vs-newcastle-united,394,unknown,21,4.8,1,False,False,confirmed
+25-26-prem-fulham-vs-aston-villa,162,cloudy,16,2.2,1,False,False,confirmed
+25-26-prem-liverpool-vs-crystal-palace,299,unknown,19,4.4,1,False,False,confirmed
+25-26-prem-manchester-united-vs-brentford,258,unknown,14,7.9,1,False,False,confirmed
+25-26-prem-sunderland-vs-nottingham-forest,221,unknown,12,5.3,1,False,False,confirmed
+25-26-prem-west-ham-united-vs-everton,291,unknown,21,2.6,1,False,False,confirmed
+25-26-prem-wolverhampton-wanderers-vs-tottenham-hotspur,179,unknown,20,4.9,1,False,False,confirmed
