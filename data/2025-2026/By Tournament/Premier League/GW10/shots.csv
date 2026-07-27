@@ -1,0 +1,20 @@
+match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situation,body_part,xg,xgot,start_x,start_y,goal_mouth_y,goal_mouth_z,goal_mouth_location
+25-26-prem-brighton-hove-albion-vs-leeds-united,1,85,,False,660,Stach,save,fast-break,left-foot,0.0852,0.6196,8.3,34,54.2,29.7,high-left
+25-26-prem-brighton-hove-albion-vs-leeds-united,2,85,,False,365,Nmecha,save,fast-break,right-foot,0.1322,0.2641,8.2,68.3,52.8,2.5,low-left
+25-26-prem-brighton-hove-albion-vs-leeds-united,3,83,,True,166,Ayari,save,assisted,right-foot,0.1317,0.1282,15.6,49.4,49.7,19,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,4,70,,True,,,goal,assisted,right-foot,0.3673,0.9346,9,52.8,51.2,3.8,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,5,64,,True,,,goal,regular,right-foot,0.8841,0.9717,4.3,51,49,16.5,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,6,57,,False,691,Calvert-Lewin,miss,assisted,right-foot,0.0259,,20.9,31.3,41.8,6.9,close-right
+25-26-prem-brighton-hove-albion-vs-leeds-united,7,57,,True,,,save,regular,right-foot,0.0653,0.0806,14.7,46.7,49,1.9,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,8,49,,True,158,Georginio,miss,assisted,left-foot,0.0263,,21.8,35.4,56.3,13.9,close-left
+25-26-prem-brighton-hove-albion-vs-leeds-united,9,47,,True,151,Van Hecke,save,assisted,right-foot,0.1724,0.7258,13.5,48.4,46.3,24.7,high-right
+25-26-prem-brighton-hove-albion-vs-leeds-united,10,45,,False,493,Longstaff,block,fast-break,right-foot,0.1905,,12.2,58.3,47,19,low-right
+25-26-prem-brighton-hove-albion-vs-leeds-united,11,41,,True,160,Minteh,miss,fast-break,left-foot,0.2507,,13,46.1,42.7,1.4,close-right
+25-26-prem-brighton-hove-albion-vs-leeds-united,12,39,,True,,,block,assisted,right-foot,0.0373,,23.1,55.8,50,19,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,13,34,,True,178,Welbeck,miss,assisted,right-foot,0.0849,,18.3,60.8,57.5,26.4,close-left
+25-26-prem-brighton-hove-albion-vs-leeds-united,14,20,,False,493,Longstaff,miss,free-kick,right-foot,0.0632,,25.4,42.9,51.4,76.4,high
+25-26-prem-brighton-hove-albion-vs-leeds-united,15,15,,True,166,Ayari,miss,corner,left-foot,0.0268,,21,62.8,46.9,58.3,close-high
+25-26-prem-brighton-hove-albion-vs-leeds-united,16,11,,True,178,Welbeck,goal,assisted,right-foot,0.8349,0.9949,6.7,52,48.2,8.2,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,17,11,,True,166,Ayari,block,throw-in-set-piece,right-foot,0.0357,,21,37.4,49.3,19,low-centre
+25-26-prem-brighton-hove-albion-vs-leeds-united,18,9,,True,166,Ayari,save,regular,right-foot,0.1442,0.6407,15.3,44,53.6,1.9,low-left
+25-26-prem-brighton-hove-albion-vs-leeds-united,19,2,,True,167,Baleba,miss,assisted,left-foot,0.0068,,23.8,69.9,61,63.9,high-left

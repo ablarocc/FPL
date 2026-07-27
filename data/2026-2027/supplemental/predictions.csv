@@ -1,0 +1,1 @@
+match_id,kickoff_time,competition,home_team,away_team,prediction_created_at,model_version,model_confidence,predicted_result,prob_home,prob_draw,prob_away,prob_over_15,prob_over_25,prob_over_35,prob_btts_yes,recommended_favorite,recommend_over_15,recommend_over_25,recommend_over_35,recommend_btts
