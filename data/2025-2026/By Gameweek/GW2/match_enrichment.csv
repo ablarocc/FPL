@@ -1,0 +1,13 @@
+match_id,travel_distance_km,weather_description,temperature_c,wind_speed,pitch_condition,is_local_derby,is_neutral_ground,attendance,lineup_status,lineup_confidence
+25-26-efl-cup-brentford-vs-afc-bournemouth,,,,,,False,False,,confirmed,
+25-26-efl-cup-bristol-city-vs-fulham,,,,,,False,False,,confirmed,
+25-26-prem-afc-bournemouth-vs-wolverhampton-wanderers,,,,,,False,False,,confirmed,
+25-26-prem-arsenal-vs-leeds-united,,,,,,False,False,,confirmed,
+25-26-prem-brentford-vs-aston-villa,,,,,,False,False,,confirmed,
+25-26-prem-burnley-vs-sunderland,,,,,,False,False,,confirmed,
+25-26-prem-crystal-palace-vs-nottingham-forest,,,,,,False,False,,confirmed,
+25-26-prem-everton-vs-brighton-hove-albion,,,,,,False,False,,confirmed,
+25-26-prem-fulham-vs-manchester-united,,,,,,False,False,,confirmed,
+25-26-prem-manchester-city-vs-tottenham-hotspur,,,,,,False,False,,confirmed,
+25-26-prem-newcastle-united-vs-liverpool,,,,,,False,False,,confirmed,
+25-26-prem-west-ham-united-vs-chelsea,,,,,,False,False,,confirmed,

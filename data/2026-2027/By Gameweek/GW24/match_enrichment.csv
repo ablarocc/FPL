@@ -1,0 +1,11 @@
+match_id,travel_distance_km,weather_description,temperature_c,wind_speed,pitch_condition,is_local_derby,is_neutral_ground,attendance,lineup_status,lineup_confidence
+26-27-prem-arsenal-vs-liverpool,,,,,,False,False,,,
+26-27-prem-brighton-hove-albion-vs-hull-city,,,,,,False,False,,,
+26-27-prem-crystal-palace-vs-coventry-city,,,,,,False,False,,,
+26-27-prem-everton-vs-newcastle-united,,,,,,False,False,,,
+26-27-prem-fulham-vs-manchester-city,,,,,,False,False,,,
+26-27-prem-ipswich-town-vs-tottenham-hotspur,,,,,,False,False,,,
+26-27-prem-leeds-united-vs-afc-bournemouth,,,,,,False,False,,,
+26-27-prem-manchester-united-vs-chelsea,,,,,,False,False,,,
+26-27-prem-nottingham-forest-vs-brentford,,,,,,False,False,,,
+26-27-prem-sunderland-vs-aston-villa,,,,,,False,False,,,

@@ -7,11 +7,453 @@ season,player_id,player_name,external_availability,external_injury_risk,contract
 2026-2027,9,Hincapie,available,Unlikely,2031-06-30,46000000
 2026-2027,11,Mosquera,available,Not Specifically,2030-06-30,38000000
 2026-2027,12,Saka,available,Unlikely,2030-06-30,115000000
+2026-2027,13,Rice,available,Unlikely,2028-06-30,114000000
 2026-2027,14,Eze,available,Somewhat,2029-06-30,69000000
 2026-2027,15,Ødegaard,available,Unlikely,2028-06-30,71000000
 2026-2027,16,Madueke,available,Somewhat,2030-06-30,54000000
+2026-2027,20,Dowman,available,,,31000000
+2026-2027,21,Nørgaard,available,Not Specifically,2027-06-30,4800000
 2026-2027,22,Nwaneri,available,Unlikely,2026-06-30,39000000
 2026-2027,24,Nelson,available,Somewhat,2026-06-30,8800000
 2026-2027,25,Gyökeres,available,Not Specifically,2030-06-30,61000000
 2026-2027,26,Havertz,available,Not Specifically,2028-06-30,53000000
+2026-2027,29,M.Bizot,available,Unlikely,2027-06-30,1400000
+2026-2027,30,Digne,available,Not Specifically,2028-06-30,5500000
+2026-2027,32,Cash,available,Not Specifically,2029-06-30,19800000
+2026-2027,33,Mings,available,Not Specifically,2027-06-30,3200000
+2026-2027,34,Pau,available,Somewhat,2028-06-30,21000000
+2026-2027,35,Bogarde,available,Unlikely,2028-06-30,17500000
+2026-2027,36,Maatsen,available,Unlikely,2030-06-30,28000000
+2026-2027,37,Lindelöf,available,Not Specifically,2027-06-30,4800000
+2026-2027,39,Nedeljkovic,available,Not Specifically,2029-06-30,6600000
+2026-2027,40,Rogers,available,Very Unlikely,2031-06-30,77000000
+2026-2027,42,Guessand,available,Unlikely,2026-06-30,24000000
+2026-2027,43,Tielemans,available,,2028-06-30,33000000
+2026-2027,44,Bailey,available,,2027-06-30,13100000
+2026-2027,45,McGinn,available,Unlikely,2028-06-30,12600000
+2026-2027,46,Barkley,available,Somewhat,2027-06-30,3600000
+2026-2027,47,Kamara,injured,Not Specifically,2030-06-30,39000000
+2026-2027,48,Onana,injured,Somewhat,2029-06-30,41000000
+2026-2027,49,Iling Jr,available,Unlikely,2026-06-30,7800000
+2026-2027,50,Burrowes,available,,,1800000
+2026-2027,51,George Hemmings,available,,,860000
+2026-2027,53,Manzambi,available,Unlikely,2030-06-30,54000000
+2026-2027,54,Gomes,available,,2030-06-30,32000000
+2026-2027,55,Watkins,available,Unlikely,2028-06-30,26000000
+2026-2027,56,Abraham,available,Not Specifically,2030-06-30,16500000
+2026-2027,57,Petrović,available,Not Specifically,2030-06-30,29000000
+2026-2027,58,Forster,available,,2026-06-30,440000
+2026-2027,59,Dennis,available,Unlikely,2026-06-30,360000
+2026-2027,60,Hill,available,,2029-06-30,24000000
+2026-2027,61,Truffert,available,Unlikely,2030-06-30,28000000
+2026-2027,62,Diakité,available,Unlikely,2030-06-30,23000000
+2026-2027,63,Milosavljević,available,Unlikely,2030-06-30,18600000
+2026-2027,64,Smith,available,Unlikely,2027-06-30,310000
+2026-2027,68,Tavernier,available,Unlikely,2029-06-30,23000000
+2026-2027,69,Scott,available,Unlikely,2028-06-30,53000000
+2026-2027,70,Kluivert,available,Not Specifically,2028-06-30,24000000
+2026-2027,71,Cook,available,Very Unlikely,2028-06-30,11600000
+2026-2027,72,Gannon-Doak,available,Not Specifically,2030-06-30,14600000
+2026-2027,73,Adams,available,Unlikely,2028-06-30,26000000
+2026-2027,74,Brooks,available,Not Specifically,2029-06-30,11000000
+2026-2027,75,Christie,available,Unlikely,2029-06-30,8600000
+2026-2027,76,Tóth.A,available,Unlikely,2031-06-30,13100000
+2026-2027,77,Adli,available,Unlikely,2030-06-30,18100000
+2026-2027,80,Enes Ünal,available,Somewhat,2028-06-30,6800000
+2026-2027,81,Rodríguez,available,Somewhat,2029-06-30,9100000
+2026-2027,82,Kelleher,available,Unlikely,2030-06-30,25000000
+2026-2027,83,Valdimarsson,available,Unlikely,2030-06-30,2600000
+2026-2027,84,Collins,available,Very Unlikely,2029-06-30,29000000
+2026-2027,85,Van den Berg,available,Not Specifically,2029-06-30,33000000
+2026-2027,86,Lewis-Potter,available,Unlikely,2031-06-30,24000000
+2026-2027,87,Ajer,available,Somewhat,2030-06-30,19500000
+2026-2027,88,Kayode,available,Unlikely,2030-06-30,39000000
+2026-2027,89,Henry,available,Not Specifically,2027-06-30,13800000
+2026-2027,90,Hickey,available,Not Specifically,2028-06-30,16500000
+2026-2027,91,Pinnock,available,Not Specifically,2027-06-30,2800000
+2026-2027,92,Ji-soo,available,,2027-06-30,1900000
+2026-2027,93,Schuster,available,,2031-06-30,16500000
+2026-2027,94,Schade,available,Unlikely,2028-06-30,36000000
+2026-2027,95,O.Dango,available,,2030-06-30,36000000
+2026-2027,96,Damsgaard,available,Not Specifically,2030-06-30,29000000
+2026-2027,97,Jensen,available,Somewhat,2027-06-30,10400000
+2026-2027,98,Janelt,available,Unlikely,2030-06-30,16600000
+2026-2027,99,Milambo,available,Not Specifically,2030-06-30,15500000
+2026-2027,101,Henderson,injured,Not Specifically,2027-06-30,1300000
+2026-2027,102,Yarmoliuk,available,Unlikely,2031-06-30,30000000
+2026-2027,103,Dasilva,available,Extremely,2027-06-30,1500000
+2026-2027,104,Onyeka,available,Unlikely,2030-06-30,7700000
+2026-2027,105,Anthony,available,Unlikely,2030-06-30,19400000
+2026-2027,107,Furo,available,Unlikely,2031-06-30,7600000
+2026-2027,108,Wilson,available,Extremely,2027-06-30,4300000
+2026-2027,109,Verbruggen,available,Not Specifically,2028-06-30,37000000
+2026-2027,110,Rushworth,available,Somewhat,2027-06-30,15500000
+2026-2027,111,Steele,available,,2027-06-30,480000
+2026-2027,112,Van Hecke,available,Very Unlikely,2027-06-30,49000000
+2026-2027,113,F.Kadıoğlu,available,Unlikely,2028-06-30,36000000
+2026-2027,114,Boscagli,available,Unlikely,2030-06-30,13900000
+2026-2027,115,De Cuyper,available,,2030-06-30,21000000
+2026-2027,116,Dunk,available,Unlikely,2027-06-30,3600000
+2026-2027,120,Svoboda,available,,2029-06-30,2900000
+2026-2027,122,Minteh,available,Unlikely,2029-06-30,42000000
+2026-2027,123,Hinshelwood,available,Unlikely,2029-06-30,27000000
+2026-2027,124,Groß,available,Unlikely,2027-06-30,2300000
+2026-2027,125,Georginio,available,Unlikely,2028-06-30,31000000
+2026-2027,126,O'Riley,available,Very Unlikely,2029-06-30,16500000
+2026-2027,128,Buonanotte,available,Unlikely,2026-06-30,14600000
+2026-2027,129,Ayari,available,Unlikely,2027-06-30,32000000
+2026-2027,130,Wieffer,available,Unlikely,2029-06-30,24000000
+2026-2027,131,Baleba,available,Unlikely,2028-06-30,53000000
+2026-2027,132,Howell,available,Somewhat,,7300000
+2026-2027,133,Watson,available,Not Specifically,2029-06-30,7500000
+2026-2027,134,Oriola,available,,,195000
+2026-2027,135,Yohanna,injured,,2029-12-31,460000
+2026-2027,136,Welbeck,available,Somewhat,2027-06-30,3100000
+2026-2027,137,Tzimas,available,Unlikely,2030-06-30,18500000
+2026-2027,138,Kostoulas,available,,2030-06-30,27000000
+2026-2027,139,Ferguson,available,,2026-06-30,21000000
+2026-2027,142,James,available,Somewhat,2032-06-30,63000000
+2026-2027,143,Chalobah,available,Unlikely,2028-06-30,43000000
+2026-2027,144,Gusto,available,Not Specifically,2030-06-30,36000000
+2026-2027,145,Fofana,available,Somewhat,2029-06-30,29000000
+2026-2027,147,Tosin,available,Not Specifically,2028-06-30,16500000
+2026-2027,148,Hato,available,Very Unlikely,2032-06-30,41000000
+2026-2027,150,M.Sarr,available,Unlikely,2033-06-30,24000000
+2026-2027,151,Acheampong,available,Somewhat,2029-06-30,24000000
+2026-2027,152,Palestra,available,Not Specifically,2026-06-30,36000000
+2026-2027,153,Disasi,available,Unlikely,2026-06-30,15500000
+2026-2027,154,Palmer,available,Not Specifically,2033-06-30,92000000
+2026-2027,155,Enzo,available,,2032-06-30,87000000
+2026-2027,161,Lavia,available,,2030-06-30,21000000
+2026-2027,164,Quenda,available,Very Unlikely,2027-06-30,45000000
+2026-2027,166,N.Jackson,available,,2026-06-30,39000000
+2026-2027,167,Delap,available,Somewhat,2031-06-30,26000000
+2026-2027,169,Mheuka,available,Not Specifically,,2900000
+2026-2027,170,Emegha,available,Not Specifically,2028-06-30,29000000
+2026-2027,171,Dovin,available,Unlikely,2028-06-30,2200000
+2026-2027,172,Wilson,available,,2027-06-30,290000
+2026-2027,173,Thomas,available,Unlikely,2029-06-30,16500000
+2026-2027,174,Kitching,available,Unlikely,2027-06-30,15200000
+2026-2027,175,van Ewijk,available,Unlikely,2027-06-30,23000000
+2026-2027,176,Dasilva,available,Very Unlikely,2027-06-30,8700000
+2026-2027,177,Kesler-Hayden,available,Very Unlikely,2029-06-30,3200000
+2026-2027,178,Bidwell,available,Unlikely,2027-06-30,580000
+2026-2027,179,Latibeaudiere,available,Unlikely,2027-06-30,3300000
+2026-2027,180,Woolfenden,available,Unlikely,2028-06-30,2100000
+2026-2027,182,Amenda,available,Not Specifically,2029-06-30,10300000
+2026-2027,183,Rudoni,available,Unlikely,2028-06-30,21000000
+2026-2027,184,Grimes,available,Very Unlikely,2028-06-30,5200000
+2026-2027,185,Sakamoto,available,Unlikely,2027-06-30,4300000
+2026-2027,186,Mason-Clark,available,,2028-06-30,17200000
+2026-2027,187,Eccles,available,Somewhat,2028-06-30,9600000
+2026-2027,188,Torp,available,Unlikely,2028-06-30,14500000
+2026-2027,189,Shepherd,available,,,
+2026-2027,190,Tchaouna,available,Very Unlikely,2031-06-30,13800000
+2026-2027,193,Wright,available,,2027-06-30,16600000
+2026-2027,194,Thomas-Asante,available,,2028-06-30,16500000
+2026-2027,195,Simms,available,Unlikely,2027-06-30,11500000
+2026-2027,196,Markelo,available,Not Specifically,2030-06-30,3300000
+2026-2027,197,Bassette,available,Unlikely,2028-06-30,1500000
+2026-2027,198,Henderson,available,Not Specifically,2028-06-30,29000000
+2026-2027,199,Benitez,available,,2028-06-30,3700000
+2026-2027,200,Lacroix,available,Unlikely,2029-06-30,54000000
+2026-2027,202,Richards,available,Not Specifically,2027-06-30,25000000
+2026-2027,203,Canvot,available,Unlikely,2029-06-30,25000000
+2026-2027,204,Mitchell,available,Very Unlikely,2027-06-30,23000000
+2026-2027,205,Sosa,available,,2028-06-30,2700000
+2026-2027,207,Mingueza,available,Unlikely,2026-06-30,18700000
+2026-2027,208,Sarr,available,Unlikely,2029-06-30,38000000
+2026-2027,209,Johnson,available,Unlikely,2030-06-30,32000000
+2026-2027,210,Wharton,available,Not Specifically,2029-06-30,74000000
+2026-2027,212,Hughes,available,Not Specifically,2027-06-30,4600000
+2026-2027,214,Kamada,available,Unlikely,2026-06-30,10300000
+2026-2027,215,Devenny,available,Very Unlikely,2027-06-30,11500000
+2026-2027,216,Esse,available,Unlikely,2030-06-30,10900000
+2026-2027,218,Doucouré,injured,,2029-06-30,10600000
+2026-2027,219,J.Rak-Sakyi,available,Not Specifically,2027-06-30,5600000
+2026-2027,220,Cardines,available,,2028-06-30,290000
+2026-2027,221,Drakes-Thomas,available,Unlikely,,905000
+2026-2027,222,Strand Larsen,available,Unlikely,2030-06-30,41000000
+2026-2027,223,Mateta,available,Unlikely,2027-06-30,29000000
+2026-2027,224,Nketiah,injured,Not Specifically,2029-06-30,10300000
+2026-2027,226,Pickford,available,Unlikely,2029-06-30,13900000
+2026-2027,227,Travers,available,Not Specifically,2029-06-30,2800000
+2026-2027,228,King,available,Very Unlikely,2027-06-30,96000
+2026-2027,229,Tarkowski,available,Very Unlikely,2028-06-30,5200000
+2026-2027,230,Branthwaite,available,Unlikely,2030-06-30,41000000
+2026-2027,231,Keane,available,Not Specifically,2027-06-30,2800000
+2026-2027,232,O'Brien,available,Unlikely,2028-06-30,16500000
+2026-2027,234,Patterson,available,Somewhat,2027-06-30,16300000
+2026-2027,235,Aznou,available,Unlikely,2029-06-30,6200000
+2026-2027,236,Dewsbury-Hall,available,Unlikely,2030-06-30,38000000
+2026-2027,237,Ndiaye,available,Unlikely,2029-06-30,53000000
+2026-2027,238,Grealish,available,Unlikely,2026-06-30,21000000
+2026-2027,239,Garner,available,Very Unlikely,2030-06-30,48000000
+2026-2027,240,Iroegbunam,available,Unlikely,2027-06-30,18500000
+2026-2027,241,McNeil,available,Unlikely,2027-06-30,18800000
+2026-2027,242,George,available,Not Specifically,2026-06-30,21000000
+2026-2027,244,Armstrong,available,Unlikely,2028-06-30,12400000
+2026-2027,245,Dibling,available,Unlikely,2029-06-30,15700000
+2026-2027,246,Röhl,available,Not Specifically,2026-06-30,14700000
+2026-2027,247,Hackney,available,Unlikely,2027-06-30,30000000
+2026-2027,249,Barry,available,Unlikely,2029-06-30,31000000
+2026-2027,250,Leno,available,Unlikely,2027-06-30,5500000
+2026-2027,251,Lecomte,available,Not Specifically,2027-06-30,825000
+2026-2027,253,Andersen,available,Unlikely,2029-06-30,21000000
+2026-2027,254,Robinson,available,Not Specifically,2028-06-30,24000000
+2026-2027,256,Tete,available,Somewhat,2028-06-30,8700000
+2026-2027,257,Bassey,available,Unlikely,2027-06-30,29000000
+2026-2027,258,Castagne,available,,2027-06-30,7600000
+2026-2027,259,Diop,available,Unlikely,2027-06-30,10300000
+2026-2027,260,Wilson,available,Unlikely,2030-06-30,27000000
+2026-2027,261,Iwobi,available,Unlikely,2028-06-30,21000000
+2026-2027,262,Smith Rowe,available,Not Specifically,2029-06-30,18300000
+2026-2027,264,Bobb,available,Not Specifically,2031-06-30,27000000
+2026-2027,265,Berge,available,Not Specifically,2029-06-30,26000000
+2026-2027,266,Cairney,available,Unlikely,2027-06-30,530000
+2026-2027,267,Lukić,available,Not Specifically,2027-06-30,9400000
+2026-2027,269,Sessegnon,available,Somewhat,2027-06-30,21000000
+2026-2027,270,Reed,available,Not Specifically,2027-06-30,2100000
+2026-2027,272,Kusi-Asare,available,Not Specifically,2031-06-30,3300000
+2026-2027,273,Phillips,available,Unlikely,2027-06-30,195000
+2026-2027,274,Butland,available,Unlikely,2028-06-30,1500000
+2026-2027,275,Cartwright,available,,,185000
+2026-2027,276,Lo-Tutala,available,Unlikely,2028-06-30,370000
+2026-2027,277,Egan,available,Not Specifically,2027-06-30,970000
+2026-2027,278,Hughes,available,Somewhat,2028-06-30,9100000
+2026-2027,279,Ajayi,available,Unlikely,2027-06-30,650000
+2026-2027,280,Coyle,available,Very Unlikely,2029-06-30,1300000
+2026-2027,281,Drameh,available,Unlikely,2027-06-30,2900000
+2026-2027,282,Giles,available,Unlikely,2027-06-30,10900000
+2026-2027,283,Jacob,injured,Very Unlikely,2027-06-30,410000
+2026-2027,284,McCarthy,available,,2027-06-30,290000
+2026-2027,285,McNair,available,Not Specifically,2027-06-30,1500000
+2026-2027,286,Belloumi,available,Very Unlikely,2028-06-30,5700000
+2026-2027,287,Millar,available,Unlikely,2027-06-30,2900000
+2026-2027,288,Dowell,available,Not Specifically,2027-06-30,550000
+2026-2027,289,Crooks,available,Unlikely,2027-06-30,725000
+2026-2027,290,Slater,available,Unlikely,2027-06-30,5100000
+2026-2027,291,Matazo,injured,,2028-06-30,1500000
+2026-2027,292,Ömür,available,Somewhat,2027-06-30,1400000
+2026-2027,293,Kamara,available,,2028-06-30,2400000
+2026-2027,294,Zambrano,available,Not Specifically,2029-05-31,1600000
+2026-2027,295,McBurnie,available,Not Specifically,2028-06-30,5400000
+2026-2027,296,Akintola,available,Not Specifically,2027-06-30,1100000
+2026-2027,297,Gyabi,available,Unlikely,2028-06-30,1900000
+2026-2027,298,Destan,available,Unlikely,2028-06-30,1900000
+2026-2027,299,Burstow,available,Very Unlikely,2028-06-30,2900000
+2026-2027,300,Walton,available,Very Unlikely,2028-06-30,2600000
+2026-2027,301,Palmer,available,Very Unlikely,2028-06-30,905000
+2026-2027,302,Button,available,Very Unlikely,2026-06-30,48000
+2026-2027,303,Kipré,available,Unlikely,2028-06-30,1800000
+2026-2027,304,O'Shea,available,Unlikely,2030-06-30,17000000
+2026-2027,305,Davis,available,Unlikely,2029-06-30,21000000
+2026-2027,306,Greaves,available,Very Unlikely,2029-06-30,13400000
+2026-2027,307,Johnson,available,Somewhat,2028-06-30,6600000
+2026-2027,308,Furlong,available,Not Specifically,2028-06-30,2400000
+2026-2027,309,Núñez,available,Somewhat,2029-06-30,14900000
+2026-2027,310,Matusiwa,available,Unlikely,2029-06-30,12800000
+2026-2027,311,Burns,available,Very Unlikely,2027-06-30,1600000
+2026-2027,312,Taylor,available,Somewhat,2028-06-30,3200000
+2026-2027,313,Clarke,available,,2029-06-30,21000000
+2026-2027,314,Ogbene,available,Very Unlikely,2028-06-30,3700000
+2026-2027,317,Hirst,available,Not Specifically,2029-06-30,10900000
+2026-2027,320,Akpom,available,Very Unlikely,2029-06-30,3400000
+2026-2027,321,Walle Egeli,available,Very Unlikely,2030-06-30,15900000
+2026-2027,322,Al-Hamadi,available,Not Specifically,2028-06-30,1500000
+2026-2027,323,McAteer,available,Somewhat,2029-06-30,10300000
+2026-2027,324,Mehmeti,available,Unlikely,2029-06-30,14600000
+2026-2027,325,Darlow,available,Very Unlikely,2026-06-30,210000
+2026-2027,327,Bijol,available,Unlikely,2030-06-30,18500000
+2026-2027,328,Struijk,available,Not Specifically,2027-06-30,23000000
+2026-2027,329,Rodon,available,Not Specifically,2028-06-30,18800000
+2026-2027,330,Bogle,available,Not Specifically,2028-06-30,16000000
+2026-2027,331,Gudmundsson,available,Unlikely,2029-06-30,21000000
+2026-2027,332,Justin,available,Not Specifically,2029-06-30,12400000
+2026-2027,333,Bornauw,available,,2029-06-30,7800000
+2026-2027,334,Muharemović,available,,2031-06-30,27000000
+2026-2027,335,Stach,available,Unlikely,2029-06-30,27000000
+2026-2027,336,Okafor,available,Not Specifically,2029-06-30,27000000
+2026-2027,337,Aaronson,available,,2027-06-30,23000000
+2026-2027,338,Ampadu,available,Not Specifically,2030-06-30,28000000
+2026-2027,339,Longstaff,available,Unlikely,2029-06-30,14400000
+2026-2027,340,Gelhardt,available,,2027-06-30,15000000
+2026-2027,341,Gnonto,available,Unlikely,2028-06-30,17300000
+2026-2027,343,James,available,Unlikely,2029-06-30,10600000
+2026-2027,344,Gruev,injured,,2027-06-30,11000000
+2026-2027,346,Calvert-Lewin,available,Somewhat,2028-06-30,24000000
+2026-2027,347,Nmecha,available,Somewhat,2027-06-30,9100000
+2026-2027,348,Piroe,available,Unlikely,2027-06-30,9100000
+2026-2027,351,Mamardashvili,available,Unlikely,2031-06-30,29000000
+2026-2027,352,Woodman,available,Unlikely,2026-06-30,3100000
+2026-2027,354,Jaros,available,Unlikely,2026-06-30,5300000
+2026-2027,355,Davies,available,Unlikely,2027-06-30,470000
+2026-2027,356,Virgil,available,Very Unlikely,2027-06-30,15500000
+2026-2027,357,Frimpong,available,Unlikely,2030-06-30,36000000
+2026-2027,358,Kerkez,available,Very Unlikely,2030-06-30,36000000
+2026-2027,359,Gomez,available,Not Specifically,2027-06-30,12600000
+2026-2027,360,Bradley,injured,Not Specifically,2029-06-30,27000000
+2026-2027,362,Jacquet,available,,2029-06-30,57000000
+2026-2027,363,Leoni,injured,Unlikely,2031-06-30,27000000
+2026-2027,364,Tsimikas,available,Unlikely,2027-06-30,4400000
+2026-2027,365,Ramsay,available,Not Specifically,2027-06-30,1500000
+2026-2027,366,Wirtz,available,Unlikely,2030-06-30,95000000
+2026-2027,367,Gakpo,available,Unlikely,2030-06-30,58000000
+2026-2027,368,Szoboszlai,available,,2028-06-30,91000000
+2026-2027,369,Ngumoha,available,Unlikely,2028-06-30,29000000
+2026-2027,370,Chiesa,available,Not Specifically,2028-06-30,11900000
+2026-2027,371,Gravenberch,available,Unlikely,2032-06-30,87000000
+2026-2027,372,Mac Allister,available,,2028-06-30,77000000
+2026-2027,373,C.Jones,available,Not Specifically,2027-06-30,33000000
+2026-2027,375,Nyoni,available,Unlikely,2030-06-30,8500000
+2026-2027,377,Munoz,available,Unlikely,2030-06-30,19400000
+2026-2027,378,McConnell,available,Unlikely,2030-06-30,1600000
+2026-2027,379,Isak,available,Unlikely,2031-06-30,88000000
+2026-2027,380,Ekitiké,injured,Unlikely,2031-06-30,77000000
+2026-2027,381,Koumas,available,Unlikely,2029-06-30,3700000
+2026-2027,383,Elliott,available,,2026-06-30,21000000
+2026-2027,384,Donnarumma,available,Very Unlikely,2030-06-30,46000000
+2026-2027,385,Trafford,available,Unlikely,2030-06-30,27000000
+2026-2027,386,Bettinelli,available,Somewhat,2027-06-30,320000
+2026-2027,387,O'Reilly,available,Unlikely,2030-06-30,76000000
+2026-2027,388,Guéhi,available,Unlikely,2031-06-30,66000000
+2026-2027,389,Matheus N.,available,Very Unlikely,2028-06-30,48000000
+2026-2027,391,Gvardiol,available,,2028-06-30,64000000
+2026-2027,392,Aït-Nouri,available,Not Specifically,2030-06-30,39000000
+2026-2027,393,Khusanov,available,Unlikely,2029-06-30,47000000
+2026-2027,394,Alleyne,available,Somewhat,2030-06-30,7800000
+2026-2027,395,Lewis,available,Very Unlikely,2030-06-30,26000000
+2026-2027,397,Semenyo,available,Not Specifically,2031-06-30,85000000
+2026-2027,398,Foden,available,Unlikely,2027-06-30,66000000
+2026-2027,399,Cherki,available,Unlikely,2030-06-30,98000000
+2026-2027,400,Doku,available,,2028-06-30,70000000
+2026-2027,401,Marmoush,available,Unlikely,2029-06-30,55000000
+2026-2027,404,Reijnders,available,Unlikely,2030-06-30,48000000
+2026-2027,406,Kovačić,available,,2027-06-30,9700000
+2026-2027,407,Echeverri,available,Unlikely,2026-06-30,14300000
+2026-2027,408,Phillips,available,Not Specifically,2028-06-30,2400000
+2026-2027,410,Monga,available,Unlikely,,10300000
+2026-2027,411,Haaland,available,Not Specifically,2034-06-30,218000000
+2026-2027,412,Lammens,available,,2030-06-30,38000000
+2026-2027,413,Bayindir,available,Unlikely,2027-06-30,4900000
+2026-2027,414,Heaton,available,,2027-06-30,94000
+2026-2027,415,Dorgu,available,Unlikely,2030-06-30,33000000
+2026-2027,416,De Ligt,injured,Not Specifically,2029-06-30,32000000
+2026-2027,418,Maguire,available,Unlikely,2027-06-30,8600000
+2026-2027,419,Martinez,available,,2027-06-30,42000000
+2026-2027,420,Yoro,available,Unlikely,2029-06-30,46000000
+2026-2027,421,Heaven,available,Unlikely,2029-06-30,32000000
+2026-2027,422,Mazraoui,available,Somewhat,2028-06-30,17500000
+2026-2027,423,Shaw,available,Somewhat,2027-06-30,7500000
+2026-2027,424,Amass,available,Unlikely,2026-06-30,5200000
+2026-2027,425,Fredricson,available,Unlikely,2028-06-30,2800000
+2026-2027,427,Mbeumo,available,Very Unlikely,2030-06-30,73000000
+2026-2027,429,Rashford,available,Unlikely,2026-06-30,38000000
+2026-2027,430,Mount,available,Not Specifically,2028-06-30,23000000
+2026-2027,431,Amad,available,Unlikely,2030-06-30,44000000
+2026-2027,432,Mainoo,injured,Very Unlikely,2031-06-30,72000000
+2026-2027,434,J.Fletcher,available,Very Unlikely,,1000000
+2026-2027,435,Lacey,available,Unlikely,,3100000
+2026-2027,436,Collyer,available,Unlikely,2026-06-30,5200000
+2026-2027,438,Fletcher,available,,,1600000
+2026-2027,439,Šeško,available,Unlikely,2030-06-30,78000000
+2026-2027,440,Zirkzee,available,Unlikely,2029-06-30,21000000
+2026-2027,442,Pope,available,Very Unlikely,2027-06-30,4800000
+2026-2027,443,Gillespie,available,Unlikely,2027-06-30,105000
+2026-2027,444,Jaouen,available,Unlikely,2029-06-30,12700000
+2026-2027,445,Thiaw,available,Unlikely,2029-06-30,41000000
+2026-2027,446,Schär,available,Not Specifically,2027-06-30,3900000
+2026-2027,447,Botman,available,Not Specifically,2030-06-30,33000000
+2026-2027,448,Burn,available,Unlikely,2027-06-30,4099999
+2026-2027,449,Hall,available,,2029-06-30,38000000
+2026-2027,450,Livramento,available,Unlikely,2028-06-30,44000000
+2026-2027,451,A.Murphy,available,Very Unlikely,2028-06-30,1600000
+2026-2027,453,Barnes,available,Unlikely,2028-06-30,35000000
+2026-2027,454,Elanga,available,Unlikely,2030-06-30,31000000
+2026-2027,455,Tonali,available,Unlikely,2028-06-30,74000000
+2026-2027,456,J.Ramsey,available,Not Specifically,2030-06-30,36000000
+2026-2027,457,J.Murphy,available,Very Unlikely,2027-06-30,11000000
+2026-2027,459,L.Miley,injured,Unlikely,2032-06-30,27000000
+2026-2027,460,Willock,available,Unlikely,2027-06-30,14500000
+2026-2027,461,Touré,available,,2029-06-30,39000000
+2026-2027,462,Steur,available,Not Specifically,2028-06-30,5800000
+2026-2027,463,Woltemade,available,Unlikely,2031-06-30,59000000
+2026-2027,464,Wissa,available,Unlikely,2029-06-30,23000000
+2026-2027,465,Osula,available,Unlikely,2029-06-30,26000000
+2026-2027,466,Neave,available,,,
+2026-2027,467,Sels,available,,2027-06-30,3700000
+2026-2027,469,N.Williams,available,Unlikely,2029-06-30,26000000
+2026-2027,471,Milenković,available,Unlikely,2029-06-30,26000000
+2026-2027,473,Aina,available,Unlikely,2028-06-30,16399999
+2026-2027,475,Savona,injured,Not Specifically,2030-06-30,14600000
+2026-2027,476,O.Richards,available,Somewhat,2026-06-30,2100000
+2026-2027,477,Abbott,available,Very Unlikely,2029-06-30,3900000
+2026-2027,478,Netz,available,Not Specifically,2030-06-30,7700000
+2026-2027,479,Bindon,available,Unlikely,2026-06-30,1500000
+2026-2027,480,Gibbs-White,available,Unlikely,2028-06-30,67000000
+2026-2027,481,Anderson,available,Unlikely,2029-06-30,68000000
+2026-2027,482,Hudson-Odoi,injured,Not Specifically,2028-06-30,32000000
+2026-2027,483,Ndoye,available,Unlikely,2030-06-30,31000000
+2026-2027,484,Hutchinson,available,Unlikely,2030-06-30,28000000
+2026-2027,485,Bakwa,available,Unlikely,2030-06-30,26000000
+2026-2027,486,McAtee,available,Unlikely,2030-06-30,16200000
+2026-2027,487,Dominguez,available,,2028-06-30,13800000
+2026-2027,488,Sangaré,available,Unlikely,2028-06-30,21000000
+2026-2027,489,Yates,available,Very Unlikely,2028-06-30,7200000
+2026-2027,490,Wood,available,,2027-06-30,5200000
+2026-2027,492,Awoniyi,available,,2027-06-30,7600000
+2026-2027,493,Kalimuendo,available,Unlikely,2026-06-30,24000000
+2026-2027,494,Vicario,available,Unlikely,2028-06-30,17300000
+2026-2027,495,Austin,available,Unlikely,2029-06-30,530000
+2026-2027,496,Kinsky,available,Unlikely,2029-06-30,15700000
+2026-2027,497,Dubravka,available,Unlikely,2026-06-30,485000
+2026-2027,500,Romero,available,,2029-06-30,42000000
+2026-2027,501,Danso,available,Very Unlikely,2030-06-30,19400000
+2026-2027,503,Van de Ven,available,Unlikely,2029-06-30,49000000
+2026-2027,504,Vuskovic,available,Unlikely,2030-06-30,64000000
+2026-2027,505,Spence,available,Unlikely,2029-06-30,31000000
+2026-2027,506,Udogie,available,Unlikely,2030-06-30,28000000
+2026-2027,507,Phillips,available,Unlikely,2028-06-30,7500000
+2026-2027,508,Davies,injured,Not Specifically,2027-06-30,2800000
+2026-2027,512,Kudus,available,,2031-06-30,54000000
+2026-2027,513,Xavi,injured,Unlikely,2030-06-30,43000000
+2026-2027,514,Tel,available,Unlikely,2031-06-30,23000000
+2026-2027,515,Maddison,available,Not Specifically,2028-06-30,19400000
+2026-2027,516,Bentancur,available,,2029-06-30,19300000
+2026-2027,517,Odobert,injured,Unlikely,2029-06-30,18500000
+2026-2027,518,P.M.Sarr,available,,2030-06-30,28000000
+2026-2027,519,Gallagher,available,Very Unlikely,2031-06-30,31000000
+2026-2027,520,Bergvall,available,Unlikely,2031-06-30,36000000
+2026-2027,521,Kulusevski,injured,Unlikely,2028-06-30,16500000
+2026-2027,522,Gray,available,Very Unlikely,2030-06-30,34000000
+2026-2027,523,Moore,available,Not Specifically,2026-06-30,16500000
+2026-2027,525,Fernandes,available,Unlikely,2030-06-30,34000000
+2026-2027,528,Scarlett,available,Unlikely,2027-06-30,1400000
+2026-2027,529,Roefs,available,Unlikely,2030-06-30,29000000
+2026-2027,530,Patterson,available,Very Unlikely,2026-06-30,7800000
+2026-2027,531,Ellborg,available,Unlikely,2030-06-30,2800000
+2026-2027,532,Ballard,available,Somewhat,2029-06-30,22000000
+2026-2027,533,Mukiele,available,Unlikely,2029-06-30,17100000
+2026-2027,534,Hume,available,Very Unlikely,2030-06-30,20000000
+2026-2027,535,Alderete,available,Not Specifically,2029-06-30,13800000
+2026-2027,536,Reinildo,available,,2027-06-30,4099999
+2026-2027,537,Seelt,available,Somewhat,2026-06-30,5200000
+2026-2027,538,Hjelde,available,Unlikely,2026-06-30,2100000
+2026-2027,539,O'Nien,available,Very Unlikely,2027-06-30,945000
+2026-2027,540,Masuaku,available,Not Specifically,2026-06-30,2400000
+2026-2027,541,Meunier,available,,2026-06-30,1400000
+2026-2027,542,E.Le Fée,available,Unlikely,2029-06-30,23000000
+2026-2027,543,Diarra,available,Unlikely,2030-06-30,34000000
+2026-2027,544,Xhaka,available,Unlikely,2028-06-30,8500000
+2026-2027,545,Sadiki,available,Unlikely,2030-06-30,32000000
+2026-2027,546,Adingra,available,Not Specifically,2026-06-30,23000000
+2026-2027,547,Mundle,available,Somewhat,2028-06-30,7800000
+2026-2027,548,Rigg,available,Not Specifically,2030-06-30,24000000
+2026-2027,549,Talbi,available,Not Specifically,2030-06-30,23000000
+2026-2027,551,Angulo,available,Unlikely,2030-06-30,16500000
+2026-2027,552,Brobbey,available,Not Specifically,2029-06-30,32000000
+2026-2027,553,Isidor,available,Unlikely,2028-06-30,18500000
+2026-2027,554,Van Oevelen,available,Unlikely,2028-06-30,2100000
+2026-2027,555,Matthews,available,Very Unlikely,2027-06-30,220000
 2026-2027,557,Tzolis,available,Not Specifically,2029-06-30,42000000
+2026-2027,558,Schlager,available,,2026-06-30,9500000
