@@ -70,6 +70,7 @@ class Api:
         self.base = base.rstrip("/")
         self.delay = delay
         self.calls = 0
+        self.ok_calls = 0          # calls that actually returned JSON
         self.dead = False          # circuit breaker: host unreachable
         self.transport_fails = 0
         self.ctx = ssl.create_default_context()
@@ -103,6 +104,7 @@ class Api:
                 self.calls += 1
                 with urllib.request.urlopen(req, timeout=45, context=self.ctx) as r:
                     self.transport_fails = 0
+                    self.ok_calls += 1
                     time.sleep(self.delay)
                     return json.loads(r.read().decode("utf-8"))
             except urllib.error.HTTPError as e:
@@ -551,10 +553,19 @@ def main():
     if not args.skip_friendlies:
         probe_friendlies(api, out, leagues.get("Friendlies"))
 
-    say(f"---\n\n{api.calls} API calls. Samples in `{out}/`.")
+    say(f"---\n\n{api.ok_calls}/{api.calls} API calls succeeded. "
+        f"Samples in `{out}/`.")
     (out / "REPORT.md").write_text("\n".join(REPORT), encoding="utf-8")
     print(f"\nReport written to {out / 'REPORT.md'}", file=sys.stderr)
 
+    # Nothing came back at all — bad key, or the host is unreachable. Exit
+    # non-zero so CI shows this as a failure rather than a green empty report.
+    if api.ok_calls == 0:
+        print("No API call succeeded — check the key and network reachability.",
+              file=sys.stderr)
+        return 2
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

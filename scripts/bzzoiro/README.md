@@ -13,6 +13,24 @@ directory works out what — if anything — it is worth taking from it.
 
 ## Running the probe
 
+### From GitHub Actions (easiest)
+
+One-time setup: add a repository secret named `BZZOIRO_API_KEY` under
+**Settings → Secrets and variables → Actions → New repository secret**.
+
+Then **Actions → Bzzoiro API Probe → Run workflow**. The report is rendered
+straight into the job summary, and the report plus raw JSON samples are
+attached as a build artifact for 14 days.
+
+The key has to be a *secret*, not a workflow input — input values are shown
+in plaintext in the Actions UI and kept in the run metadata.
+
+The workflow is read-only (`permissions: contents: read`) and commits
+nothing. A run where no API call succeeds exits non-zero, so a bad key shows
+up as a red run rather than a green empty report.
+
+### Locally
+
 ```bash
 export BZZOIRO_API_KEY=<key>
 python3 scripts/bzzoiro/probe.py
@@ -32,8 +50,8 @@ The API key is read from the environment or `--key` and is never written to
 disk. Do not commit it.
 
 > The probe cannot run from a Claude Code web session — `sports.bzzoiro.com`
-> is denied by the sandbox egress policy (403 on CONNECT). Run it locally, or
-> allowlist the host for the environment.
+> is denied by the sandbox egress policy (403 on CONNECT). Use the Action, run
+> it locally, or allowlist the host for the environment.
 
 ## What the probe answers
 

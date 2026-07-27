@@ -1,0 +1,108 @@
+name: Bzzoiro API Probe
+
+# Read-only evaluation of the Bzzoiro Sports Data API. Runs the probe from a
+# GitHub runner, which has the unrestricted outbound network the API needs,
+# and publishes the report to the job summary.
+#
+# Nothing is committed. Nothing in data/ is touched.
+#
+# Requires a repository secret named BZZOIRO_API_KEY
+# (Settings -> Secrets and variables -> Actions -> New repository secret).
+# The key must be a secret, not a workflow input: input values are rendered
+# in plaintext in the Actions UI and stored in the run metadata.
+
+on:
+  workflow_dispatch:
+    inputs:
+      gameweek:
+        description: '2025/26 gameweek to cross-check against the API'
+        required: false
+        default: '10'
+        type: string
+      skip_last_season:
+        description: 'Skip the 2025/26 cross-check'
+        required: false
+        default: false
+        type: boolean
+      skip_friendlies:
+        description: 'Skip the 2026/27 friendlies probe'
+        required: false
+        default: false
+        type: boolean
+
+# Read-only: the probe never writes to the repository.
+permissions:
+  contents: read
+
+concurrency:
+  group: bzzoiro-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          # No dependencies to cache - the probe is stdlib only.
+
+      - name: Check the API key is configured
+        env:
+          BZZOIRO_API_KEY: ${{ secrets.BZZOIRO_API_KEY }}
+        run: |
+          if [ -z "$BZZOIRO_API_KEY" ]; then
+            echo "::error title=Missing secret::BZZOIRO_API_KEY is not set. Add it under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          echo "Key is present (${#BZZOIRO_API_KEY} chars)."
+
+      - name: Run probe
+        id: probe
+        env:
+          BZZOIRO_API_KEY: ${{ secrets.BZZOIRO_API_KEY }}
+        run: |
+          args=""
+          if [ "${{ inputs.skip_last_season }}" = "true" ]; then
+            args="$args --skip-last-season"
+          fi
+          if [ "${{ inputs.skip_friendlies }}" = "true" ]; then
+            args="$args --skip-friendlies"
+          fi
+          python3 scripts/bzzoiro/probe.py \
+            --gameweek "${{ inputs.gameweek }}" \
+            --out bzzoiro_probe_out \
+            $args
+
+      - name: Publish report to job summary
+        if: always()
+        run: |
+          if [ -f bzzoiro_probe_out/REPORT.md ]; then
+            # The step summary caps at 1 MiB; truncate well short of it.
+            head -c 900000 bzzoiro_probe_out/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No report was produced - the probe failed before writing one." \
+              >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload report and raw samples
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bzzoiro-probe-${{ github.run_number }}
+          path: bzzoiro_probe_out/
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Confirm nothing was committed
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::warning title=Unexpected changes::The probe modified the working tree; it is meant to be read-only."
+            git status --porcelain
+          fi
