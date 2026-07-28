@@ -13,6 +13,14 @@ team/opponent strength and rolling form are all PL-derived, so the sheet is
 only written under `By Tournament/Premier League/GW*/` and is not meaningful
 for the cup / European tournament folders.
 
+Per-fixture scale: the raw `player_gameweek_stats` table sums a player's
+matches into one row per gameweek, so a double gameweek arrives at ~2x
+single-fixture scale. Before any rolling feature is computed, GW-summed
+player-level columns are divided by the team's fixture count for that
+gameweek (`n_fixtures`), putting every feature on a per-match-rate scale.
+`n_fixtures` is exported alongside the features. `creativity` and `threat`
+come from the GW-level table and are deliberately NOT rescaled.
+
 Leakage safety: every rolling feature is `shift(1)`-lagged per player (or per
 team) so the value on a GW N row only reflects gameweeks 1..N-1. Because of
 this, each row's features can be joined to that same GW N and used to predict
@@ -71,37 +79,37 @@ STRING_COLS = {
 # renamed with a `match_` prefix.
 MATCH_AGG_COLS = {
     "xg": "sum", "xa": "sum", "shots_on_target": "sum",
-    "chances_created": "sum", "goals_prevented": "sum",
-    "xgot_faced": "sum", "minutes_played": "sum",
-    "touches_opposition_box": "sum",
+    "goals_prevented": "sum", "touches_opposition_box": "sum",
 }
 
-# Final output column order (4 keys + 35 features).
+# GW-summed player-level columns divided by that row's `n_fixtures` before any
+# rolling feature consumes them, so all features are per-match rates and a
+# double gameweek does not double them. `creativity` and `threat` are GW-level
+# table columns that are deliberately NOT rescaled (matches the reference
+# pipeline).
+PER_FIXTURE_COLS = [
+    "event_points", "minutes", "defensive_contribution", "saves",
+    "clean_sheets", "goals_scored", "assists",
+    "match_xg", "match_xa", "match_shots_on_target",
+    "match_touches_opposition_box", "match_goals_prevented",
+]
+
+# Final output column order (5 keys + 22 features).
 OUTPUT_COLUMNS = [
     # keys
-    "player_id", "gameweek", "position", "team_code",
-    # rolling form
-    "points_roll3", "points_roll5",
-    "xg_roll3", "xg_roll5",
-    "xa_roll3", "xa_roll5",
-    "bps_roll3", "bps_roll5",
-    "ict_roll3", "ict_roll5",
-    "minutes_roll3", "minutes_roll5",
-    "defcon_roll3", "defcon_roll5",
-    "points_std5",
+    "player_id", "gameweek", "position", "team_code", "n_fixtures",
+    # rolling form (per-fixture scale)
+    "points_roll3", "minutes_roll3", "xg_roll3", "xa_roll3", "defcon_roll3",
     # team / opponent strength
-    "team_xg_for_roll5", "team_xg_against_roll5", "team_elo",
-    "opp_xg_against_roll5", "opp_elo", "has_double_gw",
-    # value / availability
-    "ppm_roll5", "start_rate_roll5",
+    "team_elo", "opp_elo",
+    "team_xg_for_roll5", "team_xg_against_roll5", "opp_xg_against_roll5",
+    "has_double_gw",
     # position-specific
-    "gkp_saves_roll3",
+    "gkp_saves_roll3", "gkp_goals_prevented_roll3",
     "def_clean_sheet_roll5", "def_attacking_return_rate",
     "mid_creativity_roll3", "mid_threat_roll3",
     "mid_shots_on_target_roll3", "mid_touches_box_roll3",
     "fwd_xg_roll3", "fwd_shots_on_target_roll3", "fwd_touches_box_roll3",
-    # set-piece duty
-    "is_penalty_taker", "is_corner_freekick_taker", "is_direct_freekick_taker",
 ]
 
 
@@ -184,25 +192,83 @@ def _rolling_mean(df: pd.DataFrame, col: str, window: int) -> pd.Series:
     )
 
 
-def _rolling_std(df: pd.DataFrame, col: str, window: int) -> pd.Series:
-    """Shifted rolling std grouped by player id."""
-    return (
-        df.groupby("id")[col]
-        .transform(lambda x: x.shift(1).rolling(window, min_periods=2).std())
-    )
+# ---------------------------------------------------------------------------
+# Fixture map + per-fixture normalization
+# ---------------------------------------------------------------------------
+
+def build_team_fixture_map(pl_dir: Path, gws) -> dict:
+    """Build a ``(team_code, gameweek) -> [opponent_codes]`` map from fixtures.
+
+    A team playing two fixtures in one GW (a double gameweek) yields a list of
+    length 2, so ``len(opponents)`` is that team's fixture count for the GW.
+    """
+    team_fixture_map = {}
+    for gw in gws:
+        try:
+            fix = load_gw_csv(pl_dir, gw, "fixtures")
+        except FileNotFoundError:
+            continue
+        for _, row in fix.iterrows():
+            fgw = int(row["gameweek"])
+            home = int(row["home_team"])
+            away = int(row["away_team"])
+            team_fixture_map.setdefault((home, fgw), []).append(away)
+            team_fixture_map.setdefault((away, fgw), []).append(home)
+    return team_fixture_map
+
+
+def add_n_fixtures(df: pd.DataFrame, team_fixture_map: dict) -> pd.DataFrame:
+    """Attach ``n_fixtures`` — the number of fixtures the player's TEAM has that GW.
+
+    Team-level (not the count of matches the player actually appeared in): the
+    GW-summed columns are totals over the team's scheduled fixtures, so
+    per-scheduled-fixture is the coherent normalization unit. Clipped to >= 1
+    so blank-GW or unmapped rows never divide by zero (division is a no-op for
+    them).
+    """
+    df = df.copy()
+
+    def _count(row):
+        tc, gw = row["team_code"], row["gameweek"]
+        if pd.isna(tc) or pd.isna(gw):
+            return 1
+        return len(team_fixture_map.get((int(tc), int(gw)), [])) or 1
+
+    df["n_fixtures"] = df.apply(_count, axis=1).clip(lower=1).astype(int)
+    return df
+
+
+def normalize_per_fixture(df: pd.DataFrame) -> pd.DataFrame:
+    """Divide GW-summed columns by ``n_fixtures`` (per-scheduled-fixture scale).
+
+    On double gameweeks the source data sums each player's two matches into one
+    GW row; normalizing here — before any rolling/position feature consumes
+    these columns — keeps every feature on one consistent per-match-rate scale.
+    """
+    df = df.copy()
+    if "n_fixtures" not in df.columns:
+        raise ValueError("normalize_per_fixture requires an 'n_fixtures' column")
+
+    n = df["n_fixtures"].replace(0, 1)
+    for col in PER_FIXTURE_COLS:
+        if col in df.columns:
+            df[col] = df[col] / n
+    return df
 
 
 # ---------------------------------------------------------------------------
 # Master dataset assembly
 # ---------------------------------------------------------------------------
 
-def build_master_dataset(pl_dir: Path, gws) -> pd.DataFrame:
+def build_master_dataset(pl_dir: Path, gws, team_fixture_map: dict) -> pd.DataFrame:
     """Assemble one row per player per gameweek.
 
     Joins player_gameweek_stats with position/team_code taken from each
     gameweek's own players.csv snapshot (per (player, gameweek), NOT the latest
     snapshot) so mid-season transfers are attributed to the correct club per
-    gameweek, and per-match stats aggregated from playermatchstats.
+    gameweek, and per-match stats aggregated from playermatchstats. GW-summed
+    columns are then normalized to a per-scheduled-fixture scale (see
+    normalize_per_fixture) BEFORE any rolling feature is computed.
     """
     df = load_range(pl_dir, gws, "player_gameweek_stats")
 
@@ -245,6 +311,12 @@ def build_master_dataset(pl_dir: Path, gws) -> pd.DataFrame:
     for col in ["position", "team_code"]:
         df[col] = df.groupby("id")[col].transform(lambda s: s.ffill().bfill())
 
+    # Normalize GW-summed columns to a per-scheduled-fixture scale BEFORE any
+    # rolling/position feature consumes them. n_fixtures is derived from the
+    # same fixture map add_opponent_features uses later.
+    df = add_n_fixtures(df, team_fixture_map)
+    df = normalize_per_fixture(df)
+
     return df
 
 
@@ -252,14 +324,12 @@ def build_master_dataset(pl_dir: Path, gws) -> pd.DataFrame:
 # Feature blocks
 # ---------------------------------------------------------------------------
 
-def add_rolling_features(df: pd.DataFrame, windows=(3, 5)) -> pd.DataFrame:
+def add_rolling_features(df: pd.DataFrame, windows=(3,)) -> pd.DataFrame:
     df = df.copy()
     rolling_cols = {
         "event_points": "points",
         "match_xg": "xg",
         "match_xa": "xa",
-        "bps": "bps",
-        "ict_index": "ict",
         "minutes": "minutes",
         "defensive_contribution": "defcon",
     }
@@ -268,12 +338,6 @@ def add_rolling_features(df: pd.DataFrame, windows=(3, 5)) -> pd.DataFrame:
             continue
         for w in windows:
             df[f"{feature_name}_roll{w}"] = _rolling_mean(df, source_col, w)
-    return df
-
-
-def add_consistency_features(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    df["points_std5"] = _rolling_std(df, "event_points", 5)
     return df
 
 
@@ -333,30 +397,14 @@ def add_team_features(df: pd.DataFrame, team_stats: pd.DataFrame) -> pd.DataFram
 
 
 def add_opponent_features(df: pd.DataFrame, team_stats: pd.DataFrame,
-                          pl_dir: Path, all_gws) -> pd.DataFrame:
+                          team_fixture_map: dict) -> pd.DataFrame:
     """Attach each player's same-GW opponent rolling stats.
 
-    Builds a (team_code, gameweek) -> opponent list map from fixtures, then for
-    every player row averages the opponent(s)' rolling stats (double GWs average
-    across both opponents). NaN when there is no fixture or no stats row.
+    Uses the (team_code, gameweek) -> opponent list map; for every player row
+    the opponent(s)' rolling stats are averaged (double GWs average across both
+    opponents). NaN when there is no fixture or no stats row.
     """
     df = df.copy()
-
-    all_fixtures = []
-    for gw in all_gws:
-        try:
-            all_fixtures.append(load_gw_csv(pl_dir, gw, "fixtures"))
-        except FileNotFoundError:
-            continue
-    fixtures = pd.concat(all_fixtures, ignore_index=True)
-
-    team_fixture_map = {}
-    for _, row in fixtures.iterrows():
-        gw = int(row["gameweek"])
-        home = int(row["home_team"])
-        away = int(row["away_team"])
-        team_fixture_map.setdefault((home, gw), []).append(away)
-        team_fixture_map.setdefault((away, gw), []).append(home)
 
     opp_stat_cols = ["team_xg_against_roll5", "team_elo"]
     stats_lookup = {}
@@ -408,15 +456,6 @@ def add_opponent_features(df: pd.DataFrame, team_stats: pd.DataFrame,
     return df
 
 
-def add_value_features(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    # now_cost is already in £M in this dataset.
-    df["price"] = df["now_cost"]
-    if "points_roll5" in df.columns:
-        df["ppm_roll5"] = df["points_roll5"] / df["price"].replace(0, np.nan)
-    return df
-
-
 def add_position_features(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
@@ -425,6 +464,10 @@ def add_position_features(df: pd.DataFrame) -> pd.DataFrame:
         gkp_df = df[gkp_mask]
         if "saves" in df.columns:
             df.loc[gkp_mask, "gkp_saves_roll3"] = _rolling_mean(gkp_df, "saves", 3).values
+        # goals_prevented is per-match; aggregated to match_goals_prevented in
+        # build_master_dataset, then per-fixture normalized.
+        if "match_goals_prevented" in df.columns:
+            df.loc[gkp_mask, "gkp_goals_prevented_roll3"] = _rolling_mean(gkp_df, "match_goals_prevented", 3).values
 
     def_mask = df["position"] == "DEF"
     if def_mask.any():
@@ -464,31 +507,6 @@ def add_position_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def add_availability_features(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    # Only start_rate_roll5 is exported; `started` is an intermediate column.
-    df["started"] = (df["starts"] == 1).astype(int)
-    df["start_rate_roll5"] = _rolling_mean(df, "started", 5)
-    return df
-
-
-def add_setpiece_features(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    order_cols = {
-        "penalties_order": "is_penalty_taker",
-        "corners_and_indirect_freekicks_order": "is_corner_freekick_taker",
-        "direct_freekicks_order": "is_direct_freekick_taker",
-    }
-    for source_col, feature_name in order_cols.items():
-        if source_col not in df.columns:
-            continue
-        is_primary = (df[source_col] == 1).astype(int)
-        df[feature_name] = (
-            is_primary.groupby(df["id"]).shift(1).fillna(0).astype(int)
-        )
-    return df
-
-
 # ---------------------------------------------------------------------------
 # Top-level orchestration
 # ---------------------------------------------------------------------------
@@ -509,18 +527,16 @@ def compute_features(pl_dir: Path, start_gw: int, end_gw: int) -> pd.DataFrame:
     if not all_gws:
         raise ValueError(f"No gameweek folders found under {pl_dir}")
 
-    df = build_master_dataset(pl_dir, all_gws)
+    team_fixture_map = build_team_fixture_map(pl_dir, all_gws)
+
+    df = build_master_dataset(pl_dir, all_gws, team_fixture_map)
     df = add_rolling_features(df)
-    df = add_consistency_features(df)
 
     team_stats = build_team_rolling_stats(pl_dir, all_gws)
     df = add_team_features(df, team_stats)
-    df = add_opponent_features(df, team_stats, pl_dir, all_gws)
+    df = add_opponent_features(df, team_stats, team_fixture_map)
 
-    df = add_value_features(df)
     df = add_position_features(df)
-    df = add_availability_features(df)
-    df = add_setpiece_features(df)
 
     # Export key: player_id is the source player id.
     df["player_id"] = df["id"]
