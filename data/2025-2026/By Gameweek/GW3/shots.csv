@@ -375,7 +375,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-manchester-united-vs-burnley,25,40,,True,455,Mount,post,corner,head,0.0623,,5.1,58.1,53.2,39.2,high
 25-26-prem-manchester-united-vs-burnley,26,39,,True,452,Amad,block,regular,left-foot,0.0346,,19.1,53.4,47.9,19,low-right
 25-26-prem-manchester-united-vs-burnley,27,37,,False,207,Hannibal,miss,assisted,right-foot,0.1079,,10.9,53.7,45.4,58.3,close-high
-25-26-prem-manchester-united-vs-burnley,28,27,,True,205,Cullen,goal,set-piece,other,0.7538,,2.7,47.4,52.4,15.2,low-left
 25-26-prem-manchester-united-vs-burnley,29,27,,True,457,Casemiro,post,set-piece,head,0.1305,,7.6,48.7,51.3,40.5,high
 25-26-prem-manchester-united-vs-burnley,30,22,,True,444,Yoro,miss,throw-in-set-piece,head,0.0875,,6.9,44.2,49.1,72.2,high
 25-26-prem-manchester-united-vs-burnley,31,15,,True,119,Mbeumo,miss,fast-break,right-foot,0.0777,,12.8,68.1,60.3,6.9,left

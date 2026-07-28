@@ -119,7 +119,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-afc-bournemouth-vs-nottingham-forest,18,goal,25,,home,84,Tavernier,,,,,,regular,1,0,
 25-26-prem-afc-bournemouth-vs-nottingham-forest,19,card,18,,away,699,Douglas Luiz,,,,,yellow,,,,
 25-26-prem-afc-bournemouth-vs-nottingham-forest,20,card,18,,home,81,Kluivert,,,,,yellow,,,,
-25-26-prem-afc-bournemouth-vs-nottingham-forest,21,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-arsenal-vs-crystal-palace,1,period,90,,,,,,,,,,,1,0,FT
 25-26-prem-arsenal-vs-crystal-palace,2,substitution,90,1,away,256,Muñoz,732,Uche,,,,,,,
 25-26-prem-arsenal-vs-crystal-palace,3,substitution,90,1,away,258,Mitchell,259,Sosa,,,,,,,

@@ -50,7 +50,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-brighton-hove-albion-vs-liverpool,20,card,25,,home,160,Minteh,,,,,yellow,,,,
 25-26-prem-brighton-hove-albion-vs-liverpool,21,goal,14,,home,178,Welbeck,,,169,Gomez,,regular,1,0,
 25-26-prem-brighton-hove-albion-vs-liverpool,22,substitution,8,,away,661,Ekitiké,388,C.Jones,,,,,,,
-25-26-prem-brighton-hove-albion-vs-liverpool,23,card,-5,,home,,Unknown,,,,,yellow,,,,
 25-26-prem-everton-vs-chelsea,1,substitution,89,,home,242,Dewsbury-Hall,304,Iroegbunam,,,,,,,
 25-26-prem-everton-vs-chelsea,2,substitution,89,,home,299,Ndiaye,728,Röhl,,,,,,,
 25-26-prem-everton-vs-chelsea,3,card,87,,away,230,Fofana,,,,,yellow,,,,

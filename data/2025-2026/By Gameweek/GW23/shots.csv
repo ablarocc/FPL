@@ -236,7 +236,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-arsenal-vs-manchester-united,15,37,,False,119,Mbeumo,goal,regular,right-foot,0.1131,0.1774,12.9,52.3,49.9,4.4,low-centre
 25-26-prem-arsenal-vs-manchester-united,16,34,,False,449,B.Fernandes,miss,regular,right-foot,0.093,,12.5,44.2,65.5,8.3,left
 25-26-prem-arsenal-vs-manchester-united,17,31,,False,449,B.Fernandes,miss,fast-break,right-foot,0.0374,,19.3,34.4,60.5,6.9,left
-25-26-prem-arsenal-vs-manchester-united,18,29,,True,437,Martinez,goal,regular,right-foot,0.4835,,4,50.7,50,7.6,low-centre
 25-26-prem-arsenal-vs-manchester-united,19,29,,True,17,Ødegaard,miss,assisted,left-foot,0.0986,,8.5,60.1,63.7,5.6,left
 25-26-prem-arsenal-vs-manchester-united,20,23,,False,458,Mainoo,block,assisted,right-foot,0.0239,,23.5,54.4,50.2,19,low-centre
 25-26-prem-arsenal-vs-manchester-united,21,23,,False,437,Martinez,block,assisted,left-foot,0.0187,,26.9,42.7,51.5,19,low-centre

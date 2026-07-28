@@ -24,7 +24,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-afc-bournemouth-vs-brighton-hove-albion,23,substitution,24,,away,145,De Cuyper,148,F.Kadıoğlu,,,,,,,
 25-26-prem-afc-bournemouth-vs-brighton-hove-albion,24,goal,18,,home,90,Scott,,,82,Semenyo,,regular,1,0,
 25-26-prem-afc-bournemouth-vs-brighton-hove-albion,25,substitution,3,,away,163,Hinshelwood,166,Ayari,,,,,,,
-25-26-prem-afc-bournemouth-vs-brighton-hove-albion,26,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-arsenal-vs-nottingham-forest,1,period,90,,,,,,,,,,,3,0,FT
 25-26-prem-arsenal-vs-nottingham-forest,2,injuryTime,90,,,,,,,,,,,,,
 25-26-prem-arsenal-vs-nottingham-forest,3,goal,79,,home,26,Zubimendi,,,20,Trossard,,regular,3,0,
@@ -128,7 +127,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-fulham-vs-leeds-united,14,substitution,60,,home,335,King,325,Smith Rowe,,,,,,,
 25-26-prem-fulham-vs-leeds-united,15,period,45,,,,,,,,,,,0,0,HT
 25-26-prem-fulham-vs-leeds-united,16,card,11,,away,660,Stach,,,,,yellow,,,,
-25-26-prem-fulham-vs-leeds-united,17,card,-5,,home,,Unknown,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-manchester-united,1,period,90,,,,,,,,,,,3,0,FT
 25-26-prem-manchester-city-vs-manchester-united,2,injuryTime,90,,,,,,,,,,,,,
 25-26-prem-manchester-city-vs-manchester-united,3,substitution,88,,home,416,Bernardo,405,Aké,,,,,,,
@@ -163,7 +161,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-newcastle-united-vs-wolverhampton-wanderers,17,card,31,,away,643,André,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-wolverhampton-wanderers,18,goal,29,,home,714,Woltemade,,,489,J.Murphy,,regular,1,0,
 25-26-prem-newcastle-united-vs-wolverhampton-wanderers,19,card,7,,away,709,Krejčí,,,,,yellow,,,,
-25-26-prem-newcastle-united-vs-wolverhampton-wanderers,20,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-west-ham-united-vs-tottenham-hotspur,1,period,90,,,,,,,,,,,0,3,FT
 25-26-prem-west-ham-united-vs-tottenham-hotspur,2,substitution,90,2,home,614,Ward-Prowse,621,Irving,,,,,,,
 25-26-prem-west-ham-united-vs-tottenham-hotspur,3,injuryTime,90,,,,,,,,,,,,,

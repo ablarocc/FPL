@@ -149,7 +149,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-leeds-united-vs-wolverhampton-wanderers,17,substitution,38,,away,816,Angel,749,Mané,,,,,,,
 25-26-prem-leeds-united-vs-wolverhampton-wanderers,18,goal,20,,home,698,Okafor,,,350,Aaronson,,regular,2,0,
 25-26-prem-leeds-united-vs-wolverhampton-wanderers,19,goal,18,,home,706,Justin,,,698,Okafor,,regular,1,0,
-25-26-prem-leeds-united-vs-wolverhampton-wanderers,20,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-arsenal,1,period,90,,,,,,,,,,,2,1,FT
 25-26-prem-manchester-city-vs-arsenal,2,substitution,90,6,home,82,Semenyo,405,Aké,,,,,,,
 25-26-prem-manchester-city-vs-arsenal,3,injuryTime,90,,,,,,,,,,,,,
@@ -169,7 +168,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-manchester-city-vs-arsenal,17,card,36,,away,662,Mosquera,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-arsenal,18,goal,18,,away,30,Havertz,,,,,,regular,1,1,
 25-26-prem-manchester-city-vs-arsenal,19,goal,16,,home,417,Cherki,,,407,Matheus N.,,regular,1,0,
-25-26-prem-manchester-city-vs-arsenal,20,card,-5,,home,,Unknown,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-afc-bournemouth,1,period,90,,,,,,,,,,,1,2,FT
 25-26-prem-newcastle-united-vs-afc-bournemouth,2,card,90,4,away,67,Petrović,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-afc-bournemouth,3,injuryTime,90,,,,,,,,,,,,,
@@ -237,4 +235,3 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-tottenham-hotspur-vs-brighton-hove-albion,20,card,37,,away,173,Wieffer,,,,,yellow,,,,
 25-26-prem-tottenham-hotspur-vs-brighton-hove-albion,21,card,34,,home,587,Bissouma,,,,,yellow,,,,
 25-26-prem-tottenham-hotspur-vs-brighton-hove-albion,22,substitution,20,,away,169,Gomez,157,K. Mitoma,,,,,,,
-25-26-prem-tottenham-hotspur-vs-brighton-hove-albion,23,card,-5,,home,,Unknown,,,,,yellow,,,,

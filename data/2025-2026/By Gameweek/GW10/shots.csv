@@ -244,7 +244,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-crystal-palace-vs-brentford,7,56,,True,272,Lerma,block,corner,right-foot,0.0489,,12.6,40.3,53.4,19,low-left
 25-26-prem-crystal-palace-vs-brentford,8,53,,True,271,Kamada,block,throw-in-set-piece,right-foot,0.0502,,23.7,52.3,49,19,low-centre
 25-26-prem-crystal-palace-vs-brentford,9,52,,True,267,Sarr,post,regular,right-foot,0.268,,12.9,55.6,44.7,2.5,right
-25-26-prem-crystal-palace-vs-brentford,10,51,,True,106,Collins,goal,throw-in-set-piece,head,0.0536,,8,39.7,46.4,16.5,low-right
 25-26-prem-crystal-palace-vs-brentford,11,45,,False,121,Damsgaard,miss,free-kick,right-foot,0.1681,,18,53.1,47.7,65.3,high
 25-26-prem-crystal-palace-vs-brentford,12,35,,True,267,Sarr,miss,corner,right-foot,0.0464,,15.4,58.3,42.7,11.1,close-right
 25-26-prem-crystal-palace-vs-brentford,13,30,,True,283,Mateta,goal,set-piece,head,0.0275,0.5076,11.7,56.2,54,24.1,high-left
@@ -259,7 +258,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-fulham-vs-wolverhampton-wanderers,5,86,,True,331,Cairney,block,regular,left-foot,0.095,,16.1,47.4,52.3,19,low-left
 25-26-prem-fulham-vs-wolverhampton-wanderers,6,86,,True,727,Chukwueze,post,regular,left-foot,0.3719,,6.4,48.5,55.4,29.1,left
 25-26-prem-fulham-vs-wolverhampton-wanderers,7,86,,True,325,Smith Rowe,block,assisted,left-foot,0.1292,,7.3,42.7,51.7,19,low-centre
-25-26-prem-fulham-vs-wolverhampton-wanderers,8,75,,True,634,Y. Mosquera,goal,regular,right-foot,0.8316,,3.2,48.2,53.9,3.2,low-left
 25-26-prem-fulham-vs-wolverhampton-wanderers,9,70,,True,329,Wilson,save,fast-break,left-foot,0.0464,0.2297,21.6,58.8,52.5,25.9,high-left
 25-26-prem-fulham-vs-wolverhampton-wanderers,10,69,,True,335,King,miss,assisted,right-foot,0.033,,21.3,55.9,50.3,80.6,high
 25-26-prem-fulham-vs-wolverhampton-wanderers,11,62,,True,329,Wilson,goal,regular,left-foot,0.0566,0.6587,18.9,57.9,53.7,7,low-left
@@ -418,7 +416,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-west-ham-united-vs-newcastle-united,12,64,,False,489,J.Murphy,miss,regular,right-foot,0.0615,,14.4,63.6,60.3,1.4,left
 25-26-prem-west-ham-united-vs-newcastle-united,13,54,,False,500,Osula,miss,regular,right-foot,0.0606,,9.7,37.8,2.4,48.6,high-right
 25-26-prem-west-ham-united-vs-newcastle-united,14,48,,True,615,Summerville,miss,fast-break,right-foot,0.1664,,6.7,56,47.9,75,high
-25-26-prem-west-ham-united-vs-newcastle-united,15,45,5,True,475,Botman,goal,regular,left-foot,0.0834,,10.7,65.6,46.4,1.3,low-right
 25-26-prem-west-ham-united-vs-newcastle-united,16,45,4,True,615,Summerville,save,assisted,right-foot,0.0244,0.0186,23.6,37.4,48.6,8.9,low-centre
 25-26-prem-west-ham-united-vs-newcastle-united,17,45,1,False,490,Joelinton,miss,assisted,right-foot,0.0313,,11,31.5,41.8,1.4,close-right
 25-26-prem-west-ham-united-vs-newcastle-united,18,41,,False,489,J.Murphy,miss,assisted,left-foot,0.0273,,26.9,59.3,50.8,62.5,high

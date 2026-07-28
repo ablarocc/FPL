@@ -193,7 +193,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-sunderland-vs-wolverhampton-wanderers,3,90,7,False,709,Krejčí,save,set-piece,left-foot,0.0123,0.1208,7.9,70,45.9,1.9,low-right
 25-26-prem-sunderland-vs-wolverhampton-wanderers,4,90,7,False,645,Fer López,block,set-piece,left-foot,0.0264,,15.8,53.4,49.6,19,low-centre
 25-26-prem-sunderland-vs-wolverhampton-wanderers,5,90,6,False,638,Hoever,save,assisted,right-foot,0.0209,0.009,27.5,64.8,49.9,11.4,low-centre
-25-26-prem-sunderland-vs-wolverhampton-wanderers,6,90,2,True,709,Krejčí,goal,fast-break,right-foot,0.1858,,18.4,50.4,51.7,1.9,low-centre
 25-26-prem-sunderland-vs-wolverhampton-wanderers,7,90,1,False,654,Strand Larsen,block,regular,left-foot,0.0357,,18.8,47.7,50.7,19,low-centre
 25-26-prem-sunderland-vs-wolverhampton-wanderers,8,86,,False,695,Tchatchoua,miss,assisted,right-foot,0.2567,,15.8,44.2,38.5,15.3,right
 25-26-prem-sunderland-vs-wolverhampton-wanderers,9,85,,False,720,Tolu,miss,assisted,right-foot,0.0617,,9.6,41.2,40.8,68.1,high-right

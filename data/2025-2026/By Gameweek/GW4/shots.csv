@@ -324,7 +324,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-everton-vs-aston-villa,25,11,,True,295,Keane,miss,set-piece,head,0.0833,,8.7,50.2,70.9,66.7,high-left
 25-26-prem-everton-vs-aston-villa,26,8,,True,302,Gana,miss,assisted,right-foot,0.0773,,18.5,47.6,33.6,36.1,right
 25-26-prem-everton-vs-aston-villa,27,2,,True,311,Beto,miss,fast-break,right-foot,0.2804,,9.9,50.9,30.6,12.5,right
-25-26-prem-fulham-vs-leeds-united,1,90,4,True,347,Gudmundsson,goal,corner,head,0.0404,,9.9,47.7,54.3,17.1,low-left
 25-26-prem-fulham-vs-leeds-united,2,90,3,True,731,Kevin,save,assisted,right-foot,0.0185,0.1188,19,29.4,48,32.9,high-right
 25-26-prem-fulham-vs-leeds-united,3,85,,True,326,Adama,miss,assisted,head,0.0444,,9.5,56,52.6,77.8,high
 25-26-prem-fulham-vs-leeds-united,4,83,,True,332,Lukić,miss,assisted,right-foot,0.5006,,4.6,46.9,39.2,6.9,right

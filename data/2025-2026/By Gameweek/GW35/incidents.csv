@@ -188,7 +188,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-newcastle-united-vs-brighton-hove-albion,21,card,22,,away,152,Veltman,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-brighton-hove-albion,22,substitution,18,,away,173,Wieffer,152,Veltman,,,,,,,
 25-26-prem-newcastle-united-vs-brighton-hove-albion,23,goal,12,,home,500,Osula,,,489,J.Murphy,,regular,1,0,
-25-26-prem-newcastle-united-vs-brighton-hove-albion,24,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-wolverhampton-wanderers-vs-sunderland,1,period,90,,,,,,,,,,,1,1,Second half
 25-26-prem-wolverhampton-wanderers-vs-sunderland,2,substitution,90,3,home,720,Tolu,651,Edozie,,,,,,,
 25-26-prem-wolverhampton-wanderers-vs-sunderland,3,card,90,2,away,670,Roefs,,,,,yellow,,,,

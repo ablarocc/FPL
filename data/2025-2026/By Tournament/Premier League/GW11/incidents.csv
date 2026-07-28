@@ -79,7 +79,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-crystal-palace-vs-brighton-hove-albion,14,card,60,,away,167,Baleba,,,,,yellow,,,,
 25-26-prem-crystal-palace-vs-brighton-hove-albion,15,period,45,,,,,,,,,,,0,0,HT
 25-26-prem-crystal-palace-vs-brighton-hove-albion,16,injuryTime,45,,,,,,,,,,,,,
-25-26-prem-crystal-palace-vs-brighton-hove-albion,17,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-everton-vs-fulham,1,period,90,,,,,,,,,,,2,0,FT
 25-26-prem-everton-vs-fulham,2,injuryTime,90,,,,,,,,,,,,,
 25-26-prem-everton-vs-fulham,3,substitution,89,,home,242,Dewsbury-Hall,293,O'Brien,,,,,,,

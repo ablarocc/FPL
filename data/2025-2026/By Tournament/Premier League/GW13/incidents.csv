@@ -131,7 +131,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-sunderland-vs-afc-bournemouth,23,card,21,,home,683,Alderete,,,,,yellow,,,,
 25-26-prem-sunderland-vs-afc-bournemouth,24,goal,15,,away,85,Adams,,,,,,regular,0,2,
 25-26-prem-sunderland-vs-afc-bournemouth,25,goal,7,,away,697,Adli,,,,,,regular,0,1,
-25-26-prem-sunderland-vs-afc-bournemouth,26,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-tottenham-hotspur-vs-fulham,1,card,90,,home,726,Kolo Muani,,,,,yellow,,,,
 25-26-prem-tottenham-hotspur-vs-fulham,2,card,90,,away,314,Leno,,,,,yellow,,,,
 25-26-prem-tottenham-hotspur-vs-fulham,3,substitution,87,,away,324,Iwobi,319,Castagne,,,,,,,

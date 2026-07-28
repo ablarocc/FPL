@@ -112,7 +112,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-sunderland-vs-nottingham-forest,18,26,,True,547,E.Le Fée,block,free-kick,right-foot,0.0548,,20,69.3,46.9,19,low-right
 25-26-prem-sunderland-vs-nottingham-forest,19,22,,False,525,Wood,save,assisted,left-foot,0.0505,0.0259,17.9,61.5,48.8,16.5,low-centre
 25-26-prem-sunderland-vs-nottingham-forest,20,19,,True,552,Sadiki,block,assisted,right-foot,0.0336,,14.4,69.6,48.9,19,low-centre
-25-26-prem-sunderland-vs-nottingham-forest,21,17,,False,532,Hume,goal,corner,head,0.5221,,1.6,45.5,51.5,28.5,high-centre
 25-26-prem-sunderland-vs-nottingham-forest,22,13,,False,693,Hutchinson,save,assisted,left-foot,0.041,0.2814,14.6,66.2,53.6,7,low-left
 25-26-prem-sunderland-vs-nottingham-forest,23,8,,True,551,Rigg,save,assisted,left-foot,0.0738,0.0523,10.9,64.5,48.4,5.7,low-centre
 25-26-prem-sunderland-vs-nottingham-forest,24,3,,False,508,N.Williams,miss,corner,right-foot,0.0146,,12.8,27.9,63.9,6.9,left

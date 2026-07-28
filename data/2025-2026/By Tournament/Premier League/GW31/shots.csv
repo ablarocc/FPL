@@ -7,7 +7,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-afc-bournemouth-vs-manchester-united,6,77,,True,807,Rayan,block,fast-break,left-foot,0.0226,,18.1,70.5,49.2,19,low-centre
 25-26-prem-afc-bournemouth-vs-manchester-united,7,76,,True,90,Scott,post,assisted,right-foot,0.0271,,23.4,41.7,44.8,31,right
 25-26-prem-afc-bournemouth-vs-manchester-united,8,74,,True,72,Senesi,miss,regular,left-foot,0.0153,,18.8,33.8,47.6,76.4,high
-25-26-prem-afc-bournemouth-vs-manchester-united,9,71,,False,77,Hill,goal,corner,head,0.2053,,3.5,54,45.8,24.7,high-right
 25-26-prem-afc-bournemouth-vs-manchester-united,10,67,,True,87,Christie,goal,assisted,right-foot,0.0642,0.3082,14.8,46,46.9,6.3,low-right
 25-26-prem-afc-bournemouth-vs-manchester-united,11,61,,False,449,B.Fernandes,goal,penalty,right-foot,0.7884,0.7371,11.5,50,51.9,5.7,low-left
 25-26-prem-afc-bournemouth-vs-manchester-united,12,55,,True,713,A.Jimenez,miss,regular,right-foot,0.0265,,24,62,39.3,22.2,right

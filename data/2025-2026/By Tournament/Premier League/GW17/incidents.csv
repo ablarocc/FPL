@@ -122,7 +122,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-newcastle-united-vs-chelsea,17,goal,20,,home,714,Woltemade,,,,,,regular,2,0,
 25-26-prem-newcastle-united-vs-chelsea,18,card,7,,away,220,Sánchez,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-chelsea,19,goal,4,,home,714,Woltemade,,,,,,regular,1,0,
-25-26-prem-newcastle-united-vs-chelsea,20,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-tottenham-hotspur-vs-liverpool,1,substitution,90,,away,382,Wirtz,396,Nyoni,,,,,,,
 25-26-prem-tottenham-hotspur-vs-liverpool,2,substitution,90,,away,661,Ekitiké,372,Robertson,,,,,,,
 25-26-prem-tottenham-hotspur-vs-liverpool,3,card,90,,away,386,Mac Allister,,,,,yellow,,,,

@@ -248,7 +248,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-burnley-vs-chelsea,17,injuryTime,45,,,,,,,,,,,,,
 25-26-prem-burnley-vs-chelsea,18,card,41,,away,236,Neto,,,,,yellow,,,,
 25-26-prem-burnley-vs-chelsea,19,goal,37,,away,236,Neto,,,239,Gittens,,regular,0,1,
-25-26-prem-burnley-vs-chelsea,20,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-fulham-vs-sunderland,1,period,90,,,,,,,,,,,1,0,FT
 25-26-prem-fulham-vs-sunderland,2,card,90,5,home,337,Raúl,,,,,yellow,,,,
 25-26-prem-fulham-vs-sunderland,3,substitution,90,4,home,329,Wilson,319,Castagne,,,,,,,
@@ -341,7 +340,7 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-newcastle-united-vs-manchester-city,15,goal,63,,home,487,Barnes,,,488,Bruno G.,,regular,1,0,
 25-26-prem-newcastle-united-vs-manchester-city,16,period,45,,,,,,,,,,,0,0,HT
 25-26-prem-newcastle-united-vs-manchester-city,17,injuryTime,45,,,,,,,,,,,,,
-25-26-prem-newcastle-united-vs-manchester-city,18,card,-5,,away,416,Bernardo,,,,,yellow,,,,
+25-26-prem-newcastle-united-vs-manchester-city,18,card,,,away,416,Bernardo,,,,,yellow,,,,
 25-26-prem-wolverhampton-wanderers-vs-crystal-palace,1,period,90,,,,,,,,,,,0,2,FT
 25-26-prem-wolverhampton-wanderers-vs-crystal-palace,2,substitution,90,2,away,273,Wharton,270,Hughes,,,,,,,
 25-26-prem-wolverhampton-wanderers-vs-crystal-palace,3,injuryTime,90,,,,,,,,,,,,,

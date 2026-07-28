@@ -33,7 +33,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-arsenal-vs-manchester-city,17,injuryTime,45,,,,,,,,,,,,,
 25-26-prem-arsenal-vs-manchester-city,18,card,36,,away,416,Bernardo,,,,,yellow,,,,
 25-26-prem-arsenal-vs-manchester-city,19,goal,9,,away,430,Haaland,,,427,Reijnders,,regular,0,1,
-25-26-prem-arsenal-vs-manchester-city,20,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,1,period,90,,,,,,,,,,,2,2,FT
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,2,injuryTime,90,,,,,,,,,,,,,
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,3,substitution,89,,away,586,Bergvall,591,Gray,,,,,,,
@@ -135,7 +134,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-manchester-united-vs-chelsea,23,substitution,7,,away,236,Neto,232,Tosin,,,,,,,
 25-26-prem-manchester-united-vs-chelsea,24,substitution,6,,away,238,Estêvão,221,F. Jørgensen,,,,,,,
 25-26-prem-manchester-united-vs-chelsea,25,card,5,,away,220,Sánchez,,,,,red,,,,
-25-26-prem-manchester-united-vs-chelsea,26,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-sunderland-vs-aston-villa,1,period,90,,,,,,,,,,,1,1,FT
 25-26-prem-sunderland-vs-aston-villa,2,substitution,90,1,home,552,Sadiki,549,Neil,,,,,,,
 25-26-prem-sunderland-vs-aston-villa,3,injuryTime,90,,,,,,,,,,,,,

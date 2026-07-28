@@ -79,7 +79,7 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-fulham-vs-afc-bournemouth,22,substitution,43,,away,97,Evanilson,85,Adams,,,,,,,
 25-26-prem-fulham-vs-afc-bournemouth,23,card,41,,away,87,Christie,,,,,red,,,,
 25-26-prem-fulham-vs-afc-bournemouth,24,varDecision,40,,away,87,Christie,,,,,,,,,
-25-26-prem-fulham-vs-afc-bournemouth,25,card,-5,,away,84,Tavernier,,,,,yellow,,,,
+25-26-prem-fulham-vs-afc-bournemouth,25,card,,,away,84,Tavernier,,,,,yellow,,,,
 25-26-prem-liverpool-vs-chelsea,1,period,90,,,,,,,,,,,1,1,Second half
 25-26-prem-liverpool-vs-chelsea,2,card,90,4,home,386,Mac Allister,,,,,yellow,,,,
 25-26-prem-liverpool-vs-chelsea,3,injuryTime,90,,,,,,,,,,,,,
@@ -97,7 +97,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-liverpool-vs-chelsea,15,injuryTime,45,,,,,,,,,,,,,
 25-26-prem-liverpool-vs-chelsea,16,goal,35,,away,237,Enzo,,,,,,regular,1,1,
 25-26-prem-liverpool-vs-chelsea,17,goal,6,,home,390,Gravenberch,,,686,Ngumoha,,regular,1,0,
-25-26-prem-liverpool-vs-chelsea,18,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-brentford,1,period,90,,,,,,,,,,,3,0,Second half
 25-26-prem-manchester-city-vs-brentford,2,card,90,5,home,413,Marmoush,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-brentford,3,goal,90,2,home,413,Marmoush,,,430,Haaland,,regular,3,0,
@@ -182,7 +181,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-tottenham-hotspur-vs-leeds-united,16,period,45,,,,,,,,,,,0,0,HT
 25-26-prem-tottenham-hotspur-vs-leeds-united,17,injuryTime,45,,,,,,,,,,,,,
 25-26-prem-tottenham-hotspur-vs-leeds-united,18,card,41,,home,570,Danso,,,,,yellow,,,,
-25-26-prem-tottenham-hotspur-vs-leeds-united,19,card,-5,,home,,Unknown,,,,,yellow,,,,
 25-26-prem-west-ham-united-vs-arsenal,1,period,90,,,,,,,,,,,0,1,Second half
 25-26-prem-west-ham-united-vs-arsenal,2,varDecision,90,,home,671,Wilson,,,,,,,,,
 25-26-prem-west-ham-united-vs-arsenal,3,card,90,1,away,20,Trossard,,,,,yellow,,,,

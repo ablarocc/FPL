@@ -1,12 +1,10 @@
 match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situation,body_part,xg,xgot,start_x,start_y,goal_mouth_y,goal_mouth_z,goal_mouth_location
 25-26-prem-arsenal-vs-wolverhampton-wanderers,1,90,7,True,31,G.Jesus,save,fast-break,left-foot,0.1237,0.3013,15.2,53,48.4,3.2,low-centre
-25-26-prem-arsenal-vs-wolverhampton-wanderers,2,90,4,True,634,Y. Mosquera,goal,regular,head,0.1531,,7.6,50.9,53.3,16.5,low-left
 25-26-prem-arsenal-vs-wolverhampton-wanderers,3,90,,False,720,Tolu,goal,assisted,head,0.0876,0.0803,8.3,49.1,50.7,5.1,low-centre
 25-26-prem-arsenal-vs-wolverhampton-wanderers,4,83,,True,20,Trossard,miss,assisted,right-foot,0.0343,,15.2,30.3,57.3,4.2,close-left
 25-26-prem-arsenal-vs-wolverhampton-wanderers,5,79,,True,17,Ødegaard,miss,assisted,left-foot,0.0309,,23.7,68.1,59.3,68.1,high-left
 25-26-prem-arsenal-vs-wolverhampton-wanderers,6,75,,True,666,Gyökeres,miss,assisted,left-foot,0.0446,,8.6,33.5,39.5,4.2,right
 25-26-prem-arsenal-vs-wolverhampton-wanderers,7,74,,True,17,Ødegaard,miss,regular,right-foot,0.0845,,3.8,66.5,42.7,18.1,close-right
-25-26-prem-arsenal-vs-wolverhampton-wanderers,8,70,,True,627,Johnstone,goal,corner,other,0.8894,,0.8,47.9,52.6,18.4,low-left
 25-26-prem-arsenal-vs-wolverhampton-wanderers,9,68,,True,21,Rice,save,assisted,right-foot,0.024,0.1126,21,38.7,46.8,12.7,low-right
 25-26-prem-arsenal-vs-wolverhampton-wanderers,10,66,,True,21,Rice,miss,free-kick,right-foot,0.0348,,29.1,53.6,48.6,48.6,close-high
 25-26-prem-arsenal-vs-wolverhampton-wanderers,11,62,,True,22,Merino,block,assisted,left-foot,0.0537,,7.6,34.8,51.4,19,low-centre
@@ -217,7 +215,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-sunderland-vs-newcastle-united,5,68,,False,474,Schär,block,assisted,right-foot,0.023,,25.7,67.7,54.6,19,low-left
 25-26-prem-sunderland-vs-newcastle-united,6,67,,False,488,Bruno G.,save,regular,right-foot,0.0598,0.225,19.7,46.4,46.5,18.4,low-right
 25-26-prem-sunderland-vs-newcastle-united,7,62,,False,488,Bruno G.,save,assisted,left-foot,0.0241,0.061,19.4,30.5,51.9,23.4,high-left
-25-26-prem-sunderland-vs-newcastle-united,8,46,,True,714,Woltemade,goal,throw-in-set-piece,head,0.2082,,7,52.6,50.6,29.7,high-centre
 25-26-prem-sunderland-vs-newcastle-united,9,45,,True,531,Ballard,miss,assisted,head,0.1319,,4.2,43.1,53.1,83.3,high
 25-26-prem-sunderland-vs-newcastle-united,10,43,,False,714,Woltemade,miss,throw-in-set-piece,head,0.019,,13.2,44,50.3,61.1,high
 25-26-prem-sunderland-vs-newcastle-united,11,29,,True,668,Xhaka,miss,throw-in-set-piece,left-foot,0.026,,26.1,66,48.2,94.4,high
@@ -238,5 +235,4 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-west-ham-united-vs-aston-villa,14,45,,False,47,Rogers,miss,assisted,right-foot,0.0386,,12.3,25,46.1,70.8,high
 25-26-prem-west-ham-united-vs-aston-villa,15,24,,True,624,Bowen,goal,assisted,right-foot,0.6508,0.2992,4.8,50.4,50,32.3,high-centre
 25-26-prem-west-ham-united-vs-aston-villa,16,24,,True,623,Potts,block,regular,right-foot,0.0409,,15,39.9,46.4,6.9,low-right
-25-26-prem-west-ham-united-vs-aston-villa,17,9,,False,606,Mavropanos,goal,regular,head,0.1697,,7.6,53.6,47.6,29.7,high-right
 25-26-prem-west-ham-united-vs-aston-villa,18,1,,True,708,M.Fernandes,goal,regular,right-foot,0.1292,0.4052,3.5,34.2,50.8,29.1,high-centre

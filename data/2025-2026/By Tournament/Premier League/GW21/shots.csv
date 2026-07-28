@@ -107,7 +107,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-burnley-vs-manchester-united,33,31,,False,457,Casemiro,miss,regular,right-foot,0.0097,,14.7,82.6,67.1,15.3,left
 25-26-prem-burnley-vs-manchester-united,34,27,,False,450,Cunha,save,set-piece,head,0.1697,,4,44.2,48.6,19,low-centre
 25-26-prem-burnley-vs-manchester-united,35,24,,False,681,Šeško,save,assisted,head,0.0319,0.0134,10.5,56.4,49.7,12.7,low-centre
-25-26-prem-burnley-vs-manchester-united,36,13,,True,447,Heaven,goal,regular,left-foot,0.0407,,6,27.4,46.1,21.5,high-right
 25-26-prem-burnley-vs-manchester-united,37,10,,True,207,Hannibal,block,assisted,right-foot,0.0302,,16.6,29.1,50.9,19,low-centre
 25-26-prem-burnley-vs-manchester-united,38,7,,False,457,Casemiro,miss,assisted,right-foot,0.0429,,25.1,56.6,36.8,80.6,high-right
 25-26-prem-crystal-palace-vs-aston-villa,1,90,2,False,64,Watkins,block,assisted,right-foot,0.1036,,15.8,38.5,51.6,19,low-centre
@@ -274,7 +273,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-west-ham-united-vs-nottingham-forest,21,24,,False,526,Igor Jesus,block,regular,right-foot,0.0219,,4,69.9,51,19,low-centre
 25-26-prem-west-ham-united-vs-nottingham-forest,22,22,,False,516,Hudson-Odoi,miss,assisted,left-foot,0.0347,,23.1,35.8,62.2,72.2,high-left
 25-26-prem-west-ham-united-vs-nottingham-forest,23,19,,True,613,Souček,block,assisted,right-foot,0.0961,,13.6,60.3,48.6,19,low-centre
-25-26-prem-west-ham-united-vs-nottingham-forest,24,13,,True,506,Murillo,goal,corner,head,0.4965,,2.3,47.2,51.4,19.6,low-centre
 25-26-prem-west-ham-united-vs-nottingham-forest,25,11,,False,508,N.Williams,miss,corner,right-foot,0.0304,,12.8,35.4,61.7,54.2,high-left
 25-26-prem-west-ham-united-vs-nottingham-forest,26,10,,False,508,N.Williams,save,assisted,right-foot,0.0164,0.3709,24.3,29.7,46.4,29.1,high-right
 25-26-prem-west-ham-united-vs-nottingham-forest,27,6,,True,615,Summerville,save,throw-in-set-piece,right-foot,0.0312,0.011,22,36.6,50.4,16.5,low-centre

@@ -168,7 +168,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-manchester-city-vs-burnley,5,75,,True,418,Doku,save,assisted,right-foot,0.0867,0.3273,7.4,38.5,53.8,1.3,low-left
 25-26-prem-manchester-city-vs-burnley,6,73,,True,427,Reijnders,save,assisted,right-foot,0.0291,0.0103,27,47.7,49.8,5.1,low-centre
 25-26-prem-manchester-city-vs-burnley,7,70,,True,430,Haaland,miss,assisted,head,0.0557,,7.9,56.6,40.3,22.2,right
-25-26-prem-manchester-city-vs-burnley,8,65,,True,191,Estève,goal,regular,right-foot,0.2007,,8.9,58.1,51.6,0.6,low-centre
 25-26-prem-manchester-city-vs-burnley,9,61,,True,407,Matheus N.,goal,assisted,right-foot,0.1693,0.5705,6.7,52.8,47.1,27.8,high-right
 25-26-prem-manchester-city-vs-burnley,10,59,,True,427,Reijnders,miss,corner,right-foot,0.0443,,19.4,44.7,44.2,72.2,high
 25-26-prem-manchester-city-vs-burnley,11,57,,False,191,Estève,miss,throw-in-set-piece,left-foot,0.0188,,19.8,31,58.7,77.8,high-left
@@ -188,7 +187,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-manchester-city-vs-burnley,25,25,,True,418,Doku,save,regular,left-foot,0.1735,0.1611,6.7,35.6,51.6,15.8,low-centre
 25-26-prem-manchester-city-vs-burnley,26,23,,False,187,Walker,block,assisted,right-foot,0.0295,,21.2,65,50.7,19,low-centre
 25-26-prem-manchester-city-vs-burnley,27,21,,True,427,Reijnders,block,assisted,right-foot,0.0695,,18.7,49.9,51.9,19,low-left
-25-26-prem-manchester-city-vs-burnley,28,12,,True,191,Estève,goal,regular,left-foot,0.5637,,4.5,48.3,52.7,19,low-left
 25-26-prem-manchester-city-vs-burnley,29,12,,True,418,Doku,save,assisted,left-foot,0.0839,0.1089,8.8,33.3,49.8,1.9,low-centre
 25-26-prem-manchester-city-vs-burnley,30,11,,True,415,Savinho,miss,corner,left-foot,0.0273,,15.4,68.3,41.7,1.4,close-right
 25-26-prem-manchester-city-vs-burnley,31,11,,True,411,O'Reilly,block,regular,left-foot,0.0327,,21,31.3,49.9,19,low-centre

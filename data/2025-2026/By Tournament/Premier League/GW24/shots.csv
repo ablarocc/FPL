@@ -89,7 +89,7 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-leeds-united-vs-arsenal,12,52,,False,8,J.Timber,miss,corner,head,0.144,,2.7,58,43.7,61.1,high-right
 25-26-prem-leeds-united-vs-arsenal,13,51,,False,666,Gyökeres,block,assisted,right-foot,0.1568,,15.8,50.1,49,19,low-centre
 25-26-prem-leeds-united-vs-arsenal,14,49,,True,343,Struijk,save,corner,head,0.0644,0.3062,8,53.4,52.5,12,low-left
-25-26-prem-leeds-united-vs-arsenal,15,38,,False,18,Madueke,goal,corner,left-foot,0.0058,0.1093,0.40000000000001,99.1,45.4,19,low-right
+25-26-prem-leeds-united-vs-arsenal,15,38,,False,18,Madueke,ownGoal,corner,left-foot,0.0058,0.1093,0.40000000000001,99.1,45.4,19,low-right
 25-26-prem-leeds-united-vs-arsenal,16,27,,False,26,Zubimendi,goal,corner,head,0.1143,0.2515,7.3,54,48.7,30.4,high-centre
 25-26-prem-leeds-united-vs-arsenal,17,15,,False,26,Zubimendi,save,assisted,right-foot,0.0616,0.023,23.2,48.3,49.5,3.2,low-centre
 25-26-prem-leeds-united-vs-arsenal,18,11,,True,354,Ampadu,miss,regular,left-foot,0.0231,,22.3,65,51.8,59.7,close-high
@@ -186,7 +186,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-sunderland-vs-burnley,16,30,,True,547,E.Le Fée,save,assisted,right-foot,0.0612,0.017,23.1,51.7,50.2,9.5,low-centre
 25-26-prem-sunderland-vs-burnley,17,17,,True,553,Talbi,miss,assisted,right-foot,0.0743,,12.5,57.7,65.2,9.7,left
 25-26-prem-sunderland-vs-burnley,18,13,,True,694,Mukiele,miss,set-piece,right-foot,0.0118,,20.3,36.1,8.2,66.7,high-right
-25-26-prem-sunderland-vs-burnley,19,9,,True,198,Tuanzebe,goal,regular,right-foot,0.2532,,8.9,56,46.6,1.9,low-right
 25-26-prem-sunderland-vs-burnley,20,9,,True,544,Diarra,miss,assisted,right-foot,0.1001,,13,60.1,60.7,9.7,left
 25-26-prem-tottenham-hotspur-vs-manchester-city,1,88,,False,260,Guéhi,miss,corner,head,0.0969,,7.3,48.1,35.5,12.5,right
 25-26-prem-tottenham-hotspur-vs-manchester-city,2,88,,False,260,Guéhi,block,corner,head,0.1968,,4.8,48.3,50.2,19,low-centre

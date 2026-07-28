@@ -62,7 +62,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-brighton-hove-albion-vs-aston-villa,22,37,,False,64,Watkins,goal,assisted,right-foot,0.5268,0.7949,4.5,50.8,51.1,2.5,low-centre
 25-26-prem-brighton-hove-albion-vs-aston-villa,23,37,,False,677,Guessand,save,assisted,right-foot,0.2734,,4.5,53.1,49.9,6.9,low-centre
 25-26-prem-brighton-hove-albion-vs-aston-villa,24,34,,False,54,McGinn,miss,corner,left-foot,0.022,,14.7,70.3,61.2,80.6,high-left
-25-26-prem-brighton-hove-albion-vs-aston-villa,25,29,,True,41,Pau,goal,regular,left-foot,0.2138,,9.5,41.5,52.9,3.2,low-left
 25-26-prem-brighton-hove-albion-vs-aston-villa,26,28,,False,64,Watkins,save,assisted,right-foot,0.0756,0.1223,10.1,31.7,48.8,3.8,low-centre
 25-26-prem-brighton-hove-albion-vs-aston-villa,27,27,,True,145,De Cuyper,save,free-kick,left-foot,0.0645,0.1371,22.2,63.2,52,31.6,high-left
 25-26-prem-brighton-hove-albion-vs-aston-villa,28,14,,False,38,Konsa,save,corner,head,0.0664,0.6091,8,54.8,45.9,2.5,low-right
@@ -91,7 +90,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-fulham-vs-manchester-city,6,70,,False,430,Haaland,post,assisted,head,0.2148,,5.1,53,44.9,29.7,right
 25-26-prem-fulham-vs-manchester-city,7,62,,True,727,Chukwueze,block,corner,left-foot,0.0372,,18.8,32.4,50.8,19,low-centre
 25-26-prem-fulham-vs-manchester-city,8,57,,True,324,Iwobi,goal,regular,right-foot,0.0529,0.1677,23.3,51,47.1,10.1,low-right
-25-26-prem-fulham-vs-manchester-city,9,54,,False,330,Berge,goal,regular,right-foot,0.0835,,12.6,35.6,47.2,22.8,high-right
 25-26-prem-fulham-vs-manchester-city,10,54,,False,418,Doku,miss,regular,right-foot,0.0421,,12,31.5,32.9,34.7,right
 25-26-prem-fulham-vs-manchester-city,11,52,,True,325,Smith Rowe,miss,assisted,right-foot,0.0595,,20.3,49.3,45.9,76.4,high
 25-26-prem-fulham-vs-manchester-city,12,52,,True,337,Raúl,block,assisted,right-foot,0.1636,,13.9,55.2,51.8,19,low-left
@@ -147,7 +145,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-liverpool-vs-sunderland,7,89,,True,388,C.Jones,miss,regular,right-foot,0.0545,,18.4,65,59.3,13.9,left
 25-26-prem-liverpool-vs-sunderland,8,89,,True,385,Chiesa,block,assisted,right-foot,0.0723,,15.3,57.5,47.7,16.7,low-right
 25-26-prem-liverpool-vs-sunderland,9,88,,True,387,Szoboszlai,block,assisted,right-foot,0.0604,,10.1,63.2,48.2,19.4,low-centre
-25-26-prem-liverpool-vs-sunderland,10,81,,True,694,Mukiele,goal,regular,right-foot,0.2477,,11.8,53.2,52.7,22.8,high-left
 25-26-prem-liverpool-vs-sunderland,11,81,,True,382,Wirtz,miss,assisted,left-foot,0.0976,,11.7,53.8,58.5,8.3,close-left
 25-26-prem-liverpool-vs-sunderland,12,75,,True,382,Wirtz,block,regular,right-foot,0.0601,,13.3,41,50.2,19,low-centre
 25-26-prem-liverpool-vs-sunderland,13,72,,True,386,Mac Allister,miss,assisted,right-foot,0.0154,,31.2,35.6,39,88.9,high-right

@@ -95,7 +95,7 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-liverpool-vs-brentford,16,goal,58,,home,388,C.Jones,,,381,M.Salah,,regular,1,0,
 25-26-prem-liverpool-vs-brentford,17,period,45,,,,,,,,,,,0,0,HT
 25-26-prem-liverpool-vs-brentford,18,injuryTime,45,,,,,,,,,,,,,
-25-26-prem-liverpool-vs-brentford,19,card,-5,,away,124,Henderson,,,,,yellow,,,,
+25-26-prem-liverpool-vs-brentford,19,card,,,away,124,Henderson,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-aston-villa,1,period,90,,,,,,,,,,,1,2,Second half
 25-26-prem-manchester-city-vs-aston-villa,2,varDecision,90,,home,414,Foden,,,,,,,,,
 25-26-prem-manchester-city-vs-aston-villa,3,injuryTime,90,,,,,,,,,,,,,

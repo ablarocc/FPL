@@ -8,7 +8,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-afc-bournemouth-vs-leeds-united,7,77,,True,90,Scott,save,assisted,right-foot,0.0323,0.0328,18.9,60.6,48.7,1.3,low-centre
 25-26-prem-afc-bournemouth-vs-leeds-united,8,76,,True,77,Hill,miss,corner,head,0.1049,,7,47.9,56.1,52.8,close-high-left
 25-26-prem-afc-bournemouth-vs-leeds-united,9,75,,True,807,Rayan,save,assisted,left-foot,0.045,0.0368,12.9,27.2,49.1,5.7,low-centre
-25-26-prem-afc-bournemouth-vs-leeds-united,10,68,,False,77,Hill,goal,throw-in-set-piece,right-foot,0.494,,3.8,52.1,49,0.6,low-centre
 25-26-prem-afc-bournemouth-vs-leeds-united,11,68,,False,351,Gnonto,miss,throw-in-set-piece,right-foot,0.0738,,5.1,64.4,98.3,1.4,left
 25-26-prem-afc-bournemouth-vs-leeds-united,12,68,,False,365,Nmecha,block,throw-in-set-piece,right-foot,0.0954,,7.6,59.5,48.9,19,low-centre
 25-26-prem-afc-bournemouth-vs-leeds-united,13,67,,False,365,Nmecha,block,assisted,left-foot,0.0384,,6.4,32.1,50.3,19,low-centre

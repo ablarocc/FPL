@@ -38,7 +38,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-arsenal-vs-chelsea,8,51,,False,237,Enzo,save,assisted,right-foot,0.0406,0.1861,22.6,64.4,53.4,2.5,low-left
 25-26-prem-arsenal-vs-chelsea,9,50,,True,5,Gabriel,save,regular,right-foot,0.031,0.0135,21.4,30.9,49.9,25.3,high-centre
 25-26-prem-arsenal-vs-chelsea,10,50,,True,16,Saka,block,assisted,left-foot,0.0122,,28.5,53.4,47.5,19,low-right
-25-26-prem-arsenal-vs-chelsea,11,45,2,False,725,Hincapie,goal,corner,head,0.1243,,2.5,41.3,47.9,8.2,low-right
 25-26-prem-arsenal-vs-chelsea,12,44,,False,236,Neto,block,assisted,left-foot,0.0272,,9.5,28.9,47.8,19,low-right
 25-26-prem-arsenal-vs-chelsea,13,37,,True,8,J.Timber,save,assisted,right-foot,0.1278,0.1829,8.5,63.4,46.1,0.6,low-right
 25-26-prem-arsenal-vs-chelsea,14,37,,True,666,Gyökeres,block,assisted,right-foot,0.0309,,12.6,34.4,48.2,19,low-centre
@@ -91,7 +90,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-burnley-vs-brentford,12,60,,True,215,Flemming,goal,assisted,head,0.2356,0.7066,7.9,55.1,45.9,7,low-right
 25-26-prem-burnley-vs-brentford,13,47,,True,200,Anthony,goal,assisted,right-foot,0.2371,0.364,11.1,41.5,51.3,16.5,low-centre
 25-26-prem-burnley-vs-brentford,14,46,,True,207,Hannibal,miss,assisted,right-foot,0.037,,23,51,49.1,70.8,high
-25-26-prem-burnley-vs-brentford,15,45,3,True,110,Kayode,goal,regular,left-foot,0.6578,,3.2,51.1,51.3,7,low-centre
 25-26-prem-burnley-vs-brentford,16,45,3,True,200,Anthony,miss,assisted,right-foot,0.063,,8.2,69.7,66.7,22.2,left
 25-26-prem-burnley-vs-brentford,17,45,3,False,113,Van den Berg,miss,throw-in-set-piece,head,0.0671,,8.9,45.9,62.4,9.7,left
 25-26-prem-burnley-vs-brentford,18,45,2,False,136,Thiago,block,regular,right-foot,0.0779,,9.1,33.1,46.1,6.9,low-right
@@ -168,7 +166,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-liverpool-vs-west-ham-united,1,90,5,True,381,M.Salah,block,fast-break,right-foot,0.0436,,5.7,69.3,49.4,19,low-centre
 25-26-prem-liverpool-vs-west-ham-united,2,90,2,True,396,Nyoni,miss,assisted,right-foot,0.3697,,9.7,55.8,49.6,66.7,high
 25-26-prem-liverpool-vs-west-ham-united,3,87,,True,686,Ngumoha,save,assisted,right-foot,0.1179,0.2176,3.9,34.4,48.3,12,low-centre
-25-26-prem-liverpool-vs-west-ham-united,4,82,,True,815,Disasi,goal,regular,left-foot,0.3715,,2.7,57.3,51,17.1,low-centre
 25-26-prem-liverpool-vs-west-ham-united,5,82,,True,390,Gravenberch,miss,assisted,right-foot,0.027,,26.3,63.2,58.7,11.1,close-left
 25-26-prem-liverpool-vs-west-ham-united,6,81,,False,615,Summerville,miss,assisted,right-foot,0.1318,,12.8,42.1,42,70.8,high-right
 25-26-prem-liverpool-vs-west-ham-united,7,78,,True,384,Gakpo,block,assisted,right-foot,0.0574,,13.6,65.2,50,19,low-centre

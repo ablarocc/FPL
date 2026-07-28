@@ -66,7 +66,7 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-burnley-vs-brentford,16,goal,34,,away,120,Schade,,,,,,regular,0,3,
 25-26-prem-burnley-vs-brentford,17,goal,25,,away,136,Thiago,,,,,,regular,0,2,
 25-26-prem-burnley-vs-brentford,18,goal,9,,away,121,Damsgaard,,,,,,regular,0,1,
-25-26-prem-burnley-vs-brentford,19,card,-5,,away,129,Yarmoliuk,,,,,yellow,,,,
+25-26-prem-burnley-vs-brentford,19,card,,,away,129,Yarmoliuk,,,,,yellow,,,,
 25-26-prem-fulham-vs-tottenham-hotspur,1,card,90,,away,568,Pedro Porro,,,,,yellow,,,,
 25-26-prem-fulham-vs-tottenham-hotspur,2,card,90,,home,331,Cairney,,,,,yellow,,,,
 25-26-prem-fulham-vs-tottenham-hotspur,3,substitution,90,,away,572,Dragusin,570,Danso,,,,,,,

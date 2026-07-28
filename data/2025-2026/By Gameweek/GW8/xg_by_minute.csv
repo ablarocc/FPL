@@ -300,7 +300,7 @@ match_id,minute,home_xg,away_xg,home_cumulative_xg,away_cumulative_xg
 25-26-prem-sunderland-vs-wolverhampton-wanderers,78,0,0.029,0.646,0.371
 25-26-prem-sunderland-vs-wolverhampton-wanderers,85,0,0.062,0.646,0.433
 25-26-prem-sunderland-vs-wolverhampton-wanderers,86,0,0.257,0.646,0.69
-25-26-prem-sunderland-vs-wolverhampton-wanderers,90,0.186,0.137,0.831,0.827
+25-26-prem-sunderland-vs-wolverhampton-wanderers,90,0,0.137,0.646,0.827
 25-26-prem-tottenham-hotspur-vs-aston-villa,5,0.075,0,0.075,0.0
 25-26-prem-tottenham-hotspur-vs-aston-villa,12,0,0.008,0.075,0.008
 25-26-prem-tottenham-hotspur-vs-aston-villa,15,0,0.03,0.075,0.038

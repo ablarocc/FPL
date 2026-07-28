@@ -35,7 +35,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,2,88,,True,166,Ayari,miss,corner,right-foot,0.0244,,19.2,44.4,100,5.6,left
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,3,87,,True,166,Ayari,miss,assisted,right-foot,0.1032,,10.8,50.9,33.9,1.4,right
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,4,84,,True,178,Welbeck,block,assisted,left-foot,0.0431,,11.9,36.2,52.2,19,low-left
-25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,5,82,,False,151,Van Hecke,goal,regular,right-foot,0.5854,,7.3,49.8,46.3,21.5,high-right
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,6,81,,False,597,Richarlison,save,fast-break,right-foot,0.0637,0.0891,12.2,32.7,48.7,0.6,low-centre
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,7,80,,True,148,F.Kadıoğlu,miss,assisted,right-foot,0.0662,,6.6,32.9,63.4,65.3,high-left
 25-26-prem-brighton-hove-albion-vs-tottenham-hotspur,8,79,,True,157,K. Mitoma,save,assisted,right-foot,0.0896,0.1783,8.9,39.7,52.1,2.5,low-left
@@ -89,7 +88,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-fulham-vs-brentford,3,78,,False,83,O.Dango,block,throw-in-set-piece,left-foot,0.0914,,10.4,54.8,50.1,19,low-centre
 25-26-prem-fulham-vs-brentford,4,63,,True,335,King,miss,set-piece,right-foot,0.0442,,7.8,70.5,45.5,72.2,high
 25-26-prem-fulham-vs-brentford,5,58,,False,136,Thiago,save,assisted,head,0.1016,0.0886,8.9,52.7,49.6,22.2,high-centre
-25-26-prem-fulham-vs-brentford,6,50,,True,111,Pinnock,goal,regular,other,0.5988,,4.8,52.1,54.2,25.3,high-left
 25-26-prem-fulham-vs-brentford,7,47,,False,106,Collins,save,throw-in-set-piece,head,0.0895,0.5098,3.8,58.9,47.4,33.5,high-right
 25-26-prem-fulham-vs-brentford,8,42,,True,318,Bassey,block,regular,left-foot,0.0098,,26.3,38.5,45.8,19,low-right
 25-26-prem-fulham-vs-brentford,9,40,,True,329,Wilson,goal,assisted,left-foot,0.1806,0.6565,13,60.9,52.9,3.8,low-left

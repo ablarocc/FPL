@@ -226,7 +226,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,17,26,,False,162,Gruda,block,regular,right-foot,0.0483,,14.3,65.5,52.6,19,low-left
 25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,18,25,,False,162,Gruda,miss,fast-break,left-foot,0.0268,,50.7,21.3,33.6,75,high-right
 25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,19,24,,True,709,Krejčí,save,set-piece,head,0.0297,0.0864,10.7,56.6,50.6,27.2,high-centre
-25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,20,21,,True,139,Verbruggen,goal,set-piece,other,0.8596,,1.5,49.1,51.8,12,low-centre
 25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,21,21,,True,648,Munetsi,save,set-piece,right-foot,0.0655,0.2994,15.2,54.1,52.2,29.1,high-left
 25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,22,14,,False,148,F.Kadıoğlu,save,assisted,right-foot,0.0613,0.4615,10.9,38.8,53.6,6.3,low-left
 25-26-prem-wolverhampton-wanderers-vs-brighton-hove-albion,23,11,,False,173,Wieffer,miss,corner,right-foot,0.0847,,9.5,46,59.5,79.2,high-left

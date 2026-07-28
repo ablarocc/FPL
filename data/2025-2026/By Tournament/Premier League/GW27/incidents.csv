@@ -44,7 +44,7 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-chelsea-vs-burnley,15,card,34,,home,230,Fofana,,,,,yellow,,,,
 25-26-prem-chelsea-vs-burnley,16,card,30,,away,207,Hannibal,,,,,yellow,,,,
 25-26-prem-chelsea-vs-burnley,17,goal,4,,home,249,João Pedro,,,,,,regular,1,0,
-25-26-prem-chelsea-vs-burnley,18,card,-5,,away,209,Laurent,,,,,yellow,,,,
+25-26-prem-chelsea-vs-burnley,18,card,,,away,209,Laurent,,,,,yellow,,,,
 25-26-prem-crystal-palace-vs-wolverhampton-wanderers,1,card,90,,home,267,Sarr,,,,,yellow,,,,
 25-26-prem-crystal-palace-vs-wolverhampton-wanderers,2,card,90,,away,643,André,,,,,yellow,,,,
 25-26-prem-crystal-palace-vs-wolverhampton-wanderers,3,substitution,90,,away,634,Mosquera,816,Angel,,,,,,,

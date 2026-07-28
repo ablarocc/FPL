@@ -216,7 +216,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-sunderland-vs-chelsea,11,56,,False,235,Palmer,goal,assisted,left-foot,0.0247,0.0257,22.2,65.5,46.8,7.6,low-right
 25-26-prem-sunderland-vs-chelsea,12,55,,True,539,O'Nien,save,set-piece,left-foot,0.0158,0.0664,6.5,25.5,53.2,12.7,low-left
 25-26-prem-sunderland-vs-chelsea,13,52,,True,813,Angulo,miss,fast-break,right-foot,0.0652,,9.9,31.3,0.8,5.6,right
-25-26-prem-sunderland-vs-chelsea,14,50,,True,228,Gusto,goal,regular,left-foot,0.8689,,2.6,49.4,51.9,6.3,low-left
 25-26-prem-sunderland-vs-chelsea,15,50,,True,730,Brobbey,miss,assisted,right-foot,0.6671,,5.6,54.6,56.6,16.7,close-left
 25-26-prem-sunderland-vs-chelsea,16,46,,True,730,Brobbey,save,fast-break,right-foot,0.3922,0.2485,10.6,58.6,48.8,11.4,low-centre
 25-26-prem-sunderland-vs-chelsea,17,44,,True,532,Hume,miss,assisted,right-foot,0.0497,,21.7,49.3,40.2,18.1,right

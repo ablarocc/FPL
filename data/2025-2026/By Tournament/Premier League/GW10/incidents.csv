@@ -94,7 +94,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-liverpool-vs-aston-villa,17,goal,45,1,home,381,M.Salah,,,,,,regular,1,0,
 25-26-prem-liverpool-vs-aston-villa,18,injuryTime,45,,,,,,,,,,,,,
 25-26-prem-liverpool-vs-aston-villa,19,varDecision,44,,home,661,Ekitiké,,,,,,,,,
-25-26-prem-liverpool-vs-aston-villa,20,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-manchester-city-vs-afc-bournemouth,1,period,90,,,,,,,,,,,3,1,FT
 25-26-prem-manchester-city-vs-afc-bournemouth,2,substitution,90,,home,416,Bernardo,421,Rodri,,,,,,,
 25-26-prem-manchester-city-vs-afc-bournemouth,3,substitution,90,,home,414,Foden,402,Aït-Nouri,,,,,,,

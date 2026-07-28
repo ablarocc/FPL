@@ -297,7 +297,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-everton-vs-nottingham-forest,16,28,,True,299,Ndiaye,block,corner,right-foot,0.0832,,9.1,59.1,48.6,19,low-centre
 25-26-prem-everton-vs-nottingham-forest,17,16,,True,242,Dewsbury-Hall,save,regular,left-foot,0.0438,0.0331,23.7,36,49,2.5,low-centre
 25-26-prem-everton-vs-nottingham-forest,18,13,,False,526,Igor Jesus,miss,assisted,head,0.0335,,5.5,38,56.8,29.2,close-left
-25-26-prem-everton-vs-nottingham-forest,19,2,,True,505,Milenković,goal,set-piece,head,0.3866,,3.9,46.4,46.8,7.6,low-right
 25-26-prem-fulham-vs-crystal-palace,1,90,4,True,337,Raúl,miss,set-piece,right-foot,0.0913,,3.3,58.8,29.6,18.1,right
 25-26-prem-fulham-vs-crystal-palace,2,87,,False,260,Guéhi,goal,corner,head,0.2223,0.2948,3.3,47.6,50.3,31.6,high-centre
 25-26-prem-fulham-vs-crystal-palace,3,87,,False,712,Yeremy,block,corner,right-foot,0.1594,,9.4,40.6,51.6,19,low-centre

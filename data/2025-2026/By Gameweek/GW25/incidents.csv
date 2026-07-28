@@ -146,7 +146,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-manchester-united-vs-tottenham-hotspur,14,substitution,32,,away,588,Odobert,572,Dragusin,,,,,,,
 25-26-prem-manchester-united-vs-tottenham-hotspur,15,card,29,,away,569,Romero,,,,,red,,,,
 25-26-prem-manchester-united-vs-tottenham-hotspur,16,card,27,,away,574,Udogie,,,,,yellow,,,,
-25-26-prem-manchester-united-vs-tottenham-hotspur,17,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-brentford,1,card,90,,home,473,Hall,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-brentford,2,card,90,,away,125,Janelt,,,,,yellow,,,,
 25-26-prem-newcastle-united-vs-brentford,3,substitution,87,,home,491,Tonali,52,J.Ramsey,,,,,,,

@@ -219,7 +219,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-nottingham-forest-vs-aston-villa,21,40,,True,517,Anderson,block,assisted,right-foot,0.0191,,21.2,73.7,49.1,19,low-centre
 25-26-prem-nottingham-forest-vs-aston-villa,22,38,,True,508,N.Williams,goal,assisted,right-foot,0.0229,0.199,18.4,30.4,53.9,4.4,low-left
 25-26-prem-nottingham-forest-vs-aston-villa,23,36,,False,47,Rogers,post,assisted,right-foot,0.0672,,9.5,67,47.7,39.9,high
-25-26-prem-nottingham-forest-vs-aston-villa,24,23,,False,506,Murillo,goal,regular,left-foot,0.9186,,2.2,48.2,52,1.9,low-left
 25-26-prem-nottingham-forest-vs-aston-villa,25,20,,False,719,Lindelöf,miss,corner,head,0.0921,,2.9,59.1,39.8,62.5,high-right
 25-26-prem-nottingham-forest-vs-aston-villa,26,8,,True,508,N.Williams,save,assisted,right-foot,0.0236,0.1758,22.4,25.1,54.5,13.9,low-left
 25-26-prem-nottingham-forest-vs-aston-villa,27,7,,True,515,Gibbs-White,block,regular,left-foot,0.0483,,12.3,71.7,47.4,19,low-right

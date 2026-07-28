@@ -22,7 +22,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-aston-villa-vs-fulham,21,card,22,,away,335,King,,,,,yellow,,,,
 25-26-prem-aston-villa-vs-fulham,22,substitution,11,,away,337,Raúl,326,Adama,,,,,,,
 25-26-prem-aston-villa-vs-fulham,23,goal,3,,away,337,Raúl,,,332,Lukić,,regular,0,1,
-25-26-prem-aston-villa-vs-fulham,24,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-brentford-vs-manchester-united,1,period,90,,,,,,,,,,,3,1,FT
 25-26-prem-brentford-vs-manchester-united,2,goal,90,5,home,126,Jensen,,,129,Yarmoliuk,,regular,3,1,
 25-26-prem-brentford-vs-manchester-united,3,substitution,90,,home,136,Thiago,126,Jensen,,,,,,,
@@ -71,7 +70,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-chelsea-vs-brighton-hove-albion,25,card,42,,home,224,Cucurella,,,,,yellow,,,,
 25-26-prem-chelsea-vs-brighton-hove-albion,26,goal,24,,home,237,Enzo,,,,,,regular,1,0,
 25-26-prem-chelsea-vs-brighton-hove-albion,27,card,9,,away,152,Veltman,,,,,yellow,,,,
-25-26-prem-chelsea-vs-brighton-hove-albion,28,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-crystal-palace-vs-liverpool,1,period,90,,,,,,,,,,,2,1,FT
 25-26-prem-crystal-palace-vs-liverpool,2,goal,90,7,home,284,Nketiah,,,260,Guéhi,,regular,2,1,
 25-26-prem-crystal-palace-vs-liverpool,3,substitution,90,1,home,271,Kamada,276,Devenny,,,,,,,
@@ -92,7 +90,6 @@ match_id,incident_index,incident_type,minute,added_time,team_side,player_id,play
 25-26-prem-crystal-palace-vs-liverpool,18,injuryTime,45,,,,,,,,,,,,,
 25-26-prem-crystal-palace-vs-liverpool,19,card,26,,away,374,Konaté,,,,,yellow,,,,
 25-26-prem-crystal-palace-vs-liverpool,20,goal,9,,home,267,Sarr,,,,,,regular,1,0,
-25-26-prem-crystal-palace-vs-liverpool,21,card,-5,,away,,Unknown,,,,,yellow,,,,
 25-26-prem-everton-vs-west-ham-united,1,period,90,,,,,,,,,,,1,1,FT
 25-26-prem-everton-vs-west-ham-united,2,substitution,90,4,away,625,Füllkrug,621,Irving,,,,,,,
 25-26-prem-everton-vs-west-ham-united,3,substitution,90,4,away,612,L.Paquetá,149,I. Júlio,,,,,,,

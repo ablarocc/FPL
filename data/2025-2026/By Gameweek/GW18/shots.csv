@@ -14,7 +14,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-arsenal-vs-brighton-hove-albion,13,61,,True,16,Saka,block,assisted,left-foot,0.0342,,16.2,68.2,50.7,19,low-centre
 25-26-prem-arsenal-vs-brighton-hove-albion,14,61,,True,666,Gyökeres,save,regular,right-foot,0.0532,0.0736,3.9,68.3,48,20.3,high-right
 25-26-prem-arsenal-vs-brighton-hove-albion,15,55,,False,166,Ayari,miss,regular,left-foot,0.0469,,22.9,52.1,71.3,80.6,high-left
-25-26-prem-arsenal-vs-brighton-hove-albion,16,52,,True,158,Georginio,goal,corner,head,0.1023,,2.9,40.7,48.1,20.9,high-right
 25-26-prem-arsenal-vs-brighton-hove-albion,17,51,,True,17,Ødegaard,block,assisted,left-foot,0.1038,,13.9,42.5,50.7,19,low-centre
 25-26-prem-arsenal-vs-brighton-hove-albion,18,50,,False,163,Hinshelwood,save,assisted,right-foot,0.0789,0.0999,15.6,57.3,50,4.4,low-centre
 25-26-prem-arsenal-vs-brighton-hove-albion,19,44,,True,20,Trossard,miss,regular,right-foot,0.4472,,3.9,40.5,50.1,52.8,close-high
@@ -56,7 +55,6 @@ match_id,shot_index,minute,added_time,is_home,player_id,player_name,outcome,situ
 25-26-prem-brentford-vs-afc-bournemouth,22,53,,False,82,Semenyo,save,assisted,right-foot,0.0978,0.0467,17.6,44.7,50.6,5.7,low-centre
 25-26-prem-brentford-vs-afc-bournemouth,23,51,,True,120,Schade,goal,fast-break,right-foot,0.5801,0.8595,9.2,53.8,46.6,25.9,high-right
 25-26-prem-brentford-vs-afc-bournemouth,24,48,,True,129,Yarmoliuk,block,corner,right-foot,0.0678,,8.8,46,49.1,19,low-centre
-25-26-prem-brentford-vs-afc-bournemouth,25,39,,True,67,Petrović,goal,regular,left-foot,0.9327,,0.5,53.2,54.3,22.8,high-left
 25-26-prem-brentford-vs-afc-bournemouth,26,39,,True,136,Thiago,miss,assisted,right-foot,0.0645,,7,66,56.6,4.2,close-left
 25-26-prem-brentford-vs-afc-bournemouth,27,23,,False,88,Cook,block,corner,right-foot,0.0348,,25.1,55.4,49.6,19,low-centre
 25-26-prem-brentford-vs-afc-bournemouth,28,20,,True,110,Kayode,block,assisted,left-foot,0.0196,,12.3,68.7,52,19,low-left
