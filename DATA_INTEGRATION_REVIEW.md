@@ -41,8 +41,8 @@ The review branch contains a complete 380-match Premier League detail layer for 
 |---|---:|---:|---|
 | `fixtures.csv` / `matches.csv` | 380 | 380/380 | Existing match-level results and aggregate statistics |
 | `match_enrichment.csv` | 380 | 380/380 | Match context, shot-model xG totals, and data-quality flags |
-| `playermatchstats.csv` | 12,621 | 380/380 | Core player-match statistics |
-| `player_match_enrichment.csv` | 11,329 | 380/380 | Additional player-match totals and ratings |
+| `playermatchstats.csv` | 12,754 | 380/380 | Core player-match statistics |
+| `player_match_enrichment.csv` | 11,462 | 380/380 | Additional player-match totals and ratings |
 | `xg_by_minute.csv` | 7,651 | 380/380 | Per-minute and cumulative shot-model xG |
 | `momentum.csv` | 34,954 | 380/380 | Minute-indexed signed momentum values |
 | `shots.csv` | 9,504 | 380/380 | Individual shots, xG, xGOT, outcomes, and locations |
@@ -68,12 +68,12 @@ Detailed files were added outside the Premier League where the captured data sup
 
 | Competition | Fixture rows | Matches with detailed files | Shots | Incidents | Lineups | Average positions | xG-minute rows | Momentum rows | Player enrichment rows |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Premier League | 380 | 380 | 9,504 | 6,455 | 15,153 | 11,448 | 7,651 | 34,954 | 11,329 |
+| Premier League | 380 | 380 | 9,504 | 6,455 | 15,153 | 11,448 | 7,651 | 34,954 | 11,462 |
 | Champions League | 64 | 48 | 1,257 | 900 | 2,092 | 1,471 | 1,042 | 4,415 | 551 |
 | EFL Cup | 40 | 37 | 1,035 | 582 | 1,479 | 1,157 | 851 | 3,404 | 626 |
 | Europa League | 28 | 14 | 333 | 266 | 613 | 437 | 281 | 1,288 | 178 |
 | Conference League | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **526** | **479** | **12,129** | **8,203** | **19,337** | **14,513** | **9,825** | **44,061** | **12,684** |
+| **Total** | **526** | **479** | **12,129** | **8,203** | **19,337** | **14,513** | **9,825** | **44,061** | **12,817** |
 
 This means:
 
@@ -386,11 +386,12 @@ goalkeeper_punches
 
 Premier League coverage:
 
-- 11,329 player-match rows.
-- 11,105 ratings.
-- 224 ratings remain blank.
+- 11,462 player-match rows.
+- 11,235 ratings.
+- 227 ratings remain blank.
 - Every other enrichment column is populated on every enrichment row, including genuine zero values.
-- 11,328 of 11,359 positive-FPL-minute appearances were accepted for detailed-source enrichment: 99.73% coverage.
+- 11,461 of 11,492 positive-minute player-match appearances were accepted for detailed-source enrichment: 99.73% coverage.
+- One additional record is a zero-minute, booking-only bench appearance.
 
 The total-attempt and lost-duel columns provide the denominators needed to audit the technical percentages stored in `playermatchstats.csv`.
 
@@ -535,7 +536,7 @@ Player-match `xg` is not indiscriminately overwritten. Detailed shot-level xG is
 
 ### Technical changes compared with the main-branch base
 
-The Premier League `playermatchstats.csv` files increased from 12,461 to 12,621 rows, adding 160 safely linked player-match records and removing none.
+The Premier League `playermatchstats.csv` files increased from 12,461 to 12,754 rows, adding 293 safely linked player-match records and removing none.
 
 The table below counts cells whose numeric value differs from the main-branch base on rows present in both versions. Large xA and xGOT counts include additional precision as well as genuine source differences.
 
@@ -549,6 +550,7 @@ The table below counts cells whose numeric value differs from the main-branch ba
 | `tackles_won` | 4,332 |
 | `aerial_duels_won_percent` | 4,010 |
 | `successful_dribbles_percent` | 3,259 |
+| `minutes_played` | 2,782 |
 | `xgot` | 2,357 |
 | `accurate_passes` | 2,207 |
 | `tackles` | 2,089 |
@@ -559,9 +561,12 @@ The table below counts cells whose numeric value differs from the main-branch ba
 | `duels_won` | 726 |
 | `ground_duels_won` | 470 |
 | `aerial_duels_won` | 319 |
+| `assists` | 247 |
 | `accurate_crosses` | 48 |
 | `penalties_scored` | 1 |
-| **Total existing-row cell differences** | **58,562** |
+| **Total existing-row cell differences** | **61,591** |
+
+The 3,029 minute and assist differences are FPL reconciliation corrections. The other 58,562 cells are the technical differences described above.
 
 `penalties_missed` is in the authority set but did not require a numeric change against the comparison base.
 
@@ -598,15 +603,29 @@ The comparison above measures the complete review branch against its main-branch
 
 The same final pass reconciled 122 existing `ground_duels_lost` values in `player_match_enrichment.csv`, giving 19,442 authoritative technical changes across the two canonical player-match tables.
 
-Compared with main, the branch adds 160 `playermatchstats.csv` rows. Separately, the final authority operation added 260 `player_match_enrichment.csv` rows: 160 during recovery and 100 during authoritative completion.
+Compared with main, the branch adds 293 `playermatchstats.csv` rows: 160 during the earlier recovery and 133 during the completeness repair. Separately, the final authority operation added 260 `player_match_enrichment.csv` rows before the completeness repair added another 133.
+
+### Player-match completeness repair
+
+A later season-wide audit found valid records in the captured 380-match player-stat stream that had not joined to FPL players. The repair used exact, match-constrained identity evidence from average positions and reviewed lineups; it did not use unconstrained fuzzy matching.
+
+The repair:
+
+- Added 133 `playermatchstats.csv` rows and 133 `player_match_enrichment.csv` rows, removing none.
+- Restored rows in GW16, GW17, and GW25-GW38; GW29 received 19 player-match rows and 19 enrichment rows.
+- Corrected 2,845 stale match-level minute values and 251 assist values on rows already present in the review branch.
+- Filled 91 `xg`, three `xa`, 119 `xgot`, 91 `penalties_scored`, and 91 `penalties_missed` blanks on existing rows where safe evidence was available.
+- Corrected 93 stale `player_stats_processed` flags, leaving all 380 Premier League matches marked as processed.
+
+These current-repair changes affected 3,491 existing player-match cells. The final 11,361 positive FPL player-gameweeks now reconcile exactly to 748,552 minutes, 1,005 goals, and 942 assists. All 11,461 positive player-stat rows supplied by the detailed stream resolve to repository/FPL player IDs.
 
 “Existing value replaced” does not automatically mean that the earlier value was a large error. Many xA and xGOT differences are additional decimal precision. It means the nonblank value did not numerically equal the selected authoritative value.
 
 ## Percentage recalculation
 
-There are seven technical percentage columns, not 42,962 separate columns.
+There are seven technical percentage columns, not tens of thousands of separate columns.
 
-The number 42,962 is the number of eligible player-match **cells** for which the detailed source supplied a valid numerator and a non-zero denominator.
+The current audit covers 53,761 player-match **cells** with a valid numerator and a non-zero denominator.
 
 The formulas are:
 
@@ -631,10 +650,10 @@ The validation process:
 1. Took the accepted numerator and denominator from the same detailed player-match record.
 2. Recomputed the expected percentage.
 3. Repaired a stored value where it did not equal the expected result.
-4. Exact-checked all 42,962 eligible non-zero-denominator cells.
-5. Separately checked 26,145 mapped zero-denominator cases and retained them as zero.
+4. Exact-checked all 53,761 eligible non-zero-denominator cells.
+5. Separately checked 26,466 mapped zero-denominator cases and retained them as zero.
 
-This does not mean all 42,962 values changed. It means all 42,962 were independently calculated and checked.
+This does not mean all 53,761 values changed. It means all 53,761 were independently calculated and checked.
 
 ## Player identity integration
 
@@ -660,7 +679,7 @@ Identity rules used:
 - Same-match lineup and substitution evidence.
 - No unconstrained fuzzy player matching.
 
-Four raw player-stat records remained unresolved and four remained ambiguous. Unsafe identities were not forced into the output.
+All 11,461 positive player-stat records supplied by the detailed stream now resolve. No actionable positive identity remains unresolved, and unsafe identities were not forced into the output.
 
 Final identity state:
 
@@ -684,13 +703,15 @@ Validation totals:
 
 | Result | Rows |
 |---|---:|
-| Positive-FPL-minute appearances | 11,359 |
-| Exact-minute joins | 10,699 |
-| Supported minute mismatches | 629 |
-| Accepted for enrichment | 11,328 |
+| Positive FPL player-gameweeks | 11,361 |
+| Positive FPL player-match appearances | 11,492 |
+| Player-gameweeks exactly reconciled for minutes/goals/assists | 11,361 |
+| Accepted for enrichment | 11,461 |
 | Quarantined | 31 |
 
-The 31 quarantined records had zero or blank detailed-source minutes and all-zero placeholder statistics despite a positive FPL appearance. They were not used to overwrite or enrich the FPL row.
+FPL remains authoritative for minutes, goals, and assists. The detailed stream supplies match identity and technical statistics; FPL totals are reconciled at player-gameweek level and, in double gameweeks, against match-grain FPL records.
+
+The 31 quarantined records have zero or blank detailed-stream minutes and all-zero placeholder statistics despite a positive FPL appearance. Their FPL-owned fields are present and reconciled in `playermatchstats.csv`, but the placeholders are not used to manufacture detailed enrichment.
 
 ## Unsupported columns removed
 
@@ -790,12 +811,12 @@ Some blank cells are structurally correct:
 
 | Area | Remaining gap |
 |---|---|
-| Player enrichment rating | 224 of 11,329 rows blank |
+| Player enrichment rating | 227 of 11,462 rows blank |
 | Average-position jersey number | 250 of 11,448 rows blank |
-| `playermatchstats.xg` | 91 of 12,621 rows blank |
-| `playermatchstats.xa` | 3 of 12,621 rows blank |
-| `playermatchstats.xgot` | 120 of 12,621 rows blank |
-| Penalty fields | 91 of 12,621 rows blank |
+| `playermatchstats.xg` | 0 of 12,754 rows blank |
+| `playermatchstats.xa` | 0 of 12,754 rows blank |
+| `playermatchstats.xgot` | 1 of 12,754 rows blank |
+| Penalty fields | 0 of 12,754 rows blank |
 | Incident timing | 189 matches have limited incident types |
 | Named card timing | 6 mapped cards have no reliable minute |
 | Unknown card actors | 48 invalid placeholders excluded from canonical incidents and retained in quarantine |
@@ -803,9 +824,11 @@ Some blank cells are structurally correct:
 | Detailed versus summary shot count | 2 of 760 team-match sides disagree |
 | Match weather/travel/pitch context | Available for only 36-48 of 380 matches, depending on field |
 
-The 160 newly added `playermatchstats.csv` rows do not have values for some legacy FPL-owned columns that the detailed source cannot safely supply. These cells remain blank rather than being manufactured.
+The 293 `playermatchstats.csv` rows added relative to main do not have values for 18 legacy FPL-owned columns that the detailed stream cannot safely supply. These cells remain blank rather than being manufactured.
 
-One `player_match_enrichment.csv` record is intentionally not represented in `playermatchstats.csv`: it is a zero-minute, booking-only bench record. The other 11,328 enrichment keys join to player-match statistics.
+The single remaining `xgot` blank is Pascal Gross in GW33: he recorded one shot on target, but no reliable post-shot xG value was available.
+
+One `player_match_enrichment.csv` record is intentionally not represented in `playermatchstats.csv`: it is a zero-minute, booking-only bench record. The other 11,461 enrichment keys join to player-match statistics.
 
 ### Non-Premier-League limitations
 
@@ -840,17 +863,20 @@ The current CSVs passed a local read-only data audit. The audit helper was delib
 | Duplicate own-goal pseudo-shots removed | 40 |
 | Genuine initiating attempts retained as `ownGoal` | 2 |
 | Detailed versus summary shot-count agreement | 758/760 team sides |
-| Current Premier League player-match rows | 12,621 |
-| Eligible raw-formula percentage cells | 42,962 |
-| Exact raw-formula matches | 42,962 |
-| Zero-denominator cases checked separately | 26,145 |
-| Accepted positive-minute enrichment coverage | 11,328/11,359 (99.73%) |
+| Current Premier League player-match rows | 12,754 |
+| Current Premier League enrichment rows | 11,462 |
+| FPL-positive player-gameweeks reconciled | 11,361/11,361 (100%) |
+| Processed Premier League matches | 380/380 |
+| Eligible raw-formula percentage cells | 53,761 |
+| Exact raw-formula matches | 53,761 |
+| Zero-denominator cases checked separately | 26,466 |
+| Accepted positive-minute enrichment coverage | 11,461/11,492 (99.73%) |
 | Actionable unresolved identities | 0 |
 | Remaining technical percentage formula conflicts | 0 |
 
 Validation also confirmed:
 
-- FPL minutes and other protected FPL-owned fields were not overwritten by this quality pass.
+- FPL remains authoritative for minutes, goals, assists, and the other protected FPL-owned fields; repaired match rows aggregate exactly to the FPL player-gameweek totals.
 - Every canonical event-detail key in shots, incidents, xG timelines, and match enrichment is unique across all included competitions.
 - The tournament-specific Premier League rows and their combined-gameweek projections agree in schema and value.
 - Quarantined incident placeholders are not used in canonical totals, timelines, or enrichment.
@@ -871,7 +897,7 @@ Reviewers should concentrate on:
 4. Whether quarantining the 48 invalid `Unknown` cards, while retaining six named cards without a minute, is the right policy.
 5. Whether the two residual detailed-versus-summary shot-count differences require upstream investigation.
 6. Whether the new event tables should be adopted as separate production tables.
-7. Whether the 160 source-added player-match rows should be retained in production.
+7. Whether the 293 source-added player-match rows should be retained in production.
 8. Whether partial non-Premier-League coverage should be published or held back until complete.
 9. Whether average positions and momentum are useful downstream features.
 10. Whether the sparse weather/travel fields are useful enough to retain.
