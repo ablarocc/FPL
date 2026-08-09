@@ -2,8 +2,9 @@ name: Data Import from Supabase
 
 on:
   schedule:
-    - cron: '30 7 * * *'   # 07:30 UTC - after the Supabase pipeline's overnight runs finish (~07:00)
-    - cron: '30 17 * * *'  # 17:30 UTC - evening refresh
+    - cron: '30 7 * * *'   # 07:30 UTC - 30 min after the Supabase pipeline's data health check
+    - cron: '30 15 * * *'  # 15:30 UTC - second pass, +8h
+    - cron: '30 23 * * *'  # 23:30 UTC - third pass, +16h
   workflow_dispatch:  # Manual run always available
 
 concurrency:
