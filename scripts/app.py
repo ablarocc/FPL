@@ -4,15 +4,15 @@ import plotly.express as px
 import glob
 import os
 
-# Configuración de la página
+# Page Configuration
 st.set_page_config(
-    page_title="FPL Draft Dashboard & Comparador",
+    page_title="FPL Draft Dashboard & Player Comparison",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# Estilos visuales
+# Custom CSS Styling
 st.markdown("""
 <style>
     .metric-card {
@@ -25,221 +25,225 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("⚽ Premier League Draft Dashboard & Player Comparison")
-st.caption("Herramienta interactiva para analizar, comparar y elegir jugadores en tu Draft de la Premier League.")
+st.caption("Interactive tool to analyze, compare, and pick players for your Premier League Draft team.")
 
-# Carga de datos con caché
+# Cached Data Loading Function
 @st.cache_data
-def cargar_datos():
-    # Buscar todos los CSV desde la raíz o subcarpetas
-    archivos_csv = (
+def load_data():
+    # Search for all CSVs inside 'data/' and 'datos/' folders
+    csv_files = (
+        glob.glob("data/**/*.csv", recursive=True) + 
+        glob.glob("data/*.csv") + 
+        glob.glob("../data/**/*.csv", recursive=True) + 
+        glob.glob("../data/*.csv") +
         glob.glob("datos/**/*.csv", recursive=True) + 
         glob.glob("datos/*.csv") + 
         glob.glob("../datos/**/*.csv", recursive=True) + 
         glob.glob("../datos/*.csv")
     )
     
-    # Buscar específicamente archivos de jugadores o estadísticas
-    palabras_clave = ["jugador", "jugadores", "estadística", "estadistica", "clean", "player"]
-    archivos_jugadores = [f for f in archivos_csv if any(p in f.lower() for p in palabras_clave)]
+    # Filter player-related data files
+    keywords = ["jugador", "jugadores", "estadística", "estadistica", "clean", "player", "players"]
+    player_files = [f for f in csv_files if any(k in f.lower() for k in keywords)]
     
-    archivos_a_cargar = archivos_jugadores if archivos_jugadores else archivos_csv
+    files_to_load = player_files if player_files else csv_files
     
-    if not archivos_a_cargar:
+    if not files_to_load:
         return pd.DataFrame()
 
-    lista_df = []
-    for ruta in archivos_a_cargar:
+    df_list = []
+    for path in files_to_load:
         try:
-            temp_df = pd.read_csv(ruta, low_memory=False)
+            temp_df = pd.read_csv(path, low_memory=False)
             
-            # Extraer temporada de la ruta del directorio
-            partes = ruta.replace("\\", "/").split("/")
-            temporada = "Desconocida"
-            for parte in partes:
-                if "-" in parte and any(char.isdigit() for char in parte):
-                    temporada = parte
+            # Extract Season from directory path (e.g. 2024-2025)
+            parts = path.replace("\\", "/").split("/")
+            season = "Unknown"
+            for part in parts:
+                if "-" in part and any(char.isdigit() for char in part):
+                    season = part
                     break
-            temp_df['Temporada'] = temporada
-            lista_df.append(temp_df)
+            temp_df['Season'] = season
+            df_list.append(temp_df)
         except Exception:
             continue
 
-    if not lista_df:
+    if not df_list:
         return pd.DataFrame()
 
-    df = pd.concat(lista_df, ignore_index=True)
+    df = pd.concat(df_list, ignore_index=True)
 
-    # Mapeo universal de nombres de columnas (Español e Inglés)
-    renombres = {
-        # Español
-        'nombre': 'Nombre',
-        'apellido': 'Apellido',
-        'jugador': 'Jugador',
-        'posicion': 'Posicion',
-        'posición': 'Posicion',
-        'equipo': 'Equipo',
-        'goles': 'Goles',
-        'asistencias': 'Asistencias',
-        'puntos_totales': 'Puntos Totales',
-        'puntos': 'Puntos Totales',
-        'minutos': 'Minutos',
-        'tarjetas_amarillas': 'T. Amarillas',
-        'tarjetas_rojas': 'T. Rojas',
-        'amarillas': 'T. Amarillas',
-        'rojas': 'T. Rojas',
-        # Inglés
-        'first_name': 'Nombre',
-        'second_name': 'Apellido',
-        'web_name': 'Jugador',
-        'element_type': 'Posicion',
-        'team': 'Equipo',
-        'goals_scored': 'Goles',
-        'assists': 'Asistencias',
-        'total_points': 'Puntos Totales',
-        'minutes': 'Minutos',
-        'yellow_cards': 'T. Amarillas',
-        'red_cards': 'T. Rojas'
+    # Universal Column Renaming to English
+    column_mapping = {
+        # Spanish inputs
+        'nombre': 'First Name',
+        'apellido': 'Second Name',
+        'jugador': 'Player',
+        'posicion': 'Position',
+        'posición': 'Position',
+        'equipo': 'Team',
+        'goles': 'Goals',
+        'asistencias': 'Assists',
+        'puntos_totales': 'Total Points',
+        'puntos': 'Total Points',
+        'minutos': 'Minutes',
+        'tarjetas_amarillas': 'Yellow Cards',
+        'tarjetas_rojas': 'Red Cards',
+        'amarillas': 'Yellow Cards',
+        'rojas': 'Red Cards',
+        'temporada': 'Season',
+        # English inputs
+        'first_name': 'First Name',
+        'second_name': 'Second Name',
+        'web_name': 'Player',
+        'element_type': 'Position',
+        'team': 'Team',
+        'goals_scored': 'Goals',
+        'assists': 'Assists',
+        'total_points': 'Total Points',
+        'minutes': 'Minutes',
+        'yellow_cards': 'Yellow Cards',
+        'red_cards': 'Red Cards'
     }
     
-    # Aplicar renombres ignorando mayúsculas/minúsculas
     col_map = {}
     for col in df.columns:
         col_lower = col.lower().strip()
-        if col_lower in renombres:
-            col_map[col] = renombres[col_lower]
+        if col_lower in column_mapping:
+            col_map[col] = column_mapping[col_lower]
             
     df = df.rename(columns=col_map)
     
-    # Mapeo numérico de posición si es necesario
+    # Map numeric positions if present
     pos_map = {1: 'GKP', 2: 'DEF', 3: 'MID', 4: 'FWD'}
-    if 'Posicion' in df.columns and df['Posicion'].dtype in ['int64', 'float64']:
-        df['Posicion'] = df['Posicion'].map(pos_map)
+    if 'Position' in df.columns and df['Position'].dtype in ['int64', 'float64']:
+        df['Position'] = df['Position'].map(pos_map)
         
-    if 'Jugador' not in df.columns and 'Nombre' in df.columns and 'Apellido' in df.columns:
-        df['Jugador'] = df['Nombre'].astype(str) + " " + df['Apellido'].astype(str)
+    if 'Player' not in df.columns and 'First Name' in df.columns and 'Second Name' in df.columns:
+        df['Player'] = df['First Name'].astype(str) + " " + df['Second Name'].astype(str)
 
     return df
 
-# --- CARGA DE DATOS ---
-df_raw = cargar_datos()
+# --- LOAD DATA ---
+df_raw = load_data()
 
 if df_raw.empty:
-    st.warning("⚠️ No se encontraron datos válidos en la carpeta `datos/`.")
+    st.warning("⚠️ No valid data found in the `data/` folder.")
     st.stop()
 
-# --- BARRA LATERAL (FILTROS) ---
-st.sidebar.header("🔍 Filtros del Draft")
+# --- SIDEBAR (FILTERS) ---
+st.sidebar.header("🔍 Draft Filters")
 
-# Temporada
-temporadas_disponibles = sorted(df_raw['Temporada'].dropna().unique().tolist()) if 'Temporada' in df_raw.columns else []
-temp_seleccionada = st.sidebar.multiselect("Temporada", options=temporadas_disponibles, default=temporadas_disponibles)
+# Season Filter
+available_seasons = sorted(df_raw['Season'].dropna().unique().tolist()) if 'Season' in df_raw.columns else []
+selected_seasons = st.sidebar.multiselect("Season", options=available_seasons, default=available_seasons)
 
-# Posición
-posiciones_disponibles = sorted(df_raw['Posicion'].dropna().unique().tolist()) if 'Posicion' in df_raw.columns else []
-pos_seleccionadas = st.sidebar.multiselect("Posición", options=posiciones_disponibles, default=posiciones_disponibles)
+# Position Filter
+available_positions = sorted(df_raw['Position'].dropna().unique().tolist()) if 'Position' in df_raw.columns else []
+selected_positions = st.sidebar.multiselect("Position", options=available_positions, default=available_positions)
 
-# Filtrado
+# Apply Filters
 df = df_raw.copy()
-if temp_seleccionada and 'Temporada' in df.columns:
-    df = df[df['Temporada'].isin(temp_seleccionada)]
+if selected_seasons and 'Season' in df.columns:
+    df = df[df['Season'].isin(selected_seasons)]
 
-if pos_seleccionadas and 'Posicion' in df.columns:
-    df = df[df['Posicion'].isin(pos_seleccionadas)]
+if selected_positions and 'Position' in df.columns:
+    df = df[df['Position'].isin(selected_positions)]
 
-# Minutos
-max_minutos = int(df['Minutos'].max()) if ('Minutos' in df.columns and not df.empty and pd.notna(df['Minutos'].max())) else 3800
-minutos_filtro = st.sidebar.slider("Minutos jugados (mínimo)", min_value=0, max_value=max_minutos, value=100)
+# Minutes Played Filter
+max_minutes = int(df['Minutes'].max()) if ('Minutes' in df.columns and not df.empty and pd.notna(df['Minutes'].max())) else 3800
+minutes_filter = st.sidebar.slider("Minimum Minutes Played", min_value=0, max_value=max_minutes, value=100)
 
-if 'Minutos' in df.columns and not df.empty:
-    df = df[df['Minutos'] >= minutos_filtro]
+if 'Minutes' in df.columns and not df.empty:
+    df = df[df['Minutes'] >= minutes_filter]
 
-# --- PESTAÑAS PRINCIPALES ---
-tab1, tab2, tab3 = st.tabs(["📊 Visión General & Recomendaciones", "⚔️ Comparador Cara a Cara", "🃏 Tarjetas & Disciplina"])
+# --- MAIN TABS ---
+tab1, tab2, tab3 = st.tabs(["📊 Overview & Top Picks", "⚔️ Head-to-Head Comparison", "🃏 Cards & Discipline"])
 
-# === TAB 1: VISIÓN GENERAL & RECOMENDACIONES ===
+# === TAB 1: OVERVIEW & TOP PICKS ===
 with tab1:
-    st.subheader("💡 Recomendaciones Top Pick para el Draft")
+    st.subheader("💡 Recommended Top Draft Picks")
     
     if not df.empty:
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            if 'Goles' in df.columns and not df['Goles'].isna().all():
-                top_goles = df.sort_values(by='Goles', ascending=False).iloc[0]
-                st.metric("🔥 Máximo Goleador", f"{top_goles.get('Jugador', 'N/A')}", f"{int(top_goles['Goles'])} goles")
+            if 'Goals' in df.columns and not df['Goals'].isna().all():
+                top_goals = df.sort_values(by='Goals', ascending=False).iloc[0]
+                st.metric("🔥 Top Scorer", f"{top_goals.get('Player', 'N/A')}", f"{int(top_goals['Goals'])} goals")
                 
         with col2:
-            if 'Asistencias' in df.columns and not df['Asistencias'].isna().all():
-                top_asist = df.sort_values(by='Asistencias', ascending=False).iloc[0]
-                st.metric("🎯 Máximo Asistente", f"{top_asist.get('Jugador', 'N/A')}", f"{int(top_asist['Asistencias'])} asist.")
+            if 'Assists' in df.columns and not df['Assists'].isna().all():
+                top_assists = df.sort_values(by='Assists', ascending=False).iloc[0]
+                st.metric("🎯 Top Assister", f"{top_assists.get('Player', 'N/A')}", f"{int(top_assists['Assists'])} assists")
                 
         with col3:
-            if 'Puntos Totales' in df.columns and not df['Puntos Totales'].isna().all():
-                top_pts = df.sort_values(by='Puntos Totales', ascending=False).iloc[0]
-                st.metric("⭐ Mayor Puntaje FPL", f"{top_pts.get('Jugador', 'N/A')}", f"{int(top_pts['Puntos Totales'])} pts")
+            if 'Total Points' in df.columns and not df['Total Points'].isna().all():
+                top_pts = df.sort_values(by='Total Points', ascending=False).iloc[0]
+                st.metric("⭐ Highest FPL Points", f"{top_pts.get('Player', 'N/A')}", f"{int(top_pts['Total Points'])} pts")
 
         st.markdown("---")
-        st.subheader("📈 Rendimiento: Goles vs. Asistencias")
+        st.subheader("📈 Performance: Goals vs. Assists")
         
-        if set(['Jugador', 'Goles', 'Asistencias']).issubset(df.columns):
+        if set(['Player', 'Goals', 'Assists']).issubset(df.columns):
             fig_scatter = px.scatter(
                 df, 
-                x='Asistencias', 
-                y='Goles', 
-                size='Puntos Totales' if 'Puntos Totales' in df.columns else None,
-                color='Posicion' if 'Posicion' in df.columns else None,
-                hover_name='Jugador',
-                title="Relación Goles vs Asistencias (Tamaño de burbuja = Puntos Totales)",
+                x='Assists', 
+                y='Goals', 
+                size='Total Points' if 'Total Points' in df.columns else None,
+                color='Position' if 'Position' in df.columns else None,
+                hover_name='Player',
+                title="Goals vs. Assists Relationship (Bubble Size = Total Points)",
                 template="plotly_dark"
             )
             st.plotly_chart(fig_scatter, use_container_width=True)
 
-        st.subheader("📋 Tabla General de Jugadores")
-        columnas_visibles = [c for c in ['Jugador', 'Posicion', 'Temporada', 'Goles', 'Asistencias', 'Puntos Totales', 'Minutos', 'T. Amarillas', 'T. Rojas'] if c in df.columns]
-        st.dataframe(df[columnas_visibles].sort_values(by=columnas_visibles[3] if len(columnas_visibles)>3 else columnas_visibles[0], ascending=False), use_container_width=True)
+        st.subheader("📋 Overall Player Statistics Table")
+        visible_columns = [c for c in ['Player', 'Position', 'Season', 'Goals', 'Assists', 'Total Points', 'Minutes', 'Yellow Cards', 'Red Cards'] if c in df.columns]
+        st.dataframe(df[visible_columns].sort_values(by=visible_columns[3] if len(visible_columns)>3 else visible_columns[0], ascending=False), use_container_width=True)
     else:
-        st.info("No hay datos disponibles para los filtros seleccionados.")
+        st.info("No data available for the selected filters.")
 
-# === TAB 2: COMPARADOR CARA A CARA ===
+# === TAB 2: HEAD-TO-HEAD COMPARISON ===
 with tab2:
-    st.subheader("⚔️ Comparar Jugadores Cara a Cara")
+    st.subheader("⚔️ Head-to-Head Player Comparison")
     
-    if not df.empty and 'Jugador' in df.columns:
-        lista_jugadores = sorted(df['Jugador'].dropna().unique().tolist())
-        jugadores_sel = st.multiselect("Selecciona jugadores para comparar:", options=lista_jugadores, default=lista_jugadores[:2] if len(lista_jugadores)>=2 else [])
+    if not df.empty and 'Player' in df.columns:
+        player_list = sorted(df['Player'].dropna().unique().tolist())
+        selected_players = st.multiselect("Select players to compare:", options=player_list, default=player_list[:2] if len(player_list)>=2 else [])
         
-        if len(jugadores_sel) >= 2:
-            df_comp = df[df['Jugador'].isin(jugadores_sel)]
-            metricas = [m for m in ['Goles', 'Asistencias', 'Puntos Totales', 'Minutos'] if m in df_comp.columns]
+        if len(selected_players) >= 2:
+            df_comp = df[df['Player'].isin(selected_players)]
+            metrics = [m for m in ['Goals', 'Assists', 'Total Points', 'Minutes'] if m in df_comp.columns]
             
             fig_bar = px.bar(
                 df_comp, 
-                x='Jugador', 
-                y=metricas, 
+                x='Player', 
+                y=metrics, 
                 barmode='group',
-                color='Temporada' if 'Temporada' in df_comp.columns else None,
-                title="Comparativa Directa de Estadísticas Principales",
+                color='Season' if 'Season' in df_comp.columns else None,
+                title="Direct Key Statistics Comparison",
                 template="plotly_dark"
             )
             st.plotly_chart(fig_bar, use_container_width=True)
             
-            st.markdown("### Resumen Tabular")
-            st.dataframe(df_comp[columnas_visibles], use_container_width=True)
+            st.markdown("### Summary Table")
+            st.dataframe(df_comp[visible_columns], use_container_width=True)
         else:
-            st.info("Selecciona al menos dos jugadores para habilitar la comparación.")
+            st.info("Please select at least two players to enable comparison.")
 
-# === TAB 3: TARJETAS Y DISCIPLINA ===
+# === TAB 3: CARDS & DISCIPLINE ===
 with tab3:
-    st.subheader("🟨 🟥 Análisis de Tarjetas y Disciplina")
-    st.caption("Puntos negativos o riesgo de sanción para tu selección de Draft.")
+    st.subheader("🟨 🟥 Cards & Discipline Analysis")
+    st.caption("Negative points or suspension risks for your draft picks.")
     
-    if not df.empty and set(['T. Amarillas', 'T. Rojas']).issubset(df.columns):
+    if not df.empty and set(['Yellow Cards', 'Red Cards']).issubset(df.columns):
         fig_cards = px.bar(
-            df.sort_values(by='T. Amarillas', ascending=False).head(15),
-            x='Jugador',
-            y=['T. Amarillas', 'T. Rojas'],
-            title="Top 15 Jugadores con Mayor Cantidad de Tarjetas",
-            color_discrete_map={'T. Amarillas': '#f1c40f', 'T. Rojas': '#e74c3c'},
+            df.sort_values(by='Yellow Cards', ascending=False).head(15),
+            x='Player',
+            y=['Yellow Cards', 'Red Cards'],
+            title="Top 15 Most Booked Players",
+            color_discrete_map={'Yellow Cards': '#f1c40f', 'Red Cards': '#e74c3c'},
             template="plotly_dark"
         )
         st.plotly_chart(fig_cards, use_container_width=True)
