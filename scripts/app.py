@@ -12,16 +12,20 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS Styling
+# Prevent browser translation extensions (e.g., Google Translate) from corrupting React DOM nodes
 st.markdown("""
-<style>
-    .metric-card {
-        background-color: #1e2130;
-        border-radius: 10px;
-        padding: 15px;
-        border: 1px solid #2e3450;
-    }
-</style>
+    <meta name="google" content="notranslate">
+    <style>
+        html, body {
+            translate: no;
+        }
+        .metric-card {
+            background-color: #1e2130;
+            border-radius: 10px;
+            padding: 15px;
+            border: 1px solid #2e3450;
+        }
+    </style>
 """, unsafe_allow_html=True)
 
 st.title("⚽ Premier League Draft Dashboard & Player Comparison")
@@ -247,3 +251,4 @@ with tab3:
             template="plotly_dark"
         )
         st.plotly_chart(fig_cards, use_container_width=True)
+       
