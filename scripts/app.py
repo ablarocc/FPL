@@ -30,9 +30,18 @@ st.caption("Herramienta interactiva para analizar, comparar y elegir jugadores e
 # Carga de datos con caché
 @st.cache_data
 def cargar_datos():
-    # Buscar todos los CSV dentro de 'datos/' y sus subcarpetas
-    archivos_csv = glob.glob("datos/**/*.csv", recursive=True) + glob.glob("datos/*.csv")
-    archivos_jugadores = [f for f in archivos_csv if "clean" in f.lower() or "player" in f.lower() or "merged" in f.lower()]
+    # Buscar todos los CSV desde la raíz o subcarpetas
+    archivos_csv = (
+        glob.glob("datos/**/*.csv", recursive=True) + 
+        glob.glob("datos/*.csv") + 
+        glob.glob("../datos/**/*.csv", recursive=True) + 
+        glob.glob("../datos/*.csv")
+    )
+    
+    # Buscar específicamente archivos de jugadores o estadísticas
+    palabras_clave = ["jugador", "jugadores", "estadística", "estadistica", "clean", "player"]
+    archivos_jugadores = [f for f in archivos_csv if any(p in f.lower() for p in palabras_clave)]
+    
     archivos_a_cargar = archivos_jugadores if archivos_jugadores else archivos_csv
     
     if not archivos_a_cargar:
@@ -43,8 +52,8 @@ def cargar_datos():
         try:
             temp_df = pd.read_csv(ruta, low_memory=False)
             
-            # Extraer la temporada a partir del nombre de la carpeta (ej. 2024-2025)
-            partes = ruta.split(os.sep)
+            # Extraer temporada de la ruta del directorio
+            partes = ruta.replace("\\", "/").split("/")
             temporada = "Desconocida"
             for parte in partes:
                 if "-" in parte and any(char.isdigit() for char in parte):
@@ -60,8 +69,25 @@ def cargar_datos():
 
     df = pd.concat(lista_df, ignore_index=True)
 
-    # Mapeo y estandarización de columnas
+    # Mapeo universal de nombres de columnas (Español e Inglés)
     renombres = {
+        # Español
+        'nombre': 'Nombre',
+        'apellido': 'Apellido',
+        'jugador': 'Jugador',
+        'posicion': 'Posicion',
+        'posición': 'Posicion',
+        'equipo': 'Equipo',
+        'goles': 'Goles',
+        'asistencias': 'Asistencias',
+        'puntos_totales': 'Puntos Totales',
+        'puntos': 'Puntos Totales',
+        'minutos': 'Minutos',
+        'tarjetas_amarillas': 'T. Amarillas',
+        'tarjetas_rojas': 'T. Rojas',
+        'amarillas': 'T. Amarillas',
+        'rojas': 'T. Rojas',
+        # Inglés
         'first_name': 'Nombre',
         'second_name': 'Apellido',
         'web_name': 'Jugador',
@@ -72,45 +98,47 @@ def cargar_datos():
         'total_points': 'Puntos Totales',
         'minutes': 'Minutos',
         'yellow_cards': 'T. Amarillas',
-        'red_cards': 'T. Rojas',
-        'now_cost': 'Precio (x10)',
-        'ict_index': 'Índice ICT',
-        'influence': 'Influencia',
-        'creativity': 'Creatividad',
-        'threat': 'Amenaza'
+        'red_cards': 'T. Rojas'
     }
     
-    df = df.rename(columns={k: v for k, v in renombres.items() if k in df.columns})
+    # Aplicar renombres ignorando mayúsculas/minúsculas
+    col_map = {}
+    for col in df.columns:
+        col_lower = col.lower().strip()
+        if col_lower in renombres:
+            col_map[col] = renombres[col_lower]
+            
+    df = df.rename(columns=col_map)
     
-    # Mapear números a códigos de posición si es necesario
+    # Mapeo numérico de posición si es necesario
     pos_map = {1: 'GKP', 2: 'DEF', 3: 'MID', 4: 'FWD'}
     if 'Posicion' in df.columns and df['Posicion'].dtype in ['int64', 'float64']:
         df['Posicion'] = df['Posicion'].map(pos_map)
         
     if 'Jugador' not in df.columns and 'Nombre' in df.columns and 'Apellido' in df.columns:
-        df['Jugador'] = df['Nombre'] + " " + df['Apellido']
+        df['Jugador'] = df['Nombre'].astype(str) + " " + df['Apellido'].astype(str)
 
     return df
 
-# --- EJECUCIÓN DE CARGA DE DATOS ---
+# --- CARGA DE DATOS ---
 df_raw = cargar_datos()
 
 if df_raw.empty:
-    st.warning("⚠️ No se encontraron archivos CSV en la carpeta `datos/` ni en sus subcarpetas.")
+    st.warning("⚠️ No se encontraron datos válidos en la carpeta `datos/`.")
     st.stop()
 
 # --- BARRA LATERAL (FILTROS) ---
 st.sidebar.header("🔍 Filtros del Draft")
 
-# Filtro de Temporada
+# Temporada
 temporadas_disponibles = sorted(df_raw['Temporada'].dropna().unique().tolist()) if 'Temporada' in df_raw.columns else []
 temp_seleccionada = st.sidebar.multiselect("Temporada", options=temporadas_disponibles, default=temporadas_disponibles)
 
-# Filtro de Posición
+# Posición
 posiciones_disponibles = sorted(df_raw['Posicion'].dropna().unique().tolist()) if 'Posicion' in df_raw.columns else []
 pos_seleccionadas = st.sidebar.multiselect("Posición", options=posiciones_disponibles, default=posiciones_disponibles)
 
-# Aplicar filtros
+# Filtrado
 df = df_raw.copy()
 if temp_seleccionada and 'Temporada' in df.columns:
     df = df[df['Temporada'].isin(temp_seleccionada)]
@@ -118,7 +146,7 @@ if temp_seleccionada and 'Temporada' in df.columns:
 if pos_seleccionadas and 'Posicion' in df.columns:
     df = df[df['Posicion'].isin(pos_seleccionadas)]
 
-# Filtro de Minutos
+# Minutos
 max_minutos = int(df['Minutos'].max()) if ('Minutos' in df.columns and not df.empty and pd.notna(df['Minutos'].max())) else 3800
 minutos_filtro = st.sidebar.slider("Minutos jugados (mínimo)", min_value=0, max_value=max_minutos, value=100)
 
@@ -138,17 +166,17 @@ with tab1:
         with col1:
             if 'Goles' in df.columns and not df['Goles'].isna().all():
                 top_goles = df.sort_values(by='Goles', ascending=False).iloc[0]
-                st.metric("🔥 Máximo Goleador", f"{top_goles['Jugador']}", f"{int(top_goles['Goles'])} goles")
+                st.metric("🔥 Máximo Goleador", f"{top_goles.get('Jugador', 'N/A')}", f"{int(top_goles['Goles'])} goles")
                 
         with col2:
             if 'Asistencias' in df.columns and not df['Asistencias'].isna().all():
                 top_asist = df.sort_values(by='Asistencias', ascending=False).iloc[0]
-                st.metric("🎯 Máximo Asistente", f"{top_asist['Jugador']}", f"{int(top_asist['Asistencias'])} asist.")
+                st.metric("🎯 Máximo Asistente", f"{top_asist.get('Jugador', 'N/A')}", f"{int(top_asist['Asistencias'])} asist.")
                 
         with col3:
             if 'Puntos Totales' in df.columns and not df['Puntos Totales'].isna().all():
                 top_pts = df.sort_values(by='Puntos Totales', ascending=False).iloc[0]
-                st.metric("⭐ Mayor Puntaje FPL", f"{top_pts['Jugador']}", f"{int(top_pts['Puntos Totales'])} pts")
+                st.metric("⭐ Mayor Puntaje FPL", f"{top_pts.get('Jugador', 'N/A')}", f"{int(top_pts['Puntos Totales'])} pts")
 
         st.markdown("---")
         st.subheader("📈 Rendimiento: Goles vs. Asistencias")
@@ -176,7 +204,7 @@ with tab1:
 with tab2:
     st.subheader("⚔️ Comparar Jugadores Cara a Cara")
     
-    if not df.empty:
+    if not df.empty and 'Jugador' in df.columns:
         lista_jugadores = sorted(df['Jugador'].dropna().unique().tolist())
         jugadores_sel = st.multiselect("Selecciona jugadores para comparar:", options=lista_jugadores, default=lista_jugadores[:2] if len(lista_jugadores)>=2 else [])
         
@@ -202,7 +230,7 @@ with tab2:
 
 # === TAB 3: TARJETAS Y DISCIPLINA ===
 with tab3:
-    st.subheader("🟨 ROJAS Y AMARILLAS: Análisis de Disciplina")
+    st.subheader("🟨 🟥 Análisis de Tarjetas y Disciplina")
     st.caption("Puntos negativos o riesgo de sanción para tu selección de Draft.")
     
     if not df.empty and set(['T. Amarillas', 'T. Rojas']).issubset(df.columns):
