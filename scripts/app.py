@@ -4,7 +4,7 @@ import plotly.express as px
 import glob
 import os
 
-# Configuración de página
+# Configuración de la página
 st.set_page_config(
     page_title="FPL Draft Dashboard & Comparador",
     page_icon="⚽",
@@ -28,16 +28,11 @@ st.title("⚽ Premier League Draft Dashboard & Player Comparison")
 st.caption("Herramienta interactiva para analizar, comparar y elegir jugadores en tu Draft de la Premier League.")
 
 # Carga de datos con caché
-# Carga de datos con caché
 @st.cache_data
 def cargar_datos():
-    # Buscar todos los CSV dentro de 'datos/' y sus subcarpetas (2024-2025, 2025-2026, 2026-2027, etc.)
+    # Buscar todos los CSV dentro de 'datos/' y sus subcarpetas
     archivos_csv = glob.glob("datos/**/*.csv", recursive=True) + glob.glob("datos/*.csv")
-    
-    # Filtrar únicamente los archivos que contienen datos de jugadores (p. ej., cleaned_players.csv o merged_gw.csv)
     archivos_jugadores = [f for f in archivos_csv if "clean" in f.lower() or "player" in f.lower() or "merged" in f.lower()]
-    
-    # Si no encuentra coincidencia específica por nombre, usa todos los CSV detectados
     archivos_a_cargar = archivos_jugadores if archivos_jugadores else archivos_csv
     
     if not archivos_a_cargar:
@@ -48,7 +43,7 @@ def cargar_datos():
         try:
             temp_df = pd.read_csv(ruta, low_memory=False)
             
-            # Extraer el nombre de la temporada según la carpeta donde esté alojado el archivo
+            # Extraer la temporada a partir del nombre de la carpeta (ej. 2024-2025)
             partes = ruta.split(os.sep)
             temporada = "Desconocida"
             for parte in partes:
@@ -56,7 +51,6 @@ def cargar_datos():
                     temporada = parte
                     break
             temp_df['Temporada'] = temporada
-            
             lista_df.append(temp_df)
         except Exception:
             continue
@@ -64,10 +58,9 @@ def cargar_datos():
     if not lista_df:
         return pd.DataFrame()
 
-    # Unir todos los archivos CSV de las distintas temporadas en un único DataFrame
     df = pd.concat(lista_df, ignore_index=True)
 
-    # Mapeo y limpieza de columnas
+    # Mapeo y estandarización de columnas
     renombres = {
         'first_name': 'Nombre',
         'second_name': 'Apellido',
@@ -89,6 +82,7 @@ def cargar_datos():
     
     df = df.rename(columns={k: v for k, v in renombres.items() if k in df.columns})
     
+    # Mapear números a códigos de posición si es necesario
     pos_map = {1: 'GKP', 2: 'DEF', 3: 'MID', 4: 'FWD'}
     if 'Posicion' in df.columns and df['Posicion'].dtype in ['int64', 'float64']:
         df['Posicion'] = df['Posicion'].map(pos_map)
@@ -98,109 +92,125 @@ def cargar_datos():
 
     return df
 
+# --- EJECUCIÓN DE CARGA DE DATOS ---
+df_raw = cargar_datos()
+
+if df_raw.empty:
+    st.warning("⚠️ No se encontraron archivos CSV en la carpeta `datos/` ni en sus subcarpetas.")
+    st.stop()
+
 # --- BARRA LATERAL (FILTROS) ---
 st.sidebar.header("🔍 Filtros del Draft")
 
-# Filtro de posición
-posiciones_disponibles = df_raw['Posicion'].dropna().unique().tolist() if 'Posicion' in df_raw.columns else []
-pos_seleccionadas = st.sidebar.multiselect("Posición", opciones := posiciones_disponibles, default=posiciones_disponibles)
+# Filtro de Temporada
+temporadas_disponibles = sorted(df_raw['Temporada'].dropna().unique().tolist()) if 'Temporada' in df_raw.columns else []
+temp_seleccionada = st.sidebar.multiselect("Temporada", options=temporadas_disponibles, default=temporadas_disponibles)
 
-# Filtrar DataFrame principal
+# Filtro de Posición
+posiciones_disponibles = sorted(df_raw['Posicion'].dropna().unique().tolist()) if 'Posicion' in df_raw.columns else []
+pos_seleccionadas = st.sidebar.multiselect("Posición", options=posiciones_disponibles, default=posiciones_disponibles)
+
+# Aplicar filtros
 df = df_raw.copy()
+if temp_seleccionada and 'Temporada' in df.columns:
+    df = df[df['Temporada'].isin(temp_seleccionada)]
+
 if pos_seleccionadas and 'Posicion' in df.columns:
     df = df[df['Posicion'].isin(pos_seleccionadas)]
 
-# Rango de minutos / puntos
-min_minutos = int(df['Minutos'].min()) if 'Minutos' in df.columns else 0
-max_minutos = int(df['Minutos'].max()) if 'Minutos' in df.columns else 9000
-
+# Filtro de Minutos
+max_minutos = int(df['Minutos'].max()) if ('Minutos' in df.columns and not df.empty and pd.notna(df['Minutos'].max())) else 3800
 minutos_filtro = st.sidebar.slider("Minutos jugados (mínimo)", min_value=0, max_value=max_minutos, value=100)
-if 'Minutos' in df.columns:
+
+if 'Minutos' in df.columns and not df.empty:
     df = df[df['Minutos'] >= minutos_filtro]
 
-# --- PESTAÑAS DEL DASHBOARD ---
+# --- PESTAÑAS PRINCIPALES ---
 tab1, tab2, tab3 = st.tabs(["📊 Visión General & Recomendaciones", "⚔️ Comparador Cara a Cara", "🃏 Tarjetas & Disciplina"])
 
 # === TAB 1: VISIÓN GENERAL & RECOMENDACIONES ===
 with tab1:
     st.subheader("💡 Recomendaciones Top Pick para el Draft")
     
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        if 'Goles' in df.columns:
-            top_goles = df.sort_values(by='Goles', ascending=False).iloc[0]
-            st.metric("🔥 Máximo Goleador", f"{top_goles['Jugador']}", f"{int(top_goles['Goles'])} goles")
-            
-    with col2:
-        if 'Asistencias' in df.columns:
-            top_asist = df.sort_values(by='Asistencias', ascending=False).iloc[0]
-            st.metric("🎯 Máximo Asistente", f"{top_asist['Jugador']}", f"{int(top_asist['Asistencias'])} asist.")
-            
-    with col3:
-        if 'Puntos Totales' in df.columns:
-            top_pts = df.sort_values(by='Puntos Totales', ascending=False).iloc[0]
-            st.metric("⭐ Mayor Puntaje FPL", f"{top_pts['Jugador']}", f"{int(top_pts['Puntos Totales'])} pts")
+    if not df.empty:
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            if 'Goles' in df.columns and not df['Goles'].isna().all():
+                top_goles = df.sort_values(by='Goles', ascending=False).iloc[0]
+                st.metric("🔥 Máximo Goleador", f"{top_goles['Jugador']}", f"{int(top_goles['Goles'])} goles")
+                
+        with col2:
+            if 'Asistencias' in df.columns and not df['Asistencias'].isna().all():
+                top_asist = df.sort_values(by='Asistencias', ascending=False).iloc[0]
+                st.metric("🎯 Máximo Asistente", f"{top_asist['Jugador']}", f"{int(top_asist['Asistencias'])} asist.")
+                
+        with col3:
+            if 'Puntos Totales' in df.columns and not df['Puntos Totales'].isna().all():
+                top_pts = df.sort_values(by='Puntos Totales', ascending=False).iloc[0]
+                st.metric("⭐ Mayor Puntaje FPL", f"{top_pts['Jugador']}", f"{int(top_pts['Puntos Totales'])} pts")
 
-    st.markdown("---")
-    st.subheader("📈 Rendimiento: Goles vs. Asistencias")
-    
-    if set(['Jugador', 'Goles', 'Asistencias']).issubset(df.columns):
-        fig_scatter = px.scatter(
-            df, 
-            x='Asistencias', 
-            y='Goles', 
-            size='Puntos Totales' if 'Puntos Totales' in df.columns else None,
-            color='Posicion' if 'Posicion' in df.columns else None,
-            hover_name='Jugador',
-            title="Relación Goles vs Asistencias (Tamaño del punto = Puntos Totales)",
-            template="plotly_dark"
-        )
-        st.plotly_chart(fig_scatter, use_container_width=True)
+        st.markdown("---")
+        st.subheader("📈 Rendimiento: Goles vs. Asistencias")
+        
+        if set(['Jugador', 'Goles', 'Asistencias']).issubset(df.columns):
+            fig_scatter = px.scatter(
+                df, 
+                x='Asistencias', 
+                y='Goles', 
+                size='Puntos Totales' if 'Puntos Totales' in df.columns else None,
+                color='Posicion' if 'Posicion' in df.columns else None,
+                hover_name='Jugador',
+                title="Relación Goles vs Asistencias (Tamaño de burbuja = Puntos Totales)",
+                template="plotly_dark"
+            )
+            st.plotly_chart(fig_scatter, use_container_width=True)
 
-    st.subheader("📋 Tabla General de Jugadores")
-    columnas_visibles = [c for c in ['Jugador', 'Posicion', 'Goles', 'Asistencias', 'Puntos Totales', 'Minutos', 'T. Amarillas', 'T. Rojas'] if c in df.columns]
-    st.dataframe(df[columnas_visibles].sort_values(by=columnas_visibles[2] if len(columnas_visibles)>2 else columnas_visibles[0], ascending=False), use_container_width=True)
+        st.subheader("📋 Tabla General de Jugadores")
+        columnas_visibles = [c for c in ['Jugador', 'Posicion', 'Temporada', 'Goles', 'Asistencias', 'Puntos Totales', 'Minutos', 'T. Amarillas', 'T. Rojas'] if c in df.columns]
+        st.dataframe(df[columnas_visibles].sort_values(by=columnas_visibles[3] if len(columnas_visibles)>3 else columnas_visibles[0], ascending=False), use_container_width=True)
+    else:
+        st.info("No hay datos disponibles para los filtros seleccionados.")
 
 # === TAB 2: COMPARADOR CARA A CARA ===
 with tab2:
     st.subheader("⚔️ Comparar Jugadores Cara a Cara")
     
-    lista_jugadores = df['Jugador'].dropna().unique().tolist()
-    jugadores_sel = st.multiselect("Selecciona de 2 a 4 jugadores para comparar:", options=lista_jugadores, default=lista_jugadores[:2] if len(lista_jugadores)>=2 else [])
-    
-    if len(jugadores_sel) >= 2:
-        df_comp = df[df['Jugador'].isin(jugadores_sel)]
+    if not df.empty:
+        lista_jugadores = sorted(df['Jugador'].dropna().unique().tolist())
+        jugadores_sel = st.multiselect("Selecciona jugadores para comparar:", options=lista_jugadores, default=lista_jugadores[:2] if len(lista_jugadores)>=2 else [])
         
-        # Métrica comparativa en barras
-        metricas = [m for m in ['Goles', 'Asistencias', 'Puntos Totales', 'Minutos'] if m in df_comp.columns]
-        
-        fig_bar = px.bar(
-            df_comp, 
-            x='Jugador', 
-            y=metricas, 
-            barmode='group',
-            title="Comparativa Directa de Estadísticas Principales",
-            template="plotly_dark"
-        )
-        st.plotly_chart(fig_bar, use_container_width=True)
-        
-        st.markdown("### Resumen Tabular")
-        st.dataframe(df_comp[columnas_visibles], use_container_width=True)
-    else:
-        st.info("Selecciona al menos dos jugadores para habilitar la comparación.")
+        if len(jugadores_sel) >= 2:
+            df_comp = df[df['Jugador'].isin(jugadores_sel)]
+            metricas = [m for m in ['Goles', 'Asistencias', 'Puntos Totales', 'Minutos'] if m in df_comp.columns]
+            
+            fig_bar = px.bar(
+                df_comp, 
+                x='Jugador', 
+                y=metricas, 
+                barmode='group',
+                color='Temporada' if 'Temporada' in df_comp.columns else None,
+                title="Comparativa Directa de Estadísticas Principales",
+                template="plotly_dark"
+            )
+            st.plotly_chart(fig_bar, use_container_width=True)
+            
+            st.markdown("### Resumen Tabular")
+            st.dataframe(df_comp[columnas_visibles], use_container_width=True)
+        else:
+            st.info("Selecciona al menos dos jugadores para habilitar la comparación.")
 
 # === TAB 3: TARJETAS Y DISCIPLINA ===
 with tab3:
-    st.subheader("🟨 🟥 Análisis de Tarjetas y Disciplina")
-    st.caption("Puntos negativos o riesgo de suspensión para tu Draft.")
+    st.subheader("🟨 ROJAS Y AMARILLAS: Análisis de Disciplina")
+    st.caption("Puntos negativos o riesgo de sanción para tu selección de Draft.")
     
-    if set(['T. Amarillas', 'T. Rojas']).issubset(df.columns):
+    if not df.empty and set(['T. Amarillas', 'T. Rojas']).issubset(df.columns):
         fig_cards = px.bar(
             df.sort_values(by='T. Amarillas', ascending=False).head(15),
             x='Jugador',
             y=['T. Amarillas', 'T. Rojas'],
-            title="Top 15 Jugadores con Más Tarjetas",
+            title="Top 15 Jugadores con Mayor Cantidad de Tarjetas",
             color_discrete_map={'T. Amarillas': '#f1c40f', 'T. Rojas': '#e74c3c'},
             template="plotly_dark"
         )
