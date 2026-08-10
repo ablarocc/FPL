@@ -12,20 +12,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Prevent browser translation extensions (e.g., Google Translate) from corrupting React DOM nodes
+# Custom CSS Styling
 st.markdown("""
-    <meta name="google" content="notranslate">
-    <style>
-        html, body {
-            translate: no;
-        }
-        .metric-card {
-            background-color: #1e2130;
-            border-radius: 10px;
-            padding: 15px;
-            border: 1px solid #2e3450;
-        }
-    </style>
+<style>
+    .metric-card {
+        background-color: #1e2130;
+        border-radius: 10px;
+        padding: 15px;
+        border: 1px solid #2e3450;
+    }
+</style>
 """, unsafe_allow_html=True)
 
 st.title("⚽ Premier League Draft Dashboard & Player Comparison")
@@ -34,7 +30,7 @@ st.caption("Interactive tool to analyze, compare, and pick players for your Prem
 # Cached Data Loading Function
 @st.cache_data
 def load_data():
-    # Search for all CSVs inside 'data/' and 'datos/' folders
+    # Search for all CSVs inside 'data/' and 'datos/' folders, at root or subdirectories
     csv_files = (
         glob.glob("data/**/*.csv", recursive=True) + 
         glob.glob("data/*.csv") + 
@@ -46,7 +42,7 @@ def load_data():
         glob.glob("../datos/*.csv")
     )
     
-    # Filter player-related data files
+    # Filter player-related data files (Spanish and English keywords)
     keywords = ["jugador", "jugadores", "estadística", "estadistica", "clean", "player", "players"]
     player_files = [f for f in csv_files if any(k in f.lower() for k in keywords)]
     
@@ -251,4 +247,3 @@ with tab3:
             template="plotly_dark"
         )
         st.plotly_chart(fig_cards, use_container_width=True)
-       
