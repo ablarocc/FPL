@@ -28,24 +28,46 @@ st.title("⚽ Premier League Draft Dashboard & Player Comparison")
 st.caption("Herramienta interactiva para analizar, comparar y elegir jugadores en tu Draft de la Premier League.")
 
 # Carga de datos con caché
+# Carga de datos con caché
 @st.cache_data
 def cargar_datos():
-    # Buscar archivos CSV en la carpeta datos/
-    archivos = glob.glob("datos/**/*.csv", recursive=True) + glob.glob("datos/*.csv")
+    # Buscar todos los CSV dentro de 'datos/' y sus subcarpetas (2024-2025, 2025-2026, 2026-2027, etc.)
+    archivos_csv = glob.glob("datos/**/*.csv", recursive=True) + glob.glob("datos/*.csv")
     
-    # Intentar cargar archivos específicos o consolidados
-    archivos_jugadores = [f for f in archivos if "clean_players" in f or "merged_gw" in f or "REVISIÓN" in f or "players" in f]
+    # Filtrar únicamente los archivos que contienen datos de jugadores (p. ej., cleaned_players.csv o merged_gw.csv)
+    archivos_jugadores = [f for f in archivos_csv if "clean" in f.lower() or "player" in f.lower() or "merged" in f.lower()]
     
-    if archivos_jugadores:
-        # Cargar el archivo más relevante
-        df = pd.read_csv(archivos_jugadores[0], low_memory=False)
-    elif archivos:
-        df = pd.read_csv(archivos[0], low_memory=False)
-    else:
-        # Si no se encuentra archivo local, muestra plantilla de ejemplo / vacía
+    # Si no encuentra coincidencia específica por nombre, usa todos los CSV detectados
+    archivos_a_cargar = archivos_jugadores if archivos_jugadores else archivos_csv
+    
+    if not archivos_a_cargar:
         return pd.DataFrame()
 
-    # Mapeo y limpieza de columnas comunes de FPL
+    lista_df = []
+    for ruta in archivos_a_cargar:
+        try:
+            temp_df = pd.read_csv(ruta, low_memory=False)
+            
+            # Extraer el nombre de la temporada según la carpeta donde esté alojado el archivo
+            partes = ruta.split(os.sep)
+            temporada = "Desconocida"
+            for parte in partes:
+                if "-" in parte and any(char.isdigit() for char in parte):
+                    temporada = parte
+                    break
+            temp_df['Temporada'] = temporada
+            
+            lista_df.append(temp_df)
+        except Exception:
+            continue
+
+    if not lista_df:
+        return pd.DataFrame()
+
+    # Unir todos los archivos CSV de las distintas temporadas en un único DataFrame
+    df = pd.concat(lista_df, ignore_index=True)
+
+    # Mapeo y limpieza de columnas
     renombres = {
         'first_name': 'Nombre',
         'second_name': 'Apellido',
@@ -67,7 +89,6 @@ def cargar_datos():
     
     df = df.rename(columns={k: v for k, v in renombres.items() if k in df.columns})
     
-    # Mapear posiciones si están codificadas en números (1=GKP, 2=DEF, 3=MID, 4=FWD)
     pos_map = {1: 'GKP', 2: 'DEF', 3: 'MID', 4: 'FWD'}
     if 'Posicion' in df.columns and df['Posicion'].dtype in ['int64', 'float64']:
         df['Posicion'] = df['Posicion'].map(pos_map)
@@ -76,12 +97,6 @@ def cargar_datos():
         df['Jugador'] = df['Nombre'] + " " + df['Apellido']
 
     return df
-
-df_raw = cargar_datos()
-
-if df_raw.empty:
-    st.warning("⚠️ No se encontraron archivos de datos en la carpeta `datos/`. Verifica que los archivos CSV estén subidos.")
-    st.stop()
 
 # --- BARRA LATERAL (FILTROS) ---
 st.sidebar.header("🔍 Filtros del Draft")
